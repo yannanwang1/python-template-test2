@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.NAReplace
+  fullName: microsoftml_scikit.NAReplace
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.core.utils.nareplace.NAReplace
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.base.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: NAReplace
+  source:
+    id: NAReplace
+    path: microsoftml_scikit\modules\utils\nareplace.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\modules\utils\nareplace.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "\n\n\n\n\n\n\nvalues.\n\n\nfollowing choices are available.\n\n   * Def:\
+    \ Replace with default value of that type, usually `0`. If no replace \n\n   method\
+    \ is specified, this is the default strategy.\n   * Mean: Replace NaN values with\
+    \ the mean of the values in that column.\n   * Min: Replace with minimum value\
+    \ in the column.\n   * Max: Replace with maximum value in the column.\n\n\n\n\n\
+    \n\n"
+  syntax:
+    content: 'NAReplace(input: list = None, output: list = None, replacement_kind:
+      str = ''Def'', impute_by_slot: bool = True, **params)'
+    parameters:
+    - description: 'Whether to impute values by slot.
+
+        '
+      id: impute_by_slot
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.NAReplace
+references: []

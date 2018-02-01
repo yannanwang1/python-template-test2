@@ -1,0 +1,152 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.FastLinearRegressor
+  fullName: microsoftml_scikit.FastLinearRegressor
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.core.linear_model.fastlinearregressor.FastLinearRegressor
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.base.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.RegressorMixin
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: FastLinearRegressor
+  source:
+    id: FastLinearRegressor
+    path: microsoftml_scikit\modules\linear_model\fastlinearregressor.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\modules\linear_model\fastlinearregressor.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: 'FastLinearRegressor(l2_weight: numbers.Real = None, l1_threshold: numbers.Real
+      = None, feature_column: str = ''Features'', label_column: str = ''Label'', normalize:
+      str = ''Auto'', caching: str = ''Auto'', loss_function: dict = None, train_threads:
+      numbers.Real = None, convergence_tolerance: numbers.Real = 0.01, max_iterations:
+      numbers.Real = None, shuffle: bool = True, check_frequency: numbers.Real = None,
+      bias_learning_rate: numbers.Real = 1.0, **params)'
+    parameters:
+    - description: 'L2 regularizer constant. By default the l2 constant is automatically
+        inferred based on data set.
+
+        '
+      id: l2_weight
+    - description: 'L1 soft threshold (L1/L2). Note that it is easier to control and
+        sweep using the threshold
+
+        parameter than the raw L1-regularizer constant. By default the l1 threshold
+        is automatically inferred based on data
+
+        set.
+
+        '
+      id: l1_threshold
+    - description: 'Column to use for features.
+
+        '
+      id: feature_column
+    - description: 'Column to use for labels.
+
+        '
+      id: label_column
+    - description: 'If `Auto`, the choice to normalize depends on the preference declared
+        by the algorithm. This is the
+
+        default choice. If `No`, no normalization is performed. If `Yes`, normalization
+        always performed. If `Warn`,
+
+        if normalization is needed by the algorithm, a warning message is displayed
+        but normalization is not performed. If
+
+        normalization is performed, a `MaxMin` normalizer is used. This normalizer
+        preserves sparsity by mapping zero to
+
+        zero.
+
+        '
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'For classification, the default is @../../microsoftml_scikit.log_loss.
+        Other
+
+        choices are @../../microsoftml_scikit.hinge_loss and @../../microsoftml_scikit.smooth_hinge_loss.
+        For regression, squared loss @../../microsoftml_scikit.squared_loss is supported.
+        When this parameter is set to *None*, its default value depends on
+
+        the type of learning.
+
+        '
+      id: loss_function
+    - description: 'Degree of lock-free parallelism. Defaults to automatic. Determinism
+        not guaranteed.
+
+        '
+      id: train_threads
+    - description: 'The tolerance for the ratio between duality gap and primal loss
+        for convergence checking.
+
+        '
+      id: convergence_tolerance
+    - description: 'Maximum number of iterations; set to 1 to simulate online learning.
+        Defaults to automatic.
+
+        '
+      id: max_iterations
+    - description: 'Shuffle data every epoch?.
+
+        '
+      id: shuffle
+    - description: 'Convergence check frequency (in terms of number of iterations).
+        Set as negative or zero for not
+
+        checking at all. If left blank, it defaults to check after every ''numThreads''
+        iterations.
+
+        '
+      id: check_frequency
+    - description: 'The learning rate for adjusting bias from being regularized.
+
+        '
+      id: bias_learning_rate
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.FastLinearRegressor
+references: []

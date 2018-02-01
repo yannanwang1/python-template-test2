@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.ExpressionTransform
+  fullName: microsoftml_scikit.ExpressionTransform
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.core.utils.expressiontransform.ExpressionTransform
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.base.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: ExpressionTransform
+  source:
+    id: ExpressionTransform
+    path: microsoftml_scikit\modules\utils\expressiontransform.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\modules\utils\expressiontransform.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: '
+
+
+
+    '
+  syntax:
+    content: 'ExpressionTransform(input: list = None, output: list = None, expression:
+      str = None, **params)'
+    parameters:
+    - description: 'List of input columns.
+
+        '
+      id: input
+    - description: 'List of output columns.
+
+        '
+      id: output
+    - description: 'Lambda expression which will be applied.
+
+        '
+      id: expression
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.ExpressionTransform
+references: []

@@ -1,0 +1,150 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.TextFeaturizer
+  fullName: microsoftml_scikit.TextFeaturizer
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.core.feature_extraction.text.textfeaturizer.TextFeaturizer
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.base.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: TextFeaturizer
+  source:
+    id: TextFeaturizer
+    path: microsoftml_scikit\modules\feature_extraction\text\textfeaturizer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\modules\feature_extraction\text\textfeaturizer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: '
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: 'TextFeaturizer(input: list = None, output: str = None, language: str
+      = ''English'', stop_words_remover: dict = None, text_case: str = ''Lower'',
+      keep_diacritics: bool = False, keep_punctuations: bool = True, keep_numbers:
+      bool = True, output_tokens: bool = False, dictionary: dict = None, word_feature_extractor:
+      dict = None, char_feature_extractor: dict = None, vector_normalizer: str = ''L2'',
+      full_language_model: bool = False, **params)'
+    parameters:
+    - description: 'A character string or list of variable names to transform. If
+
+        `dict`, the keys represent the names of new variables to be created.
+
+        '
+      id: input
+    - description: 'List of output columns.
+
+        '
+      id: output
+    - description: "Specifies the language used in the data set. The following\nvalues\
+        \ are supported:\n\n* `\"AutoDetect\"`: for automatic language detection.\
+        \ \n\n* `\"English\"` \n\n* `\"French\"` \n\n* `\"German\"` \n\n* `\"Dutch\"\
+        ` \n\n* `\"Italian\"` \n\n* `\"Spanish\"` \n\n* `\"Japanese\"`. \n"
+      id: language
+    - description: "Specifies the stopwords remover to use. There are\nthree options\
+        \ supported:\n\n* *None*: No stopwords remover is used. \n\n* `predefined`:\
+        \ A precompiled language-specific lists of stop words is used that includes\
+        \ the most common words from Microsoft Office. \n\n* `custom`: A user-defined\
+        \ list of stopwords. It accepts the following option: `stopword`. \n\nThe\
+        \ default value is *None*.\n"
+      id: stop_words_remover
+    - description: "Text casing using the rules of the invariant culture. Takes the\n\
+        following values:\n\n* `\"Lower\"` \n\n* `\"Upper\"` \n\n* `\"None\"` \n\n\
+        The default value is `\"Lower\"`.\n"
+      id: text_case
+    - description: '`False` to remove diacritical marks; `True` to
+
+        retain diacritical marks. The default value is `False`.
+
+        '
+      id: keep_diacritics
+    - description: '`False` to remove punctuation; `True` to
+
+        retain punctuation. The default value is `True`.
+
+        '
+      id: keep_punctuations
+    - description: '`False` to remove numbers; `True` to retain
+
+        numbers. The default value is `True`.
+
+        '
+      id: keep_numbers
+    - description: 'Whether to output the transformed text tokens as an additional
+        column.
+
+        '
+      id: output_tokens
+    - description: "A dictionary of whitelisted terms which accepts\nthe following\
+        \ options:\n\n* `Term`: An optional character vector of terms or categories.\
+        \ \n\n* `DropUnknowns`: Drop items. \n\n* `Sort`: Specifies how to order items\
+        \ when vectorized. Two orderings are\n\n     supported:\n\n     * `\"Occurrence\"\
+        `: items appear in the order encountered. \n\n     * `\"Value\"`: items are\
+        \ sorted according to their default comparison. For example, text sorting\
+        \ will be case sensitive (e.g., 'A' then 'Z' then 'a'). \n\nThe default value\
+        \ is *None*.\nNote that the stopwords list takes precedence over the dictionary\
+        \ whitelist\nas the stopwords are removed before the dictionary terms are\
+        \ whitelisted.\n"
+      id: dictionary
+    - description: "Specifies the word feature extraction arguments. There\nare two\
+        \ different feature extraction mechanisms:\n\n* @../../../n_gram: Count-based\
+        \ feature extraction (equivalent to WordBag). It accepts the following options:\
+        \ `max_num_terms` and `weighting`. \n\n* @../../../n_gram_hash: Hashing-based\
+        \ feature extraction (equivalent to WordHashBag). It accepts the following\
+        \ options: `hash_bits`, `seed`, `ordered` and `invert_hash`. \n\nThe default\
+        \ value is `n_gram`.\n"
+      id: word_feature_extractor
+    - description: "Specifies the char feature extraction arguments. There\nare two\
+        \ different feature extraction mechanisms:\n\n* @../../../n_gram: Count-based\
+        \ feature extraction (equivalent to WordBag). It accepts the following options:\
+        \ `max_num_terms` and `weighting`. \n\n* @../../../n_gram_hash: Hashing-based\
+        \ feature extraction (equivalent to WordHashBag). It accepts the following\
+        \ options: `hash_bits`, `seed`, `ordered` and `invert_hash`. \n\nThe default\
+        \ value is *None*.\n"
+      id: char_feature_extractor
+    - description: "Normalize vectors (rows) individually by rescaling\nthem to unit\
+        \ norm. Takes one of the following values:\n\n* `\"None\"` \n\n* `\"L2\"`\
+        \ \n\n* `\"L1\"` \n\n* `\"LInf\"` \n\nThe default value is `\"L2\"`.\n"
+      id: vector_normalizer
+    - description: 'Use Full-Bling mode when language equals ''AutoDetect'' to get
+        higher precision/recall. This
+
+        requires additional resource files.
+
+        '
+      id: full_language_model
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.TextFeaturizer
+references: []

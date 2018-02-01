@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.AnalyzeSentiment
+  fullName: microsoftml_scikit.AnalyzeSentiment
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.core.feature_extraction.text.analyzesentiment.AnalyzeSentiment
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.base.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: AnalyzeSentiment
+  source:
+    id: AnalyzeSentiment
+    path: microsoftml_scikit\modules\feature_extraction\text\analyzesentiment.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\modules\feature_extraction\text\analyzesentiment.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: '
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: 'AnalyzeSentiment(column: str, name: str = None, **params)'
+    parameters:
+    - description: 'Name of the source column.
+
+        '
+      id: column
+    - description: 'Name of the new column.
+
+        '
+      id: name
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.AnalyzeSentiment
+references: []

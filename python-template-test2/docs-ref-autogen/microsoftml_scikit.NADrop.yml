@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.NADrop
+  fullName: microsoftml_scikit.NADrop
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.core.utils.nadrop.NADrop
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.base.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: NADrop
+  source:
+    id: NADrop
+    path: microsoftml_scikit\modules\utils\nadrop.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\modules\utils\nadrop.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: '
+
+
+
+    '
+  syntax:
+    content: 'NADrop(input: list = None, output: list = None, **params)'
+    parameters:
+    - description: 'List of input columns.
+
+        '
+      id: input
+    - description: 'List of output columns.
+
+        '
+      id: output
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.NADrop
+references: []

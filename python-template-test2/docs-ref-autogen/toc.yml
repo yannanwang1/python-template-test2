@@ -1,119 +1,102 @@
-- items:
-  - items:
-    - name: azure.storage.blob.appendblobservice.AppendBlobService
-      uid: azure.storage.blob.appendblobservice.AppendBlobService
-    name: azure.storage.blob.appendblobservice
-    uid: azure.storage.blob.appendblobservice
-  - items:
-    - name: azure.storage.blob.baseblobservice.BaseBlobService
-      uid: azure.storage.blob.baseblobservice.BaseBlobService
-    name: azure.storage.blob.baseblobservice
-    uid: azure.storage.blob.baseblobservice
-  - items:
-    - name: azure.storage.blob.blockblobservice.BlockBlobService
-      uid: azure.storage.blob.blockblobservice.BlockBlobService
-    name: azure.storage.blob.blockblobservice
-    uid: azure.storage.blob.blockblobservice
-  - items:
-    - name: azure.storage.blob.models.AppendBlockProperties
-      uid: azure.storage.blob.models.AppendBlockProperties
-    - name: azure.storage.blob.models.Blob
-      uid: azure.storage.blob.models.Blob
-    - name: azure.storage.blob.models.BlobBlock
-      uid: azure.storage.blob.models.BlobBlock
-    - name: azure.storage.blob.models.BlobBlockList
-      uid: azure.storage.blob.models.BlobBlockList
-    - name: azure.storage.blob.models.BlobBlockState
-      uid: azure.storage.blob.models.BlobBlockState
-    - name: azure.storage.blob.models.BlobPermissions
-      uid: azure.storage.blob.models.BlobPermissions
-    - name: azure.storage.blob.models.BlobPrefix
-      uid: azure.storage.blob.models.BlobPrefix
-    - name: azure.storage.blob.models.BlobProperties
-      uid: azure.storage.blob.models.BlobProperties
-    - name: azure.storage.blob.models.BlockListType
-      uid: azure.storage.blob.models.BlockListType
-    - name: azure.storage.blob.models.Container
-      uid: azure.storage.blob.models.Container
-    - name: azure.storage.blob.models.ContainerPermissions
-      uid: azure.storage.blob.models.ContainerPermissions
-    - name: azure.storage.blob.models.ContainerProperties
-      uid: azure.storage.blob.models.ContainerProperties
-    - name: azure.storage.blob.models.ContentSettings
-      uid: azure.storage.blob.models.ContentSettings
-    - name: azure.storage.blob.models.CopyProperties
-      uid: azure.storage.blob.models.CopyProperties
-    - name: azure.storage.blob.models.DeleteSnapshot
-      uid: azure.storage.blob.models.DeleteSnapshot
-    - name: azure.storage.blob.models.Include
-      uid: azure.storage.blob.models.Include
-    - name: azure.storage.blob.models.LeaseProperties
-      uid: azure.storage.blob.models.LeaseProperties
-    - name: azure.storage.blob.models.PageBlobProperties
-      uid: azure.storage.blob.models.PageBlobProperties
-    - name: azure.storage.blob.models.PageRange
-      uid: azure.storage.blob.models.PageRange
-    - name: azure.storage.blob.models.PremiumPageBlobTier
-      uid: azure.storage.blob.models.PremiumPageBlobTier
-    - name: azure.storage.blob.models.PublicAccess
-      uid: azure.storage.blob.models.PublicAccess
-    - name: azure.storage.blob.models.ResourceProperties
-      uid: azure.storage.blob.models.ResourceProperties
-    - name: azure.storage.blob.models.SequenceNumberAction
-      uid: azure.storage.blob.models.SequenceNumberAction
-    - name: azure.storage.blob.models.StandardBlobTier
-      uid: azure.storage.blob.models.StandardBlobTier
-    name: azure.storage.blob.models
-    uid: azure.storage.blob.models
-  - items:
-    - name: azure.storage.blob.pageblobservice.PageBlobService
-      uid: azure.storage.blob.pageblobservice.PageBlobService
-    name: azure.storage.blob.pageblobservice
-    uid: azure.storage.blob.pageblobservice
-  - items:
-    - name: azure.storage.blob.sharedaccesssignature.BlobSharedAccessSignature
-      uid: azure.storage.blob.sharedaccesssignature.BlobSharedAccessSignature
-    name: azure.storage.blob.sharedaccesssignature
-    uid: azure.storage.blob.sharedaccesssignature
-  name: azure-storage-blob
-  uid: azure.storage.blob
-- items:
-  - items:
-    - name: azure.storage.file.fileservice.FileService
-      uid: azure.storage.file.fileservice.FileService
-    name: azure.storage.file.fileservice
-    uid: azure.storage.file.fileservice
-  - items:
-    - name: azure.storage.file.models.ContentSettings
-      uid: azure.storage.file.models.ContentSettings
-    - name: azure.storage.file.models.CopyProperties
-      uid: azure.storage.file.models.CopyProperties
-    - name: azure.storage.file.models.DeleteSnapshot
-      uid: azure.storage.file.models.DeleteSnapshot
-    - name: azure.storage.file.models.Directory
-      uid: azure.storage.file.models.Directory
-    - name: azure.storage.file.models.DirectoryProperties
-      uid: azure.storage.file.models.DirectoryProperties
-    - name: azure.storage.file.models.File
-      uid: azure.storage.file.models.File
-    - name: azure.storage.file.models.FilePermissions
-      uid: azure.storage.file.models.FilePermissions
-    - name: azure.storage.file.models.FileProperties
-      uid: azure.storage.file.models.FileProperties
-    - name: azure.storage.file.models.FileRange
-      uid: azure.storage.file.models.FileRange
-    - name: azure.storage.file.models.Share
-      uid: azure.storage.file.models.Share
-    - name: azure.storage.file.models.SharePermissions
-      uid: azure.storage.file.models.SharePermissions
-    - name: azure.storage.file.models.ShareProperties
-      uid: azure.storage.file.models.ShareProperties
-    name: azure.storage.file.models
-    uid: azure.storage.file.models
-  - items:
-    - name: azure.storage.file.sharedaccesssignature.FileSharedAccessSignature
-      uid: azure.storage.file.sharedaccesssignature.FileSharedAccessSignature
-    name: azure.storage.file.sharedaccesssignature
-    uid: azure.storage.file.sharedaccesssignature
-  name: azure-storage-file
-  uid: azure.storage.file
+- name: microsoftml_scikit.AnalyzeSentiment
+  uid: microsoftml_scikit.AnalyzeSentiment
+- name: microsoftml_scikit.AveragedPerceptronBinaryClassifier
+  uid: microsoftml_scikit.AveragedPerceptronBinaryClassifier
+- name: microsoftml_scikit.BootstrapSample
+  uid: microsoftml_scikit.BootstrapSample
+- name: microsoftml_scikit.CatTransformDict
+  uid: microsoftml_scikit.CatTransformDict
+- name: microsoftml_scikit.CatTransformHash
+  uid: microsoftml_scikit.CatTransformHash
+- name: microsoftml_scikit.CharTokenize
+  uid: microsoftml_scikit.CharTokenize
+- name: microsoftml_scikit.ConcatColumns
+  uid: microsoftml_scikit.ConcatColumns
+- name: microsoftml_scikit.CountSelect
+  uid: microsoftml_scikit.CountSelect
+- name: microsoftml_scikit.DnnImageFeaturize
+  uid: microsoftml_scikit.DnnImageFeaturize
+- name: microsoftml_scikit.DropColumns
+  uid: microsoftml_scikit.DropColumns
+- name: microsoftml_scikit.ExpressionTransform
+  uid: microsoftml_scikit.ExpressionTransform
+- name: microsoftml_scikit.ExtractPixelData
+  uid: microsoftml_scikit.ExtractPixelData
+- name: microsoftml_scikit.FastForestBinaryClassifier
+  uid: microsoftml_scikit.FastForestBinaryClassifier
+- name: microsoftml_scikit.FastForestRegressor
+  uid: microsoftml_scikit.FastForestRegressor
+- name: microsoftml_scikit.FastLinearBinaryClassifier
+  uid: microsoftml_scikit.FastLinearBinaryClassifier
+- name: microsoftml_scikit.FastLinearRegressor
+  uid: microsoftml_scikit.FastLinearRegressor
+- name: microsoftml_scikit.FastTreeBinaryClassifier
+  uid: microsoftml_scikit.FastTreeBinaryClassifier
+- name: microsoftml_scikit.FastTreeRegressor
+  uid: microsoftml_scikit.FastTreeRegressor
+- name: microsoftml_scikit.FastTreeTweedieRegressor
+  uid: microsoftml_scikit.FastTreeTweedieRegressor
+- name: microsoftml_scikit.FilterRowsByRange
+  uid: microsoftml_scikit.FilterRowsByRange
+- name: microsoftml_scikit.HogwildSGDBinaryClassifier
+  uid: microsoftml_scikit.HogwildSGDBinaryClassifier
+- name: microsoftml_scikit.KMeansPlusPlus
+  uid: microsoftml_scikit.KMeansPlusPlus
+- name: microsoftml_scikit.KeyToText
+  uid: microsoftml_scikit.KeyToText
+- name: microsoftml_scikit.LDSVMBinaryClassifier
+  uid: microsoftml_scikit.LDSVMBinaryClassifier
+- name: microsoftml_scikit.Load
+  uid: microsoftml_scikit.Load
+- name: microsoftml_scikit.LogisticRegressionBinaryClassifier
+  uid: microsoftml_scikit.LogisticRegressionBinaryClassifier
+- name: microsoftml_scikit.LogisticRegressionMultiClassClassifier
+  uid: microsoftml_scikit.LogisticRegressionMultiClassClassifier
+- name: microsoftml_scikit.MutualInformationSelect
+  uid: microsoftml_scikit.MutualInformationSelect
+- name: microsoftml_scikit.NADrop
+  uid: microsoftml_scikit.NADrop
+- name: microsoftml_scikit.NAFilter
+  uid: microsoftml_scikit.NAFilter
+- name: microsoftml_scikit.NAHandle
+  uid: microsoftml_scikit.NAHandle
+- name: microsoftml_scikit.NAIndicator
+  uid: microsoftml_scikit.NAIndicator
+- name: microsoftml_scikit.NAReplace
+  uid: microsoftml_scikit.NAReplace
+- name: microsoftml_scikit.NaiveBayesMultiClassClassifier
+  uid: microsoftml_scikit.NaiveBayesMultiClassClassifier
+- name: microsoftml_scikit.NeuralNetBinaryClassifier
+  uid: microsoftml_scikit.NeuralNetBinaryClassifier
+- name: microsoftml_scikit.NeuralNetMultiClassClassifier
+  uid: microsoftml_scikit.NeuralNetMultiClassClassifier
+- name: microsoftml_scikit.NeuralNetRegressor
+  uid: microsoftml_scikit.NeuralNetRegressor
+- name: microsoftml_scikit.NormalizeBin
+  uid: microsoftml_scikit.NormalizeBin
+- name: microsoftml_scikit.NormalizeGlobalContrast
+  uid: microsoftml_scikit.NormalizeGlobalContrast
+- name: microsoftml_scikit.NormalizeLogMeanVar
+  uid: microsoftml_scikit.NormalizeLogMeanVar
+- name: microsoftml_scikit.NormalizeMinMax
+  uid: microsoftml_scikit.NormalizeMinMax
+- name: microsoftml_scikit.NormalizeSupervisedBin
+  uid: microsoftml_scikit.NormalizeSupervisedBin
+- name: microsoftml_scikit.OneClassSVMAnomalyDetector
+  uid: microsoftml_scikit.OneClassSVMAnomalyDetector
+- name: microsoftml_scikit.Resize
+  uid: microsoftml_scikit.Resize
+- name: microsoftml_scikit.ScoreModel
+  uid: microsoftml_scikit.ScoreModel
+- name: microsoftml_scikit.SelectColumns
+  uid: microsoftml_scikit.SelectColumns
+- name: microsoftml_scikit.SentimentSpecificWordEmbedding
+  uid: microsoftml_scikit.SentimentSpecificWordEmbedding
+- name: microsoftml_scikit.TextFeaturizer
+  uid: microsoftml_scikit.TextFeaturizer
+- name: microsoftml_scikit.TextToKey
+  uid: microsoftml_scikit.TextToKey
+- name: microsoftml_scikit.TypeConversion
+  uid: microsoftml_scikit.TypeConversion
+- name: microsoftml_scikit.WordEmbedding
+  uid: microsoftml_scikit.WordEmbedding

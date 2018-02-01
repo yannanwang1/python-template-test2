@@ -1,0 +1,218 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.NeuralNetBinaryClassifier
+  fullName: microsoftml_scikit.NeuralNetBinaryClassifier
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.core.neural_network.neuralnetbinaryclassifier.NeuralNetBinaryClassifier
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.modules.base.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.modules.base.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.ClassifierMixin
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: NeuralNetBinaryClassifier
+  source:
+    id: NeuralNetBinaryClassifier
+    path: microsoftml_scikit\modules\neural_network\neuralnetbinaryclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\modules\neural_network\neuralnetbinaryclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: 'NeuralNetBinaryClassifier(feature_column: str = ''Features'', label_column:
+      str = ''Label'', weight_column: str = None, normalize: str = ''Auto'', caching:
+      str = ''Auto'', num_hidden_nodes: numbers.Real = 100, net_file_name: str = None,
+      net_definition: str = None, num_iterations: numbers.Real = 100, optimizer: dict
+      = None, loss_function: dict = None, pre_training_epoch: numbers.Real = None,
+      display_refresh: numbers.Real = 1, init_wts_diameter: numbers.Real = 0.1, max_norm:
+      numbers.Real = 0.0, early_stopping_rule: dict = None, early_stopping_metrics:
+      numbers.Real = 0, model_file_bin: str = None, model_file_bin_unrolled: str =
+      None, model_file_text: str = None, pruning: bool = False, pruning_factor: numbers.Real
+      = 0.01, pruning_rounds: numbers.Real = 10, pruning_round_iterations: numbers.Real
+      = 5, acceleration: dict = None, pre_trainer_type: str = ''NoPreTrainer'', mini_batch_size:
+      numbers.Real = 1, shuffle: bool = True, input_dropout_rate: numbers.Real = 0.0,
+      hidden_dropout_rate: numbers.Real = 0.0, **params)'
+    parameters:
+    - description: 'Column to use for features.
+
+        '
+      id: feature_column
+    - description: 'Column to use for labels.
+
+        '
+      id: label_column
+    - description: 'Column to use for example weight.
+
+        '
+      id: weight_column
+    - description: 'If `Auto`, the choice to normalize depends on the preference declared
+        by the algorithm. This is the
+
+        default choice. If `No`, no normalization is performed. If `Yes`, normalization
+        always performed. If `Warn`,
+
+        if normalization is needed by the algorithm, a warning message is displayed
+        but normalization is not performed. If
+
+        normalization is performed, a `MaxMin` normalizer is used. This normalizer
+        preserves sparsity by mapping zero to
+
+        zero.
+
+        '
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'Default number of hidden nodes.
+
+        '
+      id: num_hidden_nodes
+    - description: 'Net file name.
+
+        '
+      id: net_file_name
+    - description: 'The Net# definition of the structure of the neural network. For
+        more information about the Net#
+
+        language, see [Reference Guide](https://azure.microsoft.com/en-us/documentation/articles/machine-learning-azure-ml-netsharp-reference-guide/).
+
+        '
+      id: net_definition
+    - description: 'Number of training iterations.
+
+        '
+      id: num_iterations
+    - description: 'Default is `sgd`. Choices are @../../microsoftml_scikit.sgd_optimizer,
+
+        @../../microsoftml_scikit.adadelta_optimizer.
+
+        '
+      id: optimizer
+    - description: 'Loss function.
+
+        '
+      id: loss_function
+    - description: 'Number of epochs for pre-training. If not set, defaults to numIterations(iter).
+
+        '
+      id: pre_training_epoch
+    - description: 'Display refresh frequency in number iterations.
+
+        '
+      id: display_refresh
+    - description: 'Init weights diameter.
+
+        '
+      id: init_wts_diameter
+    - description: 'Constrains the norm of incoming weights of a node.
+
+        '
+      id: max_norm
+    - description: 'Early stopping rule.
+
+        '
+      id: early_stopping_rule
+    - description: 'Early stopping metrics.
+
+        '
+      id: early_stopping_metrics
+    - description: 'Filename for the binary model.
+
+        '
+      id: model_file_bin
+    - description: 'Filename for the binary unrolled model.
+
+        '
+      id: model_file_bin_unrolled
+    - description: 'Filename for the text model.
+
+        '
+      id: model_file_text
+    - description: 'Enable post-training pruning (Optimal Brain Damage).
+
+        '
+      id: pruning
+    - description: 'Pruning factor: % of weights removed each pruning iteration.
+
+        '
+      id: pruning_factor
+    - description: 'Number of pruning rounds.
+
+        '
+      id: pruning_rounds
+    - description: 'Number of pruning round iterations.
+
+        '
+      id: pruning_round_iterations
+    - description: 'Specifies the type of hardware acceleration to use. Possible values
+        are `sse_math`, `avx_math`,
+
+        `mkl_math`, `clr_math` and `gpu_math`. To use GPU acceleration, download NVidia
+        CUDA toolkit 6.5 and NVidia
+
+        cuDNN v2 and copy all DLL files to the `mxLibs` directory of the microsoft_scikit
+        package.
+
+        '
+      id: acceleration
+    - description: 'Net Pre-Trainer.
+
+        '
+      id: pre_trainer_type
+    - description: 'Mini-batch size.
+
+        '
+      id: mini_batch_size
+    - description: 'Whether to shuffle for each training iteration.
+
+        '
+      id: shuffle
+    - description: 'Input dropout rate.
+
+        '
+      id: input_dropout_rate
+    - description: 'Hidden dropout rate.
+
+        '
+      id: hidden_dropout_rate
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.NeuralNetBinaryClassifier
+references: []
