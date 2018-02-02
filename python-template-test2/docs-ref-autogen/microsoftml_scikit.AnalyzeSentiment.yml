@@ -4,13 +4,7 @@ items:
 - children: []
   class: microsoftml_scikit.AnalyzeSentiment
   example:
-  - 'r = Record(x = 13, y = 42)
-
-    r.x
-
-    13
-
-    '
+  - "\n```\n\n>>> r = Record(x = 13, y = 42)\n>>> r.x\n    13\n```\n"
   fullName: microsoftml_scikit.AnalyzeSentiment
   inheritance:
   - inheritance:
