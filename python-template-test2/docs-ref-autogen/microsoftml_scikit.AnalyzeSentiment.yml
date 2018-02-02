@@ -38,6 +38,14 @@ items:
   syntax:
     content: 'AnalyzeSentiment(column: str, name: str = None, **params)'
     parameters:
+    - description: 'Name of the source column.
+
+        '
+      id: column
+    - description: 'Name of the new column.
+
+        '
+      id: name
     - description: 'Additional arguments sent to compute engine.
 
         '
