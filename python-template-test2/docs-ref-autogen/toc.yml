@@ -1,102 +1,182 @@
-- name: microsoftml_scikit.AnalyzeSentiment
-  uid: microsoftml_scikit.AnalyzeSentiment
-- name: microsoftml_scikit.AveragedPerceptronBinaryClassifier
-  uid: microsoftml_scikit.AveragedPerceptronBinaryClassifier
-- name: microsoftml_scikit.BootstrapSample
-  uid: microsoftml_scikit.BootstrapSample
-- name: microsoftml_scikit.CatTransformDict
-  uid: microsoftml_scikit.CatTransformDict
-- name: microsoftml_scikit.CatTransformHash
-  uid: microsoftml_scikit.CatTransformHash
-- name: microsoftml_scikit.CharTokenize
-  uid: microsoftml_scikit.CharTokenize
-- name: microsoftml_scikit.ConcatColumns
-  uid: microsoftml_scikit.ConcatColumns
-- name: microsoftml_scikit.CountSelect
-  uid: microsoftml_scikit.CountSelect
-- name: microsoftml_scikit.DnnImageFeaturize
-  uid: microsoftml_scikit.DnnImageFeaturize
-- name: microsoftml_scikit.DropColumns
-  uid: microsoftml_scikit.DropColumns
-- name: microsoftml_scikit.ExpressionTransform
-  uid: microsoftml_scikit.ExpressionTransform
-- name: microsoftml_scikit.ExtractPixelData
-  uid: microsoftml_scikit.ExtractPixelData
-- name: microsoftml_scikit.FastForestBinaryClassifier
-  uid: microsoftml_scikit.FastForestBinaryClassifier
-- name: microsoftml_scikit.FastForestRegressor
-  uid: microsoftml_scikit.FastForestRegressor
-- name: microsoftml_scikit.FastLinearBinaryClassifier
-  uid: microsoftml_scikit.FastLinearBinaryClassifier
-- name: microsoftml_scikit.FastLinearRegressor
-  uid: microsoftml_scikit.FastLinearRegressor
-- name: microsoftml_scikit.FastTreeBinaryClassifier
-  uid: microsoftml_scikit.FastTreeBinaryClassifier
-- name: microsoftml_scikit.FastTreeRegressor
-  uid: microsoftml_scikit.FastTreeRegressor
-- name: microsoftml_scikit.FastTreeTweedieRegressor
-  uid: microsoftml_scikit.FastTreeTweedieRegressor
-- name: microsoftml_scikit.FilterRowsByRange
-  uid: microsoftml_scikit.FilterRowsByRange
-- name: microsoftml_scikit.HogwildSGDBinaryClassifier
-  uid: microsoftml_scikit.HogwildSGDBinaryClassifier
-- name: microsoftml_scikit.KMeansPlusPlus
-  uid: microsoftml_scikit.KMeansPlusPlus
-- name: microsoftml_scikit.KeyToText
-  uid: microsoftml_scikit.KeyToText
-- name: microsoftml_scikit.LDSVMBinaryClassifier
-  uid: microsoftml_scikit.LDSVMBinaryClassifier
-- name: microsoftml_scikit.Load
-  uid: microsoftml_scikit.Load
-- name: microsoftml_scikit.LogisticRegressionBinaryClassifier
-  uid: microsoftml_scikit.LogisticRegressionBinaryClassifier
-- name: microsoftml_scikit.LogisticRegressionMultiClassClassifier
-  uid: microsoftml_scikit.LogisticRegressionMultiClassClassifier
-- name: microsoftml_scikit.MutualInformationSelect
-  uid: microsoftml_scikit.MutualInformationSelect
-- name: microsoftml_scikit.NADrop
-  uid: microsoftml_scikit.NADrop
-- name: microsoftml_scikit.NAFilter
-  uid: microsoftml_scikit.NAFilter
-- name: microsoftml_scikit.NAHandle
-  uid: microsoftml_scikit.NAHandle
-- name: microsoftml_scikit.NAIndicator
-  uid: microsoftml_scikit.NAIndicator
-- name: microsoftml_scikit.NAReplace
-  uid: microsoftml_scikit.NAReplace
-- name: microsoftml_scikit.NaiveBayesMultiClassClassifier
-  uid: microsoftml_scikit.NaiveBayesMultiClassClassifier
-- name: microsoftml_scikit.NeuralNetBinaryClassifier
-  uid: microsoftml_scikit.NeuralNetBinaryClassifier
-- name: microsoftml_scikit.NeuralNetMultiClassClassifier
-  uid: microsoftml_scikit.NeuralNetMultiClassClassifier
-- name: microsoftml_scikit.NeuralNetRegressor
-  uid: microsoftml_scikit.NeuralNetRegressor
-- name: microsoftml_scikit.NormalizeBin
-  uid: microsoftml_scikit.NormalizeBin
-- name: microsoftml_scikit.NormalizeGlobalContrast
-  uid: microsoftml_scikit.NormalizeGlobalContrast
-- name: microsoftml_scikit.NormalizeLogMeanVar
-  uid: microsoftml_scikit.NormalizeLogMeanVar
-- name: microsoftml_scikit.NormalizeMinMax
-  uid: microsoftml_scikit.NormalizeMinMax
-- name: microsoftml_scikit.NormalizeSupervisedBin
-  uid: microsoftml_scikit.NormalizeSupervisedBin
-- name: microsoftml_scikit.OneClassSVMAnomalyDetector
-  uid: microsoftml_scikit.OneClassSVMAnomalyDetector
-- name: microsoftml_scikit.Resize
-  uid: microsoftml_scikit.Resize
-- name: microsoftml_scikit.ScoreModel
-  uid: microsoftml_scikit.ScoreModel
-- name: microsoftml_scikit.SelectColumns
-  uid: microsoftml_scikit.SelectColumns
-- name: microsoftml_scikit.SentimentSpecificWordEmbedding
-  uid: microsoftml_scikit.SentimentSpecificWordEmbedding
-- name: microsoftml_scikit.TextFeaturizer
-  uid: microsoftml_scikit.TextFeaturizer
-- name: microsoftml_scikit.TextToKey
-  uid: microsoftml_scikit.TextToKey
-- name: microsoftml_scikit.TypeConversion
-  uid: microsoftml_scikit.TypeConversion
-- name: microsoftml_scikit.WordEmbedding
-  uid: microsoftml_scikit.WordEmbedding
+- items:
+  - name: iothub_client_python.DeviceMethodReturnValue
+    uid: iothub_client_python.DeviceMethodReturnValue
+  - name: iothub_client_python.GetRetryPolicyReturnValue
+    uid: iothub_client_python.GetRetryPolicyReturnValue
+  - name: iothub_client_python.IoTHubClient
+    uid: iothub_client_python.IoTHubClient
+  - name: iothub_client_python.IoTHubClientConfirmationResult
+    uid: iothub_client_python.IoTHubClientConfirmationResult
+  - name: iothub_client_python.IoTHubClientConnectionStatusReason
+    uid: iothub_client_python.IoTHubClientConnectionStatusReason
+  - name: iothub_client_python.IoTHubClientError
+    uid: iothub_client_python.IoTHubClientError
+  - name: iothub_client_python.IoTHubClientFileUploadResult
+    uid: iothub_client_python.IoTHubClientFileUploadResult
+  - name: iothub_client_python.IoTHubClientResult
+    uid: iothub_client_python.IoTHubClientResult
+  - name: iothub_client_python.IoTHubClientRetryPolicy
+    uid: iothub_client_python.IoTHubClientRetryPolicy
+  - name: iothub_client_python.IoTHubClientStatus
+    uid: iothub_client_python.IoTHubClientStatus
+  - name: iothub_client_python.IoTHubConfig
+    uid: iothub_client_python.IoTHubConfig
+  - name: iothub_client_python.IoTHubConnectionStatus
+    uid: iothub_client_python.IoTHubConnectionStatus
+  - name: iothub_client_python.IoTHubError
+    uid: iothub_client_python.IoTHubError
+  - name: iothub_client_python.IoTHubMap
+    uid: iothub_client_python.IoTHubMap
+  - name: iothub_client_python.IoTHubMapError
+    uid: iothub_client_python.IoTHubMapError
+  - name: iothub_client_python.IoTHubMapResult
+    uid: iothub_client_python.IoTHubMapResult
+  - name: iothub_client_python.IoTHubMessage
+    uid: iothub_client_python.IoTHubMessage
+  - name: iothub_client_python.IoTHubMessageContent
+    uid: iothub_client_python.IoTHubMessageContent
+  - name: iothub_client_python.IoTHubMessageDiagnosticPropertyData
+    uid: iothub_client_python.IoTHubMessageDiagnosticPropertyData
+  - name: iothub_client_python.IoTHubMessageDispositionResult
+    uid: iothub_client_python.IoTHubMessageDispositionResult
+  - name: iothub_client_python.IoTHubMessageError
+    uid: iothub_client_python.IoTHubMessageError
+  - name: iothub_client_python.IoTHubMessageResult
+    uid: iothub_client_python.IoTHubMessageResult
+  - name: iothub_client_python.IoTHubSecurityType
+    uid: iothub_client_python.IoTHubSecurityType
+  - name: iothub_client_python.IoTHubTransport
+    uid: iothub_client_python.IoTHubTransport
+  - name: iothub_client_python.IoTHubTransportProvider
+    uid: iothub_client_python.IoTHubTransportProvider
+  - name: iothub_client_python.IoTHubTwinUpdateState
+    uid: iothub_client_python.IoTHubTwinUpdateState
+  name: iothub_client_python
+  uid: iothub_client_python
+- items:
+  - name: iothub_service_client_python.IoTHubDevice
+    uid: iothub_service_client_python.IoTHubDevice
+  - name: iothub_service_client_python.IoTHubDeviceConnectionState
+    uid: iothub_service_client_python.IoTHubDeviceConnectionState
+  - name: iothub_service_client_python.IoTHubDeviceMethod
+    uid: iothub_service_client_python.IoTHubDeviceMethod
+  - name: iothub_service_client_python.IoTHubDeviceMethodError
+    uid: iothub_service_client_python.IoTHubDeviceMethodError
+  - name: iothub_service_client_python.IoTHubDeviceMethodResponse
+    uid: iothub_service_client_python.IoTHubDeviceMethodResponse
+  - name: iothub_service_client_python.IoTHubDeviceMethodResult
+    uid: iothub_service_client_python.IoTHubDeviceMethodResult
+  - name: iothub_service_client_python.IoTHubDeviceStatus
+    uid: iothub_service_client_python.IoTHubDeviceStatus
+  - name: iothub_service_client_python.IoTHubDeviceTwin
+    uid: iothub_service_client_python.IoTHubDeviceTwin
+  - name: iothub_service_client_python.IoTHubDeviceTwinError
+    uid: iothub_service_client_python.IoTHubDeviceTwinError
+  - name: iothub_service_client_python.IoTHubDeviceTwinResult
+    uid: iothub_service_client_python.IoTHubDeviceTwinResult
+  - name: iothub_service_client_python.IoTHubError
+    uid: iothub_service_client_python.IoTHubError
+  - name: iothub_service_client_python.IoTHubFeedbackStatusCode
+    uid: iothub_service_client_python.IoTHubFeedbackStatusCode
+  - name: iothub_service_client_python.IoTHubMap
+    uid: iothub_service_client_python.IoTHubMap
+  - name: iothub_service_client_python.IoTHubMapError
+    uid: iothub_service_client_python.IoTHubMapError
+  - name: iothub_service_client_python.IoTHubMapResult
+    uid: iothub_service_client_python.IoTHubMapResult
+  - name: iothub_service_client_python.IoTHubMessage
+    uid: iothub_service_client_python.IoTHubMessage
+  - name: iothub_service_client_python.IoTHubMessageContent
+    uid: iothub_service_client_python.IoTHubMessageContent
+  - name: iothub_service_client_python.IoTHubMessageDispositionResult
+    uid: iothub_service_client_python.IoTHubMessageDispositionResult
+  - name: iothub_service_client_python.IoTHubMessageError
+    uid: iothub_service_client_python.IoTHubMessageError
+  - name: iothub_service_client_python.IoTHubMessageResult
+    uid: iothub_service_client_python.IoTHubMessageResult
+  - name: iothub_service_client_python.IoTHubMessaging
+    uid: iothub_service_client_python.IoTHubMessaging
+  - name: iothub_service_client_python.IoTHubMessagingError
+    uid: iothub_service_client_python.IoTHubMessagingError
+  - name: iothub_service_client_python.IoTHubMessagingResult
+    uid: iothub_service_client_python.IoTHubMessagingResult
+  - name: iothub_service_client_python.IoTHubRegistryManager
+    uid: iothub_service_client_python.IoTHubRegistryManager
+  - name: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+    uid: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  - name: iothub_service_client_python.IoTHubRegistryManagerError
+    uid: iothub_service_client_python.IoTHubRegistryManagerError
+  - name: iothub_service_client_python.IoTHubRegistryManagerResult
+    uid: iothub_service_client_python.IoTHubRegistryManagerResult
+  - name: iothub_service_client_python.IoTHubRegistryStatistics
+    uid: iothub_service_client_python.IoTHubRegistryStatistics
+  - name: iothub_service_client_python.IoTHubServiceClientAuth
+    uid: iothub_service_client_python.IoTHubServiceClientAuth
+  - name: iothub_service_client_python.IoTHubServiceClientAuthError
+    uid: iothub_service_client_python.IoTHubServiceClientAuthError
+  - name: iothub_service_client_python.IoTHubServiceFeedbackBatch
+    uid: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  - name: iothub_service_client_python.IoTHubServiceFeedbackRecord
+    uid: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  name: iothub_service_client_python
+  uid: iothub_service_client_python
+- items:
+  - name: provisioning_device_client.ProvisioningDeviceClient
+    uid: provisioning_device_client.ProvisioningDeviceClient
+  - name: provisioning_device_client.ProvisioningDeviceClientError
+    uid: provisioning_device_client.ProvisioningDeviceClientError
+  - name: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+    uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  - name: provisioning_device_client.ProvisioningDeviceResult
+    uid: provisioning_device_client.ProvisioningDeviceResult
+  - name: provisioning_device_client.ProvisioningError
+    uid: provisioning_device_client.ProvisioningError
+  - name: provisioning_device_client.ProvisioningHttpProxyOptions
+    uid: provisioning_device_client.ProvisioningHttpProxyOptions
+  - name: provisioning_device_client.ProvisioningSecurityDeviceType
+    uid: provisioning_device_client.ProvisioningSecurityDeviceType
+  - name: provisioning_device_client.ProvisioningTransportProvider
+    uid: provisioning_device_client.ProvisioningTransportProvider
+  name: provisioning_device_client
+  uid: provisioning_device_client
+- items:
+  - items:
+    - name: provisioningserviceclient.client.BulkEnrollmentOperation
+      uid: provisioningserviceclient.client.BulkEnrollmentOperation
+    - name: provisioningserviceclient.client.BulkEnrollmentOperationError
+      uid: provisioningserviceclient.client.BulkEnrollmentOperationError
+    - name: provisioningserviceclient.client.BulkEnrollmentOperationResult
+      uid: provisioningserviceclient.client.BulkEnrollmentOperationResult
+    - name: provisioningserviceclient.client.ProvisioningServiceClient
+      uid: provisioningserviceclient.client.ProvisioningServiceClient
+    - name: provisioningserviceclient.client.Query
+      uid: provisioningserviceclient.client.Query
+    - name: provisioningserviceclient.client.QuerySpecification
+      uid: provisioningserviceclient.client.QuerySpecification
+    name: provisioningserviceclient.client
+    uid: provisioningserviceclient.client
+  - items:
+    - name: provisioningserviceclient.models.AttestationMechanism
+      uid: provisioningserviceclient.models.AttestationMechanism
+    - name: provisioningserviceclient.models.DeviceRegistrationState
+      uid: provisioningserviceclient.models.DeviceRegistrationState
+    - name: provisioningserviceclient.models.EnrollmentGroup
+      uid: provisioningserviceclient.models.EnrollmentGroup
+    - name: provisioningserviceclient.models.IndividualEnrollment
+      uid: provisioningserviceclient.models.IndividualEnrollment
+    - name: provisioningserviceclient.models.InitialTwin
+      uid: provisioningserviceclient.models.InitialTwin
+    name: provisioningserviceclient.models
+    uid: provisioningserviceclient.models
+  - name: provisioningserviceclient.BulkEnrollmentOperation
+    uid: provisioningserviceclient.BulkEnrollmentOperation
+  - name: provisioningserviceclient.BulkEnrollmentOperationResult
+    uid: provisioningserviceclient.BulkEnrollmentOperationResult
+  - name: provisioningserviceclient.ProvisioningServiceClient
+    uid: provisioningserviceclient.ProvisioningServiceClient
+  - name: provisioningserviceclient.Query
+    uid: provisioningserviceclient.Query
+  - name: provisioningserviceclient.QuerySpecification
+    uid: provisioningserviceclient.QuerySpecification
+  name: provisioningserviceclient
+  uid: provisioningserviceclient

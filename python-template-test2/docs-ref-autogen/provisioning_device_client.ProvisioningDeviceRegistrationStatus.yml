@@ -1,0 +1,134 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNED
+  - provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNING
+  - provisioning_device_client.ProvisioningDeviceRegistrationStatus.CONNECTED
+  - provisioning_device_client.ProvisioningDeviceRegistrationStatus.ERROR
+  - provisioning_device_client.ProvisioningDeviceRegistrationStatus.REGISTERING
+  class: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ProvisioningDeviceRegistrationStatus
+  source:
+    id: ProvisioningDeviceRegistrationStatus
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 11
+  summary: 'An enumeration.
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNED
+  id: ASSIGNED
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ASSIGNED
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  syntax:
+    content: ASSIGNED = 3
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNED
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNING
+  id: ASSIGNING
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ASSIGNING
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  syntax:
+    content: ASSIGNING = 2
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNING
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.CONNECTED
+  id: CONNECTED
+  langs:
+  - python
+  module: provisioning_device_client
+  name: CONNECTED
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  syntax:
+    content: CONNECTED = 0
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.CONNECTED
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ERROR
+  id: ERROR
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ERROR
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  syntax:
+    content: ERROR = 4
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ERROR
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.REGISTERING
+  id: REGISTERING
+  langs:
+  - python
+  module: provisioning_device_client
+  name: REGISTERING
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  syntax:
+    content: REGISTERING = 1
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.REGISTERING
+references:
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNED
+  isExternal: false
+  name: ASSIGNED
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNED
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNING
+  isExternal: false
+  name: ASSIGNING
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ASSIGNING
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.CONNECTED
+  isExternal: false
+  name: CONNECTED
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.CONNECTED
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ERROR
+  isExternal: false
+  name: ERROR
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.ERROR
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus.REGISTERING
+  isExternal: false
+  name: REGISTERING
+  parent: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus.REGISTERING

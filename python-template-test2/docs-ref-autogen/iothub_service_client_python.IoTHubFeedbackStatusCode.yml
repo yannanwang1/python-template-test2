@@ -1,0 +1,134 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubFeedbackStatusCode.DELIVER_COUNT_EXCEEDED
+  - iothub_service_client_python.IoTHubFeedbackStatusCode.EXPIRED
+  - iothub_service_client_python.IoTHubFeedbackStatusCode.REJECTED
+  - iothub_service_client_python.IoTHubFeedbackStatusCode.SUCCESS
+  - iothub_service_client_python.IoTHubFeedbackStatusCode.UNKNOWN
+  class: iothub_service_client_python.IoTHubFeedbackStatusCode
+  fullName: iothub_service_client_python.IoTHubFeedbackStatusCode
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubFeedbackStatusCode
+  source:
+    id: IoTHubFeedbackStatusCode
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 76
+  summary: 'An enumeration.
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.DELIVER_COUNT_EXCEEDED
+  id: DELIVER_COUNT_EXCEEDED
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: DELIVER_COUNT_EXCEEDED
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  syntax:
+    content: DELIVER_COUNT_EXCEEDED = 2
+    return:
+      type:
+      - iothub_service_client_python.IoTHubFeedbackStatusCode
+  type: attribute
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.DELIVER_COUNT_EXCEEDED
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.EXPIRED
+  id: EXPIRED
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: EXPIRED
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  syntax:
+    content: EXPIRED = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubFeedbackStatusCode
+  type: attribute
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.EXPIRED
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.REJECTED
+  id: REJECTED
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: REJECTED
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  syntax:
+    content: REJECTED = 3
+    return:
+      type:
+      - iothub_service_client_python.IoTHubFeedbackStatusCode
+  type: attribute
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.REJECTED
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.SUCCESS
+  id: SUCCESS
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: SUCCESS
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  syntax:
+    content: SUCCESS = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubFeedbackStatusCode
+  type: attribute
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.SUCCESS
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.UNKNOWN
+  id: UNKNOWN
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: UNKNOWN
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  syntax:
+    content: UNKNOWN = 4
+    return:
+      type:
+      - iothub_service_client_python.IoTHubFeedbackStatusCode
+  type: attribute
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.UNKNOWN
+references:
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.DELIVER_COUNT_EXCEEDED
+  isExternal: false
+  name: DELIVER_COUNT_EXCEEDED
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.DELIVER_COUNT_EXCEEDED
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.EXPIRED
+  isExternal: false
+  name: EXPIRED
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.EXPIRED
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.REJECTED
+  isExternal: false
+  name: REJECTED
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.REJECTED
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.SUCCESS
+  isExternal: false
+  name: SUCCESS
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.SUCCESS
+- fullName: iothub_service_client_python.IoTHubFeedbackStatusCode.UNKNOWN
+  isExternal: false
+  name: UNKNOWN
+  parent: iothub_service_client_python.IoTHubFeedbackStatusCode
+  uid: iothub_service_client_python.IoTHubFeedbackStatusCode.UNKNOWN

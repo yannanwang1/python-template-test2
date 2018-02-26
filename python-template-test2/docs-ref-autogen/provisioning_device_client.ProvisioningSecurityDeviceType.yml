@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - provisioning_device_client.ProvisioningSecurityDeviceType.TPM
+  - provisioning_device_client.ProvisioningSecurityDeviceType.UNKNOWN
+  - provisioning_device_client.ProvisioningSecurityDeviceType.X509
+  class: provisioning_device_client.ProvisioningSecurityDeviceType
+  fullName: provisioning_device_client.ProvisioningSecurityDeviceType
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ProvisioningSecurityDeviceType
+  source:
+    id: ProvisioningSecurityDeviceType
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 19
+  summary: 'An enumeration.
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: provisioning_device_client.ProvisioningSecurityDeviceType
+- fullName: provisioning_device_client.ProvisioningSecurityDeviceType.TPM
+  id: TPM
+  langs:
+  - python
+  module: provisioning_device_client
+  name: TPM
+  parent: provisioning_device_client.ProvisioningSecurityDeviceType
+  syntax:
+    content: TPM = 1
+    return:
+      type:
+      - provisioning_device_client.ProvisioningSecurityDeviceType
+  type: attribute
+  uid: provisioning_device_client.ProvisioningSecurityDeviceType.TPM
+- fullName: provisioning_device_client.ProvisioningSecurityDeviceType.UNKNOWN
+  id: UNKNOWN
+  langs:
+  - python
+  module: provisioning_device_client
+  name: UNKNOWN
+  parent: provisioning_device_client.ProvisioningSecurityDeviceType
+  syntax:
+    content: UNKNOWN = 0
+    return:
+      type:
+      - provisioning_device_client.ProvisioningSecurityDeviceType
+  type: attribute
+  uid: provisioning_device_client.ProvisioningSecurityDeviceType.UNKNOWN
+- fullName: provisioning_device_client.ProvisioningSecurityDeviceType.X509
+  id: X509
+  langs:
+  - python
+  module: provisioning_device_client
+  name: X509
+  parent: provisioning_device_client.ProvisioningSecurityDeviceType
+  syntax:
+    content: X509 = 2
+    return:
+      type:
+      - provisioning_device_client.ProvisioningSecurityDeviceType
+  type: attribute
+  uid: provisioning_device_client.ProvisioningSecurityDeviceType.X509
+references:
+- fullName: provisioning_device_client.ProvisioningSecurityDeviceType.TPM
+  isExternal: false
+  name: TPM
+  parent: provisioning_device_client.ProvisioningSecurityDeviceType
+  uid: provisioning_device_client.ProvisioningSecurityDeviceType.TPM
+- fullName: provisioning_device_client.ProvisioningSecurityDeviceType.UNKNOWN
+  isExternal: false
+  name: UNKNOWN
+  parent: provisioning_device_client.ProvisioningSecurityDeviceType
+  uid: provisioning_device_client.ProvisioningSecurityDeviceType.UNKNOWN
+- fullName: provisioning_device_client.ProvisioningSecurityDeviceType.X509
+  isExternal: false
+  name: X509
+  parent: provisioning_device_client.ProvisioningSecurityDeviceType
+  uid: provisioning_device_client.ProvisioningSecurityDeviceType.X509

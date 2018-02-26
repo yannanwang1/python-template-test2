@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: iothub_service_client_python.IoTHubServiceClientAuth
+  fullName: iothub_service_client_python.IoTHubServiceClientAuth
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubServiceClientAuth
+  source:
+    id: IoTHubServiceClientAuth
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 624
+  summary: 'IoTHubServiceClientAuth instance holds service client authentication handle
+
+    to communicate with IoTHub.
+
+    '
+  syntax:
+    content: IoTHubServiceClientAuth(connection_str)
+  type: class
+  uid: iothub_service_client_python.IoTHubServiceClientAuth
+references: []

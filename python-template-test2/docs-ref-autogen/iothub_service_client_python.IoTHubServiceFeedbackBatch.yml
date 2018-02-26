@@ -1,0 +1,127 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubServiceFeedbackBatch.feedbackRecordList
+  - iothub_service_client_python.IoTHubServiceFeedbackBatch.lockToken
+  - iothub_service_client_python.IoTHubServiceFeedbackBatch.userId
+  class: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubServiceFeedbackBatch
+  source:
+    id: IoTHubServiceFeedbackBatch
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 504
+  summary: 'IoTHubServiceFeedbackBatch instance holds a list (batch) of service feedbacks
+    data.
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubServiceFeedbackBatch
+- class: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackBatch.feedbackRecordList
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: feedbackRecordList
+  source:
+    id: feedbackRecordList
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for feedbackRecordList
+
+    '
+  syntax:
+    return:
+      description: 'The value of the feedbackRecordList property
+
+        '
+      type:
+      - list
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackBatch.feedbackRecordList
+- class: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackBatch.lockToken
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: lockToken
+  source:
+    id: lockToken
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for lockToken
+
+    '
+  syntax:
+    return:
+      description: 'The value of the lockToken property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackBatch.lockToken
+- class: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackBatch.userId
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: userId
+  source:
+    id: userId
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for userId
+
+    '
+  syntax:
+    return:
+      description: 'The value of the userId property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackBatch.userId
+references:
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackBatch.feedbackRecordList
+  isExternal: false
+  name: feedbackRecordList
+  parent: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  uid: iothub_service_client_python.IoTHubServiceFeedbackBatch.feedbackRecordList
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackBatch.lockToken
+  isExternal: false
+  name: lockToken
+  parent: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  uid: iothub_service_client_python.IoTHubServiceFeedbackBatch.lockToken
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackBatch.userId
+  isExternal: false
+  name: userId
+  parent: iothub_service_client_python.IoTHubServiceFeedbackBatch
+  uid: iothub_service_client_python.IoTHubServiceFeedbackBatch.userId

@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubDeviceMethod.invoke
+  class: iothub_service_client_python.IoTHubDeviceMethod
+  fullName: iothub_service_client_python.IoTHubDeviceMethod
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubDeviceMethod
+  source:
+    id: IoTHubDeviceMethod
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 794
+  summary: 'IoTHubDeviceMethod instance is used to invoke device methods on devices
+    from the IoTHub.
+
+
+    '
+  syntax:
+    content: IoTHubDeviceMethod(service_client_auth_handle)
+  type: class
+  uid: iothub_service_client_python.IoTHubDeviceMethod
+- class: iothub_service_client_python.IoTHubDeviceMethod
+  fullName: iothub_service_client_python.IoTHubDeviceMethod.invoke
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: invoke
+  source:
+    id: invoke
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 814
+  summary: 'Invokes the given method on the given device with the given payload
+
+    '
+  syntax:
+    content: invoke(device_id, method_name, method_payload, timeout)
+    parameters:
+    - description: 'The name (id) of the device
+
+        '
+      id: device_id
+      type:
+      - str
+    - description: 'The name of the method to invoke
+
+        '
+      id: method_name
+      type:
+      - str
+    - description: 'The payload to use in the method
+
+        '
+      id: method_payload
+      type:
+      - str
+    - description: 'The timeout to use to wait for the method return
+
+        '
+      id: timeout
+      type:
+      - int
+    return:
+      description: 'IoTHubDeviceMethodResponse instance
+
+        '
+      type:
+      - IoTHubDeviceMethodResponse
+  type: method
+  uid: iothub_service_client_python.IoTHubDeviceMethod.invoke
+references:
+- fullName: iothub_service_client_python.IoTHubDeviceMethod.invoke
+  isExternal: false
+  name: invoke
+  parent: iothub_service_client_python.IoTHubDeviceMethod
+  uid: iothub_service_client_python.IoTHubDeviceMethod.invoke

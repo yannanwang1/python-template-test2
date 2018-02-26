@@ -1,0 +1,155 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubMessagingResult.CALLBACK_NOT_SET
+  - iothub_service_client_python.IoTHubMessagingResult.DEVICE_EXIST
+  - iothub_service_client_python.IoTHubMessagingResult.ERROR
+  - iothub_service_client_python.IoTHubMessagingResult.INVALID_ARG
+  - iothub_service_client_python.IoTHubMessagingResult.INVALID_JSON
+  - iothub_service_client_python.IoTHubMessagingResult.OK
+  class: iothub_service_client_python.IoTHubMessagingResult
+  fullName: iothub_service_client_python.IoTHubMessagingResult
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubMessagingResult
+  source:
+    id: IoTHubMessagingResult
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 57
+  summary: 'An enumeration.
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubMessagingResult
+- fullName: iothub_service_client_python.IoTHubMessagingResult.CALLBACK_NOT_SET
+  id: CALLBACK_NOT_SET
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: CALLBACK_NOT_SET
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  syntax:
+    content: CALLBACK_NOT_SET = 5
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessagingResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessagingResult.CALLBACK_NOT_SET
+- fullName: iothub_service_client_python.IoTHubMessagingResult.DEVICE_EXIST
+  id: DEVICE_EXIST
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: DEVICE_EXIST
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  syntax:
+    content: DEVICE_EXIST = 4
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessagingResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessagingResult.DEVICE_EXIST
+- fullName: iothub_service_client_python.IoTHubMessagingResult.ERROR
+  id: ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  syntax:
+    content: ERROR = 2
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessagingResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessagingResult.ERROR
+- fullName: iothub_service_client_python.IoTHubMessagingResult.INVALID_ARG
+  id: INVALID_ARG
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: INVALID_ARG
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  syntax:
+    content: INVALID_ARG = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessagingResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessagingResult.INVALID_ARG
+- fullName: iothub_service_client_python.IoTHubMessagingResult.INVALID_JSON
+  id: INVALID_JSON
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: INVALID_JSON
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  syntax:
+    content: INVALID_JSON = 3
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessagingResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessagingResult.INVALID_JSON
+- fullName: iothub_service_client_python.IoTHubMessagingResult.OK
+  id: OK
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: OK
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  syntax:
+    content: OK = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessagingResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessagingResult.OK
+references:
+- fullName: iothub_service_client_python.IoTHubMessagingResult.CALLBACK_NOT_SET
+  isExternal: false
+  name: CALLBACK_NOT_SET
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  uid: iothub_service_client_python.IoTHubMessagingResult.CALLBACK_NOT_SET
+- fullName: iothub_service_client_python.IoTHubMessagingResult.DEVICE_EXIST
+  isExternal: false
+  name: DEVICE_EXIST
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  uid: iothub_service_client_python.IoTHubMessagingResult.DEVICE_EXIST
+- fullName: iothub_service_client_python.IoTHubMessagingResult.ERROR
+  isExternal: false
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  uid: iothub_service_client_python.IoTHubMessagingResult.ERROR
+- fullName: iothub_service_client_python.IoTHubMessagingResult.INVALID_ARG
+  isExternal: false
+  name: INVALID_ARG
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  uid: iothub_service_client_python.IoTHubMessagingResult.INVALID_ARG
+- fullName: iothub_service_client_python.IoTHubMessagingResult.INVALID_JSON
+  isExternal: false
+  name: INVALID_JSON
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  uid: iothub_service_client_python.IoTHubMessagingResult.INVALID_JSON
+- fullName: iothub_service_client_python.IoTHubMessagingResult.OK
+  isExternal: false
+  name: OK
+  parent: iothub_service_client_python.IoTHubMessagingResult
+  uid: iothub_service_client_python.IoTHubMessagingResult.OK

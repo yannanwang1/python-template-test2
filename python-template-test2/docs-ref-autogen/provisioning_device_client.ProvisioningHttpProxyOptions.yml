@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: provisioning_device_client.ProvisioningHttpProxyOptions
+  fullName: provisioning_device_client.ProvisioningHttpProxyOptions
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ProvisioningHttpProxyOptions
+  source:
+    id: ProvisioningHttpProxyOptions
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 59
+  summary: 'ProvisioningHttpProxyOptions instance holds the proxy configuration options
+
+    to set on ProvisioningDeviceClient.
+
+    '
+  syntax:
+    content: ProvisioningHttpProxyOptions(host_address, port, username, password)
+  type: class
+  uid: provisioning_device_client.ProvisioningHttpProxyOptions
+references: []

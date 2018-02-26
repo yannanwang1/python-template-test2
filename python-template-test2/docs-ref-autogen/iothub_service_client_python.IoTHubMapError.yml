@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: iothub_service_client_python.IoTHubMapError
+  fullName: iothub_service_client_python.IoTHubMapError
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: iothub_service_client_python.IoTHubError
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubMapError
+  source:
+    id: IoTHubMapError
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 105
+  summary: 'IoTHubMap specific exception class, derived from IoTHubError.
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubMapError
+references: []

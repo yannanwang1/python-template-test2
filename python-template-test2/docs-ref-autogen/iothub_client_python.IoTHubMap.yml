@@ -1,0 +1,339 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_client_python.IoTHubMap.add
+  - iothub_client_python.IoTHubMap.add_or_update
+  - iothub_client_python.IoTHubMap.contains_key
+  - iothub_client_python.IoTHubMap.contains_value
+  - iothub_client_python.IoTHubMap.delete
+  - iothub_client_python.IoTHubMap.get_internals
+  - iothub_client_python.IoTHubMap.get_value_from_key
+  class: iothub_client_python.IoTHubMap
+  fullName: iothub_client_python.IoTHubMap
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_client_python
+  name: IoTHubMap
+  source:
+    id: IoTHubMap
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 144
+  summary: 'IoTHubMap is a generic map implementation storing key/value pairs.
+
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_client_python.IoTHubMap
+- class: iothub_client_python.IoTHubMap
+  fullName: iothub_client_python.IoTHubMap.add
+  langs:
+  - python
+  module: iothub_client_python
+  name: add
+  source:
+    id: add
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 148
+  summary: 'Adds the given key/value pair to the map.
+
+    If the given key exists the function does nothing.
+
+    '
+  syntax:
+    content: add(key, value)
+    parameters:
+    - description: 'The name of the key
+
+        '
+      id: key
+      type:
+      - str
+    - description: 'The value string
+
+        '
+      id: value
+      type:
+      - str
+    return:
+      description: 'OK if success (raise otherwise)
+
+        '
+      type:
+      - IoTHubMapResult(Enum)
+  type: method
+  uid: iothub_client_python.IoTHubMap.add
+- class: iothub_client_python.IoTHubMap
+  fullName: iothub_client_python.IoTHubMap.add_or_update
+  langs:
+  - python
+  module: iothub_client_python
+  name: add_or_update
+  source:
+    id: add_or_update
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 162
+  summary: 'Adds the given key/value pair to the map.
+
+    If the given key exists the function updates the value.
+
+    '
+  syntax:
+    content: add_or_update(key, value)
+    parameters:
+    - description: 'The name of the key
+
+        '
+      id: key
+      type:
+      - str
+    - description: 'The value string
+
+        '
+      id: value
+      type:
+      - str
+    return:
+      description: 'OK if success (raise otherwise)
+
+        '
+      type:
+      - IoTHubMapResult(Enum)
+  type: method
+  uid: iothub_client_python.IoTHubMap.add_or_update
+- class: iothub_client_python.IoTHubMap
+  fullName: iothub_client_python.IoTHubMap.contains_key
+  langs:
+  - python
+  module: iothub_client_python
+  name: contains_key
+  source:
+    id: contains_key
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 187
+  summary: 'Indicates if the map contains the given key.
+
+    '
+  syntax:
+    content: contains_key(key)
+    parameters:
+    - description: 'The name of the key
+
+        '
+      id: key
+      type:
+      - str
+    return:
+      description: 'OK if the key has been found (raise otherwise)
+
+        '
+      type:
+      - IoTHubMapResult(Enum)
+  type: method
+  uid: iothub_client_python.IoTHubMap.contains_key
+- class: iothub_client_python.IoTHubMap
+  fullName: iothub_client_python.IoTHubMap.contains_value
+  langs:
+  - python
+  module: iothub_client_python
+  name: contains_value
+  source:
+    id: contains_value
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 198
+  summary: 'Indicates if the map contains the given value.
+
+    '
+  syntax:
+    content: contains_value(value)
+    parameters:
+    - description: 'The value
+
+        '
+      id: value
+      type:
+      - str
+    return:
+      description: 'OK if the value has been found (raise otherwise)
+
+        '
+      type:
+      - IoTHubMapResult(Enum)
+  type: method
+  uid: iothub_client_python.IoTHubMap.contains_value
+- class: iothub_client_python.IoTHubMap
+  fullName: iothub_client_python.IoTHubMap.delete
+  langs:
+  - python
+  module: iothub_client_python
+  name: delete
+  source:
+    id: delete
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 176
+  summary: 'Deletes the key/value pair identified by the given key.
+
+    '
+  syntax:
+    content: delete(key)
+    parameters:
+    - description: 'The name of the key
+
+        '
+      id: key
+      type:
+      - str
+    return:
+      description: 'OK if success (raise otherwise)
+
+        '
+      type:
+      - IoTHubMapResult(Enum)
+  type: method
+  uid: iothub_client_python.IoTHubMap.delete
+- class: iothub_client_python.IoTHubMap
+  fullName: iothub_client_python.IoTHubMap.get_internals
+  langs:
+  - python
+  module: iothub_client_python
+  name: get_internals
+  source:
+    id: get_internals
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 220
+  summary: 'Returns with a Python dictionary containing all the elements of the map.
+
+    '
+  syntax:
+    content: get_internals()
+    parameters:
+    - id: self
+    return:
+      description: 'A dictionary containing the map (raise otherwise)
+
+        '
+      type:
+      - dictionary
+  type: method
+  uid: iothub_client_python.IoTHubMap.get_internals
+- class: iothub_client_python.IoTHubMap
+  fullName: iothub_client_python.IoTHubMap.get_value_from_key
+  langs:
+  - python
+  module: iothub_client_python
+  name: get_value_from_key
+  source:
+    id: get_value_from_key
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 209
+  summary: 'Returns with the value of the given key.
+
+    '
+  syntax:
+    content: get_value_from_key(key)
+    parameters:
+    - description: 'The name of the key
+
+        '
+      id: key
+      type:
+      - str
+    return:
+      description: 'The value if the key has been found (raise otherwise)
+
+        '
+      type:
+      - str
+  type: method
+  uid: iothub_client_python.IoTHubMap.get_value_from_key
+references:
+- fullName: iothub_client_python.IoTHubMap.add
+  isExternal: false
+  name: add
+  parent: iothub_client_python.IoTHubMap
+  uid: iothub_client_python.IoTHubMap.add
+- fullName: iothub_client_python.IoTHubMap.add_or_update
+  isExternal: false
+  name: add_or_update
+  parent: iothub_client_python.IoTHubMap
+  uid: iothub_client_python.IoTHubMap.add_or_update
+- fullName: iothub_client_python.IoTHubMap.contains_key
+  isExternal: false
+  name: contains_key
+  parent: iothub_client_python.IoTHubMap
+  uid: iothub_client_python.IoTHubMap.contains_key
+- fullName: iothub_client_python.IoTHubMap.contains_value
+  isExternal: false
+  name: contains_value
+  parent: iothub_client_python.IoTHubMap
+  uid: iothub_client_python.IoTHubMap.contains_value
+- fullName: iothub_client_python.IoTHubMap.delete
+  isExternal: false
+  name: delete
+  parent: iothub_client_python.IoTHubMap
+  uid: iothub_client_python.IoTHubMap.delete
+- fullName: iothub_client_python.IoTHubMap.get_internals
+  isExternal: false
+  name: get_internals
+  parent: iothub_client_python.IoTHubMap
+  uid: iothub_client_python.IoTHubMap.get_internals
+- fullName: iothub_client_python.IoTHubMap.get_value_from_key
+  isExternal: false
+  name: get_value_from_key
+  parent: iothub_client_python.IoTHubMap
+  uid: iothub_client_python.IoTHubMap.get_value_from_key
+- fullName: IoTHubMapResult(Enum)
+  name: IoTHubMapResult(Enum)
+  spec.python:
+  - fullName: IoTHubMapResult
+    name: IoTHubMapResult
+    uid: IoTHubMapResult
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubMapResult(Enum)

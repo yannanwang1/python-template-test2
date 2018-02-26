@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_client_python.IoTHubClientStatus.BUSY
+  - iothub_client_python.IoTHubClientStatus.IDLE
+  class: iothub_client_python.IoTHubClientStatus
+  fullName: iothub_client_python.IoTHubClientStatus
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_client_python
+  name: IoTHubClientStatus
+  source:
+    id: IoTHubClientStatus
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 35
+  summary: 'An enumeration.
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_client_python.IoTHubClientStatus
+- fullName: iothub_client_python.IoTHubClientStatus.BUSY
+  id: BUSY
+  langs:
+  - python
+  module: iothub_client_python
+  name: BUSY
+  parent: iothub_client_python.IoTHubClientStatus
+  syntax:
+    content: BUSY = 1
+    return:
+      type:
+      - iothub_client_python.IoTHubClientStatus
+  type: attribute
+  uid: iothub_client_python.IoTHubClientStatus.BUSY
+- fullName: iothub_client_python.IoTHubClientStatus.IDLE
+  id: IDLE
+  langs:
+  - python
+  module: iothub_client_python
+  name: IDLE
+  parent: iothub_client_python.IoTHubClientStatus
+  syntax:
+    content: IDLE = 0
+    return:
+      type:
+      - iothub_client_python.IoTHubClientStatus
+  type: attribute
+  uid: iothub_client_python.IoTHubClientStatus.IDLE
+references:
+- fullName: iothub_client_python.IoTHubClientStatus.BUSY
+  isExternal: false
+  name: BUSY
+  parent: iothub_client_python.IoTHubClientStatus
+  uid: iothub_client_python.IoTHubClientStatus.BUSY
+- fullName: iothub_client_python.IoTHubClientStatus.IDLE
+  isExternal: false
+  name: IDLE
+  parent: iothub_client_python.IoTHubClientStatus
+  uid: iothub_client_python.IoTHubClientStatus.IDLE

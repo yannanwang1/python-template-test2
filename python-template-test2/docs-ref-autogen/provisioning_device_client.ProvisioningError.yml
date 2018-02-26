@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: provisioning_device_client.ProvisioningError
+  fullName: provisioning_device_client.ProvisioningError
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ProvisioningError
+  source:
+    id: ProvisioningError
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 47
+  summary: 'Generic exception base class.
+
+    '
+  syntax: {}
+  type: class
+  uid: provisioning_device_client.ProvisioningError
+references: []

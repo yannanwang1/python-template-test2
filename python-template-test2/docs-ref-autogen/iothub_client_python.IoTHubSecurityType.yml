@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_client_python.IoTHubSecurityType.SAS
+  - iothub_client_python.IoTHubSecurityType.UNKNOWN
+  - iothub_client_python.IoTHubSecurityType.X509
+  class: iothub_client_python.IoTHubSecurityType
+  fullName: iothub_client_python.IoTHubSecurityType
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_client_python
+  name: IoTHubSecurityType
+  source:
+    id: IoTHubSecurityType
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 102
+  summary: 'An enumeration.
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_client_python.IoTHubSecurityType
+- fullName: iothub_client_python.IoTHubSecurityType.SAS
+  id: SAS
+  langs:
+  - python
+  module: iothub_client_python
+  name: SAS
+  parent: iothub_client_python.IoTHubSecurityType
+  syntax:
+    content: SAS = 1
+    return:
+      type:
+      - iothub_client_python.IoTHubSecurityType
+  type: attribute
+  uid: iothub_client_python.IoTHubSecurityType.SAS
+- fullName: iothub_client_python.IoTHubSecurityType.UNKNOWN
+  id: UNKNOWN
+  langs:
+  - python
+  module: iothub_client_python
+  name: UNKNOWN
+  parent: iothub_client_python.IoTHubSecurityType
+  syntax:
+    content: UNKNOWN = 0
+    return:
+      type:
+      - iothub_client_python.IoTHubSecurityType
+  type: attribute
+  uid: iothub_client_python.IoTHubSecurityType.UNKNOWN
+- fullName: iothub_client_python.IoTHubSecurityType.X509
+  id: X509
+  langs:
+  - python
+  module: iothub_client_python
+  name: X509
+  parent: iothub_client_python.IoTHubSecurityType
+  syntax:
+    content: X509 = 2
+    return:
+      type:
+      - iothub_client_python.IoTHubSecurityType
+  type: attribute
+  uid: iothub_client_python.IoTHubSecurityType.X509
+references:
+- fullName: iothub_client_python.IoTHubSecurityType.SAS
+  isExternal: false
+  name: SAS
+  parent: iothub_client_python.IoTHubSecurityType
+  uid: iothub_client_python.IoTHubSecurityType.SAS
+- fullName: iothub_client_python.IoTHubSecurityType.UNKNOWN
+  isExternal: false
+  name: UNKNOWN
+  parent: iothub_client_python.IoTHubSecurityType
+  uid: iothub_client_python.IoTHubSecurityType.UNKNOWN
+- fullName: iothub_client_python.IoTHubSecurityType.X509
+  isExternal: false
+  name: X509
+  parent: iothub_client_python.IoTHubSecurityType
+  uid: iothub_client_python.IoTHubSecurityType.X509

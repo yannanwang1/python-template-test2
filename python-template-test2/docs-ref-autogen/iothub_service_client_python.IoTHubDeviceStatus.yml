@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubDeviceStatus.DISABLED
+  - iothub_service_client_python.IoTHubDeviceStatus.ENABLED
+  class: iothub_service_client_python.IoTHubDeviceStatus
+  fullName: iothub_service_client_python.IoTHubDeviceStatus
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubDeviceStatus
+  source:
+    id: IoTHubDeviceStatus
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 71
+  summary: 'An enumeration.
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubDeviceStatus
+- fullName: iothub_service_client_python.IoTHubDeviceStatus.DISABLED
+  id: DISABLED
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: DISABLED
+  parent: iothub_service_client_python.IoTHubDeviceStatus
+  syntax:
+    content: DISABLED = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceStatus
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceStatus.DISABLED
+- fullName: iothub_service_client_python.IoTHubDeviceStatus.ENABLED
+  id: ENABLED
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: ENABLED
+  parent: iothub_service_client_python.IoTHubDeviceStatus
+  syntax:
+    content: ENABLED = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceStatus
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceStatus.ENABLED
+references:
+- fullName: iothub_service_client_python.IoTHubDeviceStatus.DISABLED
+  isExternal: false
+  name: DISABLED
+  parent: iothub_service_client_python.IoTHubDeviceStatus
+  uid: iothub_service_client_python.IoTHubDeviceStatus.DISABLED
+- fullName: iothub_service_client_python.IoTHubDeviceStatus.ENABLED
+  isExternal: false
+  name: ENABLED
+  parent: iothub_service_client_python.IoTHubDeviceStatus
+  uid: iothub_service_client_python.IoTHubDeviceStatus.ENABLED

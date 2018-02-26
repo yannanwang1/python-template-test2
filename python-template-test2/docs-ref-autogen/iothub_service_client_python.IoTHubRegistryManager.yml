@@ -1,0 +1,322 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubRegistryManager.create_device
+  - iothub_service_client_python.IoTHubRegistryManager.delete_device
+  - iothub_service_client_python.IoTHubRegistryManager.get_device
+  - iothub_service_client_python.IoTHubRegistryManager.get_device_list
+  - iothub_service_client_python.IoTHubRegistryManager.get_statistics
+  - iothub_service_client_python.IoTHubRegistryManager.update_device
+  class: iothub_service_client_python.IoTHubRegistryManager
+  fullName: iothub_service_client_python.IoTHubRegistryManager
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubRegistryManager
+  source:
+    id: IoTHubRegistryManager
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 637
+  summary: 'IoTHubRegistryManager instance is used to manage devices on a given IoTHub.
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: IoTHubRegistryManager(service_client_auth_handle)
+  type: class
+  uid: iothub_service_client_python.IoTHubRegistryManager
+- class: iothub_service_client_python.IoTHubRegistryManager
+  fullName: iothub_service_client_python.IoTHubRegistryManager.create_device
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: create_device
+  source:
+    id: create_device
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 656
+  summary: 'Creates a device on IoTHub using the given parameters.
+
+    '
+  syntax:
+    content: create_device(device_id, primary_key, secondary_key, auth_method)
+    parameters:
+    - description: 'The name of the device
+
+        '
+      id: device_id
+      type:
+      - str
+    - description: 'The primary key of the device
+
+        '
+      id: primary_key
+      type:
+      - str
+    - description: 'The secondary key of the device
+
+        '
+      id: secondary_key
+      type:
+      - str
+    - description: 'The authentication method used to authenticate the device client
+
+        '
+      id: auth_method
+      type:
+      - IoTHubRegistryManagerAuthMethod(Enum)
+    return:
+      description: 'The device client instance
+
+        '
+      type:
+      - IoTHubDevice
+  type: method
+  uid: iothub_service_client_python.IoTHubRegistryManager.create_device
+- class: iothub_service_client_python.IoTHubRegistryManager
+  fullName: iothub_service_client_python.IoTHubRegistryManager.delete_device
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: delete_device
+  source:
+    id: delete_device
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 699
+  summary: 'Deletes the given device from IoTHub.
+
+    '
+  syntax:
+    content: delete_device(device_id)
+    parameters:
+    - description: 'The device name (id) to delete
+
+        '
+      id: device_id
+      type:
+      - str
+  type: method
+  uid: iothub_service_client_python.IoTHubRegistryManager.delete_device
+- class: iothub_service_client_python.IoTHubRegistryManager
+  fullName: iothub_service_client_python.IoTHubRegistryManager.get_device
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: get_device
+  source:
+    id: get_device
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 672
+  summary: 'Gets the device instance by name (id).
+
+    '
+  syntax:
+    content: get_device(device_id)
+    parameters:
+    - description: 'The name (id) of the device to get
+
+        '
+      id: device_id
+      type:
+      - str
+    return:
+      description: 'The device client object
+
+        '
+      type:
+      - IoTHubDevice
+  type: method
+  uid: iothub_service_client_python.IoTHubRegistryManager.get_device
+- class: iothub_service_client_python.IoTHubRegistryManager
+  fullName: iothub_service_client_python.IoTHubRegistryManager.get_device_list
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: get_device_list
+  source:
+    id: get_device_list
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 708
+  summary: 'Gets the list of devices registered on IoTHub.
+
+    It will return with the requested number of devices.
+
+    If the requested number more than the number of registered devices,
+
+    than it will return the actual number of devices.
+
+    '
+  syntax:
+    content: get_device_list(number_of_devices)
+    parameters:
+    - description: 'The requested number of devices
+
+        '
+      id: number_of_devices
+      type:
+      - int
+    return:
+      description: 'The list of devices
+
+        '
+      type:
+      - list
+  type: method
+  uid: iothub_service_client_python.IoTHubRegistryManager.get_device_list
+- class: iothub_service_client_python.IoTHubRegistryManager
+  fullName: iothub_service_client_python.IoTHubRegistryManager.get_statistics
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: get_statistics
+  source:
+    id: get_statistics
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 721
+  summary: 'Returns with a data structure containing device registry statistics.
+
+    Contains total, enabled and disabled device count.
+
+    '
+  syntax:
+    content: get_statistics()
+    parameters:
+    - id: self
+    return:
+      description: 'IoTHubRegistryStatistics instance
+
+        '
+      type:
+      - IoTHubRegistryStatistics
+  type: method
+  uid: iothub_service_client_python.IoTHubRegistryManager.get_statistics
+- class: iothub_service_client_python.IoTHubRegistryManager
+  fullName: iothub_service_client_python.IoTHubRegistryManager.update_device
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: update_device
+  source:
+    id: update_device
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 682
+  summary: 'Updates device attributes on the given device. All attributes need to
+    be provided.
+
+    '
+  syntax:
+    content: update_device(device_id, primary_key, secondary_key, status, auth_method)
+    parameters:
+    - description: 'The name (id) of the device to update
+
+        '
+      id: device_id
+      type:
+      - str
+    - description: 'The new primary key of the device
+
+        '
+      id: primary_key
+      type:
+      - str
+    - description: 'The new secondary key of the device
+
+        '
+      id: secondary_key
+      type:
+      - str
+    - description: 'The new status of the device
+
+        '
+      id: status
+      type:
+      - str
+    - description: 'The new authetication method used to authenticate the device client
+
+        '
+      id: auth_method
+      type:
+      - IoTHubRegistryManagerAuthMethod(Enum)
+  type: method
+  uid: iothub_service_client_python.IoTHubRegistryManager.update_device
+references:
+- fullName: iothub_service_client_python.IoTHubRegistryManager.create_device
+  isExternal: false
+  name: create_device
+  parent: iothub_service_client_python.IoTHubRegistryManager
+  uid: iothub_service_client_python.IoTHubRegistryManager.create_device
+- fullName: iothub_service_client_python.IoTHubRegistryManager.delete_device
+  isExternal: false
+  name: delete_device
+  parent: iothub_service_client_python.IoTHubRegistryManager
+  uid: iothub_service_client_python.IoTHubRegistryManager.delete_device
+- fullName: iothub_service_client_python.IoTHubRegistryManager.get_device
+  isExternal: false
+  name: get_device
+  parent: iothub_service_client_python.IoTHubRegistryManager
+  uid: iothub_service_client_python.IoTHubRegistryManager.get_device
+- fullName: iothub_service_client_python.IoTHubRegistryManager.get_device_list
+  isExternal: false
+  name: get_device_list
+  parent: iothub_service_client_python.IoTHubRegistryManager
+  uid: iothub_service_client_python.IoTHubRegistryManager.get_device_list
+- fullName: iothub_service_client_python.IoTHubRegistryManager.get_statistics
+  isExternal: false
+  name: get_statistics
+  parent: iothub_service_client_python.IoTHubRegistryManager
+  uid: iothub_service_client_python.IoTHubRegistryManager.get_statistics
+- fullName: iothub_service_client_python.IoTHubRegistryManager.update_device
+  isExternal: false
+  name: update_device
+  parent: iothub_service_client_python.IoTHubRegistryManager
+  uid: iothub_service_client_python.IoTHubRegistryManager.update_device
+- fullName: IoTHubRegistryManagerAuthMethod(Enum)
+  name: IoTHubRegistryManagerAuthMethod(Enum)
+  spec.python:
+  - fullName: IoTHubRegistryManagerAuthMethod
+    name: IoTHubRegistryManagerAuthMethod
+    uid: IoTHubRegistryManagerAuthMethod
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubRegistryManagerAuthMethod(Enum)

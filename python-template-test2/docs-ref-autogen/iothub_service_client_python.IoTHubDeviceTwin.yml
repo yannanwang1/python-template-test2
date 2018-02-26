@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubDeviceTwin.get_twin
+  - iothub_service_client_python.IoTHubDeviceTwin.update_twin
+  class: iothub_service_client_python.IoTHubDeviceTwin
+  fullName: iothub_service_client_python.IoTHubDeviceTwin
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubDeviceTwin
+  source:
+    id: IoTHubDeviceTwin
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 832
+  summary: 'IoTHubDeviceTwin instance is used to get and update device twin data from
+    the IoTHub.
+
+
+
+    '
+  syntax:
+    content: IoTHubDeviceTwin(service_client_auth_handle)
+  type: class
+  uid: iothub_service_client_python.IoTHubDeviceTwin
+- class: iothub_service_client_python.IoTHubDeviceTwin
+  fullName: iothub_service_client_python.IoTHubDeviceTwin.get_twin
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: get_twin
+  source:
+    id: get_twin
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 851
+  summary: 'Gets the twin representation of the given device.
+
+    '
+  syntax:
+    content: get_twin(device_id)
+    parameters:
+    - description: 'The name (id) of the device
+
+        '
+      id: device_id
+      type:
+      - str
+    return:
+      description: 'The twin representation of the device
+
+        '
+      type:
+      - str (Json)
+  type: method
+  uid: iothub_service_client_python.IoTHubDeviceTwin.get_twin
+- class: iothub_service_client_python.IoTHubDeviceTwin
+  fullName: iothub_service_client_python.IoTHubDeviceTwin.update_twin
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: update_twin
+  source:
+    id: update_twin
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 862
+  summary: 'Updates the twin representation of the given device
+
+    '
+  syntax:
+    content: update_twin(device_id, device_twin_json)
+    parameters:
+    - description: 'The name (id) of the device
+
+        '
+      id: device_id
+      type:
+      - str
+    - description: 'The twin representation of the device
+
+        '
+      id: device_twin_json
+      type:
+      - str (Json)
+    return:
+      description: 'The updated twin representation of the device
+
+        '
+      type:
+      - str (Json)
+  type: method
+  uid: iothub_service_client_python.IoTHubDeviceTwin.update_twin
+references:
+- fullName: iothub_service_client_python.IoTHubDeviceTwin.get_twin
+  isExternal: false
+  name: get_twin
+  parent: iothub_service_client_python.IoTHubDeviceTwin
+  uid: iothub_service_client_python.IoTHubDeviceTwin.get_twin
+- fullName: iothub_service_client_python.IoTHubDeviceTwin.update_twin
+  isExternal: false
+  name: update_twin
+  parent: iothub_service_client_python.IoTHubDeviceTwin
+  uid: iothub_service_client_python.IoTHubDeviceTwin.update_twin
+- fullName: str (Json)
+  name: str (Json)
+  spec.python:
+  - fullName: 'str '
+    name: 'str '
+    uid: 'str '
+  - fullName: (
+    name: (
+  - fullName: Json
+    name: Json
+    uid: Json
+  - fullName: )
+    name: )
+  uid: str (Json)

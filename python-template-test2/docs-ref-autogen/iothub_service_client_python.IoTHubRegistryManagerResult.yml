@@ -1,0 +1,218 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubRegistryManagerResult.CALLBACK_NOT_SET
+  - iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_EXIST
+  - iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_NOT_EXIST
+  - iothub_service_client_python.IoTHubRegistryManagerResult.ERROR
+  - iothub_service_client_python.IoTHubRegistryManagerResult.HTTPAPI_ERROR
+  - iothub_service_client_python.IoTHubRegistryManagerResult.HTTP_STATUS_ERROR
+  - iothub_service_client_python.IoTHubRegistryManagerResult.INVALID_ARG
+  - iothub_service_client_python.IoTHubRegistryManagerResult.JSON_ERROR
+  - iothub_service_client_python.IoTHubRegistryManagerResult.OK
+  class: iothub_service_client_python.IoTHubRegistryManagerResult
+  fullName: iothub_service_client_python.IoTHubRegistryManagerResult
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubRegistryManagerResult
+  source:
+    id: IoTHubRegistryManagerResult
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 39
+  summary: 'An enumeration.
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.CALLBACK_NOT_SET
+  id: CALLBACK_NOT_SET
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: CALLBACK_NOT_SET
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: CALLBACK_NOT_SET = 8
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.CALLBACK_NOT_SET
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_EXIST
+  id: DEVICE_EXIST
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: DEVICE_EXIST
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: DEVICE_EXIST = 6
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_EXIST
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_NOT_EXIST
+  id: DEVICE_NOT_EXIST
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: DEVICE_NOT_EXIST
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: DEVICE_NOT_EXIST = 7
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_NOT_EXIST
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.ERROR
+  id: ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: ERROR = 2
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.ERROR
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.HTTPAPI_ERROR
+  id: HTTPAPI_ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: HTTPAPI_ERROR
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: HTTPAPI_ERROR = 4
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.HTTPAPI_ERROR
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.HTTP_STATUS_ERROR
+  id: HTTP_STATUS_ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: HTTP_STATUS_ERROR
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: HTTP_STATUS_ERROR = 5
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.HTTP_STATUS_ERROR
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.INVALID_ARG
+  id: INVALID_ARG
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: INVALID_ARG
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: INVALID_ARG = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.INVALID_ARG
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.JSON_ERROR
+  id: JSON_ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: JSON_ERROR
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: JSON_ERROR = 3
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.JSON_ERROR
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.OK
+  id: OK
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: OK
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  syntax:
+    content: OK = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.OK
+references:
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.CALLBACK_NOT_SET
+  isExternal: false
+  name: CALLBACK_NOT_SET
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.CALLBACK_NOT_SET
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_EXIST
+  isExternal: false
+  name: DEVICE_EXIST
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_EXIST
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_NOT_EXIST
+  isExternal: false
+  name: DEVICE_NOT_EXIST
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.DEVICE_NOT_EXIST
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.ERROR
+  isExternal: false
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.ERROR
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.HTTPAPI_ERROR
+  isExternal: false
+  name: HTTPAPI_ERROR
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.HTTPAPI_ERROR
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.HTTP_STATUS_ERROR
+  isExternal: false
+  name: HTTP_STATUS_ERROR
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.HTTP_STATUS_ERROR
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.INVALID_ARG
+  isExternal: false
+  name: INVALID_ARG
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.INVALID_ARG
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.JSON_ERROR
+  isExternal: false
+  name: JSON_ERROR
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.JSON_ERROR
+- fullName: iothub_service_client_python.IoTHubRegistryManagerResult.OK
+  isExternal: false
+  name: OK
+  parent: iothub_service_client_python.IoTHubRegistryManagerResult
+  uid: iothub_service_client_python.IoTHubRegistryManagerResult.OK

@@ -1,0 +1,272 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubServiceFeedbackRecord.correlationId
+  - iothub_service_client_python.IoTHubServiceFeedbackRecord.description
+  - iothub_service_client_python.IoTHubServiceFeedbackRecord.deviceId
+  - iothub_service_client_python.IoTHubServiceFeedbackRecord.enqueuedTimeUtc
+  - iothub_service_client_python.IoTHubServiceFeedbackRecord.generationId
+  - iothub_service_client_python.IoTHubServiceFeedbackRecord.originalMessageId
+  - iothub_service_client_python.IoTHubServiceFeedbackRecord.statusCode
+  class: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubServiceFeedbackRecord
+  source:
+    id: IoTHubServiceFeedbackRecord
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 535
+  summary: 'IoTHubServiceFeedbackRecord instance holds service feedback message data.
+
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord
+- class: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.correlationId
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: correlationId
+  source:
+    id: correlationId
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for correlationId
+
+    '
+  syntax:
+    return:
+      description: 'The value of the correlationId property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.correlationId
+- class: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.description
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: description
+  source:
+    id: description
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for description
+
+    '
+  syntax:
+    return:
+      description: 'The value of the description property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.description
+- class: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.deviceId
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: deviceId
+  source:
+    id: deviceId
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for deviceId
+
+    '
+  syntax:
+    return:
+      description: 'The value of the deviceId property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.deviceId
+- class: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.enqueuedTimeUtc
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: enqueuedTimeUtc
+  source:
+    id: enqueuedTimeUtc
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for enqueuedTimeUtc
+
+    '
+  syntax:
+    return:
+      description: 'The value of the enqueuedTimeUtc property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.enqueuedTimeUtc
+- class: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.generationId
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: generationId
+  source:
+    id: generationId
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for generationId
+
+    '
+  syntax:
+    return:
+      description: 'The value of the generationId property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.generationId
+- class: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.originalMessageId
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: originalMessageId
+  source:
+    id: originalMessageId
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for originalMessageId
+
+    '
+  syntax:
+    return:
+      description: 'The value of the originalMessageId property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.originalMessageId
+- class: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.statusCode
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: statusCode
+  source:
+    id: statusCode
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for statusCode
+
+    '
+  syntax:
+    return:
+      description: 'The value of the statusCode property
+
+        '
+      type:
+      - IoTHubFeedbackStatusCode(Enum)
+  type: attribute
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.statusCode
+references:
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.correlationId
+  isExternal: false
+  name: correlationId
+  parent: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.correlationId
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.description
+  isExternal: false
+  name: description
+  parent: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.description
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.deviceId
+  isExternal: false
+  name: deviceId
+  parent: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.deviceId
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.enqueuedTimeUtc
+  isExternal: false
+  name: enqueuedTimeUtc
+  parent: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.enqueuedTimeUtc
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.generationId
+  isExternal: false
+  name: generationId
+  parent: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.generationId
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.originalMessageId
+  isExternal: false
+  name: originalMessageId
+  parent: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.originalMessageId
+- fullName: iothub_service_client_python.IoTHubServiceFeedbackRecord.statusCode
+  isExternal: false
+  name: statusCode
+  parent: iothub_service_client_python.IoTHubServiceFeedbackRecord
+  uid: iothub_service_client_python.IoTHubServiceFeedbackRecord.statusCode
+- fullName: IoTHubFeedbackStatusCode(Enum)
+  name: IoTHubFeedbackStatusCode(Enum)
+  spec.python:
+  - fullName: IoTHubFeedbackStatusCode
+    name: IoTHubFeedbackStatusCode
+    uid: IoTHubFeedbackStatusCode
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubFeedbackStatusCode(Enum)

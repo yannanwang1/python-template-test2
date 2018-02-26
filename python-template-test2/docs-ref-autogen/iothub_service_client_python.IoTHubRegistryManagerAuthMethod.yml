@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubRegistryManagerAuthMethod.SHARED_PRIVATE_KEY
+  - iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_CERTIFICATE_AUTHORITY
+  - iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_THUMBPRINT
+  class: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  fullName: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubRegistryManagerAuthMethod
+  source:
+    id: IoTHubRegistryManagerAuthMethod
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 51
+  summary: 'An enumeration.
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+- fullName: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.SHARED_PRIVATE_KEY
+  id: SHARED_PRIVATE_KEY
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: SHARED_PRIVATE_KEY
+  parent: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  syntax:
+    content: SHARED_PRIVATE_KEY = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.SHARED_PRIVATE_KEY
+- fullName: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_CERTIFICATE_AUTHORITY
+  id: X509_CERTIFICATE_AUTHORITY
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: X509_CERTIFICATE_AUTHORITY
+  parent: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  syntax:
+    content: X509_CERTIFICATE_AUTHORITY = 2
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_CERTIFICATE_AUTHORITY
+- fullName: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_THUMBPRINT
+  id: X509_THUMBPRINT
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: X509_THUMBPRINT
+  parent: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  syntax:
+    content: X509_THUMBPRINT = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_THUMBPRINT
+references:
+- fullName: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.SHARED_PRIVATE_KEY
+  isExternal: false
+  name: SHARED_PRIVATE_KEY
+  parent: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  uid: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.SHARED_PRIVATE_KEY
+- fullName: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_CERTIFICATE_AUTHORITY
+  isExternal: false
+  name: X509_CERTIFICATE_AUTHORITY
+  parent: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  uid: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_CERTIFICATE_AUTHORITY
+- fullName: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_THUMBPRINT
+  isExternal: false
+  name: X509_THUMBPRINT
+  parent: iothub_service_client_python.IoTHubRegistryManagerAuthMethod
+  uid: iothub_service_client_python.IoTHubRegistryManagerAuthMethod.X509_THUMBPRINT

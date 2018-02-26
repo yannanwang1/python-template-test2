@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - provisioning_device_client.ProvisioningDeviceClient
+  - provisioning_device_client.ProvisioningDeviceClientError
+  - provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  - provisioning_device_client.ProvisioningDeviceResult
+  - provisioning_device_client.ProvisioningError
+  - provisioning_device_client.ProvisioningHttpProxyOptions
+  - provisioning_device_client.ProvisioningSecurityDeviceType
+  - provisioning_device_client.ProvisioningTransportProvider
+  fullName: provisioning_device_client
+  langs:
+  - python
+  module: provisioning_device_client
+  name: provisioning_device_client
+  source:
+    id: provisioning_device_client
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 0
+  type: module
+  uid: provisioning_device_client
+references:
+- fullName: provisioning_device_client.ProvisioningDeviceClient
+  isExternal: false
+  name: ProvisioningDeviceClient
+  parent: provisioning_device_client
+  uid: provisioning_device_client.ProvisioningDeviceClient
+- fullName: provisioning_device_client.ProvisioningDeviceClientError
+  isExternal: false
+  name: ProvisioningDeviceClientError
+  parent: provisioning_device_client
+  uid: provisioning_device_client.ProvisioningDeviceClientError
+- fullName: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+  isExternal: false
+  name: ProvisioningDeviceRegistrationStatus
+  parent: provisioning_device_client
+  uid: provisioning_device_client.ProvisioningDeviceRegistrationStatus
+- fullName: provisioning_device_client.ProvisioningDeviceResult
+  isExternal: false
+  name: ProvisioningDeviceResult
+  parent: provisioning_device_client
+  uid: provisioning_device_client.ProvisioningDeviceResult
+- fullName: provisioning_device_client.ProvisioningError
+  isExternal: false
+  name: ProvisioningError
+  parent: provisioning_device_client
+  uid: provisioning_device_client.ProvisioningError
+- fullName: provisioning_device_client.ProvisioningHttpProxyOptions
+  isExternal: false
+  name: ProvisioningHttpProxyOptions
+  parent: provisioning_device_client
+  uid: provisioning_device_client.ProvisioningHttpProxyOptions
+- fullName: provisioning_device_client.ProvisioningSecurityDeviceType
+  isExternal: false
+  name: ProvisioningSecurityDeviceType
+  parent: provisioning_device_client
+  uid: provisioning_device_client.ProvisioningSecurityDeviceType
+- fullName: provisioning_device_client.ProvisioningTransportProvider
+  isExternal: false
+  name: ProvisioningTransportProvider
+  parent: provisioning_device_client
+  uid: provisioning_device_client.ProvisioningTransportProvider

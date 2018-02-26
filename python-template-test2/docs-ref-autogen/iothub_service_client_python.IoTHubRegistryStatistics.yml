@@ -1,0 +1,127 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubRegistryStatistics.disabledDeviceCount
+  - iothub_service_client_python.IoTHubRegistryStatistics.enabledDeviceCount
+  - iothub_service_client_python.IoTHubRegistryStatistics.totalDeviceCount
+  class: iothub_service_client_python.IoTHubRegistryStatistics
+  fullName: iothub_service_client_python.IoTHubRegistryStatistics
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubRegistryStatistics
+  source:
+    id: IoTHubRegistryStatistics
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 473
+  summary: 'IoTHubRegistryStatistics instance holds registry statistics data (used
+    in GetRegistryStatistics).
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubRegistryStatistics
+- class: iothub_service_client_python.IoTHubRegistryStatistics
+  fullName: iothub_service_client_python.IoTHubRegistryStatistics.disabledDeviceCount
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: disabledDeviceCount
+  source:
+    id: disabledDeviceCount
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for disabledDeviceCount
+
+    '
+  syntax:
+    return:
+      description: 'The value of the disabledDeviceCount property
+
+        '
+      type:
+      - int
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryStatistics.disabledDeviceCount
+- class: iothub_service_client_python.IoTHubRegistryStatistics
+  fullName: iothub_service_client_python.IoTHubRegistryStatistics.enabledDeviceCount
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: enabledDeviceCount
+  source:
+    id: enabledDeviceCount
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for enabledDeviceCount
+
+    '
+  syntax:
+    return:
+      description: 'The value of the enabledDeviceCount property
+
+        '
+      type:
+      - int
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryStatistics.enabledDeviceCount
+- class: iothub_service_client_python.IoTHubRegistryStatistics
+  fullName: iothub_service_client_python.IoTHubRegistryStatistics.totalDeviceCount
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: totalDeviceCount
+  source:
+    id: totalDeviceCount
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for totalDeviceCount
+
+    '
+  syntax:
+    return:
+      description: 'The value of the totalDeviceCount property
+
+        '
+      type:
+      - int
+  type: attribute
+  uid: iothub_service_client_python.IoTHubRegistryStatistics.totalDeviceCount
+references:
+- fullName: iothub_service_client_python.IoTHubRegistryStatistics.disabledDeviceCount
+  isExternal: false
+  name: disabledDeviceCount
+  parent: iothub_service_client_python.IoTHubRegistryStatistics
+  uid: iothub_service_client_python.IoTHubRegistryStatistics.disabledDeviceCount
+- fullName: iothub_service_client_python.IoTHubRegistryStatistics.enabledDeviceCount
+  isExternal: false
+  name: enabledDeviceCount
+  parent: iothub_service_client_python.IoTHubRegistryStatistics
+  uid: iothub_service_client_python.IoTHubRegistryStatistics.enabledDeviceCount
+- fullName: iothub_service_client_python.IoTHubRegistryStatistics.totalDeviceCount
+  isExternal: false
+  name: totalDeviceCount
+  parent: iothub_service_client_python.IoTHubRegistryStatistics
+  uid: iothub_service_client_python.IoTHubRegistryStatistics.totalDeviceCount

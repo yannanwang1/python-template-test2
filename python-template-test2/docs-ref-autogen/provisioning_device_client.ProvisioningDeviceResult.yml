@@ -1,0 +1,260 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - provisioning_device_client.ProvisioningDeviceResult.DEV_AUTH_ERROR
+  - provisioning_device_client.ProvisioningDeviceResult.ERROR
+  - provisioning_device_client.ProvisioningDeviceResult.INVALID_ARG
+  - provisioning_device_client.ProvisioningDeviceResult.INVALID_STATE
+  - provisioning_device_client.ProvisioningDeviceResult.KEY_ERROR
+  - provisioning_device_client.ProvisioningDeviceResult.MEMORY
+  - provisioning_device_client.ProvisioningDeviceResult.OK
+  - provisioning_device_client.ProvisioningDeviceResult.PARSING
+  - provisioning_device_client.ProvisioningDeviceResult.SUCCESS
+  - provisioning_device_client.ProvisioningDeviceResult.TIMEOUT
+  - provisioning_device_client.ProvisioningDeviceResult.TRANSPORT
+  class: provisioning_device_client.ProvisioningDeviceResult
+  fullName: provisioning_device_client.ProvisioningDeviceResult
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ProvisioningDeviceResult
+  source:
+    id: ProvisioningDeviceResult
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 25
+  summary: 'An enumeration.
+
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: provisioning_device_client.ProvisioningDeviceResult
+- fullName: provisioning_device_client.ProvisioningDeviceResult.DEV_AUTH_ERROR
+  id: DEV_AUTH_ERROR
+  langs:
+  - python
+  module: provisioning_device_client
+  name: DEV_AUTH_ERROR
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: DEV_AUTH_ERROR = 7
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.DEV_AUTH_ERROR
+- fullName: provisioning_device_client.ProvisioningDeviceResult.ERROR
+  id: ERROR
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ERROR
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: ERROR = 10
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.ERROR
+- fullName: provisioning_device_client.ProvisioningDeviceResult.INVALID_ARG
+  id: INVALID_ARG
+  langs:
+  - python
+  module: provisioning_device_client
+  name: INVALID_ARG
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: INVALID_ARG = 1
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.INVALID_ARG
+- fullName: provisioning_device_client.ProvisioningDeviceResult.INVALID_STATE
+  id: INVALID_STATE
+  langs:
+  - python
+  module: provisioning_device_client
+  name: INVALID_STATE
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: INVALID_STATE = 6
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.INVALID_STATE
+- fullName: provisioning_device_client.ProvisioningDeviceResult.KEY_ERROR
+  id: KEY_ERROR
+  langs:
+  - python
+  module: provisioning_device_client
+  name: KEY_ERROR
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: KEY_ERROR = 9
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.KEY_ERROR
+- fullName: provisioning_device_client.ProvisioningDeviceResult.MEMORY
+  id: MEMORY
+  langs:
+  - python
+  module: provisioning_device_client
+  name: MEMORY
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: MEMORY = 3
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.MEMORY
+- fullName: provisioning_device_client.ProvisioningDeviceResult.OK
+  id: OK
+  langs:
+  - python
+  module: provisioning_device_client
+  name: OK
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: OK = 0
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.OK
+- fullName: provisioning_device_client.ProvisioningDeviceResult.PARSING
+  id: PARSING
+  langs:
+  - python
+  module: provisioning_device_client
+  name: PARSING
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: PARSING = 4
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.PARSING
+- fullName: provisioning_device_client.ProvisioningDeviceResult.SUCCESS
+  id: SUCCESS
+  langs:
+  - python
+  module: provisioning_device_client
+  name: SUCCESS
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: SUCCESS = 2
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.SUCCESS
+- fullName: provisioning_device_client.ProvisioningDeviceResult.TIMEOUT
+  id: TIMEOUT
+  langs:
+  - python
+  module: provisioning_device_client
+  name: TIMEOUT
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: TIMEOUT = 8
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.TIMEOUT
+- fullName: provisioning_device_client.ProvisioningDeviceResult.TRANSPORT
+  id: TRANSPORT
+  langs:
+  - python
+  module: provisioning_device_client
+  name: TRANSPORT
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  syntax:
+    content: TRANSPORT = 5
+    return:
+      type:
+      - provisioning_device_client.ProvisioningDeviceResult
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceResult.TRANSPORT
+references:
+- fullName: provisioning_device_client.ProvisioningDeviceResult.DEV_AUTH_ERROR
+  isExternal: false
+  name: DEV_AUTH_ERROR
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.DEV_AUTH_ERROR
+- fullName: provisioning_device_client.ProvisioningDeviceResult.ERROR
+  isExternal: false
+  name: ERROR
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.ERROR
+- fullName: provisioning_device_client.ProvisioningDeviceResult.INVALID_ARG
+  isExternal: false
+  name: INVALID_ARG
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.INVALID_ARG
+- fullName: provisioning_device_client.ProvisioningDeviceResult.INVALID_STATE
+  isExternal: false
+  name: INVALID_STATE
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.INVALID_STATE
+- fullName: provisioning_device_client.ProvisioningDeviceResult.KEY_ERROR
+  isExternal: false
+  name: KEY_ERROR
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.KEY_ERROR
+- fullName: provisioning_device_client.ProvisioningDeviceResult.MEMORY
+  isExternal: false
+  name: MEMORY
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.MEMORY
+- fullName: provisioning_device_client.ProvisioningDeviceResult.OK
+  isExternal: false
+  name: OK
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.OK
+- fullName: provisioning_device_client.ProvisioningDeviceResult.PARSING
+  isExternal: false
+  name: PARSING
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.PARSING
+- fullName: provisioning_device_client.ProvisioningDeviceResult.SUCCESS
+  isExternal: false
+  name: SUCCESS
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.SUCCESS
+- fullName: provisioning_device_client.ProvisioningDeviceResult.TIMEOUT
+  isExternal: false
+  name: TIMEOUT
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.TIMEOUT
+- fullName: provisioning_device_client.ProvisioningDeviceResult.TRANSPORT
+  isExternal: false
+  name: TRANSPORT
+  parent: provisioning_device_client.ProvisioningDeviceResult
+  uid: provisioning_device_client.ProvisioningDeviceResult.TRANSPORT

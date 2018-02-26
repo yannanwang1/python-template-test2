@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: iothub_client_python.GetRetryPolicyReturnValue
+  fullName: iothub_client_python.GetRetryPolicyReturnValue
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_client_python
+  name: GetRetryPolicyReturnValue
+  source:
+    id: GetRetryPolicyReturnValue
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 133
+  summary: 'Data structure to hold the return value of a IoTHubClient.get_retry_policy()
+    call.
+
+    '
+  syntax:
+    variables:
+    - description: 'The retry policy
+
+        '
+      id: retry_policy
+    - description: 'The retry timeout limit in seconds
+
+        '
+      id: retry_timeoutLimitInSeconds
+  type: class
+  uid: iothub_client_python.GetRetryPolicyReturnValue
+references: []

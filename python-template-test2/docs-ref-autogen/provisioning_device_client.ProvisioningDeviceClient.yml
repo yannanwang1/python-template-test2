@@ -1,0 +1,226 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - provisioning_device_client.ProvisioningDeviceClient.get_version_string
+  - provisioning_device_client.ProvisioningDeviceClient.protocol
+  - provisioning_device_client.ProvisioningDeviceClient.register_device
+  - provisioning_device_client.ProvisioningDeviceClient.set_option
+  class: provisioning_device_client.ProvisioningDeviceClient
+  fullName: provisioning_device_client.ProvisioningDeviceClient
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ProvisioningDeviceClient
+  source:
+    id: ProvisioningDeviceClient
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 78
+  summary: 'ProvisioningDeviceClient instance to use to provision a device to IoTHub.
+
+
+
+
+
+    '
+  syntax:
+    content: ProvisioningDeviceClient(uri, id_scope, security_device_type, protocol)
+  type: class
+  uid: provisioning_device_client.ProvisioningDeviceClient
+- class: provisioning_device_client.ProvisioningDeviceClient
+  fullName: provisioning_device_client.ProvisioningDeviceClient.get_version_string
+  langs:
+  - python
+  module: provisioning_device_client
+  name: get_version_string
+  source:
+    id: get_version_string
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 133
+  summary: 'Gets the version of the provisioning client.
+
+    '
+  syntax:
+    content: get_version_string()
+    parameters:
+    - id: self
+    return:
+      description: 'The version string
+
+        '
+      type:
+      - str
+  type: method
+  uid: provisioning_device_client.ProvisioningDeviceClient.get_version_string
+- class: provisioning_device_client.ProvisioningDeviceClient
+  fullName: provisioning_device_client.ProvisioningDeviceClient.protocol
+  langs:
+  - python
+  module: provisioning_device_client
+  name: protocol
+  source:
+    id: protocol
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Getter for the protocol attribute
+
+    '
+  syntax:
+    return:
+      description: 'The current protocol used for provisioning
+
+        '
+      type:
+      - ProvisioningTransportProvider(Enum)
+  type: attribute
+  uid: provisioning_device_client.ProvisioningDeviceClient.protocol
+- class: provisioning_device_client.ProvisioningDeviceClient
+  fullName: provisioning_device_client.ProvisioningDeviceClient.register_device
+  langs:
+  - python
+  module: provisioning_device_client
+  name: register_device
+  source:
+    id: register_device
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 105
+  summary: 'Registers the device on the IoTHub.
+
+    '
+  syntax:
+    content: register_device(register_callback, user_context, register_status_callback,
+      status_user_context)
+    parameters:
+    - description: 'The callback will be called when the registration completed
+
+        '
+      id: register_callback
+      type:
+      - Callable Python function
+    - description: 'The user context object used in the registerCallback
+
+        '
+      id: user_context
+      type:
+      - any
+    - description: 'The callback will be called when the registration status changed
+
+        '
+      id: register_status_callback
+      type:
+      - Callable Python function
+    - description: 'The user context object used in the registerStatusCallback
+
+        '
+      id: status_user_context
+      type:
+      - any
+    return:
+      description: 'ProvisioningDeviceResult instance signaling the result
+
+        '
+      type:
+      - ProvisioningDeviceResult(Enum)
+  type: method
+  uid: provisioning_device_client.ProvisioningDeviceClient.register_device
+- class: provisioning_device_client.ProvisioningDeviceClient
+  fullName: provisioning_device_client.ProvisioningDeviceClient.set_option
+  langs:
+  - python
+  module: provisioning_device_client
+  name: set_option
+  source:
+    id: set_option
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 122
+  summary: 'Sets the given option to the given value.
+
+    '
+  syntax:
+    content: set_option(option_name, option_value)
+    parameters:
+    - description: 'The name of the option
+
+        '
+      id: option_name
+      type:
+      - str
+    - description: 'The value to set
+
+        '
+      id: option_value
+      type:
+      - str
+  type: method
+  uid: provisioning_device_client.ProvisioningDeviceClient.set_option
+references:
+- fullName: provisioning_device_client.ProvisioningDeviceClient.get_version_string
+  isExternal: false
+  name: get_version_string
+  parent: provisioning_device_client.ProvisioningDeviceClient
+  uid: provisioning_device_client.ProvisioningDeviceClient.get_version_string
+- fullName: provisioning_device_client.ProvisioningDeviceClient.protocol
+  isExternal: false
+  name: protocol
+  parent: provisioning_device_client.ProvisioningDeviceClient
+  uid: provisioning_device_client.ProvisioningDeviceClient.protocol
+- fullName: provisioning_device_client.ProvisioningDeviceClient.register_device
+  isExternal: false
+  name: register_device
+  parent: provisioning_device_client.ProvisioningDeviceClient
+  uid: provisioning_device_client.ProvisioningDeviceClient.register_device
+- fullName: provisioning_device_client.ProvisioningDeviceClient.set_option
+  isExternal: false
+  name: set_option
+  parent: provisioning_device_client.ProvisioningDeviceClient
+  uid: provisioning_device_client.ProvisioningDeviceClient.set_option
+- fullName: ProvisioningTransportProvider(Enum)
+  name: ProvisioningTransportProvider(Enum)
+  spec.python:
+  - fullName: ProvisioningTransportProvider
+    name: ProvisioningTransportProvider
+    uid: ProvisioningTransportProvider
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: ProvisioningTransportProvider(Enum)
+- fullName: ProvisioningDeviceResult(Enum)
+  name: ProvisioningDeviceResult(Enum)
+  spec.python:
+  - fullName: ProvisioningDeviceResult
+    name: ProvisioningDeviceResult
+    uid: ProvisioningDeviceResult
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: ProvisioningDeviceResult(Enum)

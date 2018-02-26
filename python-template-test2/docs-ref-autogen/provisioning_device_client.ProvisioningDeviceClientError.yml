@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: provisioning_device_client.ProvisioningDeviceClientError
+  fullName: provisioning_device_client.ProvisioningDeviceClientError
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: provisioning_device_client.ProvisioningError
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ProvisioningDeviceClientError
+  source:
+    id: ProvisioningDeviceClientError
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 53
+  summary: 'ProvisioningDeviceClientError exception class, derived from ProvisioningError.
+
+    '
+  syntax: {}
+  type: class
+  uid: provisioning_device_client.ProvisioningDeviceClientError
+references: []

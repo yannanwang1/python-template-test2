@@ -1,0 +1,630 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubDevice.authMethod
+  - iothub_service_client_python.IoTHubDevice.cloudToDeviceMessageCount
+  - iothub_service_client_python.IoTHubDevice.configuration
+  - iothub_service_client_python.IoTHubDevice.connectionState
+  - iothub_service_client_python.IoTHubDevice.connectionStateUpdatedTime
+  - iothub_service_client_python.IoTHubDevice.deviceId
+  - iothub_service_client_python.IoTHubDevice.deviceProperties
+  - iothub_service_client_python.IoTHubDevice.eTag
+  - iothub_service_client_python.IoTHubDevice.generationId
+  - iothub_service_client_python.IoTHubDevice.isManaged
+  - iothub_service_client_python.IoTHubDevice.lastActivityTime
+  - iothub_service_client_python.IoTHubDevice.primaryKey
+  - iothub_service_client_python.IoTHubDevice.secondaryKey
+  - iothub_service_client_python.IoTHubDevice.serviceProperties
+  - iothub_service_client_python.IoTHubDevice.status
+  - iothub_service_client_python.IoTHubDevice.statusReason
+  - iothub_service_client_python.IoTHubDevice.statusUpdatedTime
+  class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubDevice
+  source:
+    id: IoTHubDevice
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 316
+  summary: 'IoTHubDevice instance holds device properties of an IoTHub device.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubDevice
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.authMethod
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: authMethod
+  source:
+    id: authMethod
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for authMethod
+
+    '
+  syntax:
+    return:
+      description: 'The value of the authMethod property
+
+        '
+      type:
+      - IoTHubRegistryManagerAuthMethod(Enum)
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.authMethod
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.cloudToDeviceMessageCount
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: cloudToDeviceMessageCount
+  source:
+    id: cloudToDeviceMessageCount
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for cloudToDeviceMessageCount
+
+    '
+  syntax:
+    return:
+      description: 'The value of the cloudToDeviceMessageCount property
+
+        '
+      type:
+      - int
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.cloudToDeviceMessageCount
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.configuration
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: configuration
+  source:
+    id: configuration
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for configuration
+
+    '
+  syntax:
+    return:
+      description: 'The value of the configuration property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.configuration
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.connectionState
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: connectionState
+  source:
+    id: connectionState
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for connectionState
+
+    '
+  syntax:
+    return:
+      description: 'The value of the connectionState property
+
+        '
+      type:
+      - IoTHubDeviceConnectionState(Enum)
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.connectionState
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.connectionStateUpdatedTime
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: connectionStateUpdatedTime
+  source:
+    id: connectionStateUpdatedTime
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for connectionStateUpdatedTime
+
+    '
+  syntax:
+    return:
+      description: 'The value of the connectionStateUpdatedTime property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.connectionStateUpdatedTime
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.deviceId
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: deviceId
+  source:
+    id: deviceId
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for deviceId (device name on IoTHub)
+
+    '
+  syntax:
+    return:
+      description: 'The value of the deviceId property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.deviceId
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.deviceProperties
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: deviceProperties
+  source:
+    id: deviceProperties
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for deviceProperties
+
+    '
+  syntax:
+    return:
+      description: 'The value of the deviceProperties property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.deviceProperties
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.eTag
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: eTag
+  source:
+    id: eTag
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for eTag
+
+    '
+  syntax:
+    return:
+      description: 'The value of the eTag property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.eTag
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.generationId
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: generationId
+  source:
+    id: generationId
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for generationId
+
+    '
+  syntax:
+    return:
+      description: 'The value of the generationId property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.generationId
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.isManaged
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: isManaged
+  source:
+    id: isManaged
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for isManaged
+
+    '
+  syntax:
+    return:
+      description: 'The value of the isManaged property
+
+        '
+      type:
+      - bool
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.isManaged
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.lastActivityTime
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: lastActivityTime
+  source:
+    id: lastActivityTime
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for lastActivityTime
+
+    '
+  syntax:
+    return:
+      description: 'The value of the lastActivityTime property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.lastActivityTime
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.primaryKey
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: primaryKey
+  source:
+    id: primaryKey
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for primaryKey
+
+    '
+  syntax:
+    return:
+      description: 'The value of the primaryKey property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.primaryKey
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.secondaryKey
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: secondaryKey
+  source:
+    id: secondaryKey
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for secondaryKey
+
+    '
+  syntax:
+    return:
+      description: 'The value of the secondaryKey property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.secondaryKey
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.serviceProperties
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: serviceProperties
+  source:
+    id: serviceProperties
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for serviceProperties
+
+    '
+  syntax:
+    return:
+      description: 'The value of the serviceProperties property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.serviceProperties
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.status
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: status
+  source:
+    id: status
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for status
+
+    '
+  syntax:
+    return:
+      description: 'The value of the status property
+
+        '
+      type:
+      - IoTHubDeviceStatus(Enum)
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.status
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.statusReason
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: statusReason
+  source:
+    id: statusReason
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for statusReason
+
+    '
+  syntax:
+    return:
+      description: 'The value of the statusReason property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.statusReason
+- class: iothub_service_client_python.IoTHubDevice
+  fullName: iothub_service_client_python.IoTHubDevice.statusUpdatedTime
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: statusUpdatedTime
+  source:
+    id: statusUpdatedTime
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for statusUpdatedTime
+
+    '
+  syntax:
+    return:
+      description: 'The value of the statusUpdatedTime property
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDevice.statusUpdatedTime
+references:
+- fullName: iothub_service_client_python.IoTHubDevice.authMethod
+  isExternal: false
+  name: authMethod
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.authMethod
+- fullName: iothub_service_client_python.IoTHubDevice.cloudToDeviceMessageCount
+  isExternal: false
+  name: cloudToDeviceMessageCount
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.cloudToDeviceMessageCount
+- fullName: iothub_service_client_python.IoTHubDevice.configuration
+  isExternal: false
+  name: configuration
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.configuration
+- fullName: iothub_service_client_python.IoTHubDevice.connectionState
+  isExternal: false
+  name: connectionState
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.connectionState
+- fullName: iothub_service_client_python.IoTHubDevice.connectionStateUpdatedTime
+  isExternal: false
+  name: connectionStateUpdatedTime
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.connectionStateUpdatedTime
+- fullName: iothub_service_client_python.IoTHubDevice.deviceId
+  isExternal: false
+  name: deviceId
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.deviceId
+- fullName: iothub_service_client_python.IoTHubDevice.deviceProperties
+  isExternal: false
+  name: deviceProperties
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.deviceProperties
+- fullName: iothub_service_client_python.IoTHubDevice.eTag
+  isExternal: false
+  name: eTag
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.eTag
+- fullName: iothub_service_client_python.IoTHubDevice.generationId
+  isExternal: false
+  name: generationId
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.generationId
+- fullName: iothub_service_client_python.IoTHubDevice.isManaged
+  isExternal: false
+  name: isManaged
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.isManaged
+- fullName: iothub_service_client_python.IoTHubDevice.lastActivityTime
+  isExternal: false
+  name: lastActivityTime
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.lastActivityTime
+- fullName: iothub_service_client_python.IoTHubDevice.primaryKey
+  isExternal: false
+  name: primaryKey
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.primaryKey
+- fullName: iothub_service_client_python.IoTHubDevice.secondaryKey
+  isExternal: false
+  name: secondaryKey
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.secondaryKey
+- fullName: iothub_service_client_python.IoTHubDevice.serviceProperties
+  isExternal: false
+  name: serviceProperties
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.serviceProperties
+- fullName: iothub_service_client_python.IoTHubDevice.status
+  isExternal: false
+  name: status
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.status
+- fullName: iothub_service_client_python.IoTHubDevice.statusReason
+  isExternal: false
+  name: statusReason
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.statusReason
+- fullName: iothub_service_client_python.IoTHubDevice.statusUpdatedTime
+  isExternal: false
+  name: statusUpdatedTime
+  parent: iothub_service_client_python.IoTHubDevice
+  uid: iothub_service_client_python.IoTHubDevice.statusUpdatedTime
+- fullName: IoTHubRegistryManagerAuthMethod(Enum)
+  name: IoTHubRegistryManagerAuthMethod(Enum)
+  spec.python:
+  - fullName: IoTHubRegistryManagerAuthMethod
+    name: IoTHubRegistryManagerAuthMethod
+    uid: IoTHubRegistryManagerAuthMethod
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubRegistryManagerAuthMethod(Enum)
+- fullName: IoTHubDeviceConnectionState(Enum)
+  name: IoTHubDeviceConnectionState(Enum)
+  spec.python:
+  - fullName: IoTHubDeviceConnectionState
+    name: IoTHubDeviceConnectionState
+    uid: IoTHubDeviceConnectionState
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubDeviceConnectionState(Enum)
+- fullName: IoTHubDeviceStatus(Enum)
+  name: IoTHubDeviceStatus(Enum)
+  spec.python:
+  - fullName: IoTHubDeviceStatus
+    name: IoTHubDeviceStatus
+    uid: IoTHubDeviceStatus
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubDeviceStatus(Enum)

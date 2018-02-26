@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_client_python.IoTHubClientFileUploadResult.ERROR
+  - iothub_client_python.IoTHubClientFileUploadResult.OK
+  class: iothub_client_python.IoTHubClientFileUploadResult
+  fullName: iothub_client_python.IoTHubClientFileUploadResult
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_client_python
+  name: IoTHubClientFileUploadResult
+  source:
+    id: IoTHubClientFileUploadResult
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 97
+  summary: 'An enumeration.
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_client_python.IoTHubClientFileUploadResult
+- fullName: iothub_client_python.IoTHubClientFileUploadResult.ERROR
+  id: ERROR
+  langs:
+  - python
+  module: iothub_client_python
+  name: ERROR
+  parent: iothub_client_python.IoTHubClientFileUploadResult
+  syntax:
+    content: ERROR = 1
+    return:
+      type:
+      - iothub_client_python.IoTHubClientFileUploadResult
+  type: attribute
+  uid: iothub_client_python.IoTHubClientFileUploadResult.ERROR
+- fullName: iothub_client_python.IoTHubClientFileUploadResult.OK
+  id: OK
+  langs:
+  - python
+  module: iothub_client_python
+  name: OK
+  parent: iothub_client_python.IoTHubClientFileUploadResult
+  syntax:
+    content: OK = 0
+    return:
+      type:
+      - iothub_client_python.IoTHubClientFileUploadResult
+  type: attribute
+  uid: iothub_client_python.IoTHubClientFileUploadResult.OK
+references:
+- fullName: iothub_client_python.IoTHubClientFileUploadResult.ERROR
+  isExternal: false
+  name: ERROR
+  parent: iothub_client_python.IoTHubClientFileUploadResult
+  uid: iothub_client_python.IoTHubClientFileUploadResult.ERROR
+- fullName: iothub_client_python.IoTHubClientFileUploadResult.OK
+  isExternal: false
+  name: OK
+  parent: iothub_client_python.IoTHubClientFileUploadResult
+  uid: iothub_client_python.IoTHubClientFileUploadResult.OK

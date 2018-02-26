@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: iothub_service_client_python.IoTHubError
+  fullName: iothub_service_client_python.IoTHubError
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubError
+  source:
+    id: IoTHubError
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 98
+  summary: 'Generic exception base class.
+
+    IoTHub errors derived from BaseException --> IoTHubError --> IoTHubXXXError
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubError
+references: []

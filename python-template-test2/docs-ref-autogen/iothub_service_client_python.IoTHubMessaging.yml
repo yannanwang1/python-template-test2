@@ -1,0 +1,190 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubMessaging.close
+  - iothub_service_client_python.IoTHubMessaging.open
+  - iothub_service_client_python.IoTHubMessaging.send_async
+  - iothub_service_client_python.IoTHubMessaging.set_feedback_message_callback
+  class: iothub_service_client_python.IoTHubMessaging
+  fullName: iothub_service_client_python.IoTHubMessaging
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubMessaging
+  source:
+    id: IoTHubMessaging
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 731
+  summary: 'IoTHubMessaging instance is used to send messages from IoTHub to devices.
+
+
+
+
+
+    '
+  syntax:
+    content: IoTHubMessaging(service_client_auth_handle)
+  type: class
+  uid: iothub_service_client_python.IoTHubMessaging
+- class: iothub_service_client_python.IoTHubMessaging
+  fullName: iothub_service_client_python.IoTHubMessaging.close
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: close
+  source:
+    id: close
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 761
+  summary: 'Closes the messaging channel.
+
+    :raises: IoTHubMessagingError if the close failed
+
+    '
+  syntax:
+    content: close()
+    parameters:
+    - id: self
+  type: method
+  uid: iothub_service_client_python.IoTHubMessaging.close
+- class: iothub_service_client_python.IoTHubMessaging
+  fullName: iothub_service_client_python.IoTHubMessaging.open
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: open
+  source:
+    id: open
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 750
+  summary: 'Opens the messaging channel to the IoTHub. Sets up the given callbacks.
+
+    '
+  syntax:
+    content: open(open_complete_Callback, user_context)
+    parameters:
+    - description: 'The callback will be called when the communication channel is
+        opened
+
+        '
+      id: open_complete_Callback
+      type:
+      - Callable Python function
+    - description: 'The user context object used in the open_complete_Callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_service_client_python.IoTHubMessaging.open
+- class: iothub_service_client_python.IoTHubMessaging
+  fullName: iothub_service_client_python.IoTHubMessaging.send_async
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: send_async
+  source:
+    id: send_async
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 767
+  syntax:
+    content: send_async(device_id, message, send_complete_callback, user_context)
+    parameters:
+    - description: 'The device name (id) to send the message to
+
+        '
+      id: device_id
+      type:
+      - str
+    - description: 'The IoTHubMessage instance to send
+
+        '
+      id: message
+      type:
+      - IoTHubMessage
+    - description: 'The callback will be called if send operation completed
+
+        '
+      id: send_complete_callback
+      type:
+      - Callable Python function
+    - description: 'The user context object used in the sendCompleteCallback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_service_client_python.IoTHubMessaging.send_async
+- class: iothub_service_client_python.IoTHubMessaging
+  fullName: iothub_service_client_python.IoTHubMessaging.set_feedback_message_callback
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: set_feedback_message_callback
+  source:
+    id: set_feedback_message_callback
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 782
+  syntax:
+    content: set_feedback_message_callback(feedback_message_received_callback, user_context)
+    parameters:
+    - description: 'The callback will be called if feedback was received
+
+        '
+      id: feedback_message_received_callback
+      type:
+      - Callable Python function
+    - description: 'The user context object used in the feedback_message_received_callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_service_client_python.IoTHubMessaging.set_feedback_message_callback
+references:
+- fullName: iothub_service_client_python.IoTHubMessaging.close
+  isExternal: false
+  name: close
+  parent: iothub_service_client_python.IoTHubMessaging
+  uid: iothub_service_client_python.IoTHubMessaging.close
+- fullName: iothub_service_client_python.IoTHubMessaging.open
+  isExternal: false
+  name: open
+  parent: iothub_service_client_python.IoTHubMessaging
+  uid: iothub_service_client_python.IoTHubMessaging.open
+- fullName: iothub_service_client_python.IoTHubMessaging.send_async
+  isExternal: false
+  name: send_async
+  parent: iothub_service_client_python.IoTHubMessaging
+  uid: iothub_service_client_python.IoTHubMessaging.send_async
+- fullName: iothub_service_client_python.IoTHubMessaging.set_feedback_message_callback
+  isExternal: false
+  name: set_feedback_message_callback
+  parent: iothub_service_client_python.IoTHubMessaging
+  uid: iothub_service_client_python.IoTHubMessaging.set_feedback_message_callback

@@ -1,0 +1,946 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_client_python.IoTHubClient.device_method_response
+  - iothub_client_python.IoTHubClient.get_last_message_receive_time
+  - iothub_client_python.IoTHubClient.get_retry_policy
+  - iothub_client_python.IoTHubClient.get_send_status
+  - iothub_client_python.IoTHubClient.protocol
+  - iothub_client_python.IoTHubClient.send_event_async
+  - iothub_client_python.IoTHubClient.send_reported_state
+  - iothub_client_python.IoTHubClient.set_connection_status_callback
+  - iothub_client_python.IoTHubClient.set_device_method_callback
+  - iothub_client_python.IoTHubClient.set_device_method_callback_ex
+  - iothub_client_python.IoTHubClient.set_device_twin_callback
+  - iothub_client_python.IoTHubClient.set_message_callback
+  - iothub_client_python.IoTHubClient.set_option
+  - iothub_client_python.IoTHubClient.set_retry_policy
+  - iothub_client_python.IoTHubClient.upload_blob_async
+  class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_client_python
+  name: IoTHubClient
+  source:
+    id: IoTHubClient
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 431
+  summary: 'IoTHubClient instance is used to connect a device with an Azure IoTHub.
+
+    Users of the SDK should create an instance of this class using one of the
+
+    constructors provided and call member functions to communicate with IoTHub.
+
+    Note that all parameters used to create this instance
+
+    are saved as instance attributes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: IoTHubClient(iothub_uri, device_id, security_type, protocol)
+  type: class
+  uid: iothub_client_python.IoTHubClient
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.device_method_response
+  langs:
+  - python
+  module: iothub_client_python
+  name: device_method_response
+  source:
+    id: device_method_response
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 598
+  summary: 'Sends the response for cloud to device async method call.
+
+    '
+  syntax:
+    content: device_method_response(method_id, response, size, status_code)
+    parameters:
+    - description: 'Identification of the async method called by IoTHub
+
+        '
+      id: method_id
+      type:
+      - any
+    - description: 'Payload of the response
+
+        '
+      id: response
+      type:
+      - str
+    - description: 'Length of the response (len(str))
+
+        '
+      id: size
+      type:
+      - int
+    - description: 'Status code reported to IoTHub
+
+        '
+      id: status_code
+      type:
+      - int
+  type: method
+  uid: iothub_client_python.IoTHubClient.device_method_response
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.get_last_message_receive_time
+  langs:
+  - python
+  module: iothub_client_python
+  name: get_last_message_receive_time
+  source:
+    id: get_last_message_receive_time
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 680
+  summary: 'Returns the timestamp of the last message was received at the client.
+
+    '
+  syntax:
+    content: get_last_message_receive_time()
+    parameters:
+    - id: self
+    return:
+      description: 'Timestamp of the last message received
+
+        '
+      type:
+      - long
+  type: method
+  uid: iothub_client_python.IoTHubClient.get_last_message_receive_time
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.get_retry_policy
+  langs:
+  - python
+  module: iothub_client_python
+  name: get_retry_policy
+  source:
+    id: get_retry_policy
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 543
+  summary: 'Gets the retry policy has been used to reconnect to IoT Hub when a connection
+    drops.
+
+    '
+  syntax:
+    content: get_retry_policy()
+    parameters:
+    - id: self
+    return:
+      description: 'The policy and timout limit to use to reconnect to IoT Hub when
+        a connection drops
+
+        '
+      type:
+      - GetRetryPolicyReturnValue class
+  type: method
+  uid: iothub_client_python.IoTHubClient.get_retry_policy
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.get_send_status
+  langs:
+  - python
+  module: iothub_client_python
+  name: get_send_status
+  source:
+    id: get_send_status
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 671
+  summary: 'Returns the current sending status of the IoTHub device client.
+
+    '
+  syntax:
+    content: get_send_status()
+    parameters:
+    - id: self
+    return:
+      description: 'IoTHubClientStatus instance
+
+        '
+      type:
+      - IoTHubClientStatus(Enum)
+  type: method
+  uid: iothub_client_python.IoTHubClient.get_send_status
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.protocol
+  langs:
+  - python
+  module: iothub_client_python
+  name: protocol
+  source:
+    id: protocol
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Getter for protocol attribute
+
+    '
+  syntax:
+    return:
+      description: 'Transport protocol used by this class
+
+        '
+      type:
+      - IoTHubTransportProvider(Enum)
+  type: attribute
+  uid: iothub_client_python.IoTHubClient.protocol
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.send_event_async
+  langs:
+  - python
+  module: iothub_client_python
+  name: send_event_async
+  source:
+    id: send_event_async
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 497
+  summary: 'Asynchronous call to send the message to IoTHub.
+
+    '
+  syntax:
+    content: send_event_async(message, message_callback, user_context)
+    parameters:
+    - description: 'IoTHubMessage
+
+        '
+      id: message
+      type:
+      - IoTHubMessage class
+    - description: 'Callable Python function
+
+        '
+      id: message_callback
+      type:
+      - f(IoTHubMessage, IoTHubMessageResult, any)
+    - description: 'User specified context that will be provided to the callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_client_python.IoTHubClient.send_event_async
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.send_reported_state
+  langs:
+  - python
+  module: iothub_client_python
+  name: send_reported_state
+  source:
+    id: send_reported_state
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 563
+  summary: 'Sends a report of the device''s properties and their current values to
+    IoTHub.
+
+    '
+  syntax:
+    content: send_reported_state(reported_state, size, reported_state_callback, user_context)
+    parameters:
+    - description: 'JSon string containing the device current state
+
+        '
+      id: reported_state
+      type:
+      - str
+    - description: 'Length of the JSon string (len(str))
+
+        '
+      id: size
+      type:
+      - int
+    - description: 'Callable Python function
+
+        '
+      id: reported_state_callback
+      type:
+      - f(int, any)
+    - description: 'User specified context that will be provided to the callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_client_python.IoTHubClient.send_reported_state
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.set_connection_status_callback
+  langs:
+  - python
+  module: iothub_client_python
+  name: set_connection_status_callback
+  source:
+    id: set_connection_status_callback
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 521
+  summary: 'Sets up a callback function to be invoked representing the status of the
+    connection to IOTHub.
+
+    '
+  syntax:
+    content: set_connection_status_callback(connection_status_callback, user_context)
+    parameters:
+    - description: 'Callable Python function
+
+        '
+      id: connection_status_callback
+      type:
+      - f(IoTHubConnectionStatus, IoTHubClientConnectionStatusReason, any)
+    - description: 'User specified context that will be provided to the callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_client_python.IoTHubClient.set_connection_status_callback
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.set_device_method_callback
+  langs:
+  - python
+  module: iothub_client_python
+  name: set_device_method_callback
+  source:
+    id: set_device_method_callback
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 578
+  summary: 'Sets up a callback function for cloud to device method call.
+
+    '
+  syntax:
+    content: set_device_method_callback(device_method_callback, user_context)
+    parameters:
+    - description: 'Callable Python function
+
+        '
+      id: device_method_callback
+      type:
+      - f(str, str, int, any, int, any)
+    - description: 'User specified context that will be provided to the callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_client_python.IoTHubClient.set_device_method_callback
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.set_device_method_callback_ex
+  langs:
+  - python
+  module: iothub_client_python
+  name: set_device_method_callback_ex
+  source:
+    id: set_device_method_callback_ex
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 589
+  summary: 'Sets up a callback function for cloud to device async method call.
+
+    '
+  syntax:
+    content: set_device_method_callback_ex(inbound_device_method_callback)
+    parameters:
+    - description: 'Callable Python function
+
+        '
+      id: inbound_device_method_callback
+      type:
+      - f(str, str, int, any, any)
+  type: method
+  uid: iothub_client_python.IoTHubClient.set_device_method_callback_ex
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.set_device_twin_callback
+  langs:
+  - python
+  module: iothub_client_python
+  name: set_device_twin_callback
+  source:
+    id: set_device_twin_callback
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 552
+  summary: 'Sets up a callback function to be invoked when the device client receives
+    a twin state update.
+
+    '
+  syntax:
+    content: set_device_twin_callback(device_twin_callback, user_context)
+    parameters:
+    - description: 'Callable Python function
+
+        '
+      id: device_twin_callback
+      type:
+      - f(IoTHubTwinUpdateState, any, any)
+    - description: 'User specified context that will be provided to the callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_client_python.IoTHubClient.set_device_twin_callback
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.set_message_callback
+  langs:
+  - python
+  module: iothub_client_python
+  name: set_message_callback
+  source:
+    id: set_message_callback
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 510
+  summary: 'Sets up a callback function to be invoked when the device client received
+    a message from IoTHub.
+
+    '
+  syntax:
+    content: set_message_callback(message_callback, user_context)
+    parameters:
+    - description: 'Callable Python function
+
+        '
+      id: message_callback
+      type:
+      - f(IoTHubMessage, any)
+    - description: 'User specified context that will be provided to the callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_client_python.IoTHubClient.set_message_callback
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.set_option
+  langs:
+  - python
+  module: iothub_client_python
+  name: set_option
+  source:
+    id: set_option
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 613
+  summary: "Sets the given runtime configuration option.\nThe options that can be\
+    \ set via this API are:\n\n\n   * name: timeout \n\n   * value: long The maximum\
+    \ time in milliseconds a communication is allowed to use. This is only supported\
+    \ for the HTTP protocol as of now. When the HTTP protocol uses CURL, the meaning\
+    \ of the parameter is \"total request time\". When the HTTP protocol uses winhttp,\
+    \ the meaning is the same as the dwSendTimeout and dwReceiveTimeout parameters\
+    \ of the \"[https://msdn.microsoft.com/en-us/library/windows/desktop/aa384116(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384116(v=vs.85).aspx)\"\
+    \ WinHttpSetTimeouts API. \n\n   * name: CURLOPT_LOW_SPEED_LIMIT \n\n   * value:\
+    \ long Only available for HTTP protocol and only when CURL is used. It has the\
+    \ same meaning as CURL's option with the same name. \n\n   * name: CURLOPT_LOW_SPEED_TIME\
+    \ \n\n   * value: long Only available for HTTP protocol and only. when CURL is\
+    \ used. It has the same meaning as CURL's option with the same name. \n\n   *\
+    \ name: CURLOPT_FORBID_REUSE \n\n   * value: long Only available for HTTP protocol\
+    \ and only when CURL is used. It has the same meaning as CURL's option with the\
+    \ same name. \n\n   * name: CURLOPT_FRESH_CONNECT \n\n   * value: long Only available\
+    \ for HTTP protocol and only when CURL is used. It has the same meaning as CURL's\
+    \ option with the same name. \n\n   * name: CURLOPT_VERBOSE \n\n   * value: long\
+    \ Only available for HTTP protocol and only when CURL is used. It has the same\
+    \ meaning as CURL's option with the same name. \n\n   * name: messageTimeout \n\
+    \n   * value: long The maximum time in milliseconds until a message is timeouted.\
+    \ The time starts at IoTHubClient_SendEventAsync. By default, messages do not\
+    \ expire. \n\n   * name: c2d_keep_alive_freq_secs \n\n   * value: long The AMQP\
+    \ C2D keep alive interval in seconds. After the connection established the client\
+    \ requests the server to set the keep alive interval for given time. If it is\
+    \ not set then the default 240 sec applies. If it is set to zero the server will\
+    \ not send keep alive messages to the client. \n"
+  syntax:
+    content: set_option(option_name, option)
+    parameters:
+    - description: 'Name of the option to set
+
+        '
+      id: option_name
+      type:
+      - str
+    - description: 'Value of the option to set
+
+        '
+      id: option
+      type:
+      - any
+  type: method
+  uid: iothub_client_python.IoTHubClient.set_option
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.set_retry_policy
+  langs:
+  - python
+  module: iothub_client_python
+  name: set_retry_policy
+  source:
+    id: set_retry_policy
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 532
+  summary: 'Sets the retry policy to use to reconnect to IoT Hub when a connection
+    drops.
+
+    '
+  syntax:
+    content: set_retry_policy(retry_policy, retry_timeout_limit_in_seconds)
+    parameters:
+    - description: 'The policy to use to reconnect to IoT Hub when a connection drops
+
+        '
+      id: retry_policy
+      type:
+      - IoTHubClientRetryPolicy(Enum)
+    - description: 'Maximum amount of time(seconds) to attempt reconnection
+
+        '
+      id: retry_timeout_limit_in_seconds
+      type:
+      - int
+  type: method
+  uid: iothub_client_python.IoTHubClient.set_retry_policy
+- class: iothub_client_python.IoTHubClient
+  fullName: iothub_client_python.IoTHubClient.upload_blob_async
+  langs:
+  - python
+  module: iothub_client_python
+  name: upload_blob_async
+  source:
+    id: upload_blob_async
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 688
+  summary: 'Uploads data from memory to a file in Azure Blob Storage.
+
+    '
+  syntax:
+    content: upload_blob_async(destination_file_name, source, size, file_upload_callback,
+      user_context)
+    parameters:
+    - description: 'The name of the file to be created in Azure Blob Storage
+
+        '
+      id: destination_file_name
+      type:
+      - str
+    - description: 'The source of the data
+
+        '
+      id: source
+      type:
+      - str
+    - description: 'The length of the data
+
+        '
+      id: size
+      type:
+      - int
+    - description: 'The callback to be invoked when the file upload operation has
+        finished
+
+        '
+      id: file_upload_callback
+      type:
+      - f(IoTHubClientFileUploadResult, any)
+    - description: 'User specified context that will be provided to the callback
+
+        '
+      id: user_context
+      type:
+      - any
+  type: method
+  uid: iothub_client_python.IoTHubClient.upload_blob_async
+references:
+- fullName: iothub_client_python.IoTHubClient.device_method_response
+  isExternal: false
+  name: device_method_response
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.device_method_response
+- fullName: iothub_client_python.IoTHubClient.get_last_message_receive_time
+  isExternal: false
+  name: get_last_message_receive_time
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.get_last_message_receive_time
+- fullName: iothub_client_python.IoTHubClient.get_retry_policy
+  isExternal: false
+  name: get_retry_policy
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.get_retry_policy
+- fullName: iothub_client_python.IoTHubClient.get_send_status
+  isExternal: false
+  name: get_send_status
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.get_send_status
+- fullName: iothub_client_python.IoTHubClient.protocol
+  isExternal: false
+  name: protocol
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.protocol
+- fullName: iothub_client_python.IoTHubClient.send_event_async
+  isExternal: false
+  name: send_event_async
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.send_event_async
+- fullName: iothub_client_python.IoTHubClient.send_reported_state
+  isExternal: false
+  name: send_reported_state
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.send_reported_state
+- fullName: iothub_client_python.IoTHubClient.set_connection_status_callback
+  isExternal: false
+  name: set_connection_status_callback
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.set_connection_status_callback
+- fullName: iothub_client_python.IoTHubClient.set_device_method_callback
+  isExternal: false
+  name: set_device_method_callback
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.set_device_method_callback
+- fullName: iothub_client_python.IoTHubClient.set_device_method_callback_ex
+  isExternal: false
+  name: set_device_method_callback_ex
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.set_device_method_callback_ex
+- fullName: iothub_client_python.IoTHubClient.set_device_twin_callback
+  isExternal: false
+  name: set_device_twin_callback
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.set_device_twin_callback
+- fullName: iothub_client_python.IoTHubClient.set_message_callback
+  isExternal: false
+  name: set_message_callback
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.set_message_callback
+- fullName: iothub_client_python.IoTHubClient.set_option
+  isExternal: false
+  name: set_option
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.set_option
+- fullName: iothub_client_python.IoTHubClient.set_retry_policy
+  isExternal: false
+  name: set_retry_policy
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.set_retry_policy
+- fullName: iothub_client_python.IoTHubClient.upload_blob_async
+  isExternal: false
+  name: upload_blob_async
+  parent: iothub_client_python.IoTHubClient
+  uid: iothub_client_python.IoTHubClient.upload_blob_async
+- fullName: IoTHubClientStatus(Enum)
+  name: IoTHubClientStatus(Enum)
+  spec.python:
+  - fullName: IoTHubClientStatus
+    name: IoTHubClientStatus
+    uid: IoTHubClientStatus
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubClientStatus(Enum)
+- fullName: IoTHubTransportProvider(Enum)
+  name: IoTHubTransportProvider(Enum)
+  spec.python:
+  - fullName: IoTHubTransportProvider
+    name: IoTHubTransportProvider
+    uid: IoTHubTransportProvider
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubTransportProvider(Enum)
+- fullName: f(IoTHubMessage, IoTHubMessageResult, any)
+  name: f(IoTHubMessage, IoTHubMessageResult, any)
+  spec.python:
+  - fullName: f
+    name: f
+    uid: f
+  - fullName: (
+    name: (
+  - fullName: IoTHubMessage
+    name: IoTHubMessage
+    uid: IoTHubMessage
+  - fullName: ', '
+    name: ', '
+  - fullName: IoTHubMessageResult
+    name: IoTHubMessageResult
+    uid: IoTHubMessageResult
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: )
+    name: )
+  uid: f(IoTHubMessage, IoTHubMessageResult, any)
+- fullName: f(int, any)
+  name: f(int, any)
+  spec.python:
+  - fullName: f
+    name: f
+    uid: f
+  - fullName: (
+    name: (
+  - fullName: int
+    name: int
+    uid: int
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: )
+    name: )
+  uid: f(int, any)
+- fullName: f(IoTHubConnectionStatus, IoTHubClientConnectionStatusReason, any)
+  name: f(IoTHubConnectionStatus, IoTHubClientConnectionStatusReason, any)
+  spec.python:
+  - fullName: f
+    name: f
+    uid: f
+  - fullName: (
+    name: (
+  - fullName: IoTHubConnectionStatus
+    name: IoTHubConnectionStatus
+    uid: IoTHubConnectionStatus
+  - fullName: ', '
+    name: ', '
+  - fullName: IoTHubClientConnectionStatusReason
+    name: IoTHubClientConnectionStatusReason
+    uid: IoTHubClientConnectionStatusReason
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: )
+    name: )
+  uid: f(IoTHubConnectionStatus, IoTHubClientConnectionStatusReason, any)
+- fullName: f(str, str, int, any, int, any)
+  name: f(str, str, int, any, int, any)
+  spec.python:
+  - fullName: f
+    name: f
+    uid: f
+  - fullName: (
+    name: (
+  - fullName: str
+    name: str
+    uid: str
+  - fullName: ', '
+    name: ', '
+  - fullName: str
+    name: str
+    uid: str
+  - fullName: ', '
+    name: ', '
+  - fullName: int
+    name: int
+    uid: int
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: ', '
+    name: ', '
+  - fullName: int
+    name: int
+    uid: int
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: )
+    name: )
+  uid: f(str, str, int, any, int, any)
+- fullName: f(str, str, int, any, any)
+  name: f(str, str, int, any, any)
+  spec.python:
+  - fullName: f
+    name: f
+    uid: f
+  - fullName: (
+    name: (
+  - fullName: str
+    name: str
+    uid: str
+  - fullName: ', '
+    name: ', '
+  - fullName: str
+    name: str
+    uid: str
+  - fullName: ', '
+    name: ', '
+  - fullName: int
+    name: int
+    uid: int
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: )
+    name: )
+  uid: f(str, str, int, any, any)
+- fullName: f(IoTHubTwinUpdateState, any, any)
+  name: f(IoTHubTwinUpdateState, any, any)
+  spec.python:
+  - fullName: f
+    name: f
+    uid: f
+  - fullName: (
+    name: (
+  - fullName: IoTHubTwinUpdateState
+    name: IoTHubTwinUpdateState
+    uid: IoTHubTwinUpdateState
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: )
+    name: )
+  uid: f(IoTHubTwinUpdateState, any, any)
+- fullName: f(IoTHubMessage, any)
+  name: f(IoTHubMessage, any)
+  spec.python:
+  - fullName: f
+    name: f
+    uid: f
+  - fullName: (
+    name: (
+  - fullName: IoTHubMessage
+    name: IoTHubMessage
+    uid: IoTHubMessage
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: )
+    name: )
+  uid: f(IoTHubMessage, any)
+- fullName: IoTHubClientRetryPolicy(Enum)
+  name: IoTHubClientRetryPolicy(Enum)
+  spec.python:
+  - fullName: IoTHubClientRetryPolicy
+    name: IoTHubClientRetryPolicy
+    uid: IoTHubClientRetryPolicy
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubClientRetryPolicy(Enum)
+- fullName: f(IoTHubClientFileUploadResult, any)
+  name: f(IoTHubClientFileUploadResult, any)
+  spec.python:
+  - fullName: f
+    name: f
+    uid: f
+  - fullName: (
+    name: (
+  - fullName: IoTHubClientFileUploadResult
+    name: IoTHubClientFileUploadResult
+    uid: IoTHubClientFileUploadResult
+  - fullName: ', '
+    name: ', '
+  - fullName: any
+    name: any
+    uid: any
+  - fullName: )
+    name: )
+  uid: f(IoTHubClientFileUploadResult, any)

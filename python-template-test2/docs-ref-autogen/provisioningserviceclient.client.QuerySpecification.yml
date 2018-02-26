@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: provisioningserviceclient.client.QuerySpecification
+  fullName: provisioningserviceclient.client.QuerySpecification
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: msrest.serialization.Model
+    type: provisioningserviceclient.serviceswagger.models.query_specification.QuerySpecification
+  langs:
+  - python
+  module: provisioningserviceclient.client
+  name: QuerySpecification
+  source:
+    id: QuerySpecification
+    path: G:WorkFiles\TestSphinx\python\provisioningserviceclient\client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioningserviceclient\client.py
+      repo: null
+    startLine: 501
+  summary: 'Contains details of a query to be made to the Provisioning Service
+
+    :param str query: The query details
+
+    '
+  syntax:
+    content: QuerySpecification(query)
+  type: class
+  uid: provisioningserviceclient.client.QuerySpecification
+references: []

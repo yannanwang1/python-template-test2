@@ -1,0 +1,176 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF
+  - iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER
+  - iothub_client_python.IoTHubClientRetryPolicy.RETRY_IMMEDIATE
+  - iothub_client_python.IoTHubClientRetryPolicy.RETRY_INTERVAL
+  - iothub_client_python.IoTHubClientRetryPolicy.RETRY_LINEAR_BACKOFF
+  - iothub_client_python.IoTHubClientRetryPolicy.RETRY_NONE
+  - iothub_client_python.IoTHubClientRetryPolicy.RETRY_RANDOM
+  class: iothub_client_python.IoTHubClientRetryPolicy
+  fullName: iothub_client_python.IoTHubClientRetryPolicy
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_client_python
+  name: IoTHubClientRetryPolicy
+  source:
+    id: IoTHubClientRetryPolicy
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 74
+  summary: 'An enumeration.
+
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_client_python.IoTHubClientRetryPolicy
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF
+  id: RETRY_EXPONENTIAL_BACKOFF
+  langs:
+  - python
+  module: iothub_client_python
+  name: RETRY_EXPONENTIAL_BACKOFF
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  syntax:
+    content: RETRY_EXPONENTIAL_BACKOFF = 4
+    return:
+      type:
+      - iothub_client_python.IoTHubClientRetryPolicy
+  type: attribute
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER
+  id: RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER
+  langs:
+  - python
+  module: iothub_client_python
+  name: RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  syntax:
+    content: RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER = 5
+    return:
+      type:
+      - iothub_client_python.IoTHubClientRetryPolicy
+  type: attribute
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_IMMEDIATE
+  id: RETRY_IMMEDIATE
+  langs:
+  - python
+  module: iothub_client_python
+  name: RETRY_IMMEDIATE
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  syntax:
+    content: RETRY_IMMEDIATE = 1
+    return:
+      type:
+      - iothub_client_python.IoTHubClientRetryPolicy
+  type: attribute
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_IMMEDIATE
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_INTERVAL
+  id: RETRY_INTERVAL
+  langs:
+  - python
+  module: iothub_client_python
+  name: RETRY_INTERVAL
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  syntax:
+    content: RETRY_INTERVAL = 2
+    return:
+      type:
+      - iothub_client_python.IoTHubClientRetryPolicy
+  type: attribute
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_INTERVAL
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_LINEAR_BACKOFF
+  id: RETRY_LINEAR_BACKOFF
+  langs:
+  - python
+  module: iothub_client_python
+  name: RETRY_LINEAR_BACKOFF
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  syntax:
+    content: RETRY_LINEAR_BACKOFF = 3
+    return:
+      type:
+      - iothub_client_python.IoTHubClientRetryPolicy
+  type: attribute
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_LINEAR_BACKOFF
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_NONE
+  id: RETRY_NONE
+  langs:
+  - python
+  module: iothub_client_python
+  name: RETRY_NONE
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  syntax:
+    content: RETRY_NONE = 0
+    return:
+      type:
+      - iothub_client_python.IoTHubClientRetryPolicy
+  type: attribute
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_NONE
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_RANDOM
+  id: RETRY_RANDOM
+  langs:
+  - python
+  module: iothub_client_python
+  name: RETRY_RANDOM
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  syntax:
+    content: RETRY_RANDOM = 6
+    return:
+      type:
+      - iothub_client_python.IoTHubClientRetryPolicy
+  type: attribute
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_RANDOM
+references:
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF
+  isExternal: false
+  name: RETRY_EXPONENTIAL_BACKOFF
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER
+  isExternal: false
+  name: RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_EXPONENTIAL_BACKOFF_WITH_JITTER
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_IMMEDIATE
+  isExternal: false
+  name: RETRY_IMMEDIATE
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_IMMEDIATE
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_INTERVAL
+  isExternal: false
+  name: RETRY_INTERVAL
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_INTERVAL
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_LINEAR_BACKOFF
+  isExternal: false
+  name: RETRY_LINEAR_BACKOFF
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_LINEAR_BACKOFF
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_NONE
+  isExternal: false
+  name: RETRY_NONE
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_NONE
+- fullName: iothub_client_python.IoTHubClientRetryPolicy.RETRY_RANDOM
+  isExternal: false
+  name: RETRY_RANDOM
+  parent: iothub_client_python.IoTHubClientRetryPolicy
+  uid: iothub_client_python.IoTHubClientRetryPolicy.RETRY_RANDOM

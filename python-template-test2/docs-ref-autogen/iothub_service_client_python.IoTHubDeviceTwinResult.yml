@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubDeviceTwinResult.ERROR
+  - iothub_service_client_python.IoTHubDeviceTwinResult.HTTPAPI_ERROR
+  - iothub_service_client_python.IoTHubDeviceTwinResult.INVALID_ARG
+  - iothub_service_client_python.IoTHubDeviceTwinResult.OK
+  class: iothub_service_client_python.IoTHubDeviceTwinResult
+  fullName: iothub_service_client_python.IoTHubDeviceTwinResult
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubDeviceTwinResult
+  source:
+    id: IoTHubDeviceTwinResult
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 91
+  summary: 'An enumeration.
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult
+- fullName: iothub_service_client_python.IoTHubDeviceTwinResult.ERROR
+  id: ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubDeviceTwinResult
+  syntax:
+    content: ERROR = 2
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceTwinResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult.ERROR
+- fullName: iothub_service_client_python.IoTHubDeviceTwinResult.HTTPAPI_ERROR
+  id: HTTPAPI_ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: HTTPAPI_ERROR
+  parent: iothub_service_client_python.IoTHubDeviceTwinResult
+  syntax:
+    content: HTTPAPI_ERROR = 3
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceTwinResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult.HTTPAPI_ERROR
+- fullName: iothub_service_client_python.IoTHubDeviceTwinResult.INVALID_ARG
+  id: INVALID_ARG
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: INVALID_ARG
+  parent: iothub_service_client_python.IoTHubDeviceTwinResult
+  syntax:
+    content: INVALID_ARG = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceTwinResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult.INVALID_ARG
+- fullName: iothub_service_client_python.IoTHubDeviceTwinResult.OK
+  id: OK
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: OK
+  parent: iothub_service_client_python.IoTHubDeviceTwinResult
+  syntax:
+    content: OK = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceTwinResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult.OK
+references:
+- fullName: iothub_service_client_python.IoTHubDeviceTwinResult.ERROR
+  isExternal: false
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubDeviceTwinResult
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult.ERROR
+- fullName: iothub_service_client_python.IoTHubDeviceTwinResult.HTTPAPI_ERROR
+  isExternal: false
+  name: HTTPAPI_ERROR
+  parent: iothub_service_client_python.IoTHubDeviceTwinResult
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult.HTTPAPI_ERROR
+- fullName: iothub_service_client_python.IoTHubDeviceTwinResult.INVALID_ARG
+  isExternal: false
+  name: INVALID_ARG
+  parent: iothub_service_client_python.IoTHubDeviceTwinResult
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult.INVALID_ARG
+- fullName: iothub_service_client_python.IoTHubDeviceTwinResult.OK
+  isExternal: false
+  name: OK
+  parent: iothub_service_client_python.IoTHubDeviceTwinResult
+  uid: iothub_service_client_python.IoTHubDeviceTwinResult.OK

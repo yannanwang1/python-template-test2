@@ -1,0 +1,134 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - provisioning_device_client.ProvisioningTransportProvider.AMQP
+  - provisioning_device_client.ProvisioningTransportProvider.AMQP_WS
+  - provisioning_device_client.ProvisioningTransportProvider.HTTP
+  - provisioning_device_client.ProvisioningTransportProvider.MQTT
+  - provisioning_device_client.ProvisioningTransportProvider.MQTT_WS
+  class: provisioning_device_client.ProvisioningTransportProvider
+  fullName: provisioning_device_client.ProvisioningTransportProvider
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: provisioning_device_client
+  name: ProvisioningTransportProvider
+  source:
+    id: ProvisioningTransportProvider
+    path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\provisioning_device_client.py
+      repo: null
+    startLine: 39
+  summary: 'An enumeration.
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: provisioning_device_client.ProvisioningTransportProvider
+- fullName: provisioning_device_client.ProvisioningTransportProvider.AMQP
+  id: AMQP
+  langs:
+  - python
+  module: provisioning_device_client
+  name: AMQP
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  syntax:
+    content: AMQP = 1
+    return:
+      type:
+      - provisioning_device_client.ProvisioningTransportProvider
+  type: attribute
+  uid: provisioning_device_client.ProvisioningTransportProvider.AMQP
+- fullName: provisioning_device_client.ProvisioningTransportProvider.AMQP_WS
+  id: AMQP_WS
+  langs:
+  - python
+  module: provisioning_device_client
+  name: AMQP_WS
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  syntax:
+    content: AMQP_WS = 3
+    return:
+      type:
+      - provisioning_device_client.ProvisioningTransportProvider
+  type: attribute
+  uid: provisioning_device_client.ProvisioningTransportProvider.AMQP_WS
+- fullName: provisioning_device_client.ProvisioningTransportProvider.HTTP
+  id: HTTP
+  langs:
+  - python
+  module: provisioning_device_client
+  name: HTTP
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  syntax:
+    content: HTTP = 0
+    return:
+      type:
+      - provisioning_device_client.ProvisioningTransportProvider
+  type: attribute
+  uid: provisioning_device_client.ProvisioningTransportProvider.HTTP
+- fullName: provisioning_device_client.ProvisioningTransportProvider.MQTT
+  id: MQTT
+  langs:
+  - python
+  module: provisioning_device_client
+  name: MQTT
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  syntax:
+    content: MQTT = 2
+    return:
+      type:
+      - provisioning_device_client.ProvisioningTransportProvider
+  type: attribute
+  uid: provisioning_device_client.ProvisioningTransportProvider.MQTT
+- fullName: provisioning_device_client.ProvisioningTransportProvider.MQTT_WS
+  id: MQTT_WS
+  langs:
+  - python
+  module: provisioning_device_client
+  name: MQTT_WS
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  syntax:
+    content: MQTT_WS = 4
+    return:
+      type:
+      - provisioning_device_client.ProvisioningTransportProvider
+  type: attribute
+  uid: provisioning_device_client.ProvisioningTransportProvider.MQTT_WS
+references:
+- fullName: provisioning_device_client.ProvisioningTransportProvider.AMQP
+  isExternal: false
+  name: AMQP
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  uid: provisioning_device_client.ProvisioningTransportProvider.AMQP
+- fullName: provisioning_device_client.ProvisioningTransportProvider.AMQP_WS
+  isExternal: false
+  name: AMQP_WS
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  uid: provisioning_device_client.ProvisioningTransportProvider.AMQP_WS
+- fullName: provisioning_device_client.ProvisioningTransportProvider.HTTP
+  isExternal: false
+  name: HTTP
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  uid: provisioning_device_client.ProvisioningTransportProvider.HTTP
+- fullName: provisioning_device_client.ProvisioningTransportProvider.MQTT
+  isExternal: false
+  name: MQTT
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  uid: provisioning_device_client.ProvisioningTransportProvider.MQTT
+- fullName: provisioning_device_client.ProvisioningTransportProvider.MQTT_WS
+  isExternal: false
+  name: MQTT_WS
+  parent: provisioning_device_client.ProvisioningTransportProvider
+  uid: provisioning_device_client.ProvisioningTransportProvider.MQTT_WS

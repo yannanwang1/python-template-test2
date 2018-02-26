@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubMessageDispositionResult.ABANDONED
+  - iothub_service_client_python.IoTHubMessageDispositionResult.ACCEPTED
+  - iothub_service_client_python.IoTHubMessageDispositionResult.REJECTED
+  class: iothub_service_client_python.IoTHubMessageDispositionResult
+  fullName: iothub_service_client_python.IoTHubMessageDispositionResult
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubMessageDispositionResult
+  source:
+    id: IoTHubMessageDispositionResult
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 27
+  summary: 'An enumeration.
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubMessageDispositionResult
+- fullName: iothub_service_client_python.IoTHubMessageDispositionResult.ABANDONED
+  id: ABANDONED
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: ABANDONED
+  parent: iothub_service_client_python.IoTHubMessageDispositionResult
+  syntax:
+    content: ABANDONED = 2
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessageDispositionResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessageDispositionResult.ABANDONED
+- fullName: iothub_service_client_python.IoTHubMessageDispositionResult.ACCEPTED
+  id: ACCEPTED
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: ACCEPTED
+  parent: iothub_service_client_python.IoTHubMessageDispositionResult
+  syntax:
+    content: ACCEPTED = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessageDispositionResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessageDispositionResult.ACCEPTED
+- fullName: iothub_service_client_python.IoTHubMessageDispositionResult.REJECTED
+  id: REJECTED
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: REJECTED
+  parent: iothub_service_client_python.IoTHubMessageDispositionResult
+  syntax:
+    content: REJECTED = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMessageDispositionResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessageDispositionResult.REJECTED
+references:
+- fullName: iothub_service_client_python.IoTHubMessageDispositionResult.ABANDONED
+  isExternal: false
+  name: ABANDONED
+  parent: iothub_service_client_python.IoTHubMessageDispositionResult
+  uid: iothub_service_client_python.IoTHubMessageDispositionResult.ABANDONED
+- fullName: iothub_service_client_python.IoTHubMessageDispositionResult.ACCEPTED
+  isExternal: false
+  name: ACCEPTED
+  parent: iothub_service_client_python.IoTHubMessageDispositionResult
+  uid: iothub_service_client_python.IoTHubMessageDispositionResult.ACCEPTED
+- fullName: iothub_service_client_python.IoTHubMessageDispositionResult.REJECTED
+  isExternal: false
+  name: REJECTED
+  parent: iothub_service_client_python.IoTHubMessageDispositionResult
+  uid: iothub_service_client_python.IoTHubMessageDispositionResult.REJECTED

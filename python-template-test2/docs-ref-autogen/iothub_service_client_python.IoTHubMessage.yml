@@ -1,0 +1,254 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubMessage.correlation_id
+  - iothub_service_client_python.IoTHubMessage.get_bytearray
+  - iothub_service_client_python.IoTHubMessage.get_content_type
+  - iothub_service_client_python.IoTHubMessage.get_string
+  - iothub_service_client_python.IoTHubMessage.message_id
+  - iothub_service_client_python.IoTHubMessage.properties
+  class: iothub_service_client_python.IoTHubMessage
+  fullName: iothub_service_client_python.IoTHubMessage
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubMessage
+  source:
+    id: IoTHubMessage
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 233
+  summary: 'IoTHubMessage instance is used to hold a message communicate with IoTHub.
+
+    Users of the SDK should create an instance of this class using one of the
+
+    constructors provided and use that instance with IoTHubClient.
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: IoTHubMessage(source_byte_array)
+  type: class
+  uid: iothub_service_client_python.IoTHubMessage
+- class: iothub_service_client_python.IoTHubMessage
+  fullName: iothub_service_client_python.IoTHubMessage.correlation_id
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: correlation_id
+  source:
+    id: correlation_id
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for correlation_id
+
+    '
+  syntax:
+    return:
+      description: 'The value of the correlation_id property of the message
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessage.correlation_id
+- class: iothub_service_client_python.IoTHubMessage
+  fullName: iothub_service_client_python.IoTHubMessage.get_bytearray
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: get_bytearray
+  source:
+    id: get_bytearray
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 290
+  summary: 'Gets the content of the message as a bytearray.
+
+    '
+  syntax:
+    content: get_bytearray()
+    parameters:
+    - id: self
+    return:
+      description: 'The content of the message
+
+        '
+      type:
+      - bytearray
+  type: method
+  uid: iothub_service_client_python.IoTHubMessage.get_bytearray
+- class: iothub_service_client_python.IoTHubMessage
+  fullName: iothub_service_client_python.IoTHubMessage.get_content_type
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: get_content_type
+  source:
+    id: get_content_type
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 307
+  summary: 'Gets the type of the content of the message as a IoTHubMessageContent
+    enum.
+
+    '
+  syntax:
+    content: get_content_type()
+    parameters:
+    - id: self
+    return:
+      description: 'The type of the content of the message
+
+        '
+      type:
+      - IoTHubMessageContent(Enum)
+  type: method
+  uid: iothub_service_client_python.IoTHubMessage.get_content_type
+- class: iothub_service_client_python.IoTHubMessage
+  fullName: iothub_service_client_python.IoTHubMessage.get_string
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: get_string
+  source:
+    id: get_string
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 299
+  summary: 'Gets the content of the message as a string.
+
+    '
+  syntax:
+    content: get_string()
+    parameters:
+    - id: self
+    return:
+      description: 'The content of the message
+
+        '
+      type:
+      - str
+  type: method
+  uid: iothub_service_client_python.IoTHubMessage.get_string
+- class: iothub_service_client_python.IoTHubMessage
+  fullName: iothub_service_client_python.IoTHubMessage.message_id
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: message_id
+  source:
+    id: message_id
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Public attribute for message_id
+
+    '
+  syntax:
+    return:
+      description: 'The value of the message_id property of the message
+
+        '
+      type:
+      - str
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessage.message_id
+- class: iothub_service_client_python.IoTHubMessage
+  fullName: iothub_service_client_python.IoTHubMessage.properties
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: properties
+  source:
+    id: properties
+    path: null
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: null
+      repo: null
+    startLine: null
+  summary: 'Getter for message properties
+
+    '
+  syntax:
+    return:
+      description: 'Map of message properties
+
+        '
+      type:
+      - IoTHubMap
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMessage.properties
+references:
+- fullName: iothub_service_client_python.IoTHubMessage.correlation_id
+  isExternal: false
+  name: correlation_id
+  parent: iothub_service_client_python.IoTHubMessage
+  uid: iothub_service_client_python.IoTHubMessage.correlation_id
+- fullName: iothub_service_client_python.IoTHubMessage.get_bytearray
+  isExternal: false
+  name: get_bytearray
+  parent: iothub_service_client_python.IoTHubMessage
+  uid: iothub_service_client_python.IoTHubMessage.get_bytearray
+- fullName: iothub_service_client_python.IoTHubMessage.get_content_type
+  isExternal: false
+  name: get_content_type
+  parent: iothub_service_client_python.IoTHubMessage
+  uid: iothub_service_client_python.IoTHubMessage.get_content_type
+- fullName: iothub_service_client_python.IoTHubMessage.get_string
+  isExternal: false
+  name: get_string
+  parent: iothub_service_client_python.IoTHubMessage
+  uid: iothub_service_client_python.IoTHubMessage.get_string
+- fullName: iothub_service_client_python.IoTHubMessage.message_id
+  isExternal: false
+  name: message_id
+  parent: iothub_service_client_python.IoTHubMessage
+  uid: iothub_service_client_python.IoTHubMessage.message_id
+- fullName: iothub_service_client_python.IoTHubMessage.properties
+  isExternal: false
+  name: properties
+  parent: iothub_service_client_python.IoTHubMessage
+  uid: iothub_service_client_python.IoTHubMessage.properties
+- fullName: IoTHubMessageContent(Enum)
+  name: IoTHubMessageContent(Enum)
+  spec.python:
+  - fullName: IoTHubMessageContent
+    name: IoTHubMessageContent
+    uid: IoTHubMessageContent
+  - fullName: (
+    name: (
+  - fullName: Enum
+    name: Enum
+    uid: Enum
+  - fullName: )
+    name: )
+  uid: IoTHubMessageContent(Enum)

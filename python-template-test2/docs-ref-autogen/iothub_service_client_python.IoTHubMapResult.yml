@@ -1,0 +1,155 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubMapResult.ERROR
+  - iothub_service_client_python.IoTHubMapResult.FILTER_REJECT
+  - iothub_service_client_python.IoTHubMapResult.INVALIDARG
+  - iothub_service_client_python.IoTHubMapResult.KEYEXISTS
+  - iothub_service_client_python.IoTHubMapResult.KEYNOTFOUND
+  - iothub_service_client_python.IoTHubMapResult.OK
+  class: iothub_service_client_python.IoTHubMapResult
+  fullName: iothub_service_client_python.IoTHubMapResult
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubMapResult
+  source:
+    id: IoTHubMapResult
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 11
+  summary: 'An enumeration.
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubMapResult
+- fullName: iothub_service_client_python.IoTHubMapResult.ERROR
+  id: ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubMapResult
+  syntax:
+    content: ERROR = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMapResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMapResult.ERROR
+- fullName: iothub_service_client_python.IoTHubMapResult.FILTER_REJECT
+  id: FILTER_REJECT
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: FILTER_REJECT
+  parent: iothub_service_client_python.IoTHubMapResult
+  syntax:
+    content: FILTER_REJECT = 5
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMapResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMapResult.FILTER_REJECT
+- fullName: iothub_service_client_python.IoTHubMapResult.INVALIDARG
+  id: INVALIDARG
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: INVALIDARG
+  parent: iothub_service_client_python.IoTHubMapResult
+  syntax:
+    content: INVALIDARG = 2
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMapResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMapResult.INVALIDARG
+- fullName: iothub_service_client_python.IoTHubMapResult.KEYEXISTS
+  id: KEYEXISTS
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: KEYEXISTS
+  parent: iothub_service_client_python.IoTHubMapResult
+  syntax:
+    content: KEYEXISTS = 3
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMapResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMapResult.KEYEXISTS
+- fullName: iothub_service_client_python.IoTHubMapResult.KEYNOTFOUND
+  id: KEYNOTFOUND
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: KEYNOTFOUND
+  parent: iothub_service_client_python.IoTHubMapResult
+  syntax:
+    content: KEYNOTFOUND = 4
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMapResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMapResult.KEYNOTFOUND
+- fullName: iothub_service_client_python.IoTHubMapResult.OK
+  id: OK
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: OK
+  parent: iothub_service_client_python.IoTHubMapResult
+  syntax:
+    content: OK = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubMapResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubMapResult.OK
+references:
+- fullName: iothub_service_client_python.IoTHubMapResult.ERROR
+  isExternal: false
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubMapResult
+  uid: iothub_service_client_python.IoTHubMapResult.ERROR
+- fullName: iothub_service_client_python.IoTHubMapResult.FILTER_REJECT
+  isExternal: false
+  name: FILTER_REJECT
+  parent: iothub_service_client_python.IoTHubMapResult
+  uid: iothub_service_client_python.IoTHubMapResult.FILTER_REJECT
+- fullName: iothub_service_client_python.IoTHubMapResult.INVALIDARG
+  isExternal: false
+  name: INVALIDARG
+  parent: iothub_service_client_python.IoTHubMapResult
+  uid: iothub_service_client_python.IoTHubMapResult.INVALIDARG
+- fullName: iothub_service_client_python.IoTHubMapResult.KEYEXISTS
+  isExternal: false
+  name: KEYEXISTS
+  parent: iothub_service_client_python.IoTHubMapResult
+  uid: iothub_service_client_python.IoTHubMapResult.KEYEXISTS
+- fullName: iothub_service_client_python.IoTHubMapResult.KEYNOTFOUND
+  isExternal: false
+  name: KEYNOTFOUND
+  parent: iothub_service_client_python.IoTHubMapResult
+  uid: iothub_service_client_python.IoTHubMapResult.KEYNOTFOUND
+- fullName: iothub_service_client_python.IoTHubMapResult.OK
+  isExternal: false
+  name: OK
+  parent: iothub_service_client_python.IoTHubMapResult
+  uid: iothub_service_client_python.IoTHubMapResult.OK

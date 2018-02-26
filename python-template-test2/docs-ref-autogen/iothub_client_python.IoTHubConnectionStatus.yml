@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_client_python.IoTHubConnectionStatus.AUTHENTICATED
+  - iothub_client_python.IoTHubConnectionStatus.UNAUTHENTICATED
+  class: iothub_client_python.IoTHubConnectionStatus
+  fullName: iothub_client_python.IoTHubConnectionStatus
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_client_python
+  name: IoTHubConnectionStatus
+  source:
+    id: IoTHubConnectionStatus
+    path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_client_python.py
+      repo: null
+    startLine: 59
+  summary: 'An enumeration.
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_client_python.IoTHubConnectionStatus
+- fullName: iothub_client_python.IoTHubConnectionStatus.AUTHENTICATED
+  id: AUTHENTICATED
+  langs:
+  - python
+  module: iothub_client_python
+  name: AUTHENTICATED
+  parent: iothub_client_python.IoTHubConnectionStatus
+  syntax:
+    content: AUTHENTICATED = 0
+    return:
+      type:
+      - iothub_client_python.IoTHubConnectionStatus
+  type: attribute
+  uid: iothub_client_python.IoTHubConnectionStatus.AUTHENTICATED
+- fullName: iothub_client_python.IoTHubConnectionStatus.UNAUTHENTICATED
+  id: UNAUTHENTICATED
+  langs:
+  - python
+  module: iothub_client_python
+  name: UNAUTHENTICATED
+  parent: iothub_client_python.IoTHubConnectionStatus
+  syntax:
+    content: UNAUTHENTICATED = 1
+    return:
+      type:
+      - iothub_client_python.IoTHubConnectionStatus
+  type: attribute
+  uid: iothub_client_python.IoTHubConnectionStatus.UNAUTHENTICATED
+references:
+- fullName: iothub_client_python.IoTHubConnectionStatus.AUTHENTICATED
+  isExternal: false
+  name: AUTHENTICATED
+  parent: iothub_client_python.IoTHubConnectionStatus
+  uid: iothub_client_python.IoTHubConnectionStatus.AUTHENTICATED
+- fullName: iothub_client_python.IoTHubConnectionStatus.UNAUTHENTICATED
+  isExternal: false
+  name: UNAUTHENTICATED
+  parent: iothub_client_python.IoTHubConnectionStatus
+  uid: iothub_client_python.IoTHubConnectionStatus.UNAUTHENTICATED

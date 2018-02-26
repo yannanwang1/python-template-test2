@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - iothub_service_client_python.IoTHubDeviceMethodResult.ERROR
+  - iothub_service_client_python.IoTHubDeviceMethodResult.HTTPAPI_ERROR
+  - iothub_service_client_python.IoTHubDeviceMethodResult.INVALID_ARG
+  - iothub_service_client_python.IoTHubDeviceMethodResult.OK
+  class: iothub_service_client_python.IoTHubDeviceMethodResult
+  fullName: iothub_service_client_python.IoTHubDeviceMethodResult
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: IoTHubDeviceMethodResult
+  source:
+    id: IoTHubDeviceMethodResult
+    path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+    remote:
+      branch: 'fatal: Not a git repository (or any of the parent directories): .git'
+      path: G:WorkFiles\TestSphinx\python\iothub_service_client_python.py
+      repo: null
+    startLine: 84
+  summary: 'An enumeration.
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult
+- fullName: iothub_service_client_python.IoTHubDeviceMethodResult.ERROR
+  id: ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubDeviceMethodResult
+  syntax:
+    content: ERROR = 2
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceMethodResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult.ERROR
+- fullName: iothub_service_client_python.IoTHubDeviceMethodResult.HTTPAPI_ERROR
+  id: HTTPAPI_ERROR
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: HTTPAPI_ERROR
+  parent: iothub_service_client_python.IoTHubDeviceMethodResult
+  syntax:
+    content: HTTPAPI_ERROR = 3
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceMethodResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult.HTTPAPI_ERROR
+- fullName: iothub_service_client_python.IoTHubDeviceMethodResult.INVALID_ARG
+  id: INVALID_ARG
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: INVALID_ARG
+  parent: iothub_service_client_python.IoTHubDeviceMethodResult
+  syntax:
+    content: INVALID_ARG = 1
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceMethodResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult.INVALID_ARG
+- fullName: iothub_service_client_python.IoTHubDeviceMethodResult.OK
+  id: OK
+  langs:
+  - python
+  module: iothub_service_client_python
+  name: OK
+  parent: iothub_service_client_python.IoTHubDeviceMethodResult
+  syntax:
+    content: OK = 0
+    return:
+      type:
+      - iothub_service_client_python.IoTHubDeviceMethodResult
+  type: attribute
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult.OK
+references:
+- fullName: iothub_service_client_python.IoTHubDeviceMethodResult.ERROR
+  isExternal: false
+  name: ERROR
+  parent: iothub_service_client_python.IoTHubDeviceMethodResult
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult.ERROR
+- fullName: iothub_service_client_python.IoTHubDeviceMethodResult.HTTPAPI_ERROR
+  isExternal: false
+  name: HTTPAPI_ERROR
+  parent: iothub_service_client_python.IoTHubDeviceMethodResult
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult.HTTPAPI_ERROR
+- fullName: iothub_service_client_python.IoTHubDeviceMethodResult.INVALID_ARG
+  isExternal: false
+  name: INVALID_ARG
+  parent: iothub_service_client_python.IoTHubDeviceMethodResult
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult.INVALID_ARG
+- fullName: iothub_service_client_python.IoTHubDeviceMethodResult.OK
+  isExternal: false
+  name: OK
+  parent: iothub_service_client_python.IoTHubDeviceMethodResult
+  uid: iothub_service_client_python.IoTHubDeviceMethodResult.OK
