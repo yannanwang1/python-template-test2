@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.linear_model.OrdinaryLeastSquaresRegressor
+  fullName: microsoftml_scikit.linear_model.OrdinaryLeastSquaresRegressor
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.RegressorMixin
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model
+  name: OrdinaryLeastSquaresRegressor
+  source:
+    id: OrdinaryLeastSquaresRegressor
+    path: microsoftml_scikit\linear_model\ordinaryleastsquaresregressor.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\linear_model\ordinaryleastsquaresregressor.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "**Description**\n   Train an OLS regression model.\n"
+  syntax:
+    content: OrdinaryLeastSquaresRegressor(normalize='Auto', caching='Auto', l2_weight=1e-06,
+      per_parameter_significance=True, feature=None, label=None, weight=None, columns=None,
+      **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: feature
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: label
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: weight
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'If `Auto`, the choice to normalize depends on the preference declared
+        by the algorithm. This is the
+
+        default choice. If `No`, no normalization is performed. If `Yes`, normalization
+        always performed. If `Warn`,
+
+        if normalization is needed by the algorithm, a warning message is displayed
+        but normalization is not performed. If
+
+        normalization is performed, a `MaxMin` normalizer is used. This normalizer
+        preserves sparsity by mapping zero to
+
+        zero.
+
+        '
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'L2 regularization weight.
+
+        '
+      id: l2_weight
+    - description: 'Whether to calculate per parameter significance statistics.
+
+        '
+      id: per_parameter_significance
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.linear_model.OrdinaryLeastSquaresRegressor
+references: []

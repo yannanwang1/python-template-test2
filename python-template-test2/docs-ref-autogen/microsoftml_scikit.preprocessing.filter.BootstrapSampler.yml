@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.preprocessing.filter.BootstrapSampler
+  fullName: microsoftml_scikit.preprocessing.filter.BootstrapSampler
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler.BootstrapSampler
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.filter
+  name: BootstrapSampler
+  source:
+    id: BootstrapSampler
+    path: microsoftml_scikit\preprocessing\filter\bootstrapsampler.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\preprocessing\filter\bootstrapsampler.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "\n**Description**\n\n   Approximate bootstrap sampling.\n\n\n"
+  syntax:
+    content: BootstrapSampler(complement=False, random_state=None, shuffle_input=True,
+      pool_size=1000, columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'Whether this is the out-of-bag sample, that is, all those rows
+        that are not selected by the trans.
+
+        '
+      id: complement
+    - description: 'The random seed. If unspecified random state will be instead derived
+        from the environment.
+
+        '
+      id: random_state
+    - description: 'Whether we should attempt to shuffle the source data. By default
+        on, but can be turned off for
+
+        efficiency.
+
+        '
+      id: shuffle_input
+    - description: 'When shuffling the output, the number of output rows to keep in
+        that pool. Note that shuffling of
+
+        output is completely distinct from shuffling of input.
+
+        '
+      id: pool_size
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.filter.BootstrapSampler
+references: []

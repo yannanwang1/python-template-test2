@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.loss.Squared
+  fullName: microsoftml_scikit.loss.Squared
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.loss
+  name: Squared
+  source:
+    id: Squared
+    path: microsoftml_scikit\loss.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\loss.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 139
+  summary: "\n**Description**\n\n   The squared loss for regression.\n\n**Details**\n\
+    \n   The squared loss for regression. This loss calculates L2 loss, which is the\
+    \ square of the root mean square loss. Its string name is `'squared'`.\n\n**See\
+    \ Also**\n\n   @../microsoftml_scikit.loss.Tweedie, @microsoftml_scikit.loss.Poisson\n\
+    \n\n"
+  syntax:
+    content: Squared()
+  type: class
+  uid: microsoftml_scikit.loss.Squared
+references: []
