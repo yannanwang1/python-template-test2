@@ -1,4 +1,4 @@
-`microsoftml_scikit.FastForestRegressor`: RandomForest regression 
-=================================================================
+`microsoftml_scikit.ensemble.FastForestRegressor`: RandomForest regression 
+==========================================================================
 
-.. autoclass:: microsoftml_scikit.FastForestRegressor
+.. autoclass:: microsoftml_scikit.ensemble.FastForestRegressor

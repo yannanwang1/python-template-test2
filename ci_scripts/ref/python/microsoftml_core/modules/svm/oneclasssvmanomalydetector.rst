@@ -1,4 +1,4 @@
-`microsoftml_scikit.OneClassSVMAnomalyDetector`
+`microsoftml_scikit.svm.OneClassSvmAnomalyDetector`
 ================================================================
 
-.. autoclass:: microsoftml_scikit.OneClassSVMAnomalyDetector
+.. autoclass:: microsoftml_scikit.svm.OneClassSvmAnomalyDetector

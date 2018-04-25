@@ -1,7 +1,9 @@
+booster
+--------------
 .. toctree::
+   :maxdepth: 1
 
-   ensemble/fastforestbinaryclassifier
-   ensemble/fastforestregressor
-   ensemble/fasttreebinaryclassifier
-   ensemble/fasttreeregressor
-   ensemble/fasttreetweedieregressor
+   ensemble/booster
+
+
+

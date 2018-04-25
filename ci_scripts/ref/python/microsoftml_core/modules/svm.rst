@@ -1,4 +1,9 @@
+kernel
+-----------
 .. toctree::
 
-   svm/oneclasssvmanomalydetector
-   svm/ldsvmbinaryclassifier
+   svm/kernel
+
+
+
+

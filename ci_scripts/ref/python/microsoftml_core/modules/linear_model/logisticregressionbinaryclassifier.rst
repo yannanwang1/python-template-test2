@@ -1,4 +1,4 @@
-`microsoftml_scikit.LogisticRegressionBinaryClassifier`
+`microsoftml_scikit.linear_model.LogisticRegressionBinaryClassifier`
 ================================================================
 
-.. autoclass:: microsoftml_scikit.LogisticRegressionBinaryClassifier
+.. autoclass:: microsoftml_scikit.linear_model.LogisticRegressionBinaryClassifier

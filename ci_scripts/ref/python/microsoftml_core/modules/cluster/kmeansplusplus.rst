@@ -1,7 +1,4 @@
-`microsoftml_scikit.KMeansPlusPlus`
-================================================================
+`microsoftml_scikit.cluster.KMeansPlusPlus`
+===========================================
 
-.. autoclass:: microsoftml_scikit.KMeansPlusPlus
-        :members:
-        :inherited-members:
-
+.. autoclass:: microsoftml_scikit.cluster.KMeansPlusPlus

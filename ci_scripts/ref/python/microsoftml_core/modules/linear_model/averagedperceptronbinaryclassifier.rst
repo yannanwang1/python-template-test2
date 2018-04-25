@@ -1,7 +1,4 @@
-`microsoftml_scikit.AveragedPerceptronBinaryClassifier`
-================================================================
+`microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier`
+====================================================================
 
-.. autoclass:: microsoftml_scikit.AveragedPerceptronBinaryClassifier
-        :members:
-        :inherited-members:
-
+.. autoclass:: microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier

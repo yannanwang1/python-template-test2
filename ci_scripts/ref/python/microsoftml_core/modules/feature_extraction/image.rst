@@ -1,6 +1,6 @@
 .. toctree::
 
-   image/load
-   image/resize
-   image/extractpixeldata
-   image/dnnimagefeaturize
+   image/dnnfeaturizer
+   image/loader
+   image/pixelextractor
+   image/resizer

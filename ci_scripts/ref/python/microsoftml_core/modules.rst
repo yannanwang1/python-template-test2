@@ -1,18 +1,29 @@
-=======
-Modules
-=======
-
-ensemble
---------
-.. toctree::
-
-   modules/ensemble
+=============
+API/Reference
+=============
 
 feature_extraction
 ------------------
 .. toctree::
 
    modules/feature_extraction
+   modules/feature_extraction/treefeaturizer
+
+preprocessing
+-------------
+.. toctree::
+
+   modules/preprocessing
+   modules/preprocessing/expression
+   modules/preprocessing/keytotext
+   modules/preprocessing/texttokey
+
+decomposition
+------
+.. toctree::
+
+   modules/decomposition
+
 
 feature_selection
 -----------------
@@ -26,11 +37,43 @@ linear_model
 
    modules/linear_model
 
-neural_network
---------------
+svm
+-------------
 .. toctree::
 
-   modules/neural_network
+   modules/svm
+   modules/svm/oneclasssvmanomalydetector
+   modules/svm/localdeepsvmbinaryclassifier
+
+ensemble
+--------
+.. toctree::
+
+   modules/ensemble
+   modules/ensemble/fastforestbinaryclassifier
+   modules/ensemble/fastforestregressor
+   modules/ensemble/fasttreesbinaryclassifier
+   modules/ensemble/fasttreesregressor
+   modules/ensemble/fasttreestweedieregressor
+   modules/ensemble/gambinaryclassifier
+   modules/ensemble/gamregressor
+   modules/ensemble/lightgbmbinaryclassifier
+   modules/ensemble/lightgbmclassifier
+   modules/ensemble/lightgbmranker
+   modules/ensemble/lightgbmregressor
+
+
+naive_bayes
+------------
+.. toctree::
+
+   modules/naive_bayes
+
+multiclass
+-------------
+.. toctree::
+
+   modules/multiclass
 
 cluster
 --------------
@@ -38,21 +81,9 @@ cluster
 
    modules/cluster
 
-preprocessing
+Losses
 -------------
 .. toctree::
+   :maxdepth: 1
 
-   modules/preprocessing
-
-svm
----
-.. toctree::
-
-   modules/svm
-
-utils
-------
-.. toctree::
-
-   modules/utils
-
+   modules/loss

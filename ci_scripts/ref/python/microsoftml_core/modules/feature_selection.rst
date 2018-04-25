@@ -1,4 +1,4 @@
 .. toctree::
 
-   feature_selection/countselect
-   feature_selection/mutualinformationselect
+   feature_selection/countselector
+   feature_selection/mutualinformationselector

@@ -1,4 +1,4 @@
-`microsoftml_scikit.FastForestBinaryClassifier`: RandomForest 
-=============================================================
+`microsoftml_scikit.ensemble.FastForestBinaryClassifier`: RandomForest 
+======================================================================
 
-.. autoclass:: microsoftml_scikit.FastForestBinaryClassifier
+.. autoclass:: microsoftml_scikit.ensemble.FastForestBinaryClassifier

@@ -1,4 +1,4 @@
-`microsoftml_scikit.TextToKey`
+`microsoftml_scikit.preprocessing.TextToKey`
 ================================================================
 
-.. autoclass:: microsoftml_scikit.TextToKey
+.. autoclass:: microsoftml_scikit.preprocessing.TextToKey

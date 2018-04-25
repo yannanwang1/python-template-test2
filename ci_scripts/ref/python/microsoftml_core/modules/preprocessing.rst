@@ -1,15 +1,43 @@
+filter
+------
 .. toctree::
 
-   preprocessing/cattransformdict
-   preprocessing/cattransformhash
-   preprocessing/keytotext
-   preprocessing/texttokey
-   preprocessing/typeconversion
-   preprocessing/normalizebin.rst
-   preprocessing/normalizeglobalcontrast.rst
-   preprocessing/normalizelogmeanvar.rst
-   preprocessing/normalizeminmax.rst
-   preprocessing/normalizesupervisedbin.rst
-   preprocessing/scoremodel.rst
-   preprocessing/wordembedding.rst
+    preprocessing/filter
+
+
+missing_values
+--------------
+.. toctree::
+
+    preprocessing/missing_values
+
+
+normalization
+-------------
+.. toctree::
+
+    preprocessing/normalization
+
+
+schema
+------
+.. toctree::
+
+    preprocessing/schema
+
+
+text
+----
+.. toctree::
+
+    preprocessing/text
+
+
+timeseries
+----------
+.. toctree::
+
+    preprocessing/timeseries
+
+
 

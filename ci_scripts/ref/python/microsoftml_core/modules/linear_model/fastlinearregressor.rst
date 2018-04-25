@@ -1,4 +1,4 @@
-`microsoftml_scikit.FastLinearRegressor`
+`microsoftml_scikit.linear_model.FastLinearRegressor`
 ================================================================
 
-.. autoclass:: microsoftml_scikit.FastLinearRegressor
+.. autoclass:: microsoftml_scikit.linear_model.FastLinearRegressor
