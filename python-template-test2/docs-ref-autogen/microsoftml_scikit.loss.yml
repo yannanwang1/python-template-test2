@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.loss.Exp
+  - microsoftml_scikit.loss.Hinge
+  - microsoftml_scikit.loss.Log
+  - microsoftml_scikit.loss.Poisson
+  - microsoftml_scikit.loss.SmoothedHinge
+  - microsoftml_scikit.loss.Squared
+  - microsoftml_scikit.loss.Tweedie
+  fullName: microsoftml_scikit.loss
+  langs:
+  - python
+  module: microsoftml_scikit.loss
+  name: loss
+  source:
+    id: loss
+    path: microsoftml_scikit\loss.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\loss.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  type: module
+  uid: microsoftml_scikit.loss
+references:
+- fullName: microsoftml_scikit.loss.Exp
+  isExternal: false
+  name: Exp
+  parent: microsoftml_scikit.loss
+  uid: microsoftml_scikit.loss.Exp
+- fullName: microsoftml_scikit.loss.Hinge
+  isExternal: false
+  name: Hinge
+  parent: microsoftml_scikit.loss
+  uid: microsoftml_scikit.loss.Hinge
+- fullName: microsoftml_scikit.loss.Log
+  isExternal: false
+  name: Log
+  parent: microsoftml_scikit.loss
+  uid: microsoftml_scikit.loss.Log
+- fullName: microsoftml_scikit.loss.Poisson
+  isExternal: false
+  name: Poisson
+  parent: microsoftml_scikit.loss
+  uid: microsoftml_scikit.loss.Poisson
+- fullName: microsoftml_scikit.loss.SmoothedHinge
+  isExternal: false
+  name: SmoothedHinge
+  parent: microsoftml_scikit.loss
+  uid: microsoftml_scikit.loss.SmoothedHinge
+- fullName: microsoftml_scikit.loss.Squared
+  isExternal: false
+  name: Squared
+  parent: microsoftml_scikit.loss
+  uid: microsoftml_scikit.loss.Squared
+- fullName: microsoftml_scikit.loss.Tweedie
+  isExternal: false
+  name: Tweedie
+  parent: microsoftml_scikit.loss
+  uid: microsoftml_scikit.loss.Tweedie

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier.SgdBinaryClassifier
+  fullName: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier
+  name: sgdbinaryclassifier
+  source:
+    id: sgdbinaryclassifier
+    path: microsoftml_scikit\internal\core\linear_model\sgdbinaryclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\linear_model\sgdbinaryclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'SgdBinaryClassifier
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier
+references:
+- fullName: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier.SgdBinaryClassifier
+  isExternal: false
+  name: SgdBinaryClassifier
+  parent: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier
+  uid: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier.SgdBinaryClassifier

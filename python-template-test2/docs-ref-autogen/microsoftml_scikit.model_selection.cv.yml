@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.model_selection.cv.CV
+  - microsoftml_scikit.model_selection.cv.PipelineSteps
+  fullName: microsoftml_scikit.model_selection.cv
+  langs:
+  - python
+  module: microsoftml_scikit.model_selection.cv
+  name: cv
+  source:
+    id: cv
+    path: microsoftml_scikit\model_selection\cv.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\model_selection\cv.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  type: module
+  uid: microsoftml_scikit.model_selection.cv
+references:
+- fullName: microsoftml_scikit.model_selection.cv.CV
+  isExternal: false
+  name: CV
+  parent: microsoftml_scikit.model_selection.cv
+  uid: microsoftml_scikit.model_selection.cv.CV
+- fullName: microsoftml_scikit.model_selection.cv.PipelineSteps
+  isExternal: false
+  name: PipelineSteps
+  parent: microsoftml_scikit.model_selection.cv
+  uid: microsoftml_scikit.model_selection.cv.PipelineSteps

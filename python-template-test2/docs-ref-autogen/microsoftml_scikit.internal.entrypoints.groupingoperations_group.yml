@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.groupingoperations_group.groupingoperations_group
+  fullName: microsoftml_scikit.internal.entrypoints.groupingoperations_group
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.groupingoperations_group
+  name: groupingoperations_group
+  source:
+    id: groupingoperations_group
+    path: microsoftml_scikit\internal\entrypoints\groupingoperations_group.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\groupingoperations_group.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'GroupingOperations.Group
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.groupingoperations_group
+- fullName: microsoftml_scikit.internal.entrypoints.groupingoperations_group.groupingoperations_group
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.groupingoperations_group
+  name: groupingoperations_group
+  source:
+    id: groupingoperations_group
+    path: microsoftml_scikit\internal\entrypoints\groupingoperations_group.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\groupingoperations_group.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Groups values of a scalar column into a vector, by\
+    \ a contiguous group ID\n"
+  syntax:
+    content: groupingoperations_group(data, column, output_data=None, model=None,
+      group_key=None, **params)
+    parameters:
+    - description: 'Columns to group by (inputs).
+
+        '
+      id: group_key
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Columns to group together (inputs).
+
+        '
+      id: column
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: None
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.groupingoperations_group.groupingoperations_group
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.groupingoperations_group.groupingoperations_group
+  isExternal: false
+  name: groupingoperations_group
+  parent: microsoftml_scikit.internal.entrypoints.groupingoperations_group
+  uid: microsoftml_scikit.internal.entrypoints.groupingoperations_group.groupingoperations_group

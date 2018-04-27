@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator.get_node
+  class: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator
+  fullName: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+    type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator
+  name: ColumnDuplicator
+  source:
+    id: ColumnDuplicator
+    path: microsoftml_scikit\internal\core\preprocessing\schema\columnduplicator.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\preprocessing\schema\columnduplicator.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 21
+  summary: "**Description**\n   Duplicates columns from the dataset\n\n\n"
+  syntax:
+    content: ColumnDuplicator(**params)
+    parameters:
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator
+- class: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator
+  fullName: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator.get_node
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator
+  name: get_node
+  source:
+    id: get_node
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 41
+  syntax:
+    content: get_node(**all_args)
+  type: method
+  uid: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator.get_node
+references:
+- fullName: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator.get_node
+  isExternal: false
+  name: get_node
+  parent: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator
+  uid: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator.get_node

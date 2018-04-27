@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary.commands_crossvalidatebinary
+  fullName: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary
+  name: commands_crossvalidatebinary
+  source:
+    id: commands_crossvalidatebinary
+    path: microsoftml_scikit\internal\entrypoints\commands_crossvalidatebinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\commands_crossvalidatebinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Commands.CrossValidateBinary
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary
+- fullName: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary.commands_crossvalidatebinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary
+  name: commands_crossvalidatebinary
+  source:
+    id: commands_crossvalidatebinary
+    path: microsoftml_scikit\internal\entrypoints\commands_crossvalidatebinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\commands_crossvalidatebinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Cross validation for binary classification\n"
+  syntax:
+    content: commands_crossvalidatebinary(data, nodes, inputs_subgraph, outputs_subgraph,
+      predictor_model, warnings, overall_metrics, per_instance_metrics, confusion_matrix,
+      stratification_column=None, num_folds=2, **params)
+    parameters:
+    - description: 'The data set (inputs).
+
+        '
+      id: data
+    - description: 'The training subgraph (inputs).
+
+        '
+      id: nodes
+    - description: 'The training subgraph inputs (inputs).
+
+        '
+      id: inputs_subgraph
+    - description: 'The training subgraph outputs (inputs).
+
+        '
+      id: outputs_subgraph
+    - description: 'Column to use for stratification (inputs).
+
+        '
+      id: stratification_column
+    - description: 'Number of folds in k-fold cross-validation (inputs).
+
+        '
+      id: num_folds
+    - description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+    - description: 'Warning dataset (outputs).
+
+        '
+      id: warnings
+    - description: 'Overall metrics dataset (outputs).
+
+        '
+      id: overall_metrics
+    - defaultValue: None
+      description: 'Per instance metrics dataset (outputs).
+
+        '
+      id: per_instance_metrics
+    - defaultValue: '2'
+      description: 'Confusion matrix dataset (outputs).
+
+        '
+      id: confusion_matrix
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary.commands_crossvalidatebinary
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary.commands_crossvalidatebinary
+  isExternal: false
+  name: commands_crossvalidatebinary
+  parent: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary
+  uid: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary.commands_crossvalidatebinary

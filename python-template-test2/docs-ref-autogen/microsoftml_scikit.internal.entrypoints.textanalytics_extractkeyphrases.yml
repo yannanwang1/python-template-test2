@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases.textanalytics_extractkeyphrases
+  fullName: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases
+  name: textanalytics_extractkeyphrases
+  source:
+    id: textanalytics_extractkeyphrases
+    path: microsoftml_scikit\internal\entrypoints\textanalytics_extractkeyphrases.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\textanalytics_extractkeyphrases.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'TextAnalytics.ExtractKeyPhrases
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases
+- fullName: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases.textanalytics_extractkeyphrases
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases
+  name: textanalytics_extractkeyphrases
+  source:
+    id: textanalytics_extractkeyphrases
+    path: microsoftml_scikit\internal\entrypoints\textanalytics_extractkeyphrases.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\textanalytics_extractkeyphrases.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Uses a pretrained sentiment model to score input strings\n"
+  syntax:
+    content: textanalytics_extractkeyphrases(source, data, output_data=None, model=None,
+      name=None, language='English', cutoff_method='TopN', cutoff_value=3.0, use_idf=False,
+      use_lemma=False, remove_sub_key_phrases=True, output_score=False, **params)
+    parameters:
+    - description: 'Name of the source column. (inputs).
+
+        '
+      id: source
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Name of the new column. (inputs).
+
+        '
+      id: name
+    - defaultValue: None
+      description: 'The language of the key phrase model to use. (inputs).
+
+        '
+      id: language
+    - defaultValue: None
+      description: 'The cut-off method for finding valid key phrases. (inputs).
+
+        '
+      id: cutoff_method
+    - defaultValue: English
+      description: 'The cut-off value for the selected cut-off method. (inputs).
+
+        '
+      id: cutoff_value
+    - defaultValue: TopN
+      description: 'Whether to use IDF scores, pretrained on a general-purpose corpus,
+        to weight terms when generating key phases. (inputs).
+
+        '
+      id: use_idf
+    - defaultValue: '3.0'
+      description: 'Whether to lemmatize the input string before generating key phases.
+        (inputs).
+
+        '
+      id: use_lemma
+    - defaultValue: 'False'
+      description: 'Whether to remove sub key phrases that are also part of larger
+        returned key phrases from the output. (inputs).
+
+        '
+      id: remove_sub_key_phrases
+    - defaultValue: 'False'
+      description: 'Whether to output the key phrase score as an additional column.
+        (inputs).
+
+        '
+      id: output_score
+    - defaultValue: 'True'
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: 'False'
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases.textanalytics_extractkeyphrases
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases.textanalytics_extractkeyphrases
+  isExternal: false
+  name: textanalytics_extractkeyphrases
+  parent: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases
+  uid: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases.textanalytics_extractkeyphrases

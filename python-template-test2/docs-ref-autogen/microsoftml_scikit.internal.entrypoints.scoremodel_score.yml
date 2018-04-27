@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.scoremodel_score.scoremodel_score
+  fullName: microsoftml_scikit.internal.entrypoints.scoremodel_score
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.scoremodel_score
+  name: scoremodel_score
+  source:
+    id: scoremodel_score
+    path: microsoftml_scikit\internal\entrypoints\scoremodel_score.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\scoremodel_score.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'ScoreModel.Score
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_score
+- fullName: microsoftml_scikit.internal.entrypoints.scoremodel_score.scoremodel_score
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.scoremodel_score
+  name: scoremodel_score
+  source:
+    id: scoremodel_score
+    path: microsoftml_scikit\internal\entrypoints\scoremodel_score.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\scoremodel_score.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Score a dataset with a predictor model\n"
+  syntax:
+    content: scoremodel_score(data, predictor_model, scored_data=None, scoring_transform=None,
+      suffix=None, **params)
+    parameters:
+    - description: 'The dataset to be scored (inputs).
+
+        '
+      id: data
+    - description: 'The predictor model to apply to data (inputs).
+
+        '
+      id: predictor_model
+    - defaultValue: None
+      description: 'Suffix to append to the score columns (inputs).
+
+        '
+      id: suffix
+    - defaultValue: None
+      description: 'The scored dataset (outputs).
+
+        '
+      id: scored_data
+    - defaultValue: None
+      description: 'The scoring transform (outputs).
+
+        '
+      id: scoring_transform
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_score.scoremodel_score
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.scoremodel_score.scoremodel_score
+  isExternal: false
+  name: scoremodel_score
+  parent: microsoftml_scikit.internal.entrypoints.scoremodel_score
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_score.scoremodel_score

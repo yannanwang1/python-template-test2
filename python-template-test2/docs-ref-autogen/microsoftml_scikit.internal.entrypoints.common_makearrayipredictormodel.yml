@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel.common_makearrayipredictormodel
+  fullName: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel
+  name: common_makearrayipredictormodel
+  source:
+    id: common_makearrayipredictormodel
+    path: microsoftml_scikit\internal\entrypoints\common_makearrayipredictormodel.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\common_makearrayipredictormodel.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Common.MakeArrayIPredictorModel
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel
+- fullName: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel.common_makearrayipredictormodel
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel
+  name: common_makearrayipredictormodel
+  source:
+    id: common_makearrayipredictormodel
+    path: microsoftml_scikit\internal\entrypoints\common_makearrayipredictormodel.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\common_makearrayipredictormodel.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Create and array variable\n"
+  syntax:
+    content: common_makearrayipredictormodel(model, output_model, **params)
+    parameters:
+    - description: 'The models (inputs).
+
+        '
+      id: model
+    - description: 'The model array (outputs).
+
+        '
+      id: output_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel.common_makearrayipredictormodel
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel.common_makearrayipredictormodel
+  isExternal: false
+  name: common_makearrayipredictormodel
+  parent: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel
+  uid: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel.common_makearrayipredictormodel

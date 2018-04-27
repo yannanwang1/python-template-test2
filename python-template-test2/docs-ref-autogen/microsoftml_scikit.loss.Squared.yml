@@ -21,7 +21,7 @@ items:
   summary: "\n**Description**\n\n   The squared loss for regression.\n\n**Details**\n\
     \n   The squared loss for regression. This loss calculates L2 loss, which is the\
     \ square of the root mean square loss. Its string name is `'squared'`.\n\n**See\
-    \ Also**\n\n   @../microsoftml_scikit.loss.Tweedie, @microsoftml_scikit.loss.Poisson\n\
+    \ Also**\n\n   @microsoftml_scikit.loss.Tweedie, @microsoftml_scikit.loss.Poisson\n\
     \n\n"
   syntax:
     content: Squared()

@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector.get_params
+  class: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector
+  name: IIDSpikePointDetector
+  source:
+    id: IIDSpikePointDetector
+    path: microsoftml_scikit\preprocessing\timeseries\iidspikepointdetector.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\preprocessing\timeseries\iidspikepointdetector.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "**Description**\n   This transform detects the spikes in a i.i.d. sequence\
+    \ using adaptive kernel density estimation.\n\n"
+  syntax:
+    content: IIDSpikePointDetector(confidence=0, side='TwoSided', pvalue_history_length=100,
+      columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'The confidence for spike detection in the range [0, 100].
+
+        '
+      id: confidence
+    - description: 'The argument that determines whether to detect positive or negative
+        anomalies, or both.
+
+        '
+      id: side
+    - description: 'The size of the sliding window for computing the p-value.
+
+        '
+      id: pvalue_history_length
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+- class: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\timeseries\iidspikepointdetector.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\preprocessing\timeseries\iidspikepointdetector.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 56
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - id: self
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+  uid: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector.get_params

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.svm.kernel.rbfkernel.RbfKernel
+  fullName: microsoftml_scikit.internal.core.svm.kernel.rbfkernel
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.svm.kernel.rbfkernel
+  name: rbfkernel
+  source:
+    id: rbfkernel
+    path: microsoftml_scikit\internal\core\svm\kernel\rbfkernel.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\svm\kernel\rbfkernel.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'RbfKernel
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.svm.kernel.rbfkernel
+references:
+- fullName: microsoftml_scikit.internal.core.svm.kernel.rbfkernel.RbfKernel
+  isExternal: false
+  name: RbfKernel
+  parent: microsoftml_scikit.internal.core.svm.kernel.rbfkernel
+  uid: microsoftml_scikit.internal.core.svm.kernel.rbfkernel.RbfKernel

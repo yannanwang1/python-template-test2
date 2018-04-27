@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize.pipelineensemble_summarize
+  fullName: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize
+  name: pipelineensemble_summarize
+  source:
+    id: pipelineensemble_summarize
+    path: microsoftml_scikit\internal\entrypoints\pipelineensemble_summarize.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\pipelineensemble_summarize.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'PipelineEnsemble.Summarize
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize
+- fullName: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize.pipelineensemble_summarize
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize
+  name: pipelineensemble_summarize
+  source:
+    id: pipelineensemble_summarize
+    path: microsoftml_scikit\internal\entrypoints\pipelineensemble_summarize.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\pipelineensemble_summarize.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Summarize a pipeline ensemble predictor.\n"
+  syntax:
+    content: pipelineensemble_summarize(predictor_model, summaries, stats, **params)
+    parameters:
+    - description: 'The predictor to summarize (inputs).
+
+        '
+      id: predictor_model
+    - description: 'The summaries of the individual predictors (outputs).
+
+        '
+      id: summaries
+    - description: 'The model statistics of the individual predictors (outputs).
+
+        '
+      id: stats
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize.pipelineensemble_summarize
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize.pipelineensemble_summarize
+  isExternal: false
+  name: pipelineensemble_summarize
+  parent: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize
+  uid: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize.pipelineensemble_summarize

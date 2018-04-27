@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.expressiontransform_apply.expressiontransform_apply
+  fullName: microsoftml_scikit.internal.entrypoints.expressiontransform_apply
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.expressiontransform_apply
+  name: expressiontransform_apply
+  source:
+    id: expressiontransform_apply
+    path: microsoftml_scikit\internal\entrypoints\expressiontransform_apply.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\expressiontransform_apply.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'ExpressionTransform.Apply
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.expressiontransform_apply
+- fullName: microsoftml_scikit.internal.entrypoints.expressiontransform_apply.expressiontransform_apply
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.expressiontransform_apply
+  name: expressiontransform_apply
+  source:
+    id: expressiontransform_apply
+    path: microsoftml_scikit\internal\entrypoints\expressiontransform_apply.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\expressiontransform_apply.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Executes a given lambda expression on input column\
+    \ values to produce an output column value. Here are some examples to demonstrate\
+    \ the syntax: 1) expr={x : x / 256} divides the input value by 256 2) expr={x\
+    \ : x ?? -1} replaces missing values with -1. 3) expr={(x, y) : log(x / y)} computes\
+    \ log odds. For more details see the documentation.\n"
+  syntax:
+    content: expressiontransform_apply(column, data, output_data=None, model=None,
+      expression=None, **params)
+    parameters:
+    - description: 'New column definition(s) (optional form: name:src) (inputs).
+
+        '
+      id: column
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Lambda expression which will be applied. (inputs).
+
+        '
+      id: expression
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: None
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.expressiontransform_apply.expressiontransform_apply
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.expressiontransform_apply.expressiontransform_apply
+  isExternal: false
+  name: expressiontransform_apply
+  parent: microsoftml_scikit.internal.entrypoints.expressiontransform_apply
+  uid: microsoftml_scikit.internal.entrypoints.expressiontransform_apply.expressiontransform_apply

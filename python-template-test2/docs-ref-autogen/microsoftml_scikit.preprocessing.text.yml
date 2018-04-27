@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: microsoftml_scikit.preprocessing.text
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.text
+  name: text
+  source:
+    id: text
+    path: microsoftml_scikit\preprocessing\text\__init__.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\preprocessing\text\__init__.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.preprocessing.text
+references: []

@@ -1,0 +1,160 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary.averagedperceptron_trainbinary
+  fullName: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary
+  name: averagedperceptron_trainbinary
+  source:
+    id: averagedperceptron_trainbinary
+    path: microsoftml_scikit\internal\entrypoints\averagedperceptron_trainbinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\averagedperceptron_trainbinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'AveragedPerceptron.TrainBinary
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary
+- fullName: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary.averagedperceptron_trainbinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary
+  name: averagedperceptron_trainbinary
+  source:
+    id: averagedperceptron_trainbinary
+    path: microsoftml_scikit\internal\entrypoints\averagedperceptron_trainbinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\averagedperceptron_trainbinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Train a Average perceptron.\n"
+  syntax:
+    content: averagedperceptron_trainbinary(training_data, predictor_model=None, feature_column='Features',
+      label_column='Label', normalize_features='Auto', caching='Auto', loss_function=None,
+      learning_rate=1.0, decrease_learning_rate=False, l2_regularizer_weight=0.0,
+      num_iterations=1, init_wts_diameter=0.0, reset_weights_after_x_examples=None,
+      do_lazy_updates=True, recency_gain=0.0, recency_gain_multi=False, averaged=True,
+      averaged_tolerance=0.01, initial_weights=None, shuffle=True, streaming_cache_size=1000000,
+      **params)
+    parameters:
+    - description: 'The data to be used for training (inputs).
+
+        '
+      id: training_data
+    - defaultValue: None
+      description: 'Column to use for features (inputs).
+
+        '
+      id: feature_column
+    - defaultValue: Features
+      description: 'Column to use for labels (inputs).
+
+        '
+      id: label_column
+    - defaultValue: Label
+      description: 'Normalize option for the feature column (inputs).
+
+        '
+      id: normalize_features
+    - defaultValue: Auto
+      description: 'Whether learner should cache input training data (inputs).
+
+        '
+      id: caching
+    - defaultValue: Auto
+      description: 'Loss Function (inputs).
+
+        '
+      id: loss_function
+    - defaultValue: None
+      description: 'Learning rate (inputs).
+
+        '
+      id: learning_rate
+    - defaultValue: '1.0'
+      description: 'Decrease learning rate (inputs).
+
+        '
+      id: decrease_learning_rate
+    - defaultValue: 'False'
+      description: 'L2 Regularization Weight (inputs).
+
+        '
+      id: l2_regularizer_weight
+    - defaultValue: '0.0'
+      description: 'Number of iterations (inputs).
+
+        '
+      id: num_iterations
+    - defaultValue: '1'
+      description: 'Init weights diameter (inputs).
+
+        '
+      id: init_wts_diameter
+    - defaultValue: '0.0'
+      description: 'Number of examples after which weights will be reset to the current
+        average (inputs).
+
+        '
+      id: reset_weights_after_x_examples
+    - defaultValue: None
+      description: 'Instead of updating averaged weights on every example, only update
+        when loss is nonzero (inputs).
+
+        '
+      id: do_lazy_updates
+    - defaultValue: 'True'
+      description: 'Extra weight given to more recent updates (inputs).
+
+        '
+      id: recency_gain
+    - defaultValue: '0.0'
+      description: 'Whether Recency Gain is multiplicative (vs. additive) (inputs).
+
+        '
+      id: recency_gain_multi
+    - defaultValue: 'False'
+      description: 'Do averaging? (inputs).
+
+        '
+      id: averaged
+    - defaultValue: 'True'
+      description: 'The inexactness tolerance for averaging (inputs).
+
+        '
+      id: averaged_tolerance
+    - defaultValue: '0.01'
+      description: 'Initial Weights and bias, comma-separated (inputs).
+
+        '
+      id: initial_weights
+    - defaultValue: None
+      description: 'Whether to shuffle for each training iteration (inputs).
+
+        '
+      id: shuffle
+    - defaultValue: 'True'
+      description: 'Size of cache when trained in Scope (inputs).
+
+        '
+      id: streaming_cache_size
+    - defaultValue: '1000000'
+      description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary.averagedperceptron_trainbinary
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary.averagedperceptron_trainbinary
+  isExternal: false
+  name: averagedperceptron_trainbinary
+  parent: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary
+  uid: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary.averagedperceptron_trainbinary

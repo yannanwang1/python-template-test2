@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.imageanalytics_resize.imageanalytics_resize
+  fullName: microsoftml_scikit.internal.entrypoints.imageanalytics_resize
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.imageanalytics_resize
+  name: imageanalytics_resize
+  source:
+    id: imageanalytics_resize
+    path: microsoftml_scikit\internal\entrypoints\imageanalytics_resize.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\imageanalytics_resize.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'ImageAnalytics.Resize
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.imageanalytics_resize
+- fullName: microsoftml_scikit.internal.entrypoints.imageanalytics_resize.imageanalytics_resize
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.imageanalytics_resize
+  name: imageanalytics_resize
+  source:
+    id: imageanalytics_resize
+    path: microsoftml_scikit\internal\entrypoints\imageanalytics_resize.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\imageanalytics_resize.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Scales an image to specified dimensions using one\
+    \ of the three scale types: isotropic with padding, isotropic with cropping or\
+    \ anisotropic. In case of isotropic padding, transparent color is used to pad\
+    \ resulting image.\n"
+  syntax:
+    content: imageanalytics_resize(column, data, image_width=0, image_height=0, output_data=None,
+      model=None, resizing='IsoCrop', **params)
+    parameters:
+    - description: 'New column definition(s) (optional form: name:src) (inputs).
+
+        '
+      id: column
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: '0'
+      description: 'Resized width of the image (inputs).
+
+        '
+      id: image_width
+    - defaultValue: '0'
+      description: 'Resized height of the image (inputs).
+
+        '
+      id: image_height
+    - defaultValue: None
+      description: 'Resizing method (inputs).
+
+        '
+      id: resizing
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: IsoCrop
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.imageanalytics_resize.imageanalytics_resize
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.imageanalytics_resize.imageanalytics_resize
+  isExternal: false
+  name: imageanalytics_resize
+  parent: microsoftml_scikit.internal.entrypoints.imageanalytics_resize
+  uid: microsoftml_scikit.internal.entrypoints.imageanalytics_resize.imageanalytics_resize

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.base_transform.BaseTransform
+  fullName: microsoftml_scikit.base_transform
+  langs:
+  - python
+  module: microsoftml_scikit.base_transform
+  name: base_transform
+  source:
+    id: base_transform
+    path: microsoftml_scikit\base_transform.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\base_transform.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Base class for all the transforms.
+
+    '
+  type: module
+  uid: microsoftml_scikit.base_transform
+references:
+- fullName: microsoftml_scikit.base_transform.BaseTransform
+  isExternal: false
+  name: BaseTransform
+  parent: microsoftml_scikit.base_transform
+  uid: microsoftml_scikit.base_transform.BaseTransform

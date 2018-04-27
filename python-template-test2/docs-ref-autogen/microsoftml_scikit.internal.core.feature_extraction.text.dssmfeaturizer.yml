@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer.DssmFeaturizer
+  fullName: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer
+  name: dssmfeaturizer
+  source:
+    id: dssmfeaturizer
+    path: microsoftml_scikit\internal\core\feature_extraction\text\dssmfeaturizer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\feature_extraction\text\dssmfeaturizer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'DssmFeaturizer
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer
+references:
+- fullName: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer.DssmFeaturizer
+  isExternal: false
+  name: DssmFeaturizer
+  parent: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer.DssmFeaturizer

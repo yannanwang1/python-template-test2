@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer.get_node
+  class: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+  fullName: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.decomposition.pcatransformer
+  name: PcaTransformer
+  source:
+    id: PcaTransformer
+    path: microsoftml_scikit\internal\core\decomposition\pcatransformer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\decomposition\pcatransformer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 21
+  summary: "**Description**\n   Train an PCA Anomaly model.\n\n\n"
+  syntax:
+    content: PcaTransformer(rank=20, oversampling=20, center=True, random_state=0,
+      **params)
+    parameters:
+    - description: 'The number of components in the PCA.
+
+        '
+      id: rank
+    - description: 'Oversampling parameter for randomized PCA training.
+
+        '
+      id: oversampling
+    - description: 'If enabled, data is centered to be zero mean.
+
+        '
+      id: center
+    - description: 'The seed for random number generation.
+
+        '
+      id: random_state
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+- class: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+  fullName: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer.get_node
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.decomposition.pcatransformer
+  name: get_node
+  source:
+    id: get_node
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 57
+  syntax:
+    content: get_node(**all_args)
+  type: method
+  uid: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer.get_node
+references:
+- fullName: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer.get_node
+  isExternal: false
+  name: get_node
+  parent: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+  uid: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer.get_node

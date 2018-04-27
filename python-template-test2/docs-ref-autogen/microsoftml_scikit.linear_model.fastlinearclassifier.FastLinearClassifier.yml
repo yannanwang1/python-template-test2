@@ -1,0 +1,225 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.decision_function
+  - microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.get_params
+  - microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.predict_proba
+  class: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+  fullName: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.linear_model.fastlinearclassifier.FastLinearClassifier
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.ClassifierMixin
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model.fastlinearclassifier
+  name: FastLinearClassifier
+  source:
+    id: FastLinearClassifier
+    path: microsoftml_scikit\linear_model\fastlinearclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\linear_model\fastlinearclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "**Description**\n   Train an SDCA multi class model\n\n\n\n"
+  syntax:
+    content: FastLinearClassifier(l2_weight=None, l1_threshold=None, normalize='Auto',
+      caching='Auto', loss='log', train_threads=None, convergence_tolerance=0.1, max_iterations=None,
+      shuffle=True, check_frequency=None, bias_learning_rate=0.0, feature=None, label=None,
+      columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: feature
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: label
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'L2 regularizer constant. By default the l2 constant is automatically
+        inferred based on data set.
+
+        '
+      id: l2_weight
+    - description: 'L1 soft threshold (L1/L2). Note that it is easier to control and
+        sweep using the threshold
+
+        parameter than the raw L1-regularizer constant. By default the l1 threshold
+        is automatically inferred based on data
+
+        set.
+
+        '
+      id: l1_threshold
+    - description: 'If `Auto`, the choice to normalize depends on the preference declared
+        by the algorithm. This is the
+
+        default choice. If `No`, no normalization is performed. If `Yes`, normalization
+        always performed. If `Warn`,
+
+        if normalization is needed by the algorithm, a warning message is displayed
+        but normalization is not performed. If
+
+        normalization is performed, a `MaxMin` normalizer is used. This normalizer
+        preserves sparsity by mapping zero to
+
+        zero.
+
+        '
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'The default is @microsoftml_scikit.loss.Squared. Other choices
+        are
+
+        @microsoftml_scikit.loss.Poisson and @microsoftml_scikit.loss.Tweedie.
+
+        For more information, please see *the documentation page about losses*.
+
+        '
+      id: loss
+    - description: 'Degree of lock-free parallelism. Defaults to automatic. Determinism
+        not guaranteed.
+
+        '
+      id: train_threads
+    - description: 'The tolerance for the ratio between duality gap and primal loss
+        for convergence checking.
+
+        '
+      id: convergence_tolerance
+    - description: 'Maximum number of iterations; set to 1 to simulate online learning.
+        Defaults to automatic.
+
+        '
+      id: max_iterations
+    - description: 'Shuffle data every epoch?.
+
+        '
+      id: shuffle
+    - description: 'Convergence check frequency (in terms of number of iterations).
+        Set as negative or zero for not
+
+        checking at all. If left blank, it defaults to check after every ''numThreads''
+        iterations.
+
+        '
+      id: check_frequency
+    - description: 'The learning rate for adjusting bias from being regularized.
+
+        '
+      id: bias_learning_rate
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+- class: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+  fullName: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.decision_function
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model.fastlinearclassifier
+  name: decision_function
+  source:
+    id: decision_function
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 116
+  summary: 'Returns score values
+
+    '
+  syntax:
+    content: decision_function(X, **params)
+  type: method
+  uid: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.decision_function
+- class: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+  fullName: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model.fastlinearclassifier
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\linear_model\fastlinearclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\linear_model\fastlinearclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 123
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - id: self
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.get_params
+- class: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+  fullName: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.predict_proba
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model.fastlinearclassifier
+  name: predict_proba
+  source:
+    id: predict_proba
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 109
+  summary: 'Returns probabilities
+
+    '
+  syntax:
+    content: predict_proba(X, **params)
+  type: method
+  uid: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.predict_proba
+references:
+- fullName: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.decision_function
+  isExternal: false
+  name: decision_function
+  parent: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+  uid: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.decision_function
+- fullName: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+  uid: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.get_params
+- fullName: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.predict_proba
+  isExternal: false
+  name: predict_proba
+  parent: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+  uid: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier.predict_proba

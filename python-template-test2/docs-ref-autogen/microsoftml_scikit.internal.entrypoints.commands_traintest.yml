@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.commands_traintest.commands_traintest
+  fullName: microsoftml_scikit.internal.entrypoints.commands_traintest
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.commands_traintest
+  name: commands_traintest
+  source:
+    id: commands_traintest
+    path: microsoftml_scikit\internal\entrypoints\commands_traintest.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\commands_traintest.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Commands.TrainTest
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.commands_traintest
+- fullName: microsoftml_scikit.internal.entrypoints.commands_traintest.commands_traintest
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.commands_traintest
+  name: commands_traintest
+  source:
+    id: commands_traintest
+    path: microsoftml_scikit\internal\entrypoints\commands_traintest.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\commands_traintest.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   General train test for any supported evaluator\n"
+  syntax:
+    content: commands_traintest(training_data, testing_data, nodes, inputs_subgraph=0,
+      outputs_subgraph=0, predictor_model=None, warnings=None, overall_metrics=None,
+      per_instance_metrics=None, confusion_matrix=None, transform_model=None, kind='SignatureBinaryClassifierTrainer',
+      pipeline_id=None, **params)
+    parameters:
+    - description: 'The data to be used for training (inputs).
+
+        '
+      id: training_data
+    - description: 'The data to be used for testing (inputs).
+
+        '
+      id: testing_data
+    - description: 'The aggregated transform model from the pipeline before this command,
+        to apply to the test data, and also include in the final model, together with
+        the predictor model. (inputs).
+
+        '
+      id: transform_model
+    - defaultValue: '0'
+      description: 'The training subgraph (inputs).
+
+        '
+      id: nodes
+    - defaultValue: '0'
+      description: 'The training subgraph inputs (inputs).
+
+        '
+      id: inputs_subgraph
+    - defaultValue: None
+      description: 'The training subgraph outputs (inputs).
+
+        '
+      id: outputs_subgraph
+    - defaultValue: None
+      description: 'Specifies the trainer kind, which determines the evaluator to
+        be used. (inputs).
+
+        '
+      id: kind
+    - defaultValue: None
+      description: 'Identifies which pipeline was run for this train test. (inputs).
+
+        '
+      id: pipeline_id
+    - defaultValue: None
+      description: 'The final model including the trained predictor model and the
+        model from the transforms, provided as the Input.TransformModel. (outputs).
+
+        '
+      id: predictor_model
+    - defaultValue: None
+      description: 'Warning dataset (outputs).
+
+        '
+      id: warnings
+    - defaultValue: None
+      description: 'Overall metrics dataset (outputs).
+
+        '
+      id: overall_metrics
+    - defaultValue: SignatureBinaryClassifierTrainer
+      description: 'Per instance metrics dataset (outputs).
+
+        '
+      id: per_instance_metrics
+    - defaultValue: None
+      description: 'Confusion matrix dataset (outputs).
+
+        '
+      id: confusion_matrix
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.commands_traintest.commands_traintest
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.commands_traintest.commands_traintest
+  isExternal: false
+  name: commands_traintest
+  parent: microsoftml_scikit.internal.entrypoints.commands_traintest
+  uid: microsoftml_scikit.internal.entrypoints.commands_traintest.commands_traintest

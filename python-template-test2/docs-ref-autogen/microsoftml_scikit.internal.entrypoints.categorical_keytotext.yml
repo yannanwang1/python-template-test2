@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.categorical_keytotext.categorical_keytotext
+  fullName: microsoftml_scikit.internal.entrypoints.categorical_keytotext
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.categorical_keytotext
+  name: categorical_keytotext
+  source:
+    id: categorical_keytotext
+    path: microsoftml_scikit\internal\entrypoints\categorical_keytotext.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\categorical_keytotext.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Categorical.KeyToText
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.categorical_keytotext
+- fullName: microsoftml_scikit.internal.entrypoints.categorical_keytotext.categorical_keytotext
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.categorical_keytotext
+  name: categorical_keytotext
+  source:
+    id: categorical_keytotext
+    path: microsoftml_scikit\internal\entrypoints\categorical_keytotext.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\categorical_keytotext.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   KeyToValueTransform utilizes KeyValues metadata to\
+    \ map key indices to the corresponding values in the KeyValues metadata.\n"
+  syntax:
+    content: categorical_keytotext(column, data, output_data=None, model=None, **params)
+    parameters:
+    - description: 'New column definition(s) (optional form: name:src) (inputs).
+
+        '
+      id: column
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: None
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.categorical_keytotext.categorical_keytotext
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.categorical_keytotext.categorical_keytotext
+  isExternal: false
+  name: categorical_keytotext
+  parent: microsoftml_scikit.internal.entrypoints.categorical_keytotext
+  uid: microsoftml_scikit.internal.entrypoints.categorical_keytotext.categorical_keytotext

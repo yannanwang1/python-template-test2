@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter.get_node
+  class: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter
+  fullName: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.base_pipeline_item.NoOutputSignature
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter
+  name: SkipFilter
+  source:
+    id: SkipFilter
+    path: microsoftml_scikit\internal\core\preprocessing\filter\skipfilter.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\preprocessing\filter\skipfilter.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 21
+  summary: "**Description**\n   Allows limiting input to a subset of rows by skipping\
+    \ a number of rows.\n\n\n"
+  syntax:
+    content: SkipFilter(count=0, **params)
+    parameters:
+    - description: 'Number of items to skip.
+
+        '
+      id: count
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter
+- class: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter
+  fullName: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter.get_node
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter
+  name: get_node
+  source:
+    id: get_node
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 45
+  syntax:
+    content: get_node(**all_args)
+  type: method
+  uid: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter.get_node
+references:
+- fullName: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter.get_node
+  isExternal: false
+  name: get_node
+  parent: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter
+  uid: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter.get_node

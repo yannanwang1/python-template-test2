@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.base_transform.BaseTransform.fit
+  - microsoftml_scikit.base_transform.BaseTransform.fit_transform
+  - microsoftml_scikit.base_transform.BaseTransform.transform
+  class: microsoftml_scikit.base_transform.BaseTransform
+  fullName: microsoftml_scikit.base_transform.BaseTransform
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.BaseEstimator
+  - inheritance:
+    - type: builtins.object
+    type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  langs:
+  - python
+  module: microsoftml_scikit.base_transform
+  name: BaseTransform
+  source:
+    id: BaseTransform
+    path: microsoftml_scikit\base_transform.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\base_transform.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 22
+  summary: 'Base class for all transforms.
+
+
+
+
+    '
+  syntax:
+    content: BaseTransform(**params)
+  type: class
+  uid: microsoftml_scikit.base_transform.BaseTransform
+- class: microsoftml_scikit.base_transform.BaseTransform
+  fullName: microsoftml_scikit.base_transform.BaseTransform.fit
+  langs:
+  - python
+  module: microsoftml_scikit.base_transform
+  name: fit
+  source:
+    id: fit
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 42
+  summary: 'Fits the transform.
+
+    Returns self.
+
+    '
+  syntax:
+    content: fit(X, y=None, **params)
+  type: method
+  uid: microsoftml_scikit.base_transform.BaseTransform.fit
+- class: microsoftml_scikit.base_transform.BaseTransform
+  fullName: microsoftml_scikit.base_transform.BaseTransform.fit_transform
+  langs:
+  - python
+  module: microsoftml_scikit.base_transform
+  name: fit_transform
+  source:
+    id: fit_transform
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 30
+  summary: 'Fits the transform if needed and applies it to data.
+
+    Returns transformed data.
+
+    '
+  syntax:
+    content: fit_transform(X, y=None, **params)
+  type: method
+  uid: microsoftml_scikit.base_transform.BaseTransform.fit_transform
+- class: microsoftml_scikit.base_transform.BaseTransform
+  fullName: microsoftml_scikit.base_transform.BaseTransform.transform
+  langs:
+  - python
+  module: microsoftml_scikit.base_transform
+  name: transform
+  source:
+    id: transform
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 60
+  summary: 'Applies transform to data.
+
+    Returns transformed data.
+
+    '
+  syntax:
+    content: transform(X, **params)
+  type: method
+  uid: microsoftml_scikit.base_transform.BaseTransform.transform
+references:
+- fullName: microsoftml_scikit.base_transform.BaseTransform.fit
+  isExternal: false
+  name: fit
+  parent: microsoftml_scikit.base_transform.BaseTransform
+  uid: microsoftml_scikit.base_transform.BaseTransform.fit
+- fullName: microsoftml_scikit.base_transform.BaseTransform.fit_transform
+  isExternal: false
+  name: fit_transform
+  parent: microsoftml_scikit.base_transform.BaseTransform
+  uid: microsoftml_scikit.base_transform.BaseTransform.fit_transform
+- fullName: microsoftml_scikit.base_transform.BaseTransform.transform
+  isExternal: false
+  name: transform
+  parent: microsoftml_scikit.base_transform.BaseTransform
+  uid: microsoftml_scikit.base_transform.BaseTransform.transform

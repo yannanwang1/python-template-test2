@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.preprocessing.missing_values.handler.Handler
+  fullName: microsoftml_scikit.internal.core.preprocessing.missing_values.handler
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.missing_values.handler
+  name: handler
+  source:
+    id: handler
+    path: microsoftml_scikit\internal\core\preprocessing\missing_values\handler.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\preprocessing\missing_values\handler.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Handler
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.preprocessing.missing_values.handler
+references:
+- fullName: microsoftml_scikit.internal.core.preprocessing.missing_values.handler.Handler
+  isExternal: false
+  name: Handler
+  parent: microsoftml_scikit.internal.core.preprocessing.missing_values.handler
+  uid: microsoftml_scikit.internal.core.preprocessing.missing_values.handler.Handler

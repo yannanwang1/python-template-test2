@@ -1,0 +1,144 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.decision_function
+  - microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.get_params
+  class: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+  fullName: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.ClassifierMixin
+  langs:
+  - python
+  module: microsoftml_scikit.naive_bayes.naivebayesclassifier
+  name: NaiveBayesClassifier
+  source:
+    id: NaiveBayesClassifier
+    path: microsoftml_scikit\naive_bayes\naivebayesclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\naive_bayes\naivebayesclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "\n**Description**\n\n   Machine Learning KMeans clustering algorithm\n\
+    \n**Details**\n\n   [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)\n\
+    \   implementation for multiclass problems.\n\nNote: This algorithm will attempt\
+    \ to load the entire dataset into memory when `train_threads > 1` (multi-threading).\
+    \ \n\n**See Also**\n\n   @microsoftml_scikit.linear_model.LogisticRegressionClassifier,\n\
+    \n**Reference**\n\n   [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)\n\
+    \n\n\n\n"
+  syntax:
+    content: NaiveBayesClassifier(normalize='Auto', caching='Auto', feature=None,
+      label=None, columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: feature
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: label
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: "Specifies the type of automatic normalization used:\n\n* `\"Auto\"\
+        `: if normalization is needed, it is performed automatically. This is the\
+        \ default choice. \n\n* `\"No\"`: no normalization is performed. \n\n* `\"\
+        Yes\"`: normalization is performed. \n\n* `\"Warn\"`: if normalization is\
+        \ needed, a warning message is displayed, but normalization is not performed.\
+        \ \n\nNormalization rescales disparate data ranges to a standard scale. Feature\n\
+        scaling insures the distances between data points are proportional and\nenables\
+        \ various optimization methods such as gradient descent to converge\nmuch\
+        \ faster. If normalization is performed, a `MaxMin` normalizer is\nused. It\
+        \ normalizes values in an interval [a, b] where `-1 <= a <= 0`\nand `0 <=\
+        \ b <= 1` and `b - a = 1`. This normalizer preserves\nsparsity by mapping\
+        \ zero to zero.\n"
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+- class: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+  fullName: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.decision_function
+  langs:
+  - python
+  module: microsoftml_scikit.naive_bayes.naivebayesclassifier
+  name: decision_function
+  source:
+    id: decision_function
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 107
+  summary: 'Returns score values
+
+    '
+  syntax:
+    content: decision_function(X, **params)
+  type: method
+  uid: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.decision_function
+- class: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+  fullName: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.naive_bayes.naivebayesclassifier
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\naive_bayes\naivebayesclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\naive_bayes\naivebayesclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 114
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - id: self
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.get_params
+references:
+- fullName: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.decision_function
+  isExternal: false
+  name: decision_function
+  parent: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+  uid: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.decision_function
+- fullName: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+  uid: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier.get_params

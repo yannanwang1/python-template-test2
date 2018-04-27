@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.selectfeatures_countselect.selectfeatures_countselect
+  fullName: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect
+  name: selectfeatures_countselect
+  source:
+    id: selectfeatures_countselect
+    path: microsoftml_scikit\internal\entrypoints\selectfeatures_countselect.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\selectfeatures_countselect.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'SelectFeatures.CountSelect
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect
+- fullName: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect.selectfeatures_countselect
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect
+  name: selectfeatures_countselect
+  source:
+    id: selectfeatures_countselect
+    path: microsoftml_scikit\internal\entrypoints\selectfeatures_countselect.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\selectfeatures_countselect.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Selects the slots for which the count of non-default\
+    \ values is greater than or equal to a threshold.\n"
+  syntax:
+    content: selectfeatures_countselect(column, count, data, output_data=None, model=None,
+      **params)
+    parameters:
+    - description: 'Columns to use for feature selection (inputs).
+
+        '
+      id: column
+    - description: 'If the count of non-default values for a slot is greater than
+        or equal to this threshold, the slot is preserved (inputs).
+
+        '
+      id: count
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: None
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect.selectfeatures_countselect
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect.selectfeatures_countselect
+  isExternal: false
+  name: selectfeatures_countselect
+  parent: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect
+  uid: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect.selectfeatures_countselect

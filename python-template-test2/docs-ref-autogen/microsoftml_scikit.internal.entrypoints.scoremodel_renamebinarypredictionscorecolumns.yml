@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns.scoremodel_renamebinarypredictionscorecolumns
+  fullName: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns
+  name: scoremodel_renamebinarypredictionscorecolumns
+  source:
+    id: scoremodel_renamebinarypredictionscorecolumns
+    path: microsoftml_scikit\internal\entrypoints\scoremodel_renamebinarypredictionscorecolumns.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\scoremodel_renamebinarypredictionscorecolumns.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'ScoreModel.RenameBinaryPredictionScoreColumns
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns
+- fullName: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns.scoremodel_renamebinarypredictionscorecolumns
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns
+  name: scoremodel_renamebinarypredictionscorecolumns
+  source:
+    id: scoremodel_renamebinarypredictionscorecolumns
+    path: microsoftml_scikit\internal\entrypoints\scoremodel_renamebinarypredictionscorecolumns.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\scoremodel_renamebinarypredictionscorecolumns.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   For binary prediction, it renames the PredictedLabel\
+    \ and Score columns to include the name of the positive class.\n"
+  syntax:
+    content: scoremodel_renamebinarypredictionscorecolumns(data, predictor_model,
+      output_data=None, model=None, **params)
+    parameters:
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - description: 'The predictor model used in scoring (inputs).
+
+        '
+      id: predictor_model
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: None
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns.scoremodel_renamebinarypredictionscorecolumns
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns.scoremodel_renamebinarypredictionscorecolumns
+  isExternal: false
+  name: scoremodel_renamebinarypredictionscorecolumns
+  parent: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns.scoremodel_renamebinarypredictionscorecolumns

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover.CustomStopWordsRemover
+  fullName: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover
+  name: customstopwordsremover
+  source:
+    id: customstopwordsremover
+    path: microsoftml_scikit\internal\core\feature_extraction\text\stopwords\customstopwordsremover.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\feature_extraction\text\stopwords\customstopwordsremover.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'CustomStopWordsRemover
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover
+references:
+- fullName: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover.CustomStopWordsRemover
+  isExternal: false
+  name: CustomStopWordsRemover
+  parent: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover.CustomStopWordsRemover

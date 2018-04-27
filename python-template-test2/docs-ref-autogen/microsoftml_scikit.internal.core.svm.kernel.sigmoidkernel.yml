@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel.SigmoidKernel
+  fullName: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel
+  name: sigmoidkernel
+  source:
+    id: sigmoidkernel
+    path: microsoftml_scikit\internal\core\svm\kernel\sigmoidkernel.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\svm\kernel\sigmoidkernel.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'SigmoidKernel
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel
+references:
+- fullName: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel.SigmoidKernel
+  isExternal: false
+  name: SigmoidKernel
+  parent: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel
+  uid: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel.SigmoidKernel

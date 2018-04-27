@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.ensemble.booster.gbdt.Gbdt
+  fullName: microsoftml_scikit.internal.core.ensemble.booster.gbdt
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.ensemble.booster.gbdt
+  name: gbdt
+  source:
+    id: gbdt
+    path: microsoftml_scikit\internal\core\ensemble\booster\gbdt.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\ensemble\booster\gbdt.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Gbdt
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.ensemble.booster.gbdt
+references:
+- fullName: microsoftml_scikit.internal.core.ensemble.booster.gbdt.Gbdt
+  isExternal: false
+  name: Gbdt
+  parent: microsoftml_scikit.internal.core.ensemble.booster.gbdt
+  uid: microsoftml_scikit.internal.core.ensemble.booster.gbdt.Gbdt

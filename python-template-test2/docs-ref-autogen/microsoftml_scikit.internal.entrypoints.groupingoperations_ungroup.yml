@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup.groupingoperations_ungroup
+  fullName: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup
+  name: groupingoperations_ungroup
+  source:
+    id: groupingoperations_ungroup
+    path: microsoftml_scikit\internal\entrypoints\groupingoperations_ungroup.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\groupingoperations_ungroup.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'GroupingOperations.Ungroup
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup
+- fullName: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup.groupingoperations_ungroup
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup
+  name: groupingoperations_ungroup
+  source:
+    id: groupingoperations_ungroup
+    path: microsoftml_scikit\internal\entrypoints\groupingoperations_ungroup.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\groupingoperations_ungroup.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Un-groups vector columns into sequences of rows, inverse\
+    \ of Group transform\n"
+  syntax:
+    content: groupingoperations_ungroup(data, column, output_data=None, model=None,
+      mode='Inner', **params)
+    parameters:
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - description: 'Columns to unroll, or ''pivot'' (inputs).
+
+        '
+      id: column
+    - defaultValue: None
+      description: 'Specifies how to unroll multiple pivot columns of different size.
+        (inputs).
+
+        '
+      id: mode
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: Inner
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup.groupingoperations_ungroup
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup.groupingoperations_ungroup
+  isExternal: false
+  name: groupingoperations_ungroup
+  parent: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup
+  uid: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup.groupingoperations_ungroup

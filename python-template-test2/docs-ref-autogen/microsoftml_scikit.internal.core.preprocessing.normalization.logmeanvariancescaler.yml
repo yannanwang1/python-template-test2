@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler.LogMeanVarianceScaler
+  fullName: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler
+  name: logmeanvariancescaler
+  source:
+    id: logmeanvariancescaler
+    path: microsoftml_scikit\internal\core\preprocessing\normalization\logmeanvariancescaler.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\preprocessing\normalization\logmeanvariancescaler.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'LogMeanVarianceScaler
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler
+references:
+- fullName: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler.LogMeanVarianceScaler
+  isExternal: false
+  name: LogMeanVarianceScaler
+  parent: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler
+  uid: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler.LogMeanVarianceScaler

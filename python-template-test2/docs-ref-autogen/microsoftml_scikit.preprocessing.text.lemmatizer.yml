@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.text.lemmatizer.Lemmatizer
+  fullName: microsoftml_scikit.preprocessing.text.lemmatizer
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.text.lemmatizer
+  name: lemmatizer
+  source:
+    id: lemmatizer
+    path: microsoftml_scikit\preprocessing\text\lemmatizer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\preprocessing\text\lemmatizer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Lemmatizer
+
+    '
+  type: module
+  uid: microsoftml_scikit.preprocessing.text.lemmatizer
+references:
+- fullName: microsoftml_scikit.preprocessing.text.lemmatizer.Lemmatizer
+  isExternal: false
+  name: Lemmatizer
+  parent: microsoftml_scikit.preprocessing.text.lemmatizer
+  uid: microsoftml_scikit.preprocessing.text.lemmatizer.Lemmatizer

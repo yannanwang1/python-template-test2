@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.evaluate_regression.evaluate_regression
+  fullName: microsoftml_scikit.internal.entrypoints.evaluate_regression
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.evaluate_regression
+  name: evaluate_regression
+  source:
+    id: evaluate_regression
+    path: microsoftml_scikit\internal\entrypoints\evaluate_regression.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\evaluate_regression.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Evaluate.Regression
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.evaluate_regression
+- fullName: microsoftml_scikit.internal.entrypoints.evaluate_regression.evaluate_regression
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.evaluate_regression
+  name: evaluate_regression
+  source:
+    id: evaluate_regression
+    path: microsoftml_scikit\internal\entrypoints\evaluate_regression.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\evaluate_regression.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Evaluates a regression scored dataset.\n"
+  syntax:
+    content: evaluate_regression(data, warnings=None, overall_metrics=None, per_instance_metrics=None,
+      name_column='Name', loss_function=None, label_column=None, weight_column=None,
+      score_column=None, strat_column=None, **params)
+    parameters:
+    - description: 'The data to be used for evaluation (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Name column name (inputs).
+
+        '
+      id: name_column
+    - defaultValue: None
+      description: 'Loss function (inputs).
+
+        '
+      id: loss_function
+    - defaultValue: None
+      description: 'Column to use for labels (inputs).
+
+        '
+      id: label_column
+    - defaultValue: Name
+      description: 'Weight column name (inputs).
+
+        '
+      id: weight_column
+    - defaultValue: None
+      description: 'Score column name (inputs).
+
+        '
+      id: score_column
+    - defaultValue: None
+      description: 'Stratification column name (inputs).
+
+        '
+      id: strat_column
+    - defaultValue: None
+      description: 'Warning dataset (outputs).
+
+        '
+      id: warnings
+    - defaultValue: None
+      description: 'Overall metrics dataset (outputs).
+
+        '
+      id: overall_metrics
+    - defaultValue: None
+      description: 'Per instance metrics dataset (outputs).
+
+        '
+      id: per_instance_metrics
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.evaluate_regression.evaluate_regression
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.evaluate_regression.evaluate_regression
+  isExternal: false
+  name: evaluate_regression
+  parent: microsoftml_scikit.internal.entrypoints.evaluate_regression
+  uid: microsoftml_scikit.internal.entrypoints.evaluate_regression.evaluate_regression

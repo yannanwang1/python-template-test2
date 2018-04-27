@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator.labelindicatortransform_labelindicator
+  fullName: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator
+  name: labelindicatortransform_labelindicator
+  source:
+    id: labelindicatortransform_labelindicator
+    path: microsoftml_scikit\internal\entrypoints\labelindicatortransform_labelindicator.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\labelindicatortransform_labelindicator.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'LabelIndicatorTransform.LabelIndicator
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator
+- fullName: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator.labelindicatortransform_labelindicator
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator
+  name: labelindicatortransform_labelindicator
+  source:
+    id: labelindicatortransform_labelindicator
+    path: microsoftml_scikit\internal\entrypoints\labelindicatortransform_labelindicator.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\labelindicatortransform_labelindicator.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Label remapper used by OVA\n"
+  syntax:
+    content: labelindicatortransform_labelindicator(data, output_data=None, model=None,
+      column=None, class_index=0, **params)
+    parameters:
+    - description: 'New column definition(s) (optional form: name:src) (inputs).
+
+        '
+      id: column
+    - defaultValue: None
+      description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Label of the positive class. (inputs).
+
+        '
+      id: class_index
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: '0'
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator.labelindicatortransform_labelindicator
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator.labelindicatortransform_labelindicator
+  isExternal: false
+  name: labelindicatortransform_labelindicator
+  parent: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator
+  uid: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator.labelindicatortransform_labelindicator

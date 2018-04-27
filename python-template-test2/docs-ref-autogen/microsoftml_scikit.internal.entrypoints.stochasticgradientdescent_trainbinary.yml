@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary.stochasticgradientdescent_trainbinary
+  fullName: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary
+  name: stochasticgradientdescent_trainbinary
+  source:
+    id: stochasticgradientdescent_trainbinary
+    path: microsoftml_scikit\internal\entrypoints\stochasticgradientdescent_trainbinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\stochasticgradientdescent_trainbinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'StochasticGradientDescent.TrainBinary
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary
+- fullName: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary.stochasticgradientdescent_trainbinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary
+  name: stochasticgradientdescent_trainbinary
+  source:
+    id: stochasticgradientdescent_trainbinary
+    path: microsoftml_scikit\internal\entrypoints\stochasticgradientdescent_trainbinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\stochasticgradientdescent_trainbinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Train an Hogwild SGD binary model.\n"
+  syntax:
+    content: stochasticgradientdescent_trainbinary(training_data, predictor_model=None,
+      feature_column='Features', label_column='Label', weight_column=None, normalize_features='Auto',
+      caching='Auto', loss_function=None, l2_const=1e-06, num_threads=None, convergence_tolerance=0.0001,
+      max_iterations=20, init_learning_rate=0.01, shuffle=True, positive_instance_weight=1.0,
+      check_frequency=None, **params)
+    parameters:
+    - description: 'The data to be used for training (inputs).
+
+        '
+      id: training_data
+    - defaultValue: None
+      description: 'Column to use for features (inputs).
+
+        '
+      id: feature_column
+    - defaultValue: Features
+      description: 'Column to use for labels (inputs).
+
+        '
+      id: label_column
+    - defaultValue: Label
+      description: 'Column to use for example weight (inputs).
+
+        '
+      id: weight_column
+    - defaultValue: None
+      description: 'Normalize option for the feature column (inputs).
+
+        '
+      id: normalize_features
+    - defaultValue: Auto
+      description: 'Whether learner should cache input training data (inputs).
+
+        '
+      id: caching
+    - defaultValue: Auto
+      description: 'Loss Function (inputs).
+
+        '
+      id: loss_function
+    - defaultValue: None
+      description: 'L2 regularizer constant (inputs).
+
+        '
+      id: l2_const
+    - defaultValue: 1e-06
+      description: 'Degree of lock-free parallelism. Defaults to automatic depending
+        on data sparseness. Determinism not guaranteed. (inputs).
+
+        '
+      id: num_threads
+    - defaultValue: None
+      description: 'Exponential moving averaged improvement tolerance for convergence
+        (inputs).
+
+        '
+      id: convergence_tolerance
+    - defaultValue: '0.0001'
+      description: 'Maximum number of iterations; set to 1 to simulate online learning.
+        (inputs).
+
+        '
+      id: max_iterations
+    - defaultValue: '20'
+      description: 'Initial learning rate (only used by SGD) (inputs).
+
+        '
+      id: init_learning_rate
+    - defaultValue: '0.01'
+      description: 'Shuffle data every epoch? (inputs).
+
+        '
+      id: shuffle
+    - defaultValue: 'True'
+      description: 'Apply weight to the positive class, for imbalanced data (inputs).
+
+        '
+      id: positive_instance_weight
+    - defaultValue: '1.0'
+      description: 'Convergence check frequency (in terms of number of iterations).
+        Default equals number of threads (inputs).
+
+        '
+      id: check_frequency
+    - defaultValue: None
+      description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary.stochasticgradientdescent_trainbinary
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary.stochasticgradientdescent_trainbinary
+  isExternal: false
+  name: stochasticgradientdescent_trainbinary
+  parent: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary
+  uid: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary.stochasticgradientdescent_trainbinary

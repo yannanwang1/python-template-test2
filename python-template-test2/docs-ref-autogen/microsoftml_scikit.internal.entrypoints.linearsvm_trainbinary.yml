@@ -1,0 +1,127 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary.linearsvm_trainbinary
+  fullName: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary
+  name: linearsvm_trainbinary
+  source:
+    id: linearsvm_trainbinary
+    path: microsoftml_scikit\internal\entrypoints\linearsvm_trainbinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\linearsvm_trainbinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'LinearSvm.TrainBinary
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary
+- fullName: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary.linearsvm_trainbinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary
+  name: linearsvm_trainbinary
+  source:
+    id: linearsvm_trainbinary
+    path: microsoftml_scikit\internal\entrypoints\linearsvm_trainbinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\linearsvm_trainbinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Train a linear SVM.\n"
+  syntax:
+    content: linearsvm_trainbinary(training_data, predictor_model=None, feature_column='Features',
+      label_column='Label', normalize_features='Auto', caching='Auto', lambda_=0.001,
+      perform_projection=False, num_iterations=1, init_wts_diameter=0.0, no_bias=False,
+      initial_weights=None, shuffle=True, streaming_cache_size=1000000, batch_size=1,
+      **params)
+    parameters:
+    - description: 'The data to be used for training (inputs).
+
+        '
+      id: training_data
+    - defaultValue: None
+      description: 'Column to use for features (inputs).
+
+        '
+      id: feature_column
+    - defaultValue: Features
+      description: 'Column to use for labels (inputs).
+
+        '
+      id: label_column
+    - defaultValue: Label
+      description: 'Normalize option for the feature column (inputs).
+
+        '
+      id: normalize_features
+    - defaultValue: Auto
+      description: 'Whether learner should cache input training data (inputs).
+
+        '
+      id: caching
+    - defaultValue: Auto
+      description: 'Regularizer constant (inputs).
+
+        '
+      id: lambda
+    - defaultValue: '0.001'
+      description: 'Perform projection to unit-ball? Typically used with batch size
+        > 1. (inputs).
+
+        '
+      id: perform_projection
+    - defaultValue: 'False'
+      description: 'Number of iterations (inputs).
+
+        '
+      id: num_iterations
+    - defaultValue: '1'
+      description: 'Init weights diameter (inputs).
+
+        '
+      id: init_wts_diameter
+    - defaultValue: '0.0'
+      description: 'No bias (inputs).
+
+        '
+      id: no_bias
+    - defaultValue: 'False'
+      description: 'Initial Weights and bias, comma-separated (inputs).
+
+        '
+      id: initial_weights
+    - defaultValue: None
+      description: 'Whether to shuffle for each training iteration (inputs).
+
+        '
+      id: shuffle
+    - defaultValue: 'True'
+      description: 'Size of cache when trained in Scope (inputs).
+
+        '
+      id: streaming_cache_size
+    - defaultValue: '1000000'
+      description: 'Batch size (inputs).
+
+        '
+      id: batch_size
+    - defaultValue: '1'
+      description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary.linearsvm_trainbinary
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary.linearsvm_trainbinary
+  isExternal: false
+  name: linearsvm_trainbinary
+  parent: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary
+  uid: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary.linearsvm_trainbinary

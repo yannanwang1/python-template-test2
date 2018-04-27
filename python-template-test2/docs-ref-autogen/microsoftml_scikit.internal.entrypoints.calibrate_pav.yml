@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.calibrate_pav.calibrate_pav
+  fullName: microsoftml_scikit.internal.entrypoints.calibrate_pav
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.calibrate_pav
+  name: calibrate_pav
+  source:
+    id: calibrate_pav
+    path: microsoftml_scikit\internal\entrypoints\calibrate_pav.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\calibrate_pav.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Calibrate.Pav
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.calibrate_pav
+- fullName: microsoftml_scikit.internal.entrypoints.calibrate_pav.calibrate_pav
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.calibrate_pav
+  name: calibrate_pav
+  source:
+    id: calibrate_pav
+    path: microsoftml_scikit\internal\entrypoints\calibrate_pav.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\calibrate_pav.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Apply a PAV calibrator to an input model\n"
+  syntax:
+    content: calibrate_pav(data, uncalibrated_predictor_model, max_rows=0, predictor_model=None,
+      **params)
+    parameters:
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - description: 'The predictor to calibrate (inputs).
+
+        '
+      id: uncalibrated_predictor_model
+    - defaultValue: '0'
+      description: 'The maximum number of examples to train the calibrator on (inputs).
+
+        '
+      id: max_rows
+    - defaultValue: None
+      description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.calibrate_pav.calibrate_pav
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.calibrate_pav.calibrate_pav
+  isExternal: false
+  name: calibrate_pav
+  parent: microsoftml_scikit.internal.entrypoints.calibrate_pav
+  uid: microsoftml_scikit.internal.entrypoints.calibrate_pav.calibrate_pav

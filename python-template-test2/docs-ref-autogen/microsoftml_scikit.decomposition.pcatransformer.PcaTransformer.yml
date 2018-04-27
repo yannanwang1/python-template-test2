@@ -1,0 +1,106 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.decomposition.pcatransformer.PcaTransformer.get_params
+  class: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer
+  fullName: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition.pcatransformer
+  name: PcaTransformer
+  source:
+    id: PcaTransformer
+    path: microsoftml_scikit\decomposition\pcatransformer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\decomposition\pcatransformer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "**Description**\n   Train an PCA Anomaly model.\n\n"
+  syntax:
+    content: PcaTransformer(rank=20, oversampling=20, center=True, random_state=0,
+      weight=None, columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: weight
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'The number of components in the PCA.
+
+        '
+      id: rank
+    - description: 'Oversampling parameter for randomized PCA training.
+
+        '
+      id: oversampling
+    - description: 'If enabled, data is centered to be zero mean.
+
+        '
+      id: center
+    - description: 'The seed for random number generation.
+
+        '
+      id: random_state
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer
+- class: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer
+  fullName: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition.pcatransformer
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\decomposition\pcatransformer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\decomposition\pcatransformer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 66
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - id: self
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer.get_params
+references:
+- fullName: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer
+  uid: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer.get_params

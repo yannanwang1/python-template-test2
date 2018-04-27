@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.categorical
+  - microsoftml_scikit.feature_extraction.image
+  - microsoftml_scikit.feature_extraction.text
+  fullName: microsoftml_scikit.feature_extraction
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction
+  name: feature_extraction
+  source:
+    id: feature_extraction
+    path: microsoftml_scikit\feature_extraction\__init__.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\feature_extraction\__init__.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.feature_extraction
+references:
+- fullName: microsoftml_scikit.feature_extraction.categorical
+  isExternal: false
+  name: categorical
+  parent: microsoftml_scikit.feature_extraction
+  uid: microsoftml_scikit.feature_extraction.categorical
+- fullName: microsoftml_scikit.feature_extraction.image
+  isExternal: false
+  name: image
+  parent: microsoftml_scikit.feature_extraction
+  uid: microsoftml_scikit.feature_extraction.image
+- fullName: microsoftml_scikit.feature_extraction.text
+  isExternal: false
+  name: text
+  parent: microsoftml_scikit.feature_extraction
+  uid: microsoftml_scikit.feature_extraction.text

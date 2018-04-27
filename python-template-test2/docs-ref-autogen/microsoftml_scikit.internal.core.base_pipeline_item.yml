@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  fullName: microsoftml_scikit.internal.core.base_pipeline_item
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.base_pipeline_item
+  name: base_pipeline_item
+  source:
+    id: base_pipeline_item
+    path: microsoftml_scikit\internal\core\base_pipeline_item.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\base_pipeline_item.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Base class for all the items that can be used in a scikit or MicrosoftML
+    pipeline.
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.base_pipeline_item
+references:
+- fullName: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  isExternal: false
+  name: BasePipelineItem
+  parent: microsoftml_scikit.internal.core.base_pipeline_item
+  uid: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem

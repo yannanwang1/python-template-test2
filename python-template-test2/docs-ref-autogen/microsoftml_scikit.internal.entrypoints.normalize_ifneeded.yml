@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.normalize_ifneeded.normalize_ifneeded
+  fullName: microsoftml_scikit.internal.entrypoints.normalize_ifneeded
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.normalize_ifneeded
+  name: normalize_ifneeded
+  source:
+    id: normalize_ifneeded
+    path: microsoftml_scikit\internal\entrypoints\normalize_ifneeded.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\normalize_ifneeded.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Normalize.IfNeeded
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.normalize_ifneeded
+- fullName: microsoftml_scikit.internal.entrypoints.normalize_ifneeded.normalize_ifneeded
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.normalize_ifneeded
+  name: normalize_ifneeded
+  source:
+    id: normalize_ifneeded
+    path: microsoftml_scikit\internal\entrypoints\normalize_ifneeded.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\normalize_ifneeded.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Normalize the columns only if needed\n"
+  syntax:
+    content: normalize_ifneeded(column, data, output_data=None, model=None, fix_zero=True,
+      max_training_examples=1000000000, **params)
+    parameters:
+    - description: 'New column definition(s) (optional form: name:src) (inputs).
+
+        '
+      id: column
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Whether to map zero to zero, preserving sparsity (inputs).
+
+        '
+      id: fix_zero
+    - defaultValue: None
+      description: 'Max number of examples used to train the normalizer (inputs).
+
+        '
+      id: max_training_examples
+    - defaultValue: 'True'
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: '1000000000'
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.normalize_ifneeded.normalize_ifneeded
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.normalize_ifneeded.normalize_ifneeded
+  isExternal: false
+  name: normalize_ifneeded
+  parent: microsoftml_scikit.internal.entrypoints.normalize_ifneeded
+  uid: microsoftml_scikit.internal.entrypoints.normalize_ifneeded.normalize_ifneeded

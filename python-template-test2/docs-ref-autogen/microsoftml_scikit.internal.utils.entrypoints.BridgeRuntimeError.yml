@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.internal.utils.entrypoints.BridgeRuntimeError
+  fullName: microsoftml_scikit.internal.utils.entrypoints.BridgeRuntimeError
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.BaseException
+      type: builtins.Exception
+    type: builtins.RuntimeError
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.entrypoints
+  name: BridgeRuntimeError
+  source:
+    id: BridgeRuntimeError
+    path: microsoftml_scikit\internal\utils\entrypoints.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\entrypoints.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 29
+  summary: 'Exception raises when the bridges fails to complete the task.
+
+    '
+  syntax:
+    content: BridgeRuntimeError(msg, **kwargs)
+  type: class
+  uid: microsoftml_scikit.internal.utils.entrypoints.BridgeRuntimeError
+references: []

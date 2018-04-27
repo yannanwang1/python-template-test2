@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize.textanalytics_lemmatize
+  fullName: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize
+  name: textanalytics_lemmatize
+  source:
+    id: textanalytics_lemmatize
+    path: microsoftml_scikit\internal\entrypoints\textanalytics_lemmatize.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\textanalytics_lemmatize.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'TextAnalytics.Lemmatize
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize
+- fullName: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize.textanalytics_lemmatize
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize
+  name: textanalytics_lemmatize
+  source:
+    id: textanalytics_lemmatize
+    path: microsoftml_scikit\internal\entrypoints\textanalytics_lemmatize.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\textanalytics_lemmatize.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Uses a pretrained sentiment model to score input strings\n"
+  syntax:
+    content: textanalytics_lemmatize(column, data, output_data=None, model=None, languages_column=None,
+      language='English', **params)
+    parameters:
+    - description: 'New column definition(s) (inputs).
+
+        '
+      id: column
+    - description: 'Optional column to use for languages. This overrides lemmatizer
+        language value. (inputs).
+
+        '
+      id: languages_column
+    - defaultValue: None
+      description: 'Lemmatizer language. (inputs).
+
+        '
+      id: language
+    - defaultValue: None
+      description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: English
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize.textanalytics_lemmatize
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize.textanalytics_lemmatize
+  isExternal: false
+  name: textanalytics_lemmatize
+  parent: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize
+  uid: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize.textanalytics_lemmatize

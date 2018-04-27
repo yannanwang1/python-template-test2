@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.ensemble.gambinaryclassifier.GamBinaryClassifier
+  fullName: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier
+  name: gambinaryclassifier
+  source:
+    id: gambinaryclassifier
+    path: microsoftml_scikit\internal\core\ensemble\gambinaryclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\ensemble\gambinaryclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'GamBinaryClassifier
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier
+references:
+- fullName: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier.GamBinaryClassifier
+  isExternal: false
+  name: GamBinaryClassifier
+  parent: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier
+  uid: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier.GamBinaryClassifier

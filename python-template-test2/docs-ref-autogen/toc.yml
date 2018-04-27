@@ -1,194 +1,1436 @@
-- name: microsoftml_scikit.DataSchema
-  uid: microsoftml_scikit.DataSchema
-- name: microsoftml_scikit.FileDataStream
-  uid: microsoftml_scikit.FileDataStream
-- name: microsoftml_scikit.Role
-  uid: microsoftml_scikit.Role
-- name: microsoftml_scikit.cluster.KMeansPlusPlus
-  uid: microsoftml_scikit.cluster.KMeansPlusPlus
-- name: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
-  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
-- name: microsoftml_scikit.decomposition.PcaAnomalyDetector
-  uid: microsoftml_scikit.decomposition.PcaAnomalyDetector
-- name: microsoftml_scikit.decomposition.PcaTransformer
-  uid: microsoftml_scikit.decomposition.PcaTransformer
-- name: microsoftml_scikit.ensemble.FastForestBinaryClassifier
-  uid: microsoftml_scikit.ensemble.FastForestBinaryClassifier
-- name: microsoftml_scikit.ensemble.FastForestRegressor
-  uid: microsoftml_scikit.ensemble.FastForestRegressor
-- name: microsoftml_scikit.ensemble.FastTreesBinaryClassifier
-  uid: microsoftml_scikit.ensemble.FastTreesBinaryClassifier
-- name: microsoftml_scikit.ensemble.FastTreesRegressor
-  uid: microsoftml_scikit.ensemble.FastTreesRegressor
-- name: microsoftml_scikit.ensemble.FastTreesTweedieRegressor
-  uid: microsoftml_scikit.ensemble.FastTreesTweedieRegressor
-- name: microsoftml_scikit.ensemble.GamBinaryClassifier
-  uid: microsoftml_scikit.ensemble.GamBinaryClassifier
-- name: microsoftml_scikit.ensemble.GamRegressor
-  uid: microsoftml_scikit.ensemble.GamRegressor
-- name: microsoftml_scikit.ensemble.LightGbmBinaryClassifier
-  uid: microsoftml_scikit.ensemble.LightGbmBinaryClassifier
-- name: microsoftml_scikit.ensemble.LightGbmClassifier
-  uid: microsoftml_scikit.ensemble.LightGbmClassifier
-- name: microsoftml_scikit.ensemble.LightGbmRanker
-  uid: microsoftml_scikit.ensemble.LightGbmRanker
-- name: microsoftml_scikit.ensemble.LightGbmRegressor
-  uid: microsoftml_scikit.ensemble.LightGbmRegressor
-- name: microsoftml_scikit.ensemble.booster.Dart
-  uid: microsoftml_scikit.ensemble.booster.Dart
-- name: microsoftml_scikit.ensemble.booster.Gbdt
-  uid: microsoftml_scikit.ensemble.booster.Gbdt
-- name: microsoftml_scikit.ensemble.booster.Goss
-  uid: microsoftml_scikit.ensemble.booster.Goss
-- name: microsoftml_scikit.feature_extraction.TreeFeaturizer
-  uid: microsoftml_scikit.feature_extraction.TreeFeaturizer
-- name: microsoftml_scikit.feature_extraction.categorical.OneHotHashVectorizer
-  uid: microsoftml_scikit.feature_extraction.categorical.OneHotHashVectorizer
-- name: microsoftml_scikit.feature_extraction.categorical.OneHotVectorizer
-  uid: microsoftml_scikit.feature_extraction.categorical.OneHotVectorizer
-- name: microsoftml_scikit.feature_extraction.image.DnnFeaturizer
-  uid: microsoftml_scikit.feature_extraction.image.DnnFeaturizer
-- name: microsoftml_scikit.feature_extraction.image.Loader
-  uid: microsoftml_scikit.feature_extraction.image.Loader
-- name: microsoftml_scikit.feature_extraction.image.PixelExtractor
-  uid: microsoftml_scikit.feature_extraction.image.PixelExtractor
-- name: microsoftml_scikit.feature_extraction.image.Resizer
-  uid: microsoftml_scikit.feature_extraction.image.Resizer
-- name: microsoftml_scikit.feature_extraction.text.DssmFeaturizer
-  uid: microsoftml_scikit.feature_extraction.text.DssmFeaturizer
-- name: microsoftml_scikit.feature_extraction.text.LightLda
-  uid: microsoftml_scikit.feature_extraction.text.LightLda
-- name: microsoftml_scikit.feature_extraction.text.NGramFeaturizer
-  uid: microsoftml_scikit.feature_extraction.text.NGramFeaturizer
-- name: microsoftml_scikit.feature_extraction.text.Sentiment
-  uid: microsoftml_scikit.feature_extraction.text.Sentiment
-- name: microsoftml_scikit.feature_extraction.text.SsweEmbedding
-  uid: microsoftml_scikit.feature_extraction.text.SsweEmbedding
-- name: microsoftml_scikit.feature_extraction.text.WordEmbedding
-  uid: microsoftml_scikit.feature_extraction.text.WordEmbedding
-- name: microsoftml_scikit.feature_extraction.text.extractor.Ngram
-  uid: microsoftml_scikit.feature_extraction.text.extractor.Ngram
-- name: microsoftml_scikit.feature_extraction.text.extractor.NgramHash
-  uid: microsoftml_scikit.feature_extraction.text.extractor.NgramHash
-- name: microsoftml_scikit.feature_extraction.text.stopwords.CustomStopWordsRemover
-  uid: microsoftml_scikit.feature_extraction.text.stopwords.CustomStopWordsRemover
-- name: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
-  uid: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
-- name: microsoftml_scikit.feature_selection.CountSelector
-  uid: microsoftml_scikit.feature_selection.CountSelector
-- name: microsoftml_scikit.feature_selection.MutualInformationSelector
-  uid: microsoftml_scikit.feature_selection.MutualInformationSelector
-- name: microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier
-  uid: microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier
-- name: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
-  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
-- name: microsoftml_scikit.linear_model.FastLinearClassifier
-  uid: microsoftml_scikit.linear_model.FastLinearClassifier
-- name: microsoftml_scikit.linear_model.FastLinearRegressor
-  uid: microsoftml_scikit.linear_model.FastLinearRegressor
-- name: microsoftml_scikit.linear_model.LogisticRegressionBinaryClassifier
-  uid: microsoftml_scikit.linear_model.LogisticRegressionBinaryClassifier
-- name: microsoftml_scikit.linear_model.LogisticRegressionClassifier
-  uid: microsoftml_scikit.linear_model.LogisticRegressionClassifier
-- name: microsoftml_scikit.linear_model.OnlineGradientDescentRegressor
-  uid: microsoftml_scikit.linear_model.OnlineGradientDescentRegressor
-- name: microsoftml_scikit.linear_model.OrdinaryLeastSquaresRegressor
-  uid: microsoftml_scikit.linear_model.OrdinaryLeastSquaresRegressor
-- name: microsoftml_scikit.linear_model.PoissonRegressionRegressor
-  uid: microsoftml_scikit.linear_model.PoissonRegressionRegressor
-- name: microsoftml_scikit.linear_model.SgdBinaryClassifier
-  uid: microsoftml_scikit.linear_model.SgdBinaryClassifier
-- name: microsoftml_scikit.linear_model.SymSgdBinaryClassifier
-  uid: microsoftml_scikit.linear_model.SymSgdBinaryClassifier
-- name: microsoftml_scikit.loss.Exp
-  uid: microsoftml_scikit.loss.Exp
-- name: microsoftml_scikit.loss.Hinge
-  uid: microsoftml_scikit.loss.Hinge
-- name: microsoftml_scikit.loss.Log
-  uid: microsoftml_scikit.loss.Log
-- name: microsoftml_scikit.loss.Poisson
-  uid: microsoftml_scikit.loss.Poisson
-- name: microsoftml_scikit.loss.SmoothedHinge
-  uid: microsoftml_scikit.loss.SmoothedHinge
-- name: microsoftml_scikit.loss.Squared
-  uid: microsoftml_scikit.loss.Squared
-- name: microsoftml_scikit.loss.Tweedie
-  uid: microsoftml_scikit.loss.Tweedie
-- name: microsoftml_scikit.multiclass.OneVsRestClassifier
-  uid: microsoftml_scikit.multiclass.OneVsRestClassifier
-- name: microsoftml_scikit.naive_bayes.NaiveBayesClassifier
-  uid: microsoftml_scikit.naive_bayes.NaiveBayesClassifier
-- name: microsoftml_scikit.preprocessing.Expression
-  uid: microsoftml_scikit.preprocessing.Expression
-- name: microsoftml_scikit.preprocessing.KeyToText
-  uid: microsoftml_scikit.preprocessing.KeyToText
-- name: microsoftml_scikit.preprocessing.TextToKey
-  uid: microsoftml_scikit.preprocessing.TextToKey
-- name: microsoftml_scikit.preprocessing.filter.BootstrapSampler
-  uid: microsoftml_scikit.preprocessing.filter.BootstrapSampler
-- name: microsoftml_scikit.preprocessing.filter.RangeFilter
-  uid: microsoftml_scikit.preprocessing.filter.RangeFilter
-- name: microsoftml_scikit.preprocessing.filter.SkipFilter
-  uid: microsoftml_scikit.preprocessing.filter.SkipFilter
-- name: microsoftml_scikit.preprocessing.filter.TakeFilter
-  uid: microsoftml_scikit.preprocessing.filter.TakeFilter
-- name: microsoftml_scikit.preprocessing.missing_values.Filter
-  uid: microsoftml_scikit.preprocessing.missing_values.Filter
-- name: microsoftml_scikit.preprocessing.missing_values.Handler
-  uid: microsoftml_scikit.preprocessing.missing_values.Handler
-- name: microsoftml_scikit.preprocessing.missing_values.Indicator
-  uid: microsoftml_scikit.preprocessing.missing_values.Indicator
-- name: microsoftml_scikit.preprocessing.normalization.Binner
-  uid: microsoftml_scikit.preprocessing.normalization.Binner
-- name: microsoftml_scikit.preprocessing.normalization.GlobalContrastRowScaler
-  uid: microsoftml_scikit.preprocessing.normalization.GlobalContrastRowScaler
-- name: microsoftml_scikit.preprocessing.normalization.LogMeanVarianceScaler
-  uid: microsoftml_scikit.preprocessing.normalization.LogMeanVarianceScaler
-- name: microsoftml_scikit.preprocessing.normalization.MeanVarianceScaler
-  uid: microsoftml_scikit.preprocessing.normalization.MeanVarianceScaler
-- name: microsoftml_scikit.preprocessing.normalization.MinMaxScaler
-  uid: microsoftml_scikit.preprocessing.normalization.MinMaxScaler
-- name: microsoftml_scikit.preprocessing.normalization.OptionalScaler
-  uid: microsoftml_scikit.preprocessing.normalization.OptionalScaler
-- name: microsoftml_scikit.preprocessing.normalization.SupervizedBinner
-  uid: microsoftml_scikit.preprocessing.normalization.SupervizedBinner
-- name: microsoftml_scikit.preprocessing.schema.ColumnConcatenator
-  uid: microsoftml_scikit.preprocessing.schema.ColumnConcatenator
-- name: microsoftml_scikit.preprocessing.schema.ColumnDropper
-  uid: microsoftml_scikit.preprocessing.schema.ColumnDropper
-- name: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
-  uid: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
-- name: microsoftml_scikit.preprocessing.schema.ColumnSelector
-  uid: microsoftml_scikit.preprocessing.schema.ColumnSelector
-- name: microsoftml_scikit.preprocessing.schema.TypeConverter
-  uid: microsoftml_scikit.preprocessing.schema.TypeConverter
-- name: microsoftml_scikit.preprocessing.text.CharTokenizer
-  uid: microsoftml_scikit.preprocessing.text.CharTokenizer
-- name: microsoftml_scikit.preprocessing.timeseries.ExponentialAverage
-  uid: microsoftml_scikit.preprocessing.timeseries.ExponentialAverage
-- name: microsoftml_scikit.preprocessing.timeseries.IIDSpikeChangePointDetector
-  uid: microsoftml_scikit.preprocessing.timeseries.IIDSpikeChangePointDetector
-- name: microsoftml_scikit.preprocessing.timeseries.IIDSpikePointDetector
-  uid: microsoftml_scikit.preprocessing.timeseries.IIDSpikePointDetector
-- name: microsoftml_scikit.preprocessing.timeseries.PercentileThreshold
-  uid: microsoftml_scikit.preprocessing.timeseries.PercentileThreshold
-- name: microsoftml_scikit.preprocessing.timeseries.Pvalue
-  uid: microsoftml_scikit.preprocessing.timeseries.Pvalue
-- name: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
-  uid: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
-- name: microsoftml_scikit.preprocessing.timeseries.SsaChangePointDetector
-  uid: microsoftml_scikit.preprocessing.timeseries.SsaChangePointDetector
-- name: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
-  uid: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
-- name: microsoftml_scikit.svm.LocalDeepSvmBinaryClassifier
-  uid: microsoftml_scikit.svm.LocalDeepSvmBinaryClassifier
-- name: microsoftml_scikit.svm.OneClassSvmAnomalyDetector
-  uid: microsoftml_scikit.svm.OneClassSvmAnomalyDetector
-- name: microsoftml_scikit.svm.kernel.LinearKernel
-  uid: microsoftml_scikit.svm.kernel.LinearKernel
-- name: microsoftml_scikit.svm.kernel.PolynomialKernel
-  uid: microsoftml_scikit.svm.kernel.PolynomialKernel
-- name: microsoftml_scikit.svm.kernel.RbfKernel
-  uid: microsoftml_scikit.svm.kernel.RbfKernel
-- name: microsoftml_scikit.svm.kernel.SigmoidKernel
-  uid: microsoftml_scikit.svm.kernel.SigmoidKernel
+- items:
+  - items:
+    - name: microsoftml_scikit.base_predictor.BasePredictor
+      uid: microsoftml_scikit.base_predictor.BasePredictor
+    name: microsoftml_scikit.base_predictor
+    uid: microsoftml_scikit.base_predictor
+  - items:
+    - name: microsoftml_scikit.base_transform.BaseTransform
+      uid: microsoftml_scikit.base_transform.BaseTransform
+    name: microsoftml_scikit.base_transform
+    uid: microsoftml_scikit.base_transform
+  - items:
+    - items:
+      - name: microsoftml_scikit.cluster.kmeansplusplus.KMeansPlusPlus
+        uid: microsoftml_scikit.cluster.kmeansplusplus.KMeansPlusPlus
+      name: microsoftml_scikit.cluster.kmeansplusplus
+      uid: microsoftml_scikit.cluster.kmeansplusplus
+    name: microsoftml_scikit.cluster
+    uid: microsoftml_scikit.cluster
+  - items:
+    - items:
+      - name: microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier.FactorizationMachineBinaryClassifier
+        uid: microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier.FactorizationMachineBinaryClassifier
+      name: microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier
+      uid: microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier
+    - items:
+      - name: microsoftml_scikit.decomposition.pcaanomalydetector.PcaAnomalyDetector
+        uid: microsoftml_scikit.decomposition.pcaanomalydetector.PcaAnomalyDetector
+      name: microsoftml_scikit.decomposition.pcaanomalydetector
+      uid: microsoftml_scikit.decomposition.pcaanomalydetector
+    - items:
+      - name: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer
+        uid: microsoftml_scikit.decomposition.pcatransformer.PcaTransformer
+      name: microsoftml_scikit.decomposition.pcatransformer
+      uid: microsoftml_scikit.decomposition.pcatransformer
+    name: microsoftml_scikit.decomposition
+    uid: microsoftml_scikit.decomposition
+  - items:
+    - items:
+      - items:
+        - name: microsoftml_scikit.ensemble.booster.dart.Dart
+          uid: microsoftml_scikit.ensemble.booster.dart.Dart
+        name: microsoftml_scikit.ensemble.booster.dart
+        uid: microsoftml_scikit.ensemble.booster.dart
+      - items:
+        - name: microsoftml_scikit.ensemble.booster.gbdt.Gbdt
+          uid: microsoftml_scikit.ensemble.booster.gbdt.Gbdt
+        name: microsoftml_scikit.ensemble.booster.gbdt
+        uid: microsoftml_scikit.ensemble.booster.gbdt
+      - items:
+        - name: microsoftml_scikit.ensemble.booster.goss.Goss
+          uid: microsoftml_scikit.ensemble.booster.goss.Goss
+        name: microsoftml_scikit.ensemble.booster.goss
+        uid: microsoftml_scikit.ensemble.booster.goss
+      name: microsoftml_scikit.ensemble.booster
+      uid: microsoftml_scikit.ensemble.booster
+    - items:
+      - name: microsoftml_scikit.ensemble.fastforestbinaryclassifier.FastForestBinaryClassifier
+        uid: microsoftml_scikit.ensemble.fastforestbinaryclassifier.FastForestBinaryClassifier
+      name: microsoftml_scikit.ensemble.fastforestbinaryclassifier
+      uid: microsoftml_scikit.ensemble.fastforestbinaryclassifier
+    - items:
+      - name: microsoftml_scikit.ensemble.fastforestregressor.FastForestRegressor
+        uid: microsoftml_scikit.ensemble.fastforestregressor.FastForestRegressor
+      name: microsoftml_scikit.ensemble.fastforestregressor
+      uid: microsoftml_scikit.ensemble.fastforestregressor
+    - items:
+      - name: microsoftml_scikit.ensemble.fasttreesbinaryclassifier.FastTreesBinaryClassifier
+        uid: microsoftml_scikit.ensemble.fasttreesbinaryclassifier.FastTreesBinaryClassifier
+      name: microsoftml_scikit.ensemble.fasttreesbinaryclassifier
+      uid: microsoftml_scikit.ensemble.fasttreesbinaryclassifier
+    - items:
+      - name: microsoftml_scikit.ensemble.fasttreesregressor.FastTreesRegressor
+        uid: microsoftml_scikit.ensemble.fasttreesregressor.FastTreesRegressor
+      name: microsoftml_scikit.ensemble.fasttreesregressor
+      uid: microsoftml_scikit.ensemble.fasttreesregressor
+    - items:
+      - name: microsoftml_scikit.ensemble.fasttreestweedieregressor.FastTreesTweedieRegressor
+        uid: microsoftml_scikit.ensemble.fasttreestweedieregressor.FastTreesTweedieRegressor
+      name: microsoftml_scikit.ensemble.fasttreestweedieregressor
+      uid: microsoftml_scikit.ensemble.fasttreestweedieregressor
+    - items:
+      - name: microsoftml_scikit.ensemble.gambinaryclassifier.GamBinaryClassifier
+        uid: microsoftml_scikit.ensemble.gambinaryclassifier.GamBinaryClassifier
+      name: microsoftml_scikit.ensemble.gambinaryclassifier
+      uid: microsoftml_scikit.ensemble.gambinaryclassifier
+    - items:
+      - name: microsoftml_scikit.ensemble.gamregressor.GamRegressor
+        uid: microsoftml_scikit.ensemble.gamregressor.GamRegressor
+      name: microsoftml_scikit.ensemble.gamregressor
+      uid: microsoftml_scikit.ensemble.gamregressor
+    - items:
+      - name: microsoftml_scikit.ensemble.lightgbmbinaryclassifier.LightGbmBinaryClassifier
+        uid: microsoftml_scikit.ensemble.lightgbmbinaryclassifier.LightGbmBinaryClassifier
+      name: microsoftml_scikit.ensemble.lightgbmbinaryclassifier
+      uid: microsoftml_scikit.ensemble.lightgbmbinaryclassifier
+    - items:
+      - name: microsoftml_scikit.ensemble.lightgbmclassifier.LightGbmClassifier
+        uid: microsoftml_scikit.ensemble.lightgbmclassifier.LightGbmClassifier
+      name: microsoftml_scikit.ensemble.lightgbmclassifier
+      uid: microsoftml_scikit.ensemble.lightgbmclassifier
+    - items:
+      - name: microsoftml_scikit.ensemble.lightgbmranker.LightGbmRanker
+        uid: microsoftml_scikit.ensemble.lightgbmranker.LightGbmRanker
+      name: microsoftml_scikit.ensemble.lightgbmranker
+      uid: microsoftml_scikit.ensemble.lightgbmranker
+    - items:
+      - name: microsoftml_scikit.ensemble.lightgbmregressor.LightGbmRegressor
+        uid: microsoftml_scikit.ensemble.lightgbmregressor.LightGbmRegressor
+      name: microsoftml_scikit.ensemble.lightgbmregressor
+      uid: microsoftml_scikit.ensemble.lightgbmregressor
+    name: microsoftml_scikit.ensemble
+    uid: microsoftml_scikit.ensemble
+  - items:
+    - items:
+      - items:
+        - name: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer.OneHotHashVectorizer
+          uid: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer.OneHotHashVectorizer
+        name: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
+        uid: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
+      - items:
+        - name: microsoftml_scikit.feature_extraction.categorical.onehotvectorizer.OneHotVectorizer
+          uid: microsoftml_scikit.feature_extraction.categorical.onehotvectorizer.OneHotVectorizer
+        name: microsoftml_scikit.feature_extraction.categorical.onehotvectorizer
+        uid: microsoftml_scikit.feature_extraction.categorical.onehotvectorizer
+      name: microsoftml_scikit.feature_extraction.categorical
+      uid: microsoftml_scikit.feature_extraction.categorical
+    - items:
+      - items:
+        - name: microsoftml_scikit.feature_extraction.image.dnnfeaturizer.DnnFeaturizer
+          uid: microsoftml_scikit.feature_extraction.image.dnnfeaturizer.DnnFeaturizer
+        name: microsoftml_scikit.feature_extraction.image.dnnfeaturizer
+        uid: microsoftml_scikit.feature_extraction.image.dnnfeaturizer
+      - items:
+        - name: microsoftml_scikit.feature_extraction.image.loader.Loader
+          uid: microsoftml_scikit.feature_extraction.image.loader.Loader
+        name: microsoftml_scikit.feature_extraction.image.loader
+        uid: microsoftml_scikit.feature_extraction.image.loader
+      - items:
+        - name: microsoftml_scikit.feature_extraction.image.pixelextractor.PixelExtractor
+          uid: microsoftml_scikit.feature_extraction.image.pixelextractor.PixelExtractor
+        name: microsoftml_scikit.feature_extraction.image.pixelextractor
+        uid: microsoftml_scikit.feature_extraction.image.pixelextractor
+      - items:
+        - name: microsoftml_scikit.feature_extraction.image.resizer.Resizer
+          uid: microsoftml_scikit.feature_extraction.image.resizer.Resizer
+        name: microsoftml_scikit.feature_extraction.image.resizer
+        uid: microsoftml_scikit.feature_extraction.image.resizer
+      name: microsoftml_scikit.feature_extraction.image
+      uid: microsoftml_scikit.feature_extraction.image
+    - items:
+      - items:
+        - name: microsoftml_scikit.feature_extraction.text.dssmfeaturizer.DssmFeaturizer
+          uid: microsoftml_scikit.feature_extraction.text.dssmfeaturizer.DssmFeaturizer
+        name: microsoftml_scikit.feature_extraction.text.dssmfeaturizer
+        uid: microsoftml_scikit.feature_extraction.text.dssmfeaturizer
+      - items:
+        - items:
+          - name: microsoftml_scikit.feature_extraction.text.extractor.ngram.Ngram
+            uid: microsoftml_scikit.feature_extraction.text.extractor.ngram.Ngram
+          name: microsoftml_scikit.feature_extraction.text.extractor.ngram
+          uid: microsoftml_scikit.feature_extraction.text.extractor.ngram
+        - items:
+          - name: microsoftml_scikit.feature_extraction.text.extractor.ngramhash.NgramHash
+            uid: microsoftml_scikit.feature_extraction.text.extractor.ngramhash.NgramHash
+          name: microsoftml_scikit.feature_extraction.text.extractor.ngramhash
+          uid: microsoftml_scikit.feature_extraction.text.extractor.ngramhash
+        name: microsoftml_scikit.feature_extraction.text.extractor
+        uid: microsoftml_scikit.feature_extraction.text.extractor
+      - items:
+        - name: microsoftml_scikit.feature_extraction.text.lightlda.LightLda
+          uid: microsoftml_scikit.feature_extraction.text.lightlda.LightLda
+        name: microsoftml_scikit.feature_extraction.text.lightlda
+        uid: microsoftml_scikit.feature_extraction.text.lightlda
+      - items:
+        - name: microsoftml_scikit.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+          uid: microsoftml_scikit.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+        name: microsoftml_scikit.feature_extraction.text.ngramfeaturizer
+        uid: microsoftml_scikit.feature_extraction.text.ngramfeaturizer
+      - items:
+        - name: microsoftml_scikit.feature_extraction.text.sentiment.Sentiment
+          uid: microsoftml_scikit.feature_extraction.text.sentiment.Sentiment
+        name: microsoftml_scikit.feature_extraction.text.sentiment
+        uid: microsoftml_scikit.feature_extraction.text.sentiment
+      - items:
+        - name: microsoftml_scikit.feature_extraction.text.ssweembedding.SsweEmbedding
+          uid: microsoftml_scikit.feature_extraction.text.ssweembedding.SsweEmbedding
+        name: microsoftml_scikit.feature_extraction.text.ssweembedding
+        uid: microsoftml_scikit.feature_extraction.text.ssweembedding
+      - items:
+        - items:
+          - name: microsoftml_scikit.feature_extraction.text.stopwords.customstopwordsremover.CustomStopWordsRemover
+            uid: microsoftml_scikit.feature_extraction.text.stopwords.customstopwordsremover.CustomStopWordsRemover
+          name: microsoftml_scikit.feature_extraction.text.stopwords.customstopwordsremover
+          uid: microsoftml_scikit.feature_extraction.text.stopwords.customstopwordsremover
+        - items:
+          - name: microsoftml_scikit.feature_extraction.text.stopwords.predefinedstopwordsremover.PredefinedStopWordsRemover
+            uid: microsoftml_scikit.feature_extraction.text.stopwords.predefinedstopwordsremover.PredefinedStopWordsRemover
+          name: microsoftml_scikit.feature_extraction.text.stopwords.predefinedstopwordsremover
+          uid: microsoftml_scikit.feature_extraction.text.stopwords.predefinedstopwordsremover
+        name: microsoftml_scikit.feature_extraction.text.stopwords
+        uid: microsoftml_scikit.feature_extraction.text.stopwords
+      - items:
+        - name: microsoftml_scikit.feature_extraction.text.wordembedding.WordEmbedding
+          uid: microsoftml_scikit.feature_extraction.text.wordembedding.WordEmbedding
+        name: microsoftml_scikit.feature_extraction.text.wordembedding
+        uid: microsoftml_scikit.feature_extraction.text.wordembedding
+      name: microsoftml_scikit.feature_extraction.text
+      uid: microsoftml_scikit.feature_extraction.text
+    - items:
+      - name: microsoftml_scikit.feature_extraction.treefeaturizer.TreeFeaturizer
+        uid: microsoftml_scikit.feature_extraction.treefeaturizer.TreeFeaturizer
+      name: microsoftml_scikit.feature_extraction.treefeaturizer
+      uid: microsoftml_scikit.feature_extraction.treefeaturizer
+    name: microsoftml_scikit.feature_extraction
+    uid: microsoftml_scikit.feature_extraction
+  - items:
+    - items:
+      - name: microsoftml_scikit.feature_selection.countselector.CountSelector
+        uid: microsoftml_scikit.feature_selection.countselector.CountSelector
+      name: microsoftml_scikit.feature_selection.countselector
+      uid: microsoftml_scikit.feature_selection.countselector
+    - items:
+      - name: microsoftml_scikit.feature_selection.mutualinformationselector.MutualInformationSelector
+        uid: microsoftml_scikit.feature_selection.mutualinformationselector.MutualInformationSelector
+      name: microsoftml_scikit.feature_selection.mutualinformationselector
+      uid: microsoftml_scikit.feature_selection.mutualinformationselector
+    name: microsoftml_scikit.feature_selection
+    uid: microsoftml_scikit.feature_selection
+  - items:
+    - items:
+      - items:
+        - name: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+          uid: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+        name: microsoftml_scikit.internal.core.base_pipeline_item
+        uid: microsoftml_scikit.internal.core.base_pipeline_item
+      - items:
+        - items:
+          - name: microsoftml_scikit.internal.core.cluster.kmeansplusplus.KMeansPlusPlus
+            uid: microsoftml_scikit.internal.core.cluster.kmeansplusplus.KMeansPlusPlus
+          name: microsoftml_scikit.internal.core.cluster.kmeansplusplus
+          uid: microsoftml_scikit.internal.core.cluster.kmeansplusplus
+        name: microsoftml_scikit.internal.core.cluster
+        uid: microsoftml_scikit.internal.core.cluster
+      - items:
+        - items:
+          - name: microsoftml_scikit.internal.core.decomposition.factorizationmachinebinaryclassifier.FactorizationMachineBinaryClassifier
+            uid: microsoftml_scikit.internal.core.decomposition.factorizationmachinebinaryclassifier.FactorizationMachineBinaryClassifier
+          name: microsoftml_scikit.internal.core.decomposition.factorizationmachinebinaryclassifier
+          uid: microsoftml_scikit.internal.core.decomposition.factorizationmachinebinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector.PcaAnomalyDetector
+            uid: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector.PcaAnomalyDetector
+          name: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector
+          uid: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector
+        - items:
+          - name: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+            uid: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+          name: microsoftml_scikit.internal.core.decomposition.pcatransformer
+          uid: microsoftml_scikit.internal.core.decomposition.pcatransformer
+        name: microsoftml_scikit.internal.core.decomposition
+        uid: microsoftml_scikit.internal.core.decomposition
+      - items:
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.ensemble.booster.dart.Dart
+              uid: microsoftml_scikit.internal.core.ensemble.booster.dart.Dart
+            name: microsoftml_scikit.internal.core.ensemble.booster.dart
+            uid: microsoftml_scikit.internal.core.ensemble.booster.dart
+          - items:
+            - name: microsoftml_scikit.internal.core.ensemble.booster.gbdt.Gbdt
+              uid: microsoftml_scikit.internal.core.ensemble.booster.gbdt.Gbdt
+            name: microsoftml_scikit.internal.core.ensemble.booster.gbdt
+            uid: microsoftml_scikit.internal.core.ensemble.booster.gbdt
+          - items:
+            - name: microsoftml_scikit.internal.core.ensemble.booster.goss.Goss
+              uid: microsoftml_scikit.internal.core.ensemble.booster.goss.Goss
+            name: microsoftml_scikit.internal.core.ensemble.booster.goss
+            uid: microsoftml_scikit.internal.core.ensemble.booster.goss
+          name: microsoftml_scikit.internal.core.ensemble.booster
+          uid: microsoftml_scikit.internal.core.ensemble.booster
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.fastforestbinaryclassifier.FastForestBinaryClassifier
+            uid: microsoftml_scikit.internal.core.ensemble.fastforestbinaryclassifier.FastForestBinaryClassifier
+          name: microsoftml_scikit.internal.core.ensemble.fastforestbinaryclassifier
+          uid: microsoftml_scikit.internal.core.ensemble.fastforestbinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.fastforestregressor.FastForestRegressor
+            uid: microsoftml_scikit.internal.core.ensemble.fastforestregressor.FastForestRegressor
+          name: microsoftml_scikit.internal.core.ensemble.fastforestregressor
+          uid: microsoftml_scikit.internal.core.ensemble.fastforestregressor
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier.FastTreesBinaryClassifier
+            uid: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier.FastTreesBinaryClassifier
+          name: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier
+          uid: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.fasttreesregressor.FastTreesRegressor
+            uid: microsoftml_scikit.internal.core.ensemble.fasttreesregressor.FastTreesRegressor
+          name: microsoftml_scikit.internal.core.ensemble.fasttreesregressor
+          uid: microsoftml_scikit.internal.core.ensemble.fasttreesregressor
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor.FastTreesTweedieRegressor
+            uid: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor.FastTreesTweedieRegressor
+          name: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor
+          uid: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier.GamBinaryClassifier
+            uid: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier.GamBinaryClassifier
+          name: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier
+          uid: microsoftml_scikit.internal.core.ensemble.gambinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.gamregressor.GamRegressor
+            uid: microsoftml_scikit.internal.core.ensemble.gamregressor.GamRegressor
+          name: microsoftml_scikit.internal.core.ensemble.gamregressor
+          uid: microsoftml_scikit.internal.core.ensemble.gamregressor
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.lightgbmbinaryclassifier.LightGbmBinaryClassifier
+            uid: microsoftml_scikit.internal.core.ensemble.lightgbmbinaryclassifier.LightGbmBinaryClassifier
+          name: microsoftml_scikit.internal.core.ensemble.lightgbmbinaryclassifier
+          uid: microsoftml_scikit.internal.core.ensemble.lightgbmbinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.lightgbmclassifier.LightGbmClassifier
+            uid: microsoftml_scikit.internal.core.ensemble.lightgbmclassifier.LightGbmClassifier
+          name: microsoftml_scikit.internal.core.ensemble.lightgbmclassifier
+          uid: microsoftml_scikit.internal.core.ensemble.lightgbmclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.lightgbmranker.LightGbmRanker
+            uid: microsoftml_scikit.internal.core.ensemble.lightgbmranker.LightGbmRanker
+          name: microsoftml_scikit.internal.core.ensemble.lightgbmranker
+          uid: microsoftml_scikit.internal.core.ensemble.lightgbmranker
+        - items:
+          - name: microsoftml_scikit.internal.core.ensemble.lightgbmregressor.LightGbmRegressor
+            uid: microsoftml_scikit.internal.core.ensemble.lightgbmregressor.LightGbmRegressor
+          name: microsoftml_scikit.internal.core.ensemble.lightgbmregressor
+          uid: microsoftml_scikit.internal.core.ensemble.lightgbmregressor
+        name: microsoftml_scikit.internal.core.ensemble
+        uid: microsoftml_scikit.internal.core.ensemble
+      - items:
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.categorical.onehothashvectorizer.OneHotHashVectorizer
+              uid: microsoftml_scikit.internal.core.feature_extraction.categorical.onehothashvectorizer.OneHotHashVectorizer
+            name: microsoftml_scikit.internal.core.feature_extraction.categorical.onehothashvectorizer
+            uid: microsoftml_scikit.internal.core.feature_extraction.categorical.onehothashvectorizer
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.categorical.onehotvectorizer.OneHotVectorizer
+              uid: microsoftml_scikit.internal.core.feature_extraction.categorical.onehotvectorizer.OneHotVectorizer
+            name: microsoftml_scikit.internal.core.feature_extraction.categorical.onehotvectorizer
+            uid: microsoftml_scikit.internal.core.feature_extraction.categorical.onehotvectorizer
+          name: microsoftml_scikit.internal.core.feature_extraction.categorical
+          uid: microsoftml_scikit.internal.core.feature_extraction.categorical
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.image.dnnfeaturizer.DnnFeaturizer
+              uid: microsoftml_scikit.internal.core.feature_extraction.image.dnnfeaturizer.DnnFeaturizer
+            name: microsoftml_scikit.internal.core.feature_extraction.image.dnnfeaturizer
+            uid: microsoftml_scikit.internal.core.feature_extraction.image.dnnfeaturizer
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.image.loader.Loader
+              uid: microsoftml_scikit.internal.core.feature_extraction.image.loader.Loader
+            name: microsoftml_scikit.internal.core.feature_extraction.image.loader
+            uid: microsoftml_scikit.internal.core.feature_extraction.image.loader
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor
+              uid: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor
+            name: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor
+            uid: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer
+              uid: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer
+            name: microsoftml_scikit.internal.core.feature_extraction.image.resizer
+            uid: microsoftml_scikit.internal.core.feature_extraction.image.resizer
+          name: microsoftml_scikit.internal.core.feature_extraction.image
+          uid: microsoftml_scikit.internal.core.feature_extraction.image
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer.DssmFeaturizer
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer.DssmFeaturizer
+            name: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer
+            uid: microsoftml_scikit.internal.core.feature_extraction.text.dssmfeaturizer
+          - items:
+            - items:
+              - name: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram.Ngram
+                uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram.Ngram
+              name: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram
+            - items:
+              - name: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash.NgramHash
+                uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash.NgramHash
+              name: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash
+            name: microsoftml_scikit.internal.core.feature_extraction.text.extractor
+            uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.text.lightlda.LightLda
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.lightlda.LightLda
+            name: microsoftml_scikit.internal.core.feature_extraction.text.lightlda
+            uid: microsoftml_scikit.internal.core.feature_extraction.text.lightlda
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+            name: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer
+            uid: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.text.sentiment.Sentiment
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.sentiment.Sentiment
+            name: microsoftml_scikit.internal.core.feature_extraction.text.sentiment
+            uid: microsoftml_scikit.internal.core.feature_extraction.text.sentiment
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.text.ssweembedding.SsweEmbedding
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.ssweembedding.SsweEmbedding
+            name: microsoftml_scikit.internal.core.feature_extraction.text.ssweembedding
+            uid: microsoftml_scikit.internal.core.feature_extraction.text.ssweembedding
+          - items:
+            - items:
+              - name: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover.CustomStopWordsRemover
+                uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover.CustomStopWordsRemover
+              name: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.customstopwordsremover
+            - items:
+              - name: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover.PredefinedStopWordsRemover
+                uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover.PredefinedStopWordsRemover
+              name: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover
+            name: microsoftml_scikit.internal.core.feature_extraction.text.stopwords
+            uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords
+          - items:
+            - name: microsoftml_scikit.internal.core.feature_extraction.text.wordembedding.WordEmbedding
+              uid: microsoftml_scikit.internal.core.feature_extraction.text.wordembedding.WordEmbedding
+            name: microsoftml_scikit.internal.core.feature_extraction.text.wordembedding
+            uid: microsoftml_scikit.internal.core.feature_extraction.text.wordembedding
+          name: microsoftml_scikit.internal.core.feature_extraction.text
+          uid: microsoftml_scikit.internal.core.feature_extraction.text
+        - items:
+          - name: microsoftml_scikit.internal.core.feature_extraction.treefeaturizer.TreeFeaturizer
+            uid: microsoftml_scikit.internal.core.feature_extraction.treefeaturizer.TreeFeaturizer
+          name: microsoftml_scikit.internal.core.feature_extraction.treefeaturizer
+          uid: microsoftml_scikit.internal.core.feature_extraction.treefeaturizer
+        name: microsoftml_scikit.internal.core.feature_extraction
+        uid: microsoftml_scikit.internal.core.feature_extraction
+      - items:
+        - items:
+          - name: microsoftml_scikit.internal.core.feature_selection.countselector.CountSelector
+            uid: microsoftml_scikit.internal.core.feature_selection.countselector.CountSelector
+          name: microsoftml_scikit.internal.core.feature_selection.countselector
+          uid: microsoftml_scikit.internal.core.feature_selection.countselector
+        - items:
+          - name: microsoftml_scikit.internal.core.feature_selection.mutualinformationselector.MutualInformationSelector
+            uid: microsoftml_scikit.internal.core.feature_selection.mutualinformationselector.MutualInformationSelector
+          name: microsoftml_scikit.internal.core.feature_selection.mutualinformationselector
+          uid: microsoftml_scikit.internal.core.feature_selection.mutualinformationselector
+        name: microsoftml_scikit.internal.core.feature_selection
+        uid: microsoftml_scikit.internal.core.feature_selection
+      - items:
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier.AveragedPerceptronBinaryClassifier
+            uid: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier.AveragedPerceptronBinaryClassifier
+          name: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier
+          uid: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.fastlinearbinaryclassifier.FastLinearBinaryClassifier
+            uid: microsoftml_scikit.internal.core.linear_model.fastlinearbinaryclassifier.FastLinearBinaryClassifier
+          name: microsoftml_scikit.internal.core.linear_model.fastlinearbinaryclassifier
+          uid: microsoftml_scikit.internal.core.linear_model.fastlinearbinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.fastlinearclassifier.FastLinearClassifier
+            uid: microsoftml_scikit.internal.core.linear_model.fastlinearclassifier.FastLinearClassifier
+          name: microsoftml_scikit.internal.core.linear_model.fastlinearclassifier
+          uid: microsoftml_scikit.internal.core.linear_model.fastlinearclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.fastlinearregressor.FastLinearRegressor
+            uid: microsoftml_scikit.internal.core.linear_model.fastlinearregressor.FastLinearRegressor
+          name: microsoftml_scikit.internal.core.linear_model.fastlinearregressor
+          uid: microsoftml_scikit.internal.core.linear_model.fastlinearregressor
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.logisticregressionbinaryclassifier.LogisticRegressionBinaryClassifier
+            uid: microsoftml_scikit.internal.core.linear_model.logisticregressionbinaryclassifier.LogisticRegressionBinaryClassifier
+          name: microsoftml_scikit.internal.core.linear_model.logisticregressionbinaryclassifier
+          uid: microsoftml_scikit.internal.core.linear_model.logisticregressionbinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.logisticregressionclassifier.LogisticRegressionClassifier
+            uid: microsoftml_scikit.internal.core.linear_model.logisticregressionclassifier.LogisticRegressionClassifier
+          name: microsoftml_scikit.internal.core.linear_model.logisticregressionclassifier
+          uid: microsoftml_scikit.internal.core.linear_model.logisticregressionclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.onlinegradientdescentregressor.OnlineGradientDescentRegressor
+            uid: microsoftml_scikit.internal.core.linear_model.onlinegradientdescentregressor.OnlineGradientDescentRegressor
+          name: microsoftml_scikit.internal.core.linear_model.onlinegradientdescentregressor
+          uid: microsoftml_scikit.internal.core.linear_model.onlinegradientdescentregressor
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+            uid: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+          name: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor
+          uid: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.poissonregressionregressor.PoissonRegressionRegressor
+            uid: microsoftml_scikit.internal.core.linear_model.poissonregressionregressor.PoissonRegressionRegressor
+          name: microsoftml_scikit.internal.core.linear_model.poissonregressionregressor
+          uid: microsoftml_scikit.internal.core.linear_model.poissonregressionregressor
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier.SgdBinaryClassifier
+            uid: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier.SgdBinaryClassifier
+          name: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier
+          uid: microsoftml_scikit.internal.core.linear_model.sgdbinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.linear_model.symsgdbinaryclassifier.SymSgdBinaryClassifier
+            uid: microsoftml_scikit.internal.core.linear_model.symsgdbinaryclassifier.SymSgdBinaryClassifier
+          name: microsoftml_scikit.internal.core.linear_model.symsgdbinaryclassifier
+          uid: microsoftml_scikit.internal.core.linear_model.symsgdbinaryclassifier
+        name: microsoftml_scikit.internal.core.linear_model
+        uid: microsoftml_scikit.internal.core.linear_model
+      - items:
+        - name: microsoftml_scikit.internal.core.loss.loss_factory
+          uid: microsoftml_scikit.internal.core.loss.loss_factory
+        - name: microsoftml_scikit.internal.core.loss.loss_table_json
+          uid: microsoftml_scikit.internal.core.loss.loss_table_json
+        name: microsoftml_scikit.internal.core.loss
+        uid: microsoftml_scikit.internal.core.loss
+      - items:
+        - items:
+          - name: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier.OneVsRestClassifier
+            uid: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier.OneVsRestClassifier
+          name: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier
+          uid: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier
+        name: microsoftml_scikit.internal.core.multiclass
+        uid: microsoftml_scikit.internal.core.multiclass
+      - items:
+        - items:
+          - name: microsoftml_scikit.internal.core.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+            uid: microsoftml_scikit.internal.core.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+          name: microsoftml_scikit.internal.core.naive_bayes.naivebayesclassifier
+          uid: microsoftml_scikit.internal.core.naive_bayes.naivebayesclassifier
+        name: microsoftml_scikit.internal.core.naive_bayes
+        uid: microsoftml_scikit.internal.core.naive_bayes
+      - items:
+        - items:
+          - name: microsoftml_scikit.internal.core.preprocessing.expression.Expression
+            uid: microsoftml_scikit.internal.core.preprocessing.expression.Expression
+          name: microsoftml_scikit.internal.core.preprocessing.expression
+          uid: microsoftml_scikit.internal.core.preprocessing.expression
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler.BootstrapSampler
+              uid: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler.BootstrapSampler
+            name: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler
+            uid: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.filter.rangefilter.RangeFilter
+              uid: microsoftml_scikit.internal.core.preprocessing.filter.rangefilter.RangeFilter
+            name: microsoftml_scikit.internal.core.preprocessing.filter.rangefilter
+            uid: microsoftml_scikit.internal.core.preprocessing.filter.rangefilter
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter
+              uid: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter
+            name: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter
+            uid: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.filter.takefilter.TakeFilter
+              uid: microsoftml_scikit.internal.core.preprocessing.filter.takefilter.TakeFilter
+            name: microsoftml_scikit.internal.core.preprocessing.filter.takefilter
+            uid: microsoftml_scikit.internal.core.preprocessing.filter.takefilter
+          name: microsoftml_scikit.internal.core.preprocessing.filter
+          uid: microsoftml_scikit.internal.core.preprocessing.filter
+        - items:
+          - name: microsoftml_scikit.internal.core.preprocessing.keytotext.KeyToText
+            uid: microsoftml_scikit.internal.core.preprocessing.keytotext.KeyToText
+          name: microsoftml_scikit.internal.core.preprocessing.keytotext
+          uid: microsoftml_scikit.internal.core.preprocessing.keytotext
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.missing_values.filter.Filter
+              uid: microsoftml_scikit.internal.core.preprocessing.missing_values.filter.Filter
+            name: microsoftml_scikit.internal.core.preprocessing.missing_values.filter
+            uid: microsoftml_scikit.internal.core.preprocessing.missing_values.filter
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.missing_values.handler.Handler
+              uid: microsoftml_scikit.internal.core.preprocessing.missing_values.handler.Handler
+            name: microsoftml_scikit.internal.core.preprocessing.missing_values.handler
+            uid: microsoftml_scikit.internal.core.preprocessing.missing_values.handler
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.missing_values.indicator.Indicator
+              uid: microsoftml_scikit.internal.core.preprocessing.missing_values.indicator.Indicator
+            name: microsoftml_scikit.internal.core.preprocessing.missing_values.indicator
+            uid: microsoftml_scikit.internal.core.preprocessing.missing_values.indicator
+          name: microsoftml_scikit.internal.core.preprocessing.missing_values
+          uid: microsoftml_scikit.internal.core.preprocessing.missing_values
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.normalization.binner.Binner
+              uid: microsoftml_scikit.internal.core.preprocessing.normalization.binner.Binner
+            name: microsoftml_scikit.internal.core.preprocessing.normalization.binner
+            uid: microsoftml_scikit.internal.core.preprocessing.normalization.binner
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler.GlobalContrastRowScaler
+              uid: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler.GlobalContrastRowScaler
+            name: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler
+            uid: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler.LogMeanVarianceScaler
+              uid: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler.LogMeanVarianceScaler
+            name: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler
+            uid: microsoftml_scikit.internal.core.preprocessing.normalization.logmeanvariancescaler
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.normalization.meanvariancescaler.MeanVarianceScaler
+              uid: microsoftml_scikit.internal.core.preprocessing.normalization.meanvariancescaler.MeanVarianceScaler
+            name: microsoftml_scikit.internal.core.preprocessing.normalization.meanvariancescaler
+            uid: microsoftml_scikit.internal.core.preprocessing.normalization.meanvariancescaler
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.normalization.minmaxscaler.MinMaxScaler
+              uid: microsoftml_scikit.internal.core.preprocessing.normalization.minmaxscaler.MinMaxScaler
+            name: microsoftml_scikit.internal.core.preprocessing.normalization.minmaxscaler
+            uid: microsoftml_scikit.internal.core.preprocessing.normalization.minmaxscaler
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.normalization.optionalscaler.OptionalScaler
+              uid: microsoftml_scikit.internal.core.preprocessing.normalization.optionalscaler.OptionalScaler
+            name: microsoftml_scikit.internal.core.preprocessing.normalization.optionalscaler
+            uid: microsoftml_scikit.internal.core.preprocessing.normalization.optionalscaler
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.normalization.supervizedbinner.SupervizedBinner
+              uid: microsoftml_scikit.internal.core.preprocessing.normalization.supervizedbinner.SupervizedBinner
+            name: microsoftml_scikit.internal.core.preprocessing.normalization.supervizedbinner
+            uid: microsoftml_scikit.internal.core.preprocessing.normalization.supervizedbinner
+          name: microsoftml_scikit.internal.core.preprocessing.normalization
+          uid: microsoftml_scikit.internal.core.preprocessing.normalization
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.schema.columnconcatenator.ColumnConcatenator
+              uid: microsoftml_scikit.internal.core.preprocessing.schema.columnconcatenator.ColumnConcatenator
+            name: microsoftml_scikit.internal.core.preprocessing.schema.columnconcatenator
+            uid: microsoftml_scikit.internal.core.preprocessing.schema.columnconcatenator
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.schema.columndropper.ColumnDropper
+              uid: microsoftml_scikit.internal.core.preprocessing.schema.columndropper.ColumnDropper
+            name: microsoftml_scikit.internal.core.preprocessing.schema.columndropper
+            uid: microsoftml_scikit.internal.core.preprocessing.schema.columndropper
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator
+              uid: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator.ColumnDuplicator
+            name: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator
+            uid: microsoftml_scikit.internal.core.preprocessing.schema.columnduplicator
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.schema.columnselector.ColumnSelector
+              uid: microsoftml_scikit.internal.core.preprocessing.schema.columnselector.ColumnSelector
+            name: microsoftml_scikit.internal.core.preprocessing.schema.columnselector
+            uid: microsoftml_scikit.internal.core.preprocessing.schema.columnselector
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.schema.typeconverter.TypeConverter
+              uid: microsoftml_scikit.internal.core.preprocessing.schema.typeconverter.TypeConverter
+            name: microsoftml_scikit.internal.core.preprocessing.schema.typeconverter
+            uid: microsoftml_scikit.internal.core.preprocessing.schema.typeconverter
+          name: microsoftml_scikit.internal.core.preprocessing.schema
+          uid: microsoftml_scikit.internal.core.preprocessing.schema
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.text.chartokenizer.CharTokenizer
+              uid: microsoftml_scikit.internal.core.preprocessing.text.chartokenizer.CharTokenizer
+            name: microsoftml_scikit.internal.core.preprocessing.text.chartokenizer
+            uid: microsoftml_scikit.internal.core.preprocessing.text.chartokenizer
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+              uid: microsoftml_scikit.internal.core.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+            name: microsoftml_scikit.internal.core.preprocessing.text.keyphraseextractor
+            uid: microsoftml_scikit.internal.core.preprocessing.text.keyphraseextractor
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.text.lemmatizer.Lemmatizer
+              uid: microsoftml_scikit.internal.core.preprocessing.text.lemmatizer.Lemmatizer
+            name: microsoftml_scikit.internal.core.preprocessing.text.lemmatizer
+            uid: microsoftml_scikit.internal.core.preprocessing.text.lemmatizer
+          name: microsoftml_scikit.internal.core.preprocessing.text
+          uid: microsoftml_scikit.internal.core.preprocessing.text
+        - items:
+          - name: microsoftml_scikit.internal.core.preprocessing.texttokey.TextToKey
+            uid: microsoftml_scikit.internal.core.preprocessing.texttokey.TextToKey
+          name: microsoftml_scikit.internal.core.preprocessing.texttokey
+          uid: microsoftml_scikit.internal.core.preprocessing.texttokey
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.timeseries.exponentialaverage.ExponentialAverage
+              uid: microsoftml_scikit.internal.core.preprocessing.timeseries.exponentialaverage.ExponentialAverage
+            name: microsoftml_scikit.internal.core.preprocessing.timeseries.exponentialaverage
+            uid: microsoftml_scikit.internal.core.preprocessing.timeseries.exponentialaverage
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikechangepointdetector.IIDSpikeChangePointDetector
+              uid: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikechangepointdetector.IIDSpikeChangePointDetector
+            name: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikechangepointdetector
+            uid: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikechangepointdetector
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+              uid: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+            name: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikepointdetector
+            uid: microsoftml_scikit.internal.core.preprocessing.timeseries.iidspikepointdetector
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.timeseries.percentilethreshold.PercentileThreshold
+              uid: microsoftml_scikit.internal.core.preprocessing.timeseries.percentilethreshold.PercentileThreshold
+            name: microsoftml_scikit.internal.core.preprocessing.timeseries.percentilethreshold
+            uid: microsoftml_scikit.internal.core.preprocessing.timeseries.percentilethreshold
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.timeseries.pvalue.Pvalue
+              uid: microsoftml_scikit.internal.core.preprocessing.timeseries.pvalue.Pvalue
+            name: microsoftml_scikit.internal.core.preprocessing.timeseries.pvalue
+            uid: microsoftml_scikit.internal.core.preprocessing.timeseries.pvalue
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.timeseries.slidingwindow.SlidingWindow
+              uid: microsoftml_scikit.internal.core.preprocessing.timeseries.slidingwindow.SlidingWindow
+            name: microsoftml_scikit.internal.core.preprocessing.timeseries.slidingwindow
+            uid: microsoftml_scikit.internal.core.preprocessing.timeseries.slidingwindow
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector.SsaChangePointDetector
+              uid: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector.SsaChangePointDetector
+            name: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector
+            uid: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector
+          - items:
+            - name: microsoftml_scikit.internal.core.preprocessing.timeseries.ssaspikedetector.SsaSpikeDetector
+              uid: microsoftml_scikit.internal.core.preprocessing.timeseries.ssaspikedetector.SsaSpikeDetector
+            name: microsoftml_scikit.internal.core.preprocessing.timeseries.ssaspikedetector
+            uid: microsoftml_scikit.internal.core.preprocessing.timeseries.ssaspikedetector
+          name: microsoftml_scikit.internal.core.preprocessing.timeseries
+          uid: microsoftml_scikit.internal.core.preprocessing.timeseries
+        name: microsoftml_scikit.internal.core.preprocessing
+        uid: microsoftml_scikit.internal.core.preprocessing
+      - items:
+        - items:
+          - items:
+            - name: microsoftml_scikit.internal.core.svm.kernel.linearkernel.LinearKernel
+              uid: microsoftml_scikit.internal.core.svm.kernel.linearkernel.LinearKernel
+            name: microsoftml_scikit.internal.core.svm.kernel.linearkernel
+            uid: microsoftml_scikit.internal.core.svm.kernel.linearkernel
+          - items:
+            - name: microsoftml_scikit.internal.core.svm.kernel.polynomialkernel.PolynomialKernel
+              uid: microsoftml_scikit.internal.core.svm.kernel.polynomialkernel.PolynomialKernel
+            name: microsoftml_scikit.internal.core.svm.kernel.polynomialkernel
+            uid: microsoftml_scikit.internal.core.svm.kernel.polynomialkernel
+          - items:
+            - name: microsoftml_scikit.internal.core.svm.kernel.rbfkernel.RbfKernel
+              uid: microsoftml_scikit.internal.core.svm.kernel.rbfkernel.RbfKernel
+            name: microsoftml_scikit.internal.core.svm.kernel.rbfkernel
+            uid: microsoftml_scikit.internal.core.svm.kernel.rbfkernel
+          - items:
+            - name: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel.SigmoidKernel
+              uid: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel.SigmoidKernel
+            name: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel
+            uid: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel
+          name: microsoftml_scikit.internal.core.svm.kernel
+          uid: microsoftml_scikit.internal.core.svm.kernel
+        - items:
+          - name: microsoftml_scikit.internal.core.svm.localdeepsvmbinaryclassifier.LocalDeepSvmBinaryClassifier
+            uid: microsoftml_scikit.internal.core.svm.localdeepsvmbinaryclassifier.LocalDeepSvmBinaryClassifier
+          name: microsoftml_scikit.internal.core.svm.localdeepsvmbinaryclassifier
+          uid: microsoftml_scikit.internal.core.svm.localdeepsvmbinaryclassifier
+        - items:
+          - name: microsoftml_scikit.internal.core.svm.oneclasssvmanomalydetector.OneClassSvmAnomalyDetector
+            uid: microsoftml_scikit.internal.core.svm.oneclasssvmanomalydetector.OneClassSvmAnomalyDetector
+          name: microsoftml_scikit.internal.core.svm.oneclasssvmanomalydetector
+          uid: microsoftml_scikit.internal.core.svm.oneclasssvmanomalydetector
+        name: microsoftml_scikit.internal.core.svm
+        uid: microsoftml_scikit.internal.core.svm
+      name: microsoftml_scikit.internal.core
+      uid: microsoftml_scikit.internal.core
+    - items:
+      - name: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.averagedperceptron_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample
+        uid: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample
+      - name: microsoftml_scikit.internal.entrypoints.cache_cachedata
+        uid: microsoftml_scikit.internal.entrypoints.cache_cachedata
+      - name: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt
+        uid: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt
+      - name: microsoftml_scikit.internal.entrypoints.calibrate_naive
+        uid: microsoftml_scikit.internal.entrypoints.calibrate_naive
+      - name: microsoftml_scikit.internal.entrypoints.calibrate_pav
+        uid: microsoftml_scikit.internal.entrypoints.calibrate_pav
+      - name: microsoftml_scikit.internal.entrypoints.calibrate_platt
+        uid: microsoftml_scikit.internal.entrypoints.calibrate_platt
+      - name: microsoftml_scikit.internal.entrypoints.categorical_cattransformdict
+        uid: microsoftml_scikit.internal.entrypoints.categorical_cattransformdict
+      - name: microsoftml_scikit.internal.entrypoints.categorical_cattransformhash
+        uid: microsoftml_scikit.internal.entrypoints.categorical_cattransformhash
+      - name: microsoftml_scikit.internal.entrypoints.categorical_keytotext
+        uid: microsoftml_scikit.internal.entrypoints.categorical_keytotext
+      - name: microsoftml_scikit.internal.entrypoints.categorical_texttokey
+        uid: microsoftml_scikit.internal.entrypoints.categorical_texttokey
+      - name: microsoftml_scikit.internal.entrypoints.commands_crossvalidate
+        uid: microsoftml_scikit.internal.entrypoints.commands_crossvalidate
+      - name: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary
+        uid: microsoftml_scikit.internal.entrypoints.commands_crossvalidatebinary
+      - name: microsoftml_scikit.internal.entrypoints.commands_ova
+        uid: microsoftml_scikit.internal.entrypoints.commands_ova
+      - name: microsoftml_scikit.internal.entrypoints.commands_traintest
+        uid: microsoftml_scikit.internal.entrypoints.commands_traintest
+      - name: microsoftml_scikit.internal.entrypoints.commands_traintestbinary
+        uid: microsoftml_scikit.internal.entrypoints.commands_traintestbinary
+      - name: microsoftml_scikit.internal.entrypoints.common_makearrayidataview
+        uid: microsoftml_scikit.internal.entrypoints.common_makearrayidataview
+      - name: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel
+        uid: microsoftml_scikit.internal.entrypoints.common_makearrayipredictormodel
+      - name: microsoftml_scikit.internal.entrypoints.counttable_create
+        uid: microsoftml_scikit.internal.entrypoints.counttable_create
+      - name: microsoftml_scikit.internal.entrypoints.cvsplit_split
+        uid: microsoftml_scikit.internal.entrypoints.cvsplit_split
+      - name: microsoftml_scikit.internal.entrypoints.dssm_score
+        uid: microsoftml_scikit.internal.entrypoints.dssm_score
+      - name: microsoftml_scikit.internal.entrypoints.dssm_trigram
+        uid: microsoftml_scikit.internal.entrypoints.dssm_trigram
+      - name: microsoftml_scikit.internal.entrypoints.ensemblecreator_createanomalypipelineensemble
+        uid: microsoftml_scikit.internal.entrypoints.ensemblecreator_createanomalypipelineensemble
+      - name: microsoftml_scikit.internal.entrypoints.ensemblecreator_createbinaryensemble
+        uid: microsoftml_scikit.internal.entrypoints.ensemblecreator_createbinaryensemble
+      - name: microsoftml_scikit.internal.entrypoints.ensemblecreator_createbinarypipelineensemble
+        uid: microsoftml_scikit.internal.entrypoints.ensemblecreator_createbinarypipelineensemble
+      - name: microsoftml_scikit.internal.entrypoints.ensemblecreator_createmulticlasspipelineensemble
+        uid: microsoftml_scikit.internal.entrypoints.ensemblecreator_createmulticlasspipelineensemble
+      - name: microsoftml_scikit.internal.entrypoints.ensemblecreator_createregressionensemble
+        uid: microsoftml_scikit.internal.entrypoints.ensemblecreator_createregressionensemble
+      - name: microsoftml_scikit.internal.entrypoints.ensemblecreator_createregressionpipelineensemble
+        uid: microsoftml_scikit.internal.entrypoints.ensemblecreator_createregressionpipelineensemble
+      - name: microsoftml_scikit.internal.entrypoints.evaluate_anomalydetection
+        uid: microsoftml_scikit.internal.entrypoints.evaluate_anomalydetection
+      - name: microsoftml_scikit.internal.entrypoints.evaluate_binary
+        uid: microsoftml_scikit.internal.entrypoints.evaluate_binary
+      - name: microsoftml_scikit.internal.entrypoints.evaluate_clustering
+        uid: microsoftml_scikit.internal.entrypoints.evaluate_clustering
+      - name: microsoftml_scikit.internal.entrypoints.evaluate_multiclass
+        uid: microsoftml_scikit.internal.entrypoints.evaluate_multiclass
+      - name: microsoftml_scikit.internal.entrypoints.evaluate_multioutputregression
+        uid: microsoftml_scikit.internal.entrypoints.evaluate_multioutputregression
+      - name: microsoftml_scikit.internal.entrypoints.evaluate_quantileregression
+        uid: microsoftml_scikit.internal.entrypoints.evaluate_quantileregression
+      - name: microsoftml_scikit.internal.entrypoints.evaluate_ranking
+        uid: microsoftml_scikit.internal.entrypoints.evaluate_ranking
+      - name: microsoftml_scikit.internal.entrypoints.evaluate_regression
+        uid: microsoftml_scikit.internal.entrypoints.evaluate_regression
+      - name: microsoftml_scikit.internal.entrypoints.expressiontransform_apply
+        uid: microsoftml_scikit.internal.entrypoints.expressiontransform_apply
+      - name: microsoftml_scikit.internal.entrypoints.fastforest_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.fastforest_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.fastforest_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.fastforest_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.fasttree_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.fasttree_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.fasttree_trainranking
+        uid: microsoftml_scikit.internal.entrypoints.fasttree_trainranking
+      - name: microsoftml_scikit.internal.entrypoints.fasttree_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.fasttree_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.featurecombiner_convertpredictedlabel
+        uid: microsoftml_scikit.internal.entrypoints.featurecombiner_convertpredictedlabel
+      - name: microsoftml_scikit.internal.entrypoints.featurecombiner_prepareclassificationlabel
+        uid: microsoftml_scikit.internal.entrypoints.featurecombiner_prepareclassificationlabel
+      - name: microsoftml_scikit.internal.entrypoints.featurecombiner_preparefeatures
+        uid: microsoftml_scikit.internal.entrypoints.featurecombiner_preparefeatures
+      - name: microsoftml_scikit.internal.entrypoints.featurecombiner_prepareregressionlabel
+        uid: microsoftml_scikit.internal.entrypoints.featurecombiner_prepareregressionlabel
+      - name: microsoftml_scikit.internal.entrypoints.featurize_dssm
+        uid: microsoftml_scikit.internal.entrypoints.featurize_dssm
+      - name: microsoftml_scikit.internal.entrypoints.fieldawarefactorizationmachine_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.fieldawarefactorizationmachine_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.gam_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.gam_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.gam_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.gam_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.groupingoperations_group
+        uid: microsoftml_scikit.internal.entrypoints.groupingoperations_group
+      - name: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup
+        uid: microsoftml_scikit.internal.entrypoints.groupingoperations_ungroup
+      - name: microsoftml_scikit.internal.entrypoints.hashjoin_apply
+        uid: microsoftml_scikit.internal.entrypoints.hashjoin_apply
+      - name: microsoftml_scikit.internal.entrypoints.imageanalytics_dnnimagefeaturize
+        uid: microsoftml_scikit.internal.entrypoints.imageanalytics_dnnimagefeaturize
+      - name: microsoftml_scikit.internal.entrypoints.imageanalytics_extractpixeldata
+        uid: microsoftml_scikit.internal.entrypoints.imageanalytics_extractpixeldata
+      - name: microsoftml_scikit.internal.entrypoints.imageanalytics_load
+        uid: microsoftml_scikit.internal.entrypoints.imageanalytics_load
+      - name: microsoftml_scikit.internal.entrypoints.imageanalytics_ocr
+        uid: microsoftml_scikit.internal.entrypoints.imageanalytics_ocr
+      - name: microsoftml_scikit.internal.entrypoints.imageanalytics_resize
+        uid: microsoftml_scikit.internal.entrypoints.imageanalytics_resize
+      - name: microsoftml_scikit.internal.entrypoints.importtextdata_importtext
+        uid: microsoftml_scikit.internal.entrypoints.importtextdata_importtext
+      - name: microsoftml_scikit.internal.entrypoints.kmeansplusplus_trainclustering
+        uid: microsoftml_scikit.internal.entrypoints.kmeansplusplus_trainclustering
+      - name: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator
+        uid: microsoftml_scikit.internal.entrypoints.labelindicatortransform_labelindicator
+      - name: microsoftml_scikit.internal.entrypoints.lightgbm_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.lightgbm_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass
+        uid: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass
+      - name: microsoftml_scikit.internal.entrypoints.lightgbm_trainranking
+        uid: microsoftml_scikit.internal.entrypoints.lightgbm_trainranking
+      - name: microsoftml_scikit.internal.entrypoints.lightgbm_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.lightgbm_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.linearsvm_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.localdeepsvm_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.localdeepsvm_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.logisticregression_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.logisticregression_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.logisticregression_trainmulticlass
+        uid: microsoftml_scikit.internal.entrypoints.logisticregression_trainmulticlass
+      - name: microsoftml_scikit.internal.entrypoints.lpnormalization_gcnormalize
+        uid: microsoftml_scikit.internal.entrypoints.lpnormalization_gcnormalize
+      - name: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize
+        uid: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize
+      - name: microsoftml_scikit.internal.entrypoints.modeloperations_apply
+        uid: microsoftml_scikit.internal.entrypoints.modeloperations_apply
+      - name: microsoftml_scikit.internal.entrypoints.modeloperations_combinemodels
+        uid: microsoftml_scikit.internal.entrypoints.modeloperations_combinemodels
+      - name: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels
+        uid: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels
+      - name: microsoftml_scikit.internal.entrypoints.modeloperations_combinetwomodels
+        uid: microsoftml_scikit.internal.entrypoints.modeloperations_combinetwomodels
+      - name: microsoftml_scikit.internal.entrypoints.nahandling_drop
+        uid: microsoftml_scikit.internal.entrypoints.nahandling_drop
+      - name: microsoftml_scikit.internal.entrypoints.nahandling_filter
+        uid: microsoftml_scikit.internal.entrypoints.nahandling_filter
+      - name: microsoftml_scikit.internal.entrypoints.nahandling_handle
+        uid: microsoftml_scikit.internal.entrypoints.nahandling_handle
+      - name: microsoftml_scikit.internal.entrypoints.nahandling_indicator
+        uid: microsoftml_scikit.internal.entrypoints.nahandling_indicator
+      - name: microsoftml_scikit.internal.entrypoints.nahandling_replace
+        uid: microsoftml_scikit.internal.entrypoints.nahandling_replace
+      - name: microsoftml_scikit.internal.entrypoints.naivebayes_trainmulticlass
+        uid: microsoftml_scikit.internal.entrypoints.naivebayes_trainmulticlass
+      - name: microsoftml_scikit.internal.entrypoints.neuralnetwork_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.neuralnetwork_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.neuralnetwork_trainmulticlass
+        uid: microsoftml_scikit.internal.entrypoints.neuralnetwork_trainmulticlass
+      - name: microsoftml_scikit.internal.entrypoints.neuralnetwork_trainmultiregression
+        uid: microsoftml_scikit.internal.entrypoints.neuralnetwork_trainmultiregression
+      - name: microsoftml_scikit.internal.entrypoints.neuralnetwork_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.neuralnetwork_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.noptransform_nop
+        uid: microsoftml_scikit.internal.entrypoints.noptransform_nop
+      - name: microsoftml_scikit.internal.entrypoints.normalize_bin
+        uid: microsoftml_scikit.internal.entrypoints.normalize_bin
+      - name: microsoftml_scikit.internal.entrypoints.normalize_ifneeded
+        uid: microsoftml_scikit.internal.entrypoints.normalize_ifneeded
+      - name: microsoftml_scikit.internal.entrypoints.normalize_logmeanvar
+        uid: microsoftml_scikit.internal.entrypoints.normalize_logmeanvar
+      - name: microsoftml_scikit.internal.entrypoints.normalize_meanvar
+        uid: microsoftml_scikit.internal.entrypoints.normalize_meanvar
+      - name: microsoftml_scikit.internal.entrypoints.normalize_minmax
+        uid: microsoftml_scikit.internal.entrypoints.normalize_minmax
+      - name: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin
+        uid: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin
+      - name: microsoftml_scikit.internal.entrypoints.oneclasssvm_trainanomalydetection
+        uid: microsoftml_scikit.internal.entrypoints.oneclasssvm_trainanomalydetection
+      - name: microsoftml_scikit.internal.entrypoints.onlinegradientdescent_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.onlinegradientdescent_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.ordinaryleastsquares_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.ordinaryleastsquares_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.ovapredictor_combineovamodels
+        uid: microsoftml_scikit.internal.entrypoints.ovapredictor_combineovamodels
+      - name: microsoftml_scikit.internal.entrypoints.pca_calculate
+        uid: microsoftml_scikit.internal.entrypoints.pca_calculate
+      - name: microsoftml_scikit.internal.entrypoints.pca_trainanomalydetection
+        uid: microsoftml_scikit.internal.entrypoints.pca_trainanomalydetection
+      - name: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize
+        uid: microsoftml_scikit.internal.entrypoints.pipelineensemble_summarize
+      - name: microsoftml_scikit.internal.entrypoints.poissonregression_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.poissonregression_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.randomnumbergenerator_generate
+        uid: microsoftml_scikit.internal.entrypoints.randomnumbergenerator_generate
+      - name: microsoftml_scikit.internal.entrypoints.schemamanipulation_concatcolumns
+        uid: microsoftml_scikit.internal.entrypoints.schemamanipulation_concatcolumns
+      - name: microsoftml_scikit.internal.entrypoints.schemamanipulation_copycolumns
+        uid: microsoftml_scikit.internal.entrypoints.schemamanipulation_copycolumns
+      - name: microsoftml_scikit.internal.entrypoints.schemamanipulation_dropcolumns
+        uid: microsoftml_scikit.internal.entrypoints.schemamanipulation_dropcolumns
+      - name: microsoftml_scikit.internal.entrypoints.schemamanipulation_makeoptional
+        uid: microsoftml_scikit.internal.entrypoints.schemamanipulation_makeoptional
+      - name: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns
+        uid: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns
+      - name: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform
+        uid: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform
+      - name: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns
+        uid: microsoftml_scikit.internal.entrypoints.scoremodel_renamebinarypredictionscorecolumns
+      - name: microsoftml_scikit.internal.entrypoints.scoremodel_score
+        uid: microsoftml_scikit.internal.entrypoints.scoremodel_score
+      - name: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns
+        uid: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns
+      - name: microsoftml_scikit.internal.entrypoints.sdca_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.sdca_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass
+        uid: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass
+      - name: microsoftml_scikit.internal.entrypoints.sdca_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.sdca_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect
+        uid: microsoftml_scikit.internal.entrypoints.selectfeatures_countselect
+      - name: microsoftml_scikit.internal.entrypoints.selectfeatures_mutualinformationselect
+        uid: microsoftml_scikit.internal.entrypoints.selectfeatures_mutualinformationselect
+      - name: microsoftml_scikit.internal.entrypoints.selectrows_filterbyrange
+        uid: microsoftml_scikit.internal.entrypoints.selectrows_filterbyrange
+      - name: microsoftml_scikit.internal.entrypoints.selectrows_skipfilter
+        uid: microsoftml_scikit.internal.entrypoints.selectrows_skipfilter
+      - name: microsoftml_scikit.internal.entrypoints.selectrows_skiptakefilter
+        uid: microsoftml_scikit.internal.entrypoints.selectrows_skiptakefilter
+      - name: microsoftml_scikit.internal.entrypoints.selectrows_takefilter
+        uid: microsoftml_scikit.internal.entrypoints.selectrows_takefilter
+      - name: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.stochasticgradientdescent_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.summarizepredictor_summarize
+        uid: microsoftml_scikit.internal.entrypoints.summarizepredictor_summarize
+      - name: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary
+        uid: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary
+      - name: microsoftml_scikit.internal.entrypoints.textanalytics_analyzesentiment
+        uid: microsoftml_scikit.internal.entrypoints.textanalytics_analyzesentiment
+      - name: microsoftml_scikit.internal.entrypoints.textanalytics_chartokenize
+        uid: microsoftml_scikit.internal.entrypoints.textanalytics_chartokenize
+      - name: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases
+        uid: microsoftml_scikit.internal.entrypoints.textanalytics_extractkeyphrases
+      - name: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize
+        uid: microsoftml_scikit.internal.entrypoints.textanalytics_lemmatize
+      - name: microsoftml_scikit.internal.entrypoints.textanalytics_lightlda
+        uid: microsoftml_scikit.internal.entrypoints.textanalytics_lightlda
+      - name: microsoftml_scikit.internal.entrypoints.textanalytics_sswetransform
+        uid: microsoftml_scikit.internal.entrypoints.textanalytics_sswetransform
+      - name: microsoftml_scikit.internal.entrypoints.textanalytics_texttransform
+        uid: microsoftml_scikit.internal.entrypoints.textanalytics_texttransform
+      - name: microsoftml_scikit.internal.entrypoints.textanalytics_wordembeddings
+        uid: microsoftml_scikit.internal.entrypoints.textanalytics_wordembeddings
+      - name: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_exponentialaverage
+        uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_exponentialaverage
+      - name: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector
+        uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector
+      - name: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidspikedetector
+        uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidspikedetector
+      - name: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_percentilethresholdtransform
+        uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_percentilethresholdtransform
+      - name: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_pvaluetransform
+        uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_pvaluetransform
+      - name: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_slidingwindowtransform
+        uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_slidingwindowtransform
+      - name: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_ssachangepointdetector
+        uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_ssachangepointdetector
+      - name: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_ssaspikedetector
+        uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_ssaspikedetector
+      - name: microsoftml_scikit.internal.entrypoints.traintestsplit_split
+        uid: microsoftml_scikit.internal.entrypoints.traintestsplit_split
+      - name: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer
+        uid: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer
+      - name: microsoftml_scikit.internal.entrypoints.tweediefasttree_trainregression
+        uid: microsoftml_scikit.internal.entrypoints.tweediefasttree_trainregression
+      - name: microsoftml_scikit.internal.entrypoints.typeconversion_convert
+        uid: microsoftml_scikit.internal.entrypoints.typeconversion_convert
+      name: microsoftml_scikit.internal.entrypoints
+      uid: microsoftml_scikit.internal.entrypoints
+    - items:
+      - items:
+        - name: microsoftml_scikit.internal.utils.data_roles.DataRoles
+          uid: microsoftml_scikit.internal.utils.data_roles.DataRoles
+        - name: microsoftml_scikit.internal.utils.data_roles.Role
+          uid: microsoftml_scikit.internal.utils.data_roles.Role
+        - name: microsoftml_scikit.internal.utils.data_roles.RoleError
+          uid: microsoftml_scikit.internal.utils.data_roles.RoleError
+        name: microsoftml_scikit.internal.utils.data_roles
+        uid: microsoftml_scikit.internal.utils.data_roles
+      - items:
+        - name: microsoftml_scikit.internal.utils.data_schema.COL
+          uid: microsoftml_scikit.internal.utils.data_schema.COL
+        - name: microsoftml_scikit.internal.utils.data_schema.DataColumn
+          uid: microsoftml_scikit.internal.utils.data_schema.DataColumn
+        - name: microsoftml_scikit.internal.utils.data_schema.DataSchema
+          uid: microsoftml_scikit.internal.utils.data_schema.DataSchema
+        name: microsoftml_scikit.internal.utils.data_schema
+        uid: microsoftml_scikit.internal.utils.data_schema
+      - items:
+        - name: microsoftml_scikit.internal.utils.data_stream.DataStream
+          uid: microsoftml_scikit.internal.utils.data_stream.DataStream
+        - name: microsoftml_scikit.internal.utils.data_stream.FileDataStream
+          uid: microsoftml_scikit.internal.utils.data_stream.FileDataStream
+        - name: microsoftml_scikit.internal.utils.data_stream.ViewBasePipelineItem
+          uid: microsoftml_scikit.internal.utils.data_stream.ViewBasePipelineItem
+        - name: microsoftml_scikit.internal.utils.data_stream.ViewDataStream
+          uid: microsoftml_scikit.internal.utils.data_stream.ViewDataStream
+        name: microsoftml_scikit.internal.utils.data_stream
+        uid: microsoftml_scikit.internal.utils.data_stream
+      - name: microsoftml_scikit.internal.utils.dataframes
+        uid: microsoftml_scikit.internal.utils.dataframes
+      - items:
+        - name: microsoftml_scikit.internal.utils.entrypoints.BridgeRuntimeError
+          uid: microsoftml_scikit.internal.utils.entrypoints.BridgeRuntimeError
+        - name: microsoftml_scikit.internal.utils.entrypoints.Component
+          uid: microsoftml_scikit.internal.utils.entrypoints.Component
+        - name: microsoftml_scikit.internal.utils.entrypoints.EntryPoint
+          uid: microsoftml_scikit.internal.utils.entrypoints.EntryPoint
+        - name: microsoftml_scikit.internal.utils.entrypoints.Graph
+          uid: microsoftml_scikit.internal.utils.entrypoints.Graph
+        - name: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+          uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+        name: microsoftml_scikit.internal.utils.entrypoints
+        uid: microsoftml_scikit.internal.utils.entrypoints
+      - name: microsoftml_scikit.internal.utils.schema_helper
+        uid: microsoftml_scikit.internal.utils.schema_helper
+      - name: microsoftml_scikit.internal.utils.stubs
+        uid: microsoftml_scikit.internal.utils.stubs
+      - items:
+        - name: microsoftml_scikit.internal.utils.utils.Formula
+          uid: microsoftml_scikit.internal.utils.utils.Formula
+        - name: microsoftml_scikit.internal.utils.utils.TransformColumn
+          uid: microsoftml_scikit.internal.utils.utils.TransformColumn
+        name: microsoftml_scikit.internal.utils.utils
+        uid: microsoftml_scikit.internal.utils.utils
+      name: microsoftml_scikit.internal.utils
+      uid: microsoftml_scikit.internal.utils
+    name: microsoftml_scikit.internal
+    uid: microsoftml_scikit.internal
+  - items:
+    - items:
+      - name: microsoftml_scikit.linear_model.averagedperceptronbinaryclassifier.AveragedPerceptronBinaryClassifier
+        uid: microsoftml_scikit.linear_model.averagedperceptronbinaryclassifier.AveragedPerceptronBinaryClassifier
+      name: microsoftml_scikit.linear_model.averagedperceptronbinaryclassifier
+      uid: microsoftml_scikit.linear_model.averagedperceptronbinaryclassifier
+    - items:
+      - name: microsoftml_scikit.linear_model.fastlinearbinaryclassifier.FastLinearBinaryClassifier
+        uid: microsoftml_scikit.linear_model.fastlinearbinaryclassifier.FastLinearBinaryClassifier
+      name: microsoftml_scikit.linear_model.fastlinearbinaryclassifier
+      uid: microsoftml_scikit.linear_model.fastlinearbinaryclassifier
+    - items:
+      - name: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+        uid: microsoftml_scikit.linear_model.fastlinearclassifier.FastLinearClassifier
+      name: microsoftml_scikit.linear_model.fastlinearclassifier
+      uid: microsoftml_scikit.linear_model.fastlinearclassifier
+    - items:
+      - name: microsoftml_scikit.linear_model.fastlinearregressor.FastLinearRegressor
+        uid: microsoftml_scikit.linear_model.fastlinearregressor.FastLinearRegressor
+      name: microsoftml_scikit.linear_model.fastlinearregressor
+      uid: microsoftml_scikit.linear_model.fastlinearregressor
+    - items:
+      - name: microsoftml_scikit.linear_model.logisticregressionbinaryclassifier.LogisticRegressionBinaryClassifier
+        uid: microsoftml_scikit.linear_model.logisticregressionbinaryclassifier.LogisticRegressionBinaryClassifier
+      name: microsoftml_scikit.linear_model.logisticregressionbinaryclassifier
+      uid: microsoftml_scikit.linear_model.logisticregressionbinaryclassifier
+    - items:
+      - name: microsoftml_scikit.linear_model.logisticregressionclassifier.LogisticRegressionClassifier
+        uid: microsoftml_scikit.linear_model.logisticregressionclassifier.LogisticRegressionClassifier
+      name: microsoftml_scikit.linear_model.logisticregressionclassifier
+      uid: microsoftml_scikit.linear_model.logisticregressionclassifier
+    - items:
+      - name: microsoftml_scikit.linear_model.onlinegradientdescentregressor.OnlineGradientDescentRegressor
+        uid: microsoftml_scikit.linear_model.onlinegradientdescentregressor.OnlineGradientDescentRegressor
+      name: microsoftml_scikit.linear_model.onlinegradientdescentregressor
+      uid: microsoftml_scikit.linear_model.onlinegradientdescentregressor
+    - items:
+      - name: microsoftml_scikit.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+        uid: microsoftml_scikit.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+      name: microsoftml_scikit.linear_model.ordinaryleastsquaresregressor
+      uid: microsoftml_scikit.linear_model.ordinaryleastsquaresregressor
+    - items:
+      - name: microsoftml_scikit.linear_model.poissonregressionregressor.PoissonRegressionRegressor
+        uid: microsoftml_scikit.linear_model.poissonregressionregressor.PoissonRegressionRegressor
+      name: microsoftml_scikit.linear_model.poissonregressionregressor
+      uid: microsoftml_scikit.linear_model.poissonregressionregressor
+    - items:
+      - name: microsoftml_scikit.linear_model.sgdbinaryclassifier.SgdBinaryClassifier
+        uid: microsoftml_scikit.linear_model.sgdbinaryclassifier.SgdBinaryClassifier
+      name: microsoftml_scikit.linear_model.sgdbinaryclassifier
+      uid: microsoftml_scikit.linear_model.sgdbinaryclassifier
+    - items:
+      - name: microsoftml_scikit.linear_model.symsgdbinaryclassifier.SymSgdBinaryClassifier
+        uid: microsoftml_scikit.linear_model.symsgdbinaryclassifier.SymSgdBinaryClassifier
+      name: microsoftml_scikit.linear_model.symsgdbinaryclassifier
+      uid: microsoftml_scikit.linear_model.symsgdbinaryclassifier
+    name: microsoftml_scikit.linear_model
+    uid: microsoftml_scikit.linear_model
+  - items:
+    - name: microsoftml_scikit.loss.Exp
+      uid: microsoftml_scikit.loss.Exp
+    - name: microsoftml_scikit.loss.Hinge
+      uid: microsoftml_scikit.loss.Hinge
+    - name: microsoftml_scikit.loss.Log
+      uid: microsoftml_scikit.loss.Log
+    - name: microsoftml_scikit.loss.Poisson
+      uid: microsoftml_scikit.loss.Poisson
+    - name: microsoftml_scikit.loss.SmoothedHinge
+      uid: microsoftml_scikit.loss.SmoothedHinge
+    - name: microsoftml_scikit.loss.Squared
+      uid: microsoftml_scikit.loss.Squared
+    - name: microsoftml_scikit.loss.Tweedie
+      uid: microsoftml_scikit.loss.Tweedie
+    name: microsoftml_scikit.loss
+    uid: microsoftml_scikit.loss
+  - items:
+    - items:
+      - name: microsoftml_scikit.model_selection.cv.CV
+        uid: microsoftml_scikit.model_selection.cv.CV
+      - name: microsoftml_scikit.model_selection.cv.PipelineSteps
+        uid: microsoftml_scikit.model_selection.cv.PipelineSteps
+      name: microsoftml_scikit.model_selection.cv
+      uid: microsoftml_scikit.model_selection.cv
+    name: microsoftml_scikit.model_selection
+    uid: microsoftml_scikit.model_selection
+  - items:
+    - items:
+      - name: microsoftml_scikit.multiclass.onevsrestclassifier.OneVsRestClassifier
+        uid: microsoftml_scikit.multiclass.onevsrestclassifier.OneVsRestClassifier
+      name: microsoftml_scikit.multiclass.onevsrestclassifier
+      uid: microsoftml_scikit.multiclass.onevsrestclassifier
+    name: microsoftml_scikit.multiclass
+    uid: microsoftml_scikit.multiclass
+  - items:
+    - items:
+      - name: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+        uid: microsoftml_scikit.naive_bayes.naivebayesclassifier.NaiveBayesClassifier
+      name: microsoftml_scikit.naive_bayes.naivebayesclassifier
+      uid: microsoftml_scikit.naive_bayes.naivebayesclassifier
+    name: microsoftml_scikit.naive_bayes
+    uid: microsoftml_scikit.naive_bayes
+  - items:
+    - name: microsoftml_scikit.pipeline.Pipeline
+      uid: microsoftml_scikit.pipeline.Pipeline
+    name: microsoftml_scikit.pipeline
+    uid: microsoftml_scikit.pipeline
+  - items:
+    - items:
+      - name: microsoftml_scikit.preprocessing.expression.Expression
+        uid: microsoftml_scikit.preprocessing.expression.Expression
+      name: microsoftml_scikit.preprocessing.expression
+      uid: microsoftml_scikit.preprocessing.expression
+    - items:
+      - items:
+        - name: microsoftml_scikit.preprocessing.filter.bootstrapsampler.BootstrapSampler
+          uid: microsoftml_scikit.preprocessing.filter.bootstrapsampler.BootstrapSampler
+        name: microsoftml_scikit.preprocessing.filter.bootstrapsampler
+        uid: microsoftml_scikit.preprocessing.filter.bootstrapsampler
+      - items:
+        - name: microsoftml_scikit.preprocessing.filter.rangefilter.RangeFilter
+          uid: microsoftml_scikit.preprocessing.filter.rangefilter.RangeFilter
+        name: microsoftml_scikit.preprocessing.filter.rangefilter
+        uid: microsoftml_scikit.preprocessing.filter.rangefilter
+      - items:
+        - name: microsoftml_scikit.preprocessing.filter.skipfilter.SkipFilter
+          uid: microsoftml_scikit.preprocessing.filter.skipfilter.SkipFilter
+        name: microsoftml_scikit.preprocessing.filter.skipfilter
+        uid: microsoftml_scikit.preprocessing.filter.skipfilter
+      - items:
+        - name: microsoftml_scikit.preprocessing.filter.takefilter.TakeFilter
+          uid: microsoftml_scikit.preprocessing.filter.takefilter.TakeFilter
+        name: microsoftml_scikit.preprocessing.filter.takefilter
+        uid: microsoftml_scikit.preprocessing.filter.takefilter
+      name: microsoftml_scikit.preprocessing.filter
+      uid: microsoftml_scikit.preprocessing.filter
+    - items:
+      - name: microsoftml_scikit.preprocessing.keytotext.KeyToText
+        uid: microsoftml_scikit.preprocessing.keytotext.KeyToText
+      name: microsoftml_scikit.preprocessing.keytotext
+      uid: microsoftml_scikit.preprocessing.keytotext
+    - items:
+      - items:
+        - name: microsoftml_scikit.preprocessing.missing_values.filter.Filter
+          uid: microsoftml_scikit.preprocessing.missing_values.filter.Filter
+        name: microsoftml_scikit.preprocessing.missing_values.filter
+        uid: microsoftml_scikit.preprocessing.missing_values.filter
+      - items:
+        - name: microsoftml_scikit.preprocessing.missing_values.handler.Handler
+          uid: microsoftml_scikit.preprocessing.missing_values.handler.Handler
+        name: microsoftml_scikit.preprocessing.missing_values.handler
+        uid: microsoftml_scikit.preprocessing.missing_values.handler
+      - items:
+        - name: microsoftml_scikit.preprocessing.missing_values.indicator.Indicator
+          uid: microsoftml_scikit.preprocessing.missing_values.indicator.Indicator
+        name: microsoftml_scikit.preprocessing.missing_values.indicator
+        uid: microsoftml_scikit.preprocessing.missing_values.indicator
+      name: microsoftml_scikit.preprocessing.missing_values
+      uid: microsoftml_scikit.preprocessing.missing_values
+    - items:
+      - items:
+        - name: microsoftml_scikit.preprocessing.normalization.binner.Binner
+          uid: microsoftml_scikit.preprocessing.normalization.binner.Binner
+        name: microsoftml_scikit.preprocessing.normalization.binner
+        uid: microsoftml_scikit.preprocessing.normalization.binner
+      - items:
+        - name: microsoftml_scikit.preprocessing.normalization.globalcontrastrowscaler.GlobalContrastRowScaler
+          uid: microsoftml_scikit.preprocessing.normalization.globalcontrastrowscaler.GlobalContrastRowScaler
+        name: microsoftml_scikit.preprocessing.normalization.globalcontrastrowscaler
+        uid: microsoftml_scikit.preprocessing.normalization.globalcontrastrowscaler
+      - items:
+        - name: microsoftml_scikit.preprocessing.normalization.logmeanvariancescaler.LogMeanVarianceScaler
+          uid: microsoftml_scikit.preprocessing.normalization.logmeanvariancescaler.LogMeanVarianceScaler
+        name: microsoftml_scikit.preprocessing.normalization.logmeanvariancescaler
+        uid: microsoftml_scikit.preprocessing.normalization.logmeanvariancescaler
+      - items:
+        - name: microsoftml_scikit.preprocessing.normalization.meanvariancescaler.MeanVarianceScaler
+          uid: microsoftml_scikit.preprocessing.normalization.meanvariancescaler.MeanVarianceScaler
+        name: microsoftml_scikit.preprocessing.normalization.meanvariancescaler
+        uid: microsoftml_scikit.preprocessing.normalization.meanvariancescaler
+      - items:
+        - name: microsoftml_scikit.preprocessing.normalization.minmaxscaler.MinMaxScaler
+          uid: microsoftml_scikit.preprocessing.normalization.minmaxscaler.MinMaxScaler
+        name: microsoftml_scikit.preprocessing.normalization.minmaxscaler
+        uid: microsoftml_scikit.preprocessing.normalization.minmaxscaler
+      - items:
+        - name: microsoftml_scikit.preprocessing.normalization.optionalscaler.OptionalScaler
+          uid: microsoftml_scikit.preprocessing.normalization.optionalscaler.OptionalScaler
+        name: microsoftml_scikit.preprocessing.normalization.optionalscaler
+        uid: microsoftml_scikit.preprocessing.normalization.optionalscaler
+      - items:
+        - name: microsoftml_scikit.preprocessing.normalization.supervizedbinner.SupervizedBinner
+          uid: microsoftml_scikit.preprocessing.normalization.supervizedbinner.SupervizedBinner
+        name: microsoftml_scikit.preprocessing.normalization.supervizedbinner
+        uid: microsoftml_scikit.preprocessing.normalization.supervizedbinner
+      name: microsoftml_scikit.preprocessing.normalization
+      uid: microsoftml_scikit.preprocessing.normalization
+    - items:
+      - items:
+        - name: microsoftml_scikit.preprocessing.schema.columnconcatenator.ColumnConcatenator
+          uid: microsoftml_scikit.preprocessing.schema.columnconcatenator.ColumnConcatenator
+        name: microsoftml_scikit.preprocessing.schema.columnconcatenator
+        uid: microsoftml_scikit.preprocessing.schema.columnconcatenator
+      - items:
+        - name: microsoftml_scikit.preprocessing.schema.columndropper.ColumnDropper
+          uid: microsoftml_scikit.preprocessing.schema.columndropper.ColumnDropper
+        name: microsoftml_scikit.preprocessing.schema.columndropper
+        uid: microsoftml_scikit.preprocessing.schema.columndropper
+      - items:
+        - name: microsoftml_scikit.preprocessing.schema.columnduplicator.ColumnDuplicator
+          uid: microsoftml_scikit.preprocessing.schema.columnduplicator.ColumnDuplicator
+        name: microsoftml_scikit.preprocessing.schema.columnduplicator
+        uid: microsoftml_scikit.preprocessing.schema.columnduplicator
+      - items:
+        - name: microsoftml_scikit.preprocessing.schema.columnselector.ColumnSelector
+          uid: microsoftml_scikit.preprocessing.schema.columnselector.ColumnSelector
+        name: microsoftml_scikit.preprocessing.schema.columnselector
+        uid: microsoftml_scikit.preprocessing.schema.columnselector
+      - items:
+        - name: microsoftml_scikit.preprocessing.schema.typeconverter.TypeConverter
+          uid: microsoftml_scikit.preprocessing.schema.typeconverter.TypeConverter
+        name: microsoftml_scikit.preprocessing.schema.typeconverter
+        uid: microsoftml_scikit.preprocessing.schema.typeconverter
+      name: microsoftml_scikit.preprocessing.schema
+      uid: microsoftml_scikit.preprocessing.schema
+    - items:
+      - items:
+        - name: microsoftml_scikit.preprocessing.text.chartokenizer.CharTokenizer
+          uid: microsoftml_scikit.preprocessing.text.chartokenizer.CharTokenizer
+        name: microsoftml_scikit.preprocessing.text.chartokenizer
+        uid: microsoftml_scikit.preprocessing.text.chartokenizer
+      - items:
+        - name: microsoftml_scikit.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+          uid: microsoftml_scikit.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+        name: microsoftml_scikit.preprocessing.text.keyphraseextractor
+        uid: microsoftml_scikit.preprocessing.text.keyphraseextractor
+      - items:
+        - name: microsoftml_scikit.preprocessing.text.lemmatizer.Lemmatizer
+          uid: microsoftml_scikit.preprocessing.text.lemmatizer.Lemmatizer
+        name: microsoftml_scikit.preprocessing.text.lemmatizer
+        uid: microsoftml_scikit.preprocessing.text.lemmatizer
+      name: microsoftml_scikit.preprocessing.text
+      uid: microsoftml_scikit.preprocessing.text
+    - items:
+      - name: microsoftml_scikit.preprocessing.texttokey.TextToKey
+        uid: microsoftml_scikit.preprocessing.texttokey.TextToKey
+      name: microsoftml_scikit.preprocessing.texttokey
+      uid: microsoftml_scikit.preprocessing.texttokey
+    - items:
+      - items:
+        - name: microsoftml_scikit.preprocessing.timeseries.exponentialaverage.ExponentialAverage
+          uid: microsoftml_scikit.preprocessing.timeseries.exponentialaverage.ExponentialAverage
+        name: microsoftml_scikit.preprocessing.timeseries.exponentialaverage
+        uid: microsoftml_scikit.preprocessing.timeseries.exponentialaverage
+      - items:
+        - name: microsoftml_scikit.preprocessing.timeseries.iidspikechangepointdetector.IIDSpikeChangePointDetector
+          uid: microsoftml_scikit.preprocessing.timeseries.iidspikechangepointdetector.IIDSpikeChangePointDetector
+        name: microsoftml_scikit.preprocessing.timeseries.iidspikechangepointdetector
+        uid: microsoftml_scikit.preprocessing.timeseries.iidspikechangepointdetector
+      - items:
+        - name: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+          uid: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector.IIDSpikePointDetector
+        name: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector
+        uid: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector
+      - items:
+        - name: microsoftml_scikit.preprocessing.timeseries.percentilethreshold.PercentileThreshold
+          uid: microsoftml_scikit.preprocessing.timeseries.percentilethreshold.PercentileThreshold
+        name: microsoftml_scikit.preprocessing.timeseries.percentilethreshold
+        uid: microsoftml_scikit.preprocessing.timeseries.percentilethreshold
+      - items:
+        - name: microsoftml_scikit.preprocessing.timeseries.pvalue.Pvalue
+          uid: microsoftml_scikit.preprocessing.timeseries.pvalue.Pvalue
+        name: microsoftml_scikit.preprocessing.timeseries.pvalue
+        uid: microsoftml_scikit.preprocessing.timeseries.pvalue
+      - items:
+        - name: microsoftml_scikit.preprocessing.timeseries.slidingwindow.SlidingWindow
+          uid: microsoftml_scikit.preprocessing.timeseries.slidingwindow.SlidingWindow
+        name: microsoftml_scikit.preprocessing.timeseries.slidingwindow
+        uid: microsoftml_scikit.preprocessing.timeseries.slidingwindow
+      - items:
+        - name: microsoftml_scikit.preprocessing.timeseries.ssachangepointdetector.SsaChangePointDetector
+          uid: microsoftml_scikit.preprocessing.timeseries.ssachangepointdetector.SsaChangePointDetector
+        name: microsoftml_scikit.preprocessing.timeseries.ssachangepointdetector
+        uid: microsoftml_scikit.preprocessing.timeseries.ssachangepointdetector
+      - items:
+        - name: microsoftml_scikit.preprocessing.timeseries.ssaspikedetector.SsaSpikeDetector
+          uid: microsoftml_scikit.preprocessing.timeseries.ssaspikedetector.SsaSpikeDetector
+        name: microsoftml_scikit.preprocessing.timeseries.ssaspikedetector
+        uid: microsoftml_scikit.preprocessing.timeseries.ssaspikedetector
+      name: microsoftml_scikit.preprocessing.timeseries
+      uid: microsoftml_scikit.preprocessing.timeseries
+    name: microsoftml_scikit.preprocessing
+    uid: microsoftml_scikit.preprocessing
+  - items:
+    - items:
+      - items:
+        - name: microsoftml_scikit.svm.kernel.linearkernel.LinearKernel
+          uid: microsoftml_scikit.svm.kernel.linearkernel.LinearKernel
+        name: microsoftml_scikit.svm.kernel.linearkernel
+        uid: microsoftml_scikit.svm.kernel.linearkernel
+      - items:
+        - name: microsoftml_scikit.svm.kernel.polynomialkernel.PolynomialKernel
+          uid: microsoftml_scikit.svm.kernel.polynomialkernel.PolynomialKernel
+        name: microsoftml_scikit.svm.kernel.polynomialkernel
+        uid: microsoftml_scikit.svm.kernel.polynomialkernel
+      - items:
+        - name: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel
+          uid: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel
+        name: microsoftml_scikit.svm.kernel.rbfkernel
+        uid: microsoftml_scikit.svm.kernel.rbfkernel
+      - items:
+        - name: microsoftml_scikit.svm.kernel.sigmoidkernel.SigmoidKernel
+          uid: microsoftml_scikit.svm.kernel.sigmoidkernel.SigmoidKernel
+        name: microsoftml_scikit.svm.kernel.sigmoidkernel
+        uid: microsoftml_scikit.svm.kernel.sigmoidkernel
+      name: microsoftml_scikit.svm.kernel
+      uid: microsoftml_scikit.svm.kernel
+    - items:
+      - name: microsoftml_scikit.svm.localdeepsvmbinaryclassifier.LocalDeepSvmBinaryClassifier
+        uid: microsoftml_scikit.svm.localdeepsvmbinaryclassifier.LocalDeepSvmBinaryClassifier
+      name: microsoftml_scikit.svm.localdeepsvmbinaryclassifier
+      uid: microsoftml_scikit.svm.localdeepsvmbinaryclassifier
+    - items:
+      - name: microsoftml_scikit.svm.oneclasssvmanomalydetector.OneClassSvmAnomalyDetector
+        uid: microsoftml_scikit.svm.oneclasssvmanomalydetector.OneClassSvmAnomalyDetector
+      name: microsoftml_scikit.svm.oneclasssvmanomalydetector
+      uid: microsoftml_scikit.svm.oneclasssvmanomalydetector
+    name: microsoftml_scikit.svm
+    uid: microsoftml_scikit.svm
+  name: microsoftml_scikit
+  uid: microsoftml_scikit

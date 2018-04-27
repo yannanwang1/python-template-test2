@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.cluster
+  - microsoftml_scikit.decomposition
+  - microsoftml_scikit.ensemble
+  - microsoftml_scikit.feature_extraction
+  - microsoftml_scikit.feature_selection
+  - microsoftml_scikit.internal
+  - microsoftml_scikit.linear_model
+  - microsoftml_scikit.model_selection
+  - microsoftml_scikit.multiclass
+  - microsoftml_scikit.naive_bayes
+  - microsoftml_scikit.preprocessing
+  - microsoftml_scikit.svm
+  fullName: microsoftml_scikit
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: microsoftml_scikit
+  source:
+    id: microsoftml_scikit
+    path: microsoftml_scikit\__init__.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\__init__.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Microsoft Machine Learning for Python
+
+    '
+  type: package
+  uid: microsoftml_scikit
+references:
+- fullName: microsoftml_scikit.cluster
+  isExternal: false
+  name: cluster
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.cluster
+- fullName: microsoftml_scikit.decomposition
+  isExternal: false
+  name: decomposition
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.decomposition
+- fullName: microsoftml_scikit.ensemble
+  isExternal: false
+  name: ensemble
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.ensemble
+- fullName: microsoftml_scikit.feature_extraction
+  isExternal: false
+  name: feature_extraction
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.feature_extraction
+- fullName: microsoftml_scikit.feature_selection
+  isExternal: false
+  name: feature_selection
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.feature_selection
+- fullName: microsoftml_scikit.internal
+  isExternal: false
+  name: internal
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.internal
+- fullName: microsoftml_scikit.linear_model
+  isExternal: false
+  name: linear_model
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.linear_model
+- fullName: microsoftml_scikit.model_selection
+  isExternal: false
+  name: model_selection
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.model_selection
+- fullName: microsoftml_scikit.multiclass
+  isExternal: false
+  name: multiclass
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.multiclass
+- fullName: microsoftml_scikit.naive_bayes
+  isExternal: false
+  name: naive_bayes
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.naive_bayes
+- fullName: microsoftml_scikit.preprocessing
+  isExternal: false
+  name: preprocessing
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.preprocessing
+- fullName: microsoftml_scikit.svm
+  isExternal: false
+  name: svm
+  parent: microsoftml_scikit
+  uid: microsoftml_scikit.svm

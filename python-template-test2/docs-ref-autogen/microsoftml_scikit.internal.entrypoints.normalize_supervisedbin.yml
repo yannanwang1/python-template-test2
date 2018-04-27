@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.normalize_supervisedbin.normalize_supervisedbin
+  fullName: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin
+  name: normalize_supervisedbin
+  source:
+    id: normalize_supervisedbin
+    path: microsoftml_scikit\internal\entrypoints\normalize_supervisedbin.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\normalize_supervisedbin.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Normalize.SupervisedBin
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin
+- fullName: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin.normalize_supervisedbin
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin
+  name: normalize_supervisedbin
+  source:
+    id: normalize_supervisedbin
+    path: microsoftml_scikit\internal\entrypoints\normalize_supervisedbin.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\normalize_supervisedbin.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Similar to BinNormalizer, but calculates bins based\
+    \ on correlation with the label column, not equi-density. The new value is bin_number\
+    \ / number_of_bins.\n"
+  syntax:
+    content: normalize_supervisedbin(data, label_column, output_data=None, model=None,
+      column=None, min_bin_size=10, num_bins=1024, fix_zero=True, max_training_examples=1000000000,
+      **params)
+    parameters:
+    - description: 'New column definition(s) (optional form: name:src) (inputs).
+
+        '
+      id: column
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Label column for supervised binning (inputs).
+
+        '
+      id: label_column
+    - defaultValue: None
+      description: 'Minimum number of examples per bin (inputs).
+
+        '
+      id: min_bin_size
+    - defaultValue: None
+      description: 'Max number of bins, power of 2 recommended (inputs).
+
+        '
+      id: num_bins
+    - defaultValue: '10'
+      description: 'Whether to map zero to zero, preserving sparsity (inputs).
+
+        '
+      id: fix_zero
+    - defaultValue: '1024'
+      description: 'Max number of examples used to train the normalizer (inputs).
+
+        '
+      id: max_training_examples
+    - defaultValue: 'True'
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: '1000000000'
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin.normalize_supervisedbin
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin.normalize_supervisedbin
+  isExternal: false
+  name: normalize_supervisedbin
+  parent: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin
+  uid: microsoftml_scikit.internal.entrypoints.normalize_supervisedbin.normalize_supervisedbin

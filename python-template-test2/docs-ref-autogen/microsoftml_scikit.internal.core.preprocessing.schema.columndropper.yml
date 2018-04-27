@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.preprocessing.schema.columndropper.ColumnDropper
+  fullName: microsoftml_scikit.internal.core.preprocessing.schema.columndropper
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.schema.columndropper
+  name: columndropper
+  source:
+    id: columndropper
+    path: microsoftml_scikit\internal\core\preprocessing\schema\columndropper.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\preprocessing\schema\columndropper.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'ColumnDropper
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.preprocessing.schema.columndropper
+references:
+- fullName: microsoftml_scikit.internal.core.preprocessing.schema.columndropper.ColumnDropper
+  isExternal: false
+  name: ColumnDropper
+  parent: microsoftml_scikit.internal.core.preprocessing.schema.columndropper
+  uid: microsoftml_scikit.internal.core.preprocessing.schema.columndropper.ColumnDropper

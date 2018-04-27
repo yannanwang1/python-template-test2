@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.multiclass.onevsrestclassifier.OneVsRestClassifier
+  fullName: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier
+  name: onevsrestclassifier
+  source:
+    id: onevsrestclassifier
+    path: microsoftml_scikit\internal\core\multiclass\onevsrestclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\multiclass\onevsrestclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'OneVsRestClassifier
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier
+references:
+- fullName: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier.OneVsRestClassifier
+  isExternal: false
+  name: OneVsRestClassifier
+  parent: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier
+  uid: microsoftml_scikit.internal.core.multiclass.onevsrestclassifier.OneVsRestClassifier

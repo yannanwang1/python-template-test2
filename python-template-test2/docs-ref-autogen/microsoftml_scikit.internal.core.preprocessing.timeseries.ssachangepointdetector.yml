@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector.SsaChangePointDetector
+  fullName: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector
+  name: ssachangepointdetector
+  source:
+    id: ssachangepointdetector
+    path: microsoftml_scikit\internal\core\preprocessing\timeseries\ssachangepointdetector.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\preprocessing\timeseries\ssachangepointdetector.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'SsaChangePointDetector
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector
+references:
+- fullName: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector.SsaChangePointDetector
+  isExternal: false
+  name: SsaChangePointDetector
+  parent: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector
+  uid: microsoftml_scikit.internal.core.preprocessing.timeseries.ssachangepointdetector.SsaChangePointDetector

@@ -20,7 +20,7 @@ items:
     startLine: 87
   summary: "\n**Description**\n\n   The Poisson loss for regression.\n\n**Details**\n\
     \n   The Poisson loss for regression. Its string name is `'poisson'`.\n\n**See\
-    \ Also**\n\n   @../microsoftml_scikit.loss.Squared, @../microsoftml_scikit.loss.Tweedie\n\
+    \ Also**\n\n   @microsoftml_scikit.loss.Squared, @microsoftml_scikit.loss.Tweedie\n\
     \n\n"
   syntax:
     content: Poisson()

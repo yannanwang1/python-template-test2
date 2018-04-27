@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector.timeseriesprocessing_iidchangepointdetector
+  fullName: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector
+  name: timeseriesprocessing_iidchangepointdetector
+  source:
+    id: timeseriesprocessing_iidchangepointdetector
+    path: microsoftml_scikit\internal\entrypoints\timeseriesprocessing_iidchangepointdetector.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\timeseriesprocessing_iidchangepointdetector.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'TimeSeriesProcessing.IidChangePointDetector
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector
+- fullName: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector.timeseriesprocessing_iidchangepointdetector
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector
+  name: timeseriesprocessing_iidchangepointdetector
+  source:
+    id: timeseriesprocessing_iidchangepointdetector
+    path: microsoftml_scikit\internal\entrypoints\timeseriesprocessing_iidchangepointdetector.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\timeseriesprocessing_iidchangepointdetector.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   This transform detects the change-points in an i.i.d.\
+    \ sequence using adaptive kernel density estimation and martingales.\n"
+  syntax:
+    content: timeseriesprocessing_iidchangepointdetector(source, data, name, confidence=0,
+      output_data=None, model=None, change_history_length=20, martingale='Power',
+      power_martingale_epsilon=0.1, **params)
+    parameters:
+    - description: 'The name of the source column. (inputs).
+
+        '
+      id: source
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - description: 'The name of the new column. (inputs).
+
+        '
+      id: name
+    - defaultValue: '0'
+      description: 'The confidence for change point detection in the range [0, 100].
+        (inputs).
+
+        '
+      id: confidence
+    - defaultValue: None
+      description: 'The change history length. (inputs).
+
+        '
+      id: change_history_length
+    - defaultValue: None
+      description: 'The martingale used for scoring. (inputs).
+
+        '
+      id: martingale
+    - defaultValue: '20'
+      description: 'The epsilon parameter for the Power martingale. (inputs).
+
+        '
+      id: power_martingale_epsilon
+    - defaultValue: Power
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: '0.1'
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector.timeseriesprocessing_iidchangepointdetector
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector.timeseriesprocessing_iidchangepointdetector
+  isExternal: false
+  name: timeseriesprocessing_iidchangepointdetector
+  parent: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector
+  uid: microsoftml_scikit.internal.entrypoints.timeseriesprocessing_iidchangepointdetector.timeseriesprocessing_iidchangepointdetector

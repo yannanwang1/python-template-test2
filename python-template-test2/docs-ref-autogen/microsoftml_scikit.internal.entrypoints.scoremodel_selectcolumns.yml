@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns.scoremodel_selectcolumns
+  fullName: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns
+  name: scoremodel_selectcolumns
+  source:
+    id: scoremodel_selectcolumns
+    path: microsoftml_scikit\internal\entrypoints\scoremodel_selectcolumns.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\scoremodel_selectcolumns.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'ScoreModel.SelectColumns
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns
+- fullName: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns.scoremodel_selectcolumns
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns
+  name: scoremodel_selectcolumns
+  source:
+    id: scoremodel_selectcolumns
+    path: microsoftml_scikit\internal\entrypoints\scoremodel_selectcolumns.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\scoremodel_selectcolumns.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Selects only the last score columns and the extra\
+    \ columns specified in the arguments.\n"
+  syntax:
+    content: scoremodel_selectcolumns(data, output_data=None, model=None, extra_columns=None,
+      **params)
+    parameters:
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Extra columns to write (inputs).
+
+        '
+      id: extra_columns
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: None
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns.scoremodel_selectcolumns
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns.scoremodel_selectcolumns
+  isExternal: false
+  name: scoremodel_selectcolumns
+  parent: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_selectcolumns.scoremodel_selectcolumns

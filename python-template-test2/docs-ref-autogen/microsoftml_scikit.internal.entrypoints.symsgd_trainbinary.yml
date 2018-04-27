@@ -1,0 +1,130 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.symsgd_trainbinary.symsgd_trainbinary
+  fullName: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary
+  name: symsgd_trainbinary
+  source:
+    id: symsgd_trainbinary
+    path: microsoftml_scikit\internal\entrypoints\symsgd_trainbinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\symsgd_trainbinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'SymSgd.TrainBinary
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary
+- fullName: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary.symsgd_trainbinary
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary
+  name: symsgd_trainbinary
+  source:
+    id: symsgd_trainbinary
+    path: microsoftml_scikit\internal\entrypoints\symsgd_trainbinary.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\symsgd_trainbinary.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Train a symbolic SGD.\n"
+  syntax:
+    content: symsgd_trainbinary(training_data, predictor_model=None, feature_column='Features',
+      label_column='Label', normalize_features='Auto', caching='Auto', number_of_iterations=50,
+      learning_rate=None, l2_regularization=0.0, number_of_threads=None, tol=0.0001,
+      update_frequency=None, memory_size=1024, shuffle=True, positive_instance_weight=1.0,
+      **params)
+    parameters:
+    - description: 'The data to be used for training (inputs).
+
+        '
+      id: training_data
+    - defaultValue: None
+      description: 'Column to use for features (inputs).
+
+        '
+      id: feature_column
+    - defaultValue: Features
+      description: 'Column to use for labels (inputs).
+
+        '
+      id: label_column
+    - defaultValue: Label
+      description: 'Normalize option for the feature column (inputs).
+
+        '
+      id: normalize_features
+    - defaultValue: Auto
+      description: 'Whether learner should cache input training data (inputs).
+
+        '
+      id: caching
+    - defaultValue: Auto
+      description: 'Number of passes over the data. (inputs).
+
+        '
+      id: number_of_iterations
+    - defaultValue: '50'
+      description: 'Learning rate (inputs).
+
+        '
+      id: learning_rate
+    - defaultValue: None
+      description: 'L2 regularization (inputs).
+
+        '
+      id: l2_regularization
+    - defaultValue: '0.0'
+      description: 'Degree of lock-free parallelism. Defaults to automatic depending
+        on data sparseness. Determinism not guaranteed. (inputs).
+
+        '
+      id: number_of_threads
+    - defaultValue: None
+      description: 'Tolerance for difference in average loss in consecutive passes.
+        (inputs).
+
+        '
+      id: tol
+    - defaultValue: '0.0001'
+      description: 'The number of iterations each thread learns a local model until
+        combining it with the global model. Low value means more updated global model
+        and high value means less cache traffic. (inputs).
+
+        '
+      id: update_frequency
+    - defaultValue: None
+      description: 'The acceleration memory budget in MB (inputs).
+
+        '
+      id: memory_size
+    - defaultValue: '1024'
+      description: 'Shuffle data? (inputs).
+
+        '
+      id: shuffle
+    - defaultValue: 'True'
+      description: 'Apply weight to the positive class, for imbalanced data (inputs).
+
+        '
+      id: positive_instance_weight
+    - defaultValue: '1.0'
+      description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary.symsgd_trainbinary
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary.symsgd_trainbinary
+  isExternal: false
+  name: symsgd_trainbinary
+  parent: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary
+  uid: microsoftml_scikit.internal.entrypoints.symsgd_trainbinary.symsgd_trainbinary

@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform.scoremodel_makescoringtransform
+  fullName: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform
+  name: scoremodel_makescoringtransform
+  source:
+    id: scoremodel_makescoringtransform
+    path: microsoftml_scikit\internal\entrypoints\scoremodel_makescoringtransform.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\scoremodel_makescoringtransform.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'ScoreModel.MakeScoringTransform
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform
+- fullName: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform.scoremodel_makescoringtransform
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform
+  name: scoremodel_makescoringtransform
+  source:
+    id: scoremodel_makescoringtransform
+    path: microsoftml_scikit\internal\entrypoints\scoremodel_makescoringtransform.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\scoremodel_makescoringtransform.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Turn the predictor model into a transform model\n"
+  syntax:
+    content: scoremodel_makescoringtransform(predictor_model, scoring_transform=None,
+      **params)
+    parameters:
+    - description: 'The predictor model to turn into a transform (inputs).
+
+        '
+      id: predictor_model
+    - defaultValue: None
+      description: 'The scoring transform (outputs).
+
+        '
+      id: scoring_transform
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform.scoremodel_makescoringtransform
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform.scoremodel_makescoringtransform
+  isExternal: false
+  name: scoremodel_makescoringtransform
+  parent: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform
+  uid: microsoftml_scikit.internal.entrypoints.scoremodel_makescoringtransform.scoremodel_makescoringtransform

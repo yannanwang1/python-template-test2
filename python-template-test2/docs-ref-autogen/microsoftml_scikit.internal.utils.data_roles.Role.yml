@@ -1,0 +1,201 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.data_roles.Role.to_attribute
+  - microsoftml_scikit.internal.utils.data_roles.Role.Feature
+  - microsoftml_scikit.internal.utils.data_roles.Role.GroupId
+  - microsoftml_scikit.internal.utils.data_roles.Role.Item
+  - microsoftml_scikit.internal.utils.data_roles.Role.Label
+  - microsoftml_scikit.internal.utils.data_roles.Role.Name
+  - microsoftml_scikit.internal.utils.data_roles.Role.RowId
+  - microsoftml_scikit.internal.utils.data_roles.Role.User
+  - microsoftml_scikit.internal.utils.data_roles.Role.Weight
+  class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: Role
+  source:
+    id: Role
+    path: microsoftml_scikit\internal\utils\data_roles.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_roles.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 23
+  summary: 'Some columns play a specific role for
+
+    specific learners or transforms. This is
+
+    the complete list.
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: microsoftml_scikit.internal.utils.data_roles.Role
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.to_attribute
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: to_attribute
+  source:
+    id: to_attribute
+    path: microsoftml_scikit\internal\utils\data_roles.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_roles.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 39
+  summary: 'Converts a role into an attribute name.
+
+    `GroupId --> group_id_column`.
+
+    '
+  syntax:
+    content: to_attribute(role, suffix='_column')
+    parameters:
+    - id: role
+    - defaultValue: _column
+      id: suffix
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.to_attribute
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.Feature
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: Feature
+  syntax:
+    content: Feature = 'Feature'
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Feature
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.GroupId
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: GroupId
+  syntax:
+    content: GroupId = 'GroupId'
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.GroupId
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.Item
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: Item
+  syntax:
+    content: Item = 'Item'
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Item
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.Label
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: Label
+  syntax:
+    content: Label = 'Label'
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Label
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.Name
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: Name
+  syntax:
+    content: Name = 'Name'
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Name
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.RowId
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: RowId
+  syntax:
+    content: RowId = 'RowId'
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.RowId
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.User
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: User
+  syntax:
+    content: User = 'User'
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.User
+- class: microsoftml_scikit.internal.utils.data_roles.Role
+  fullName: microsoftml_scikit.internal.utils.data_roles.Role.Weight
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: Weight
+  syntax:
+    content: Weight = 'Weight'
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Weight
+references:
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.to_attribute
+  isExternal: false
+  name: to_attribute
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.to_attribute
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.Feature
+  isExternal: false
+  name: Feature
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Feature
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.GroupId
+  isExternal: false
+  name: GroupId
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.GroupId
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.Item
+  isExternal: false
+  name: Item
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Item
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.Label
+  isExternal: false
+  name: Label
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Label
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.Name
+  isExternal: false
+  name: Name
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Name
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.RowId
+  isExternal: false
+  name: RowId
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.RowId
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.User
+  isExternal: false
+  name: User
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.User
+- fullName: microsoftml_scikit.internal.utils.data_roles.Role.Weight
+  isExternal: false
+  name: Weight
+  parent: microsoftml_scikit.internal.utils.data_roles.Role
+  uid: microsoftml_scikit.internal.utils.data_roles.Role.Weight

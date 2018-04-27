@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier.AveragedPerceptronBinaryClassifier
+  fullName: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier
+  name: averagedperceptronbinaryclassifier
+  source:
+    id: averagedperceptronbinaryclassifier
+    path: microsoftml_scikit\internal\core\linear_model\averagedperceptronbinaryclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\linear_model\averagedperceptronbinaryclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'AveragedPerceptronBinaryClassifier
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier
+references:
+- fullName: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier.AveragedPerceptronBinaryClassifier
+  isExternal: false
+  name: AveragedPerceptronBinaryClassifier
+  parent: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier
+  uid: microsoftml_scikit.internal.core.linear_model.averagedperceptronbinaryclassifier.AveragedPerceptronBinaryClassifier

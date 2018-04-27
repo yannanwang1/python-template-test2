@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor.get_node
+  class: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+  fullName: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor
+  name: OrdinaryLeastSquaresRegressor
+  source:
+    id: OrdinaryLeastSquaresRegressor
+    path: microsoftml_scikit\internal\core\linear_model\ordinaryleastsquaresregressor.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\linear_model\ordinaryleastsquaresregressor.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 21
+  summary: "**Description**\n   Train an OLS regression model.\n\n\n"
+  syntax:
+    content: OrdinaryLeastSquaresRegressor(normalize='Auto', caching='Auto', l2_weight=1e-06,
+      per_parameter_significance=True, **params)
+    parameters:
+    - description: 'If `Auto`, the choice to normalize depends on the preference declared
+        by the algorithm. This is the
+
+        default choice. If `No`, no normalization is performed. If `Yes`, normalization
+        always performed. If `Warn`,
+
+        if normalization is needed by the algorithm, a warning message is displayed
+        but normalization is not performed. If
+
+        normalization is performed, a `MaxMin` normalizer is used. This normalizer
+        preserves sparsity by mapping zero to
+
+        zero.
+
+        '
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'L2 regularization weight.
+
+        '
+      id: l2_weight
+    - description: 'Whether to calculate per parameter significance statistics.
+
+        '
+      id: per_parameter_significance
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+- class: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+  fullName: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor.get_node
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor
+  name: get_node
+  source:
+    id: get_node
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 61
+  syntax:
+    content: get_node(**all_args)
+  type: method
+  uid: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor.get_node
+references:
+- fullName: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor.get_node
+  isExternal: false
+  name: get_node
+  parent: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor
+  uid: microsoftml_scikit.internal.core.linear_model.ordinaryleastsquaresregressor.OrdinaryLeastSquaresRegressor.get_node

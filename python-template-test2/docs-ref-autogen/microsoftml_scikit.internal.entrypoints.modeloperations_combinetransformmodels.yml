@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels.modeloperations_combinetransformmodels
+  fullName: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels
+  name: modeloperations_combinetransformmodels
+  source:
+    id: modeloperations_combinetransformmodels
+    path: microsoftml_scikit\internal\entrypoints\modeloperations_combinetransformmodels.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\modeloperations_combinetransformmodels.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'ModelOperations.CombineTransformModels
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels
+- fullName: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels.modeloperations_combinetransformmodels
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels
+  name: modeloperations_combinetransformmodels
+  source:
+    id: modeloperations_combinetransformmodels
+    path: microsoftml_scikit\internal\entrypoints\modeloperations_combinetransformmodels.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\modeloperations_combinetransformmodels.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Combines a sequence of TransformModels into a single\
+    \ model\n"
+  syntax:
+    content: modeloperations_combinetransformmodels(output_model=None, models=None,
+      **params)
+    parameters:
+    - defaultValue: None
+      description: 'Input models (inputs).
+
+        '
+      id: models
+    - defaultValue: None
+      description: 'Combined model (outputs).
+
+        '
+      id: output_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels.modeloperations_combinetransformmodels
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels.modeloperations_combinetransformmodels
+  isExternal: false
+  name: modeloperations_combinetransformmodels
+  parent: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels
+  uid: microsoftml_scikit.internal.entrypoints.modeloperations_combinetransformmodels.modeloperations_combinetransformmodels

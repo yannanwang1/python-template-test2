@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample.bootstrapsample_getsample
+  fullName: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample
+  name: bootstrapsample_getsample
+  source:
+    id: bootstrapsample_getsample
+    path: microsoftml_scikit\internal\entrypoints\bootstrapsample_getsample.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\bootstrapsample_getsample.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'BootstrapSample.GetSample
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample
+- fullName: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample.bootstrapsample_getsample
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample
+  name: bootstrapsample_getsample
+  source:
+    id: bootstrapsample_getsample
+    path: microsoftml_scikit\internal\entrypoints\bootstrapsample_getsample.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\bootstrapsample_getsample.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Approximate bootstrap sampling.\n"
+  syntax:
+    content: bootstrapsample_getsample(data, output_data=None, model=None, complement=False,
+      seed=None, shuffle_input=True, pool_size=1000, **params)
+    parameters:
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Whether this is the out-of-bag sample, that is, all those rows
+        that are not selected by the transform. (inputs).
+
+        '
+      id: complement
+    - defaultValue: None
+      description: 'The random seed. If unspecified random state will be instead derived
+        from the environment. (inputs).
+
+        '
+      id: seed
+    - defaultValue: 'False'
+      description: 'Whether we should attempt to shuffle the source data. By default
+        on, but can be turned off for efficiency. (inputs).
+
+        '
+      id: shuffle_input
+    - defaultValue: None
+      description: 'When shuffling the output, the number of output rows to keep in
+        that pool. Note that shuffling of output is completely distinct from shuffling
+        of input. (inputs).
+
+        '
+      id: pool_size
+    - defaultValue: 'True'
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: '1000'
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample.bootstrapsample_getsample
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample.bootstrapsample_getsample
+  isExternal: false
+  name: bootstrapsample_getsample
+  parent: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample
+  uid: microsoftml_scikit.internal.entrypoints.bootstrapsample_getsample.bootstrapsample_getsample

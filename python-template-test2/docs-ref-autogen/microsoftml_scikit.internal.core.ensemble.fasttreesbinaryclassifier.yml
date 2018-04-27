@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier.FastTreesBinaryClassifier
+  fullName: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier
+  name: fasttreesbinaryclassifier
+  source:
+    id: fasttreesbinaryclassifier
+    path: microsoftml_scikit\internal\core\ensemble\fasttreesbinaryclassifier.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\ensemble\fasttreesbinaryclassifier.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'FastTreesBinaryClassifier
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier
+references:
+- fullName: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier.FastTreesBinaryClassifier
+  isExternal: false
+  name: FastTreesBinaryClassifier
+  parent: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier
+  uid: microsoftml_scikit.internal.core.ensemble.fasttreesbinaryclassifier.FastTreesBinaryClassifier

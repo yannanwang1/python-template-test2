@@ -1,0 +1,148 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.utils.TransformColumn.get_string_array
+  - microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct
+  - microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array
+  - microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array_nosource
+  class: microsoftml_scikit.internal.utils.utils.TransformColumn
+  fullName: microsoftml_scikit.internal.utils.utils.TransformColumn
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: TransformColumn
+  source:
+    id: TransformColumn
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 213
+  summary: 'transform column
+
+
+
+
+
+    '
+  syntax:
+    content: TransformColumn(cols)
+  type: class
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn
+- class: microsoftml_scikit.internal.utils.utils.TransformColumn
+  fullName: microsoftml_scikit.internal.utils.utils.TransformColumn.get_string_array
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: get_string_array
+  source:
+    id: get_string_array
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 314
+  summary: 'parse cols (str, list) for string array
+
+    '
+  syntax:
+    content: get_string_array()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn.get_string_array
+- class: microsoftml_scikit.internal.utils.utils.TransformColumn
+  fullName: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: get_struct
+  source:
+    id: get_struct
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 295
+  summary: 'parse cols (str, dict, list) for struct
+
+    '
+  syntax:
+    content: get_struct()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct
+- class: microsoftml_scikit.internal.utils.utils.TransformColumn
+  fullName: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: get_struct_array
+  source:
+    id: get_struct_array
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 220
+  summary: 'parse cols (str, list, dict) for struct array
+
+    '
+  syntax:
+    content: get_struct_array()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array
+- class: microsoftml_scikit.internal.utils.utils.TransformColumn
+  fullName: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array_nosource
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: get_struct_array_nosource
+  source:
+    id: get_struct_array_nosource
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 246
+  summary: 'parse cols (str, list, dict) for struct array without source field
+
+    '
+  syntax:
+    content: get_struct_array_nosource()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array_nosource
+references:
+- fullName: microsoftml_scikit.internal.utils.utils.TransformColumn.get_string_array
+  isExternal: false
+  name: get_string_array
+  parent: microsoftml_scikit.internal.utils.utils.TransformColumn
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn.get_string_array
+- fullName: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct
+  isExternal: false
+  name: get_struct
+  parent: microsoftml_scikit.internal.utils.utils.TransformColumn
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct
+- fullName: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array
+  isExternal: false
+  name: get_struct_array
+  parent: microsoftml_scikit.internal.utils.utils.TransformColumn
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array
+- fullName: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array_nosource
+  isExternal: false
+  name: get_struct_array_nosource
+  parent: microsoftml_scikit.internal.utils.utils.TransformColumn
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn.get_struct_array_nosource

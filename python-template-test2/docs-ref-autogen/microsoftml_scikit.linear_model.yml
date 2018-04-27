@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: microsoftml_scikit.linear_model
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model
+  name: linear_model
+  source:
+    id: linear_model
+    path: microsoftml_scikit\linear_model\__init__.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\linear_model\__init__.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.linear_model
+references: []

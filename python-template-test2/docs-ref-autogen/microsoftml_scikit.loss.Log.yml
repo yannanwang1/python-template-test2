@@ -20,7 +20,7 @@ items:
     startLine: 62
   summary: "\n**Description**\n\n   The log loss for classification.\n\n**Details**\n\
     \n   The log loss for classification. Its string name is `'log'`.\n\n**See Also**\n\
-    \n   @microsoftml_scikit.loss.Exp, @microsoftml_scikit.loss.Hinge, @../microsoftml_scikit.loss.SmoothedHinge\n\
+    \n   @microsoftml_scikit.loss.Exp, @microsoftml_scikit.loss.Hinge, @microsoftml_scikit.loss.SmoothedHinge\n\
     \n\n"
   syntax:
     content: Log()

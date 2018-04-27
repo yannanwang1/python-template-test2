@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt.calibrate_fixedplatt
+  fullName: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt
+  name: calibrate_fixedplatt
+  source:
+    id: calibrate_fixedplatt
+    path: microsoftml_scikit\internal\entrypoints\calibrate_fixedplatt.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\calibrate_fixedplatt.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Calibrate.FixedPlatt
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt
+- fullName: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt.calibrate_fixedplatt
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt
+  name: calibrate_fixedplatt
+  source:
+    id: calibrate_fixedplatt
+    path: microsoftml_scikit\internal\entrypoints\calibrate_fixedplatt.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\calibrate_fixedplatt.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Apply a Platt calibrator with a fixed slope and offset\
+    \ to an input model\n"
+  syntax:
+    content: calibrate_fixedplatt(data, uncalibrated_predictor_model, max_rows=0,
+      predictor_model=None, slope=1.0, offset=0.0, **params)
+    parameters:
+    - description: 'The slope parameter of the calibration function 1 / (1 + exp(-slope
+        * x + offset) (inputs).
+
+        '
+      id: slope
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: '0'
+      description: 'The predictor to calibrate (inputs).
+
+        '
+      id: uncalibrated_predictor_model
+    - defaultValue: None
+      description: 'The offset parameter of the calibration function 1 / (1 + exp(-slope
+        * x + offset) (inputs).
+
+        '
+      id: offset
+    - defaultValue: '1.0'
+      description: 'The maximum number of examples to train the calibrator on (inputs).
+
+        '
+      id: max_rows
+    - defaultValue: '0.0'
+      description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt.calibrate_fixedplatt
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt.calibrate_fixedplatt
+  isExternal: false
+  name: calibrate_fixedplatt
+  parent: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt
+  uid: microsoftml_scikit.internal.entrypoints.calibrate_fixedplatt.calibrate_fixedplatt

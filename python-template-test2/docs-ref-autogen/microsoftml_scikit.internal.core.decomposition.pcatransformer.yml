@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+  fullName: microsoftml_scikit.internal.core.decomposition.pcatransformer
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.decomposition.pcatransformer
+  name: pcatransformer
+  source:
+    id: pcatransformer
+    path: microsoftml_scikit\internal\core\decomposition\pcatransformer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\decomposition\pcatransformer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'PcaTransformer
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.decomposition.pcatransformer
+references:
+- fullName: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer
+  isExternal: false
+  name: PcaTransformer
+  parent: microsoftml_scikit.internal.core.decomposition.pcatransformer
+  uid: microsoftml_scikit.internal.core.decomposition.pcatransformer.PcaTransformer

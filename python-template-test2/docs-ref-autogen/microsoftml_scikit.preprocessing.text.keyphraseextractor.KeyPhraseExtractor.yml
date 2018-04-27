@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+  fullName: microsoftml_scikit.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.text.keyphraseextractor
+  name: KeyPhraseExtractor
+  source:
+    id: KeyPhraseExtractor
+    path: microsoftml_scikit\preprocessing\text\keyphraseextractor.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\preprocessing\text\keyphraseextractor.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: '
+
+
+
+    '
+  syntax:
+    content: KeyPhraseExtractor(language='English', cutoff_method='TopN', cutoff_value=3.0,
+      use_idf=False, use_lemma=False, remove_sub_key_phrases=True, output_score=False,
+      columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'The language of the key phrase model to use.
+
+        '
+      id: language
+    - description: 'The cut-off method for finding valid key phrases.
+
+        '
+      id: cutoff_method
+    - description: 'The cut-off value for the selected cut-off method.
+
+        '
+      id: cutoff_value
+    - description: 'Whether to use IDF scores, pretrained on a general-purpose corpus,
+        to weight terms when generating key
+
+        phases.
+
+        '
+      id: use_idf
+    - description: 'Whether to lemmatize the input string before generating key phases.
+
+        '
+      id: use_lemma
+    - description: 'Whether to remove sub key phrases that are also part of larger
+        returned key phrases from
+
+        the output.
+
+        '
+      id: remove_sub_key_phrases
+    - description: 'Whether to output the key phrase score as an additional column.
+
+        '
+      id: output_score
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+references: []

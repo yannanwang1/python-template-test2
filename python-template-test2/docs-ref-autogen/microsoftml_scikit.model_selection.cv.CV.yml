@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.model_selection.cv.CV.fit
+  class: microsoftml_scikit.model_selection.cv.CV
+  fullName: microsoftml_scikit.model_selection.cv.CV
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.model_selection.cv
+  name: CV
+  source:
+    id: CV
+    path: microsoftml_scikit\model_selection\cv.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\model_selection\cv.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 32
+  summary: 'Cross Validation
+
+
+    '
+  syntax:
+    content: CV(pipeline)
+  type: class
+  uid: microsoftml_scikit.model_selection.cv.CV
+- class: microsoftml_scikit.model_selection.cv.CV
+  fullName: microsoftml_scikit.model_selection.cv.CV.fit
+  langs:
+  - python
+  module: microsoftml_scikit.model_selection.cv
+  name: fit
+  source:
+    id: fit
+    path: microsoftml_scikit\model_selection\cv.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\model_selection\cv.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 97
+  summary: 'TODO: add docs
+
+    :param X:
+
+    :param y:
+
+    :param cv:
+
+    :param groups:
+
+    :param verbose:
+
+    :param params:
+
+    :return:
+
+    '
+  syntax:
+    content: fit(X, y=None, cv=2, groups=None, verbose=1, **params)
+    parameters:
+    - id: self
+    - id: X
+    - defaultValue: None
+      id: y
+    - defaultValue: '2'
+      id: cv
+    - defaultValue: None
+      id: groups
+    - defaultValue: '1'
+      id: verbose
+  type: method
+  uid: microsoftml_scikit.model_selection.cv.CV.fit
+references:
+- fullName: microsoftml_scikit.model_selection.cv.CV.fit
+  isExternal: false
+  name: fit
+  parent: microsoftml_scikit.model_selection.cv.CV
+  uid: microsoftml_scikit.model_selection.cv.CV.fit

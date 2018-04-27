@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.nahandling_handle.nahandling_handle
+  fullName: microsoftml_scikit.internal.entrypoints.nahandling_handle
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.nahandling_handle
+  name: nahandling_handle
+  source:
+    id: nahandling_handle
+    path: microsoftml_scikit\internal\entrypoints\nahandling_handle.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\nahandling_handle.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'NAHandling.Handle
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.nahandling_handle
+- fullName: microsoftml_scikit.internal.entrypoints.nahandling_handle.nahandling_handle
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.nahandling_handle
+  name: nahandling_handle
+  source:
+    id: nahandling_handle
+    path: microsoftml_scikit\internal\entrypoints\nahandling_handle.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\nahandling_handle.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Handle missing values by replacing them with either\
+    \ the default value or the mean/min/max value (for non-text columns only). An\
+    \ indicator column can optionally be concatenated, if theinput column type is\
+    \ numeric.\n"
+  syntax:
+    content: nahandling_handle(column, data, output_data=None, model=None, replace_with='Def',
+      impute_by_slot=True, concat=True, **params)
+    parameters:
+    - description: 'New column definition(s) (optional form: name:rep:src) (inputs).
+
+        '
+      id: column
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'The replacement method to utilize (inputs).
+
+        '
+      id: replace_with
+    - defaultValue: None
+      description: 'Whether to impute values by slot (inputs).
+
+        '
+      id: impute_by_slot
+    - defaultValue: Def
+      description: 'Whether or not to concatenate an indicator vector column to the
+        value column (inputs).
+
+        '
+      id: concat
+    - defaultValue: 'True'
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: 'True'
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.nahandling_handle.nahandling_handle
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.nahandling_handle.nahandling_handle
+  isExternal: false
+  name: nahandling_handle
+  parent: microsoftml_scikit.internal.entrypoints.nahandling_handle
+  uid: microsoftml_scikit.internal.entrypoints.nahandling_handle.nahandling_handle

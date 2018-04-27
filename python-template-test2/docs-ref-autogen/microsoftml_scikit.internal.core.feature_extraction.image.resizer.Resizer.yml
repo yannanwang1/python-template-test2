@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer.get_node
+  class: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer
+  fullName: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+    type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.image.resizer
+  name: Resizer
+  source:
+    id: Resizer
+    path: microsoftml_scikit\internal\core\feature_extraction\image\resizer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\feature_extraction\image\resizer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 21
+  summary: "\n**Description**\n\n   Resizers an image to a specified dimension using\
+    \ a specified\n   resizing method.\n\n**Details**\n\n   `Resizer` resizers an\
+    \ image to the specified height and width\n   using a specified resizing method.\
+    \ The input variables to this transforms must\n   be images, typically the result\
+    \ of the `load_image` transform.\n\n**See Also**\n\n   @microsoftml_scikit.feature_extraction.image.Loader,\n\
+    \   @microsoftml_scikit.feature_extraction.image.PixelExtractor,\n   @microsoftml_scikit.\
+    \ DnnFeaturizer.\n\n\n\n\n"
+  syntax:
+    content: Resizer(image_width=0, image_height=0, resizing='IsoCrop', **params)
+    parameters:
+    - description: 'Specifies the width of the scaled image in pixels. The default
+        value is 224.
+
+        '
+      id: image_width
+    - description: 'Specifies the height of the scaled image in pixels. The default
+        value is 224.
+
+        '
+      id: image_height
+    - description: "Specified the resizing method to use. Note that all methods\n\
+        are using bilinear interpolation. The options are:\n\n* `\"IsoPad\"`: The\
+        \ image is resizerd such that the aspect ratio is preserved. If needed, the\
+        \ image is padded with black to fit the new width or height. \n\n* `\"IsoCrop\"\
+        `: The image is resizerd such that the aspect ratio is preserved. If needed,\
+        \ the image is cropped to fit the new width or height. \n\n* `\"Aniso\"`:\
+        \ The image is stretched to the new width and height, without preserving the\
+        \ aspect ratio. \n\nThe default value is `\"IsoPad\"`.\n"
+      id: resizing
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer
+- class: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer
+  fullName: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer.get_node
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.image.resizer
+  name: get_node
+  source:
+    id: get_node
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 85
+  syntax:
+    content: get_node(**all_args)
+  type: method
+  uid: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer.get_node
+references:
+- fullName: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer.get_node
+  isExternal: false
+  name: get_node
+  parent: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer
+  uid: microsoftml_scikit.internal.core.feature_extraction.image.resizer.Resizer.get_node

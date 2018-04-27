@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler.BootstrapSampler
+  fullName: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler
+  name: bootstrapsampler
+  source:
+    id: bootstrapsampler
+    path: microsoftml_scikit\internal\core\preprocessing\filter\bootstrapsampler.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\preprocessing\filter\bootstrapsampler.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'BootstrapSampler
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler
+references:
+- fullName: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler.BootstrapSampler
+  isExternal: false
+  name: BootstrapSampler
+  parent: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler
+  uid: microsoftml_scikit.internal.core.preprocessing.filter.bootstrapsampler.BootstrapSampler

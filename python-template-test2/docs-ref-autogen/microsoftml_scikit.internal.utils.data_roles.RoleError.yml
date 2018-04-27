@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.internal.utils.data_roles.RoleError
+  fullName: microsoftml_scikit.internal.utils.data_roles.RoleError
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.BaseException
+      type: builtins.Exception
+    type: builtins.ValueError
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_roles
+  name: RoleError
+  source:
+    id: RoleError
+    path: microsoftml_scikit\internal\utils\data_roles.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_roles.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: 'Raised when a role is mispelled.
+
+    '
+  syntax:
+    content: RoleError(role, allowed=None)
+  type: class
+  uid: microsoftml_scikit.internal.utils.data_roles.RoleError
+references: []

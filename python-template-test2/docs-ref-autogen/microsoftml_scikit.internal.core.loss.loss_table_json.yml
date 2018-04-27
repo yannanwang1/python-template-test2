@@ -1,0 +1,20 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  fullName: microsoftml_scikit.internal.core.loss.loss_table_json
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.loss.loss_table_json
+  name: loss_table_json
+  source:
+    id: loss_table_json
+    path: microsoftml_scikit\internal\core\loss\loss_table_json.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\loss\loss_table_json.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  type: module
+  uid: microsoftml_scikit.internal.core.loss.loss_table_json
+references: []

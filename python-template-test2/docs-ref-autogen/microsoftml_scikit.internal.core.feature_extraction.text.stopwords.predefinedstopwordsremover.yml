@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover.PredefinedStopWordsRemover
+  fullName: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover
+  name: predefinedstopwordsremover
+  source:
+    id: predefinedstopwordsremover
+    path: microsoftml_scikit\internal\core\feature_extraction\text\stopwords\predefinedstopwordsremover.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\feature_extraction\text\stopwords\predefinedstopwordsremover.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'PredefinedStopWordsRemover
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover
+references:
+- fullName: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover.PredefinedStopWordsRemover
+  isExternal: false
+  name: PredefinedStopWordsRemover
+  parent: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.stopwords.predefinedstopwordsremover.PredefinedStopWordsRemover

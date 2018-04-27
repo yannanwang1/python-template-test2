@@ -1,0 +1,134 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass.sdca_trainmulticlass
+  fullName: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass
+  name: sdca_trainmulticlass
+  source:
+    id: sdca_trainmulticlass
+    path: microsoftml_scikit\internal\entrypoints\sdca_trainmulticlass.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\sdca_trainmulticlass.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Sdca.TrainMultiClass
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass
+- fullName: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass.sdca_trainmulticlass
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass
+  name: sdca_trainmulticlass
+  source:
+    id: sdca_trainmulticlass
+    path: microsoftml_scikit\internal\entrypoints\sdca_trainmulticlass.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\sdca_trainmulticlass.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Train an SDCA multi class model\n"
+  syntax:
+    content: sdca_trainmulticlass(training_data, predictor_model=None, l2_const=None,
+      l1_threshold=None, feature_column='Features', label_column='Label', normalize_features='Auto',
+      caching='Auto', loss_function=None, num_threads=None, convergence_tolerance=0.1,
+      max_iterations=None, shuffle=True, check_frequency=None, bias_learning_rate=0.0,
+      **params)
+    parameters:
+    - description: 'L2 regularizer constant. By default the l2 constant is automatically
+        inferred based on data set. (inputs).
+
+        '
+      id: l2_const
+    - defaultValue: None
+      description: 'The data to be used for training (inputs).
+
+        '
+      id: training_data
+    - defaultValue: None
+      description: 'L1 soft threshold (L1/L2). Note that it is easier to control and
+        sweep using the threshold parameter than the raw L1-regularizer constant.
+        By default the l1 threshold is automatically inferred based on data set. (inputs).
+
+        '
+      id: l1_threshold
+    - defaultValue: None
+      description: 'Column to use for features (inputs).
+
+        '
+      id: feature_column
+    - defaultValue: Features
+      description: 'Column to use for labels (inputs).
+
+        '
+      id: label_column
+    - defaultValue: Label
+      description: 'Normalize option for the feature column (inputs).
+
+        '
+      id: normalize_features
+    - defaultValue: Auto
+      description: 'Whether learner should cache input training data (inputs).
+
+        '
+      id: caching
+    - defaultValue: Auto
+      description: 'Loss Function (inputs).
+
+        '
+      id: loss_function
+    - defaultValue: None
+      description: 'Degree of lock-free parallelism. Defaults to automatic. Determinism
+        not guaranteed. (inputs).
+
+        '
+      id: num_threads
+    - defaultValue: None
+      description: 'The tolerance for the ratio between duality gap and primal loss
+        for convergence checking. (inputs).
+
+        '
+      id: convergence_tolerance
+    - defaultValue: '0.1'
+      description: 'Maximum number of iterations; set to 1 to simulate online learning.
+        Defaults to automatic. (inputs).
+
+        '
+      id: max_iterations
+    - defaultValue: None
+      description: 'Shuffle data every epoch? (inputs).
+
+        '
+      id: shuffle
+    - defaultValue: 'True'
+      description: 'Convergence check frequency (in terms of number of iterations).
+        Set as negative or zero for not checking at all. If left blank, it defaults
+        to check after every ''numThreads'' iterations. (inputs).
+
+        '
+      id: check_frequency
+    - defaultValue: None
+      description: 'The learning rate for adjusting bias from being regularized. (inputs).
+
+        '
+      id: bias_learning_rate
+    - defaultValue: '0.0'
+      description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass.sdca_trainmulticlass
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass.sdca_trainmulticlass
+  isExternal: false
+  name: sdca_trainmulticlass
+  parent: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass
+  uid: microsoftml_scikit.internal.entrypoints.sdca_trainmulticlass.sdca_trainmulticlass

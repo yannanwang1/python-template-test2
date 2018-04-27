@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler.GlobalContrastRowScaler
+  fullName: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler
+  name: globalcontrastrowscaler
+  source:
+    id: globalcontrastrowscaler
+    path: microsoftml_scikit\internal\core\preprocessing\normalization\globalcontrastrowscaler.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\preprocessing\normalization\globalcontrastrowscaler.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'GlobalContrastRowScaler
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler
+references:
+- fullName: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler.GlobalContrastRowScaler
+  isExternal: false
+  name: GlobalContrastRowScaler
+  parent: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler
+  uid: microsoftml_scikit.internal.core.preprocessing.normalization.globalcontrastrowscaler.GlobalContrastRowScaler

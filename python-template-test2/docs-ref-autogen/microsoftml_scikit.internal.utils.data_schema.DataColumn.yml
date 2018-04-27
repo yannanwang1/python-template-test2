@@ -1,0 +1,336 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.change_type
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.check_name
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.clone
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.format_pos
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.get_type_mapping
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.is_numeric
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.name_as_string
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.parse
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.rename
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn.type2str
+  class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: DataColumn
+  source:
+    id: DataColumn
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 32
+  summary: 'Defines a column for a datasets, it can be a single
+
+    value or a vector of values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: DataColumn(scol=None, **kwargs)
+  type: class
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.change_type
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: change_type
+  source:
+    id: change_type
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 142
+  summary: 'Changes the type, keep every else unchanged.
+
+    '
+  syntax:
+    content: change_type(new_type)
+    parameters:
+    - id: self
+    - id: new_type
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.change_type
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.check_name
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: check_name
+  source:
+    id: check_name
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 116
+  summary: 'Check the name is consistent with *pytlc*.
+
+    '
+  syntax:
+    content: check_name()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.check_name
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.clone
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: clone
+  source:
+    id: clone
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 133
+  syntax:
+    content: clone()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.clone
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.format_pos
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: format_pos
+  source:
+    id: format_pos
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 175
+  syntax:
+    content: format_pos()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.format_pos
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.get_type_mapping
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: get_type_mapping
+  source:
+    id: get_type_mapping
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 42
+  summary: 'Returns a dictionary which contains maps numpy.dtype to TLC types.
+
+    '
+  syntax:
+    content: get_type_mapping()
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.get_type_mapping
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.is_numeric
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: is_numeric
+  source:
+    id: is_numeric
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 136
+  summary: 'Tells if a column is numeric.
+
+    '
+  syntax:
+    content: is_numeric()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.is_numeric
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.name_as_string
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: name_as_string
+  source:
+    id: name_as_string
+    path: null
+    remote:
+      branch: master
+      path: null
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: null
+  summary: 'A tuple is used to specify a column in a multilevel index
+
+    in a pandas dataframe. This function replaces it by a
+
+    unique string where `''.''` separates the pieces of the tuple.
+
+    '
+  syntax: {}
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.name_as_string
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.parse
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: parse
+  source:
+    id: parse
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 219
+  summary: 'Parses a column definition as text.
+
+    '
+  syntax:
+    content: parse(column)
+    parameters:
+    - id: self
+    - id: column
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.parse
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.rename
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: rename
+  source:
+    id: rename
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 86
+  summary: 'Renames the column.
+
+    '
+  syntax:
+    content: rename(new_name)
+    parameters:
+    - description: 'new name
+
+        '
+      id: new_name
+    return:
+      description: 'self
+
+        '
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.rename
+- class: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.type2str
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: type2str
+  source:
+    id: type2str
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 97
+  summary: 'Converts a type into a string.
+
+    '
+  syntax:
+    content: type2str(t)
+    parameters:
+    - id: t
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.type2str
+references:
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.change_type
+  isExternal: false
+  name: change_type
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.change_type
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.check_name
+  isExternal: false
+  name: check_name
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.check_name
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.clone
+  isExternal: false
+  name: clone
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.clone
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.format_pos
+  isExternal: false
+  name: format_pos
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.format_pos
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.get_type_mapping
+  isExternal: false
+  name: get_type_mapping
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.get_type_mapping
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.is_numeric
+  isExternal: false
+  name: is_numeric
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.is_numeric
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.name_as_string
+  isExternal: false
+  name: name_as_string
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.name_as_string
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.parse
+  isExternal: false
+  name: parse
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.parse
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.rename
+  isExternal: false
+  name: rename
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.rename
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn.type2str
+  isExternal: false
+  name: type2str
+  parent: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn.type2str

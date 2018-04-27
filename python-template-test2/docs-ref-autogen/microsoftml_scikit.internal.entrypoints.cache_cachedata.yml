@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.cache_cachedata.cache_cachedata
+  fullName: microsoftml_scikit.internal.entrypoints.cache_cachedata
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.cache_cachedata
+  name: cache_cachedata
+  source:
+    id: cache_cachedata
+    path: microsoftml_scikit\internal\entrypoints\cache_cachedata.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\cache_cachedata.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Cache.CacheData
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.cache_cachedata
+- fullName: microsoftml_scikit.internal.entrypoints.cache_cachedata.cache_cachedata
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.cache_cachedata
+  name: cache_cachedata
+  source:
+    id: cache_cachedata
+    path: microsoftml_scikit\internal\entrypoints\cache_cachedata.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\cache_cachedata.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Caches using the specified cache option.\n"
+  syntax:
+    content: cache_cachedata(data, caching, output_data=None, **params)
+    parameters:
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - description: 'Caching strategy (inputs).
+
+        '
+      id: caching
+    - defaultValue: None
+      description: 'Dataset (outputs).
+
+        '
+      id: output_data
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.cache_cachedata.cache_cachedata
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.cache_cachedata.cache_cachedata
+  isExternal: false
+  name: cache_cachedata
+  parent: microsoftml_scikit.internal.entrypoints.cache_cachedata
+  uid: microsoftml_scikit.internal.entrypoints.cache_cachedata.cache_cachedata

@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns.schemamanipulation_selectcolumns
+  fullName: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns
+  name: schemamanipulation_selectcolumns
+  source:
+    id: schemamanipulation_selectcolumns
+    path: microsoftml_scikit\internal\entrypoints\schemamanipulation_selectcolumns.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\schemamanipulation_selectcolumns.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'SchemaManipulation.SelectColumns
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns
+- fullName: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns.schemamanipulation_selectcolumns
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns
+  name: schemamanipulation_selectcolumns
+  source:
+    id: schemamanipulation_selectcolumns
+    path: microsoftml_scikit\internal\entrypoints\schemamanipulation_selectcolumns.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\schemamanipulation_selectcolumns.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Selects a set of columns, dropping all others\n"
+  syntax:
+    content: schemamanipulation_selectcolumns(data, output_data=None, model=None,
+      column=None, **params)
+    parameters:
+    - description: 'Column name to keep (inputs).
+
+        '
+      id: column
+    - defaultValue: None
+      description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: None
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns.schemamanipulation_selectcolumns
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns.schemamanipulation_selectcolumns
+  isExternal: false
+  name: schemamanipulation_selectcolumns
+  parent: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns
+  uid: microsoftml_scikit.internal.entrypoints.schemamanipulation_selectcolumns.schemamanipulation_selectcolumns

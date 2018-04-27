@@ -1,0 +1,166 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer.get_node
+  class: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+  fullName: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+    type: microsoftml_scikit.internal.core.base_pipeline_item.SingleOutputSignature
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer
+  name: NGramFeaturizer
+  source:
+    id: NGramFeaturizer
+    path: microsoftml_scikit\internal\core\feature_extraction\text\ngramfeaturizer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\feature_extraction\text\ngramfeaturizer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 22
+  summary: "\n**Description**\n\n   Text transforms that can be performed on data\
+    \ before training\n   a model.\n\n**Details**\n\n   The `NGramFeaturizer` transform\
+    \ produces a bag of counts of\n   sequences of consecutive words, called n-grams,\
+    \ from a given corpus of text.\n   There are two ways it can do this:\n\n   *\
+    \ build a dictionary of n-grams and use the id in the dictionary as the index\
+    \ in the bag; \n\n   * hash each n-gram and use the hash value as the index in\
+    \ the bag. \n\n   The purpose of hashing is to convert variable-length text documents\
+    \ into\n   equal-length numeric feature vectors, to support dimensionality reduction\n\
+    \   and to make the lookup of feature weights faster.\n\n   The text transform\
+    \ is applied to text input columns. It offers language\n   detection, tokenization,\
+    \ stopwords removing, text normalization and feature\n   generation. It supports\
+    \ the following languages by default: English, French,\n   German, Dutch, Italian,\
+    \ Spanish and Japanese.\n\n   The n-grams are represented as count vectors, with\
+    \ vector slots\n   corresponding either to n-grams (created using `n_gram`) or\
+    \ to\n   their hashes (created using `n_gram_hash`). Embedding ngrams in a vector\n\
+    \   space allows their contents to be compared in an efficient manner.\n   The\
+    \ slot values in the vector can be weighted by the following factors:\n\n   *\
+    \ *term frequency* - The number of occurrences of the slot in the text \n\n  \
+    \ * *inverse document frequency* - A ratio (the logarithm of inverse relative\
+    \ slot frequency) that measures the information a slot provides by determining\
+    \ how common or rare it is across the entire text. \n\n   * *term frequency-inverse\
+    \ document frequency* - the product term frequency and the inverse document frequency.\
+    \ \n\n**See Also**\n\n   @microsoftml_scikit.n_gram,\n   @microsoftml_scikit.n_gram_hash,\n\
+    \   @microsoftml_scikit.custom,\n   @microsoftml_scikit.predefined,\n   @microsoftml_scikit.feature_extraction.text.Sentiment.\n\
+    \n\n\n\n"
+  syntax:
+    content: NGramFeaturizer(language='English', stop_words_remover=None, text_case='Lower',
+      keep_diacritics=False, keep_punctuations=True, keep_numbers=True, output_tokens=False,
+      dictionary=None, word_feature_extractor=None, char_feature_extractor=None, vector_normalizer='L2',
+      full_language_model=False, **params)
+    parameters:
+    - description: "Specifies the language used in the data set. The following\nvalues\
+        \ are supported:\n\n* `\"AutoDetect\"`: for automatic language detection.\
+        \ \n\n* `\"English\"` \n\n* `\"French\"` \n\n* `\"German\"` \n\n* `\"Dutch\"\
+        ` \n\n* `\"Italian\"` \n\n* `\"Spanish\"` \n\n* `\"Japanese\"`. \n"
+      id: language
+    - description: "Specifies the stopwords remover to use. There are\nthree options\
+        \ supported:\n\n* *None*: No stopwords remover is used. \n\n* `predefined`:\
+        \ A precompiled language-specific lists of stop words is used that includes\
+        \ the most common words from Microsoft Office. \n\n* `custom`: A user-defined\
+        \ list of stopwords. It accepts the following option: `stopword`. \n\nThe\
+        \ default value is *None*.\n"
+      id: stop_words_remover
+    - description: "Text casing using the rules of the invariant culture. Takes the\n\
+        following values:\n\n* `\"Lower\"` \n\n* `\"Upper\"` \n\n* `\"None\"` \n\n\
+        The default value is `\"Lower\"`.\n"
+      id: text_case
+    - description: '`False` to remove diacritical marks; `True` to
+
+        retain diacritical marks. The default value is `False`.
+
+        '
+      id: keep_diacritics
+    - description: '`False` to remove punctuation; `True` to
+
+        retain punctuation. The default value is `True`.
+
+        '
+      id: keep_punctuations
+    - description: '`False` to remove numbers; `True` to retain
+
+        numbers. The default value is `True`.
+
+        '
+      id: keep_numbers
+    - description: 'Whether to output the transformed text tokens as an additional
+        column.
+
+        '
+      id: output_tokens
+    - description: "A dictionary of whitelisted terms which accepts\nthe following\
+        \ options:\n\n* `Term`: An optional character vector of terms or categories.\
+        \ \n\n* `DropUnknowns`: Drop items. \n\n* `Sort`: Specifies how to order items\
+        \ when vectorized. Two orderings are\n\n     supported:\n\n     * `\"Occurrence\"\
+        `: items appear in the order encountered. \n\n     * `\"Value\"`: items are\
+        \ sorted according to their default comparison. For example, text sorting\
+        \ will be case sensitive (e.g., 'A' then 'Z' then 'a'). \n\nThe default value\
+        \ is *None*.\nNote that the stopwords list takes precedence over the dictionary\
+        \ whitelist\nas the stopwords are removed before the dictionary terms are\
+        \ whitelisted.\n"
+      id: dictionary
+    - description: "Specifies the word feature extraction arguments. There\nare two\
+        \ different feature extraction mechanisms:\n\n* @microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.n_gram:\
+        \ Count-based feature extraction (equivalent to WordBag). It accepts the following\
+        \ options: `max_num_terms` and `weighting`. \n\n* @microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.n_gram_hash:\
+        \ Hashing-based feature extraction (equivalent to WordHashBag). It accepts\
+        \ the following options: `hash_bits`, `seed`, `ordered` and `invert_hash`.\
+        \ \n\nThe default value is `n_gram`.\n"
+      id: word_feature_extractor
+    - description: "Specifies the char feature extraction arguments. There\nare two\
+        \ different feature extraction mechanisms:\n\n* @microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.n_gram:\
+        \ Count-based feature extraction (equivalent to WordBag). It accepts the following\
+        \ options: `max_num_terms` and `weighting`. \n\n* @microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.n_gram_hash:\
+        \ Hashing-based feature extraction (equivalent to WordHashBag). It accepts\
+        \ the following options: `hash_bits`, `seed`, `ordered` and `invert_hash`.\
+        \ \n\nThe default value is *None*.\n"
+      id: char_feature_extractor
+    - description: "Normalize vectors (rows) individually by rescaling\nthem to unit\
+        \ norm. Takes one of the following values:\n\n* `\"None\"` \n\n* `\"L2\"`\
+        \ \n\n* `\"L1\"` \n\n* `\"LInf\"` \n\nThe default value is `\"L2\"`.\n"
+      id: vector_normalizer
+    - description: 'Use Full-Bling mode when language equals ''AutoDetect'' to get
+        higher precision/recall. This
+
+        requires additional resource files.
+
+        '
+      id: full_language_model
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+- class: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+  fullName: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer.get_node
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer
+  name: get_node
+  source:
+    id: get_node
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 212
+  syntax:
+    content: get_node(**all_args)
+  type: method
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer.get_node
+references:
+- fullName: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer.get_node
+  isExternal: false
+  name: get_node
+  parent: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.ngramfeaturizer.NGramFeaturizer.get_node

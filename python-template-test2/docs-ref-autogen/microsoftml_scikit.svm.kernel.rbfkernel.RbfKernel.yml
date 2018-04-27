@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel.get_params
+  class: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel
+  fullName: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.dict
+      type: microsoftml_scikit.internal.utils.entrypoints.Component
+    type: microsoftml_scikit.internal.core.svm.kernel.rbfkernel.RbfKernel
+  langs:
+  - python
+  module: microsoftml_scikit.svm.kernel.rbfkernel
+  name: RbfKernel
+  source:
+    id: RbfKernel
+    path: microsoftml_scikit\svm\kernel\rbfkernel.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\svm\kernel\rbfkernel.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 18
+  summary: "**Description**\n   Apply radial basis function. exp(-gamma*|x-y|^2).\n\
+    \n"
+  syntax:
+    content: RbfKernel(gamma=None, columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'Gamma in the term exp(-gamma*|x-y|^2). If not specified, 1 / number
+        of features is used.
+
+        '
+      id: gamma
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel
+- class: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel
+  fullName: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.svm.kernel.rbfkernel
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\svm\kernel\rbfkernel.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\svm\kernel\rbfkernel.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 43
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - id: self
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel.get_params
+references:
+- fullName: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel
+  uid: microsoftml_scikit.svm.kernel.rbfkernel.RbfKernel.get_params

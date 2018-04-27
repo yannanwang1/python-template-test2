@@ -1,0 +1,258 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.data_schema.DataSchema.clone
+  - microsoftml_scikit.internal.utils.data_schema.DataSchema.format_options
+  - microsoftml_scikit.internal.utils.data_schema.DataSchema.parse
+  - microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema
+  - microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema_file
+  - microsoftml_scikit.internal.utils.data_schema.DataSchema.rename
+  class: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: DataSchema
+  source:
+    id: DataSchema
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 256
+  summary: 'Defines a schema for a datasets.
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: DataSchema(schema, **options)
+  type: class
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema
+- class: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.clone
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: clone
+  source:
+    id: clone
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 298
+  syntax:
+    content: clone()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.clone
+- class: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.format_options
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: format_options
+  source:
+    id: format_options
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 352
+  syntax:
+    content: format_options()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.format_options
+- class: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.parse
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: parse
+  source:
+    id: parse
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 383
+  summary: 'Parses a schema defined as a string.
+
+    '
+  syntax:
+    content: parse(schema)
+    parameters:
+    - id: self
+    - id: schema
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.parse
+- class: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: read_schema
+  source:
+    id: read_schema
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 528
+  summary: "Infers the schema of a data view.\n\nAdditional options:\n\n* collapse:\
+    \ (False by default), collapse columns for of the same type if it follows *read_csv*\
+    \ function. Use internal structure of a dataframe. If `collapse* == 'all'`, the\
+    \ method collapses all columns not specified in parameter *names*. \n\n* numeric_dtype:\
+    \ if not None, changes all numeric types into this type \n"
+  syntax:
+    content: read_schema(*data, **options)
+    parameters:
+    - description: 'features, labels, weights, groups
+
+        '
+      id: data
+    - description: 'first column index (in case DataFrame are concatenated)
+
+        '
+      id: ind
+    - description: '*''pandas''* or *''pytlc''*
+
+        '
+      id: tool
+    - description: 'additional options
+
+        '
+      id: options
+    return:
+      description: 'schema as a string
+
+        '
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema
+- class: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema_file
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: read_schema_file
+  source:
+    id: read_schema_file
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 440
+  summary: "Infers the schema of a file.\n\nAdditional options:\n\n* collapse: (False\
+    \ by default), collapse columns for of the same type if it follows *read_csv*\
+    \ function. Use internal structure of a dataframe. If `collapse* == 'all'`, the\
+    \ method collapses all columns not specified in parameter *names*. \n\n* numeric_dtype:\
+    \ if not None, changes all numeric types into this type \n"
+  syntax:
+    content: read_schema_file(filepath_or_buffer, tool='pandas', nrows=100, **options)
+    parameters:
+    - description: 'stream or filename
+
+        '
+      id: filepath_or_buffer
+    - defaultValue: pandas
+      description: '*''pandas''* or *''pytlc''*
+
+        '
+      id: tool
+    - defaultValue: '100'
+      description: 'use the first top rows only
+
+        '
+      id: nrows
+    - description: 'additional options for *read_csv* from *pandas* or internal reader
+
+        '
+      id: options
+    return:
+      description: 'schema
+
+        '
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema_file
+- class: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.rename
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: rename
+  source:
+    id: rename
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 370
+  summary: 'Renames a column.
+
+    '
+  syntax:
+    content: rename(old_name, new_name)
+    parameters:
+    - description: 'old name
+
+        '
+      id: old_name
+    - description: 'new_name
+
+        '
+      id: new_name
+    return:
+      description: 'self
+
+        '
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.rename
+references:
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.clone
+  isExternal: false
+  name: clone
+  parent: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.clone
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.format_options
+  isExternal: false
+  name: format_options
+  parent: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.format_options
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.parse
+  isExternal: false
+  name: parse
+  parent: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.parse
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema
+  isExternal: false
+  name: read_schema
+  parent: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema_file
+  isExternal: false
+  name: read_schema_file
+  parent: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.read_schema_file
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema.rename
+  isExternal: false
+  name: rename
+  parent: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema.rename

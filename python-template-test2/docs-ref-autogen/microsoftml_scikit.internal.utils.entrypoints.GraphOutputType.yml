@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.BridgeReturnValue
+  - microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelArrayFile
+  - microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelFile
+  - microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.TempFile
+  class: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: enum.Enum
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.entrypoints
+  name: GraphOutputType
+  source:
+    id: GraphOutputType
+    path: microsoftml_scikit\internal\utils\entrypoints.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\entrypoints.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 477
+  summary: 'An enumeration.
+
+
+
+
+
+    '
+  syntax: {}
+  type: class
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+- fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.BridgeReturnValue
+  id: BridgeReturnValue
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.entrypoints
+  name: BridgeReturnValue
+  parent: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  syntax:
+    content: BridgeReturnValue = 'bridge_return_value'
+    return:
+      type:
+      - microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.BridgeReturnValue
+- fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelArrayFile
+  id: ModelArrayFile
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.entrypoints
+  name: ModelArrayFile
+  parent: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  syntax:
+    content: ModelArrayFile = 'model_array_file'
+    return:
+      type:
+      - microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelArrayFile
+- fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelFile
+  id: ModelFile
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.entrypoints
+  name: ModelFile
+  parent: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  syntax:
+    content: ModelFile = 'model_file'
+    return:
+      type:
+      - microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelFile
+- fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.TempFile
+  id: TempFile
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.entrypoints
+  name: TempFile
+  parent: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  syntax:
+    content: TempFile = 'temp_file'
+    return:
+      type:
+      - microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  type: attribute
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.TempFile
+references:
+- fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.BridgeReturnValue
+  isExternal: false
+  name: BridgeReturnValue
+  parent: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.BridgeReturnValue
+- fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelArrayFile
+  isExternal: false
+  name: ModelArrayFile
+  parent: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelArrayFile
+- fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelFile
+  isExternal: false
+  name: ModelFile
+  parent: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.ModelFile
+- fullName: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.TempFile
+  isExternal: false
+  name: TempFile
+  parent: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType
+  uid: microsoftml_scikit.internal.utils.entrypoints.GraphOutputType.TempFile

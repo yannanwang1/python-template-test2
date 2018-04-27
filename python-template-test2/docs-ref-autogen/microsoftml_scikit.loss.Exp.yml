@@ -20,8 +20,8 @@ items:
     startLine: 8
   summary: "\n**Description**\n\n   The exponential loss for classification.\n\n**Details**\n\
     \n   The exponential loss for classification. Its string name is `'exp'`.\n\n\
-    **See Also**\n\n   @../microsoftml_scikit.loss.Log, @../microsoftml_scikit.loss.Hinge,\
-    \ @../microsoftml_scikit.loss.SmoothedHinge\n\n\n"
+    **See Also**\n\n   @microsoftml_scikit.loss.Log, @microsoftml_scikit.loss.Hinge,\
+    \ @microsoftml_scikit.loss.SmoothedHinge\n\n\n"
   syntax:
     content: Exp(beta=1.0)
     parameters:

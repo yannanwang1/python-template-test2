@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.evaluate_multiclass.evaluate_multiclass
+  fullName: microsoftml_scikit.internal.entrypoints.evaluate_multiclass
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.evaluate_multiclass
+  name: evaluate_multiclass
+  source:
+    id: evaluate_multiclass
+    path: microsoftml_scikit\internal\entrypoints\evaluate_multiclass.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\evaluate_multiclass.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Evaluate.MultiClass
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.evaluate_multiclass
+- fullName: microsoftml_scikit.internal.entrypoints.evaluate_multiclass.evaluate_multiclass
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.evaluate_multiclass
+  name: evaluate_multiclass
+  source:
+    id: evaluate_multiclass
+    path: microsoftml_scikit\internal\entrypoints\evaluate_multiclass.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\evaluate_multiclass.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Evaluates a multi class classification scored dataset.\n"
+  syntax:
+    content: evaluate_multiclass(data, warnings=None, overall_metrics=None, per_instance_metrics=None,
+      confusion_matrix=None, name_column='Name', output_top_k_acc=None, num_top_classes_to_output=3,
+      num_classes_confusion_matrix=10, output_per_class_statistics=False, label_column=None,
+      weight_column=None, score_column=None, strat_column=None, **params)
+    parameters:
+    - description: 'The data to be used for evaluation (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Name column name (inputs).
+
+        '
+      id: name_column
+    - defaultValue: None
+      description: 'Output top-K accuracy (inputs).
+
+        '
+      id: output_top_k_acc
+    - defaultValue: None
+      description: 'Output top-K classes (inputs).
+
+        '
+      id: num_top_classes_to_output
+    - defaultValue: None
+      description: 'Maximum number of classes in confusion matrix (inputs).
+
+        '
+      id: num_classes_confusion_matrix
+    - defaultValue: Name
+      description: 'Output per class statistics and confusion matrix (inputs).
+
+        '
+      id: output_per_class_statistics
+    - defaultValue: None
+      description: 'Column to use for labels (inputs).
+
+        '
+      id: label_column
+    - defaultValue: '3'
+      description: 'Weight column name (inputs).
+
+        '
+      id: weight_column
+    - defaultValue: '10'
+      description: 'Score column name (inputs).
+
+        '
+      id: score_column
+    - defaultValue: 'False'
+      description: 'Stratification column name (inputs).
+
+        '
+      id: strat_column
+    - defaultValue: None
+      description: 'Warning dataset (outputs).
+
+        '
+      id: warnings
+    - defaultValue: None
+      description: 'Overall metrics dataset (outputs).
+
+        '
+      id: overall_metrics
+    - defaultValue: None
+      description: 'Per instance metrics dataset (outputs).
+
+        '
+      id: per_instance_metrics
+    - defaultValue: None
+      description: 'Confusion matrix dataset (outputs).
+
+        '
+      id: confusion_matrix
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.evaluate_multiclass.evaluate_multiclass
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.evaluate_multiclass.evaluate_multiclass
+  isExternal: false
+  name: evaluate_multiclass
+  parent: microsoftml_scikit.internal.entrypoints.evaluate_multiclass
+  uid: microsoftml_scikit.internal.entrypoints.evaluate_multiclass.evaluate_multiclass

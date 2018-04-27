@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor.FastTreesTweedieRegressor
+  fullName: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor
+  name: fasttreestweedieregressor
+  source:
+    id: fasttreestweedieregressor
+    path: microsoftml_scikit\internal\core\ensemble\fasttreestweedieregressor.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\ensemble\fasttreestweedieregressor.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'FastTreesTweedieRegressor
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor
+references:
+- fullName: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor.FastTreesTweedieRegressor
+  isExternal: false
+  name: FastTreesTweedieRegressor
+  parent: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor
+  uid: microsoftml_scikit.internal.core.ensemble.fasttreestweedieregressor.FastTreesTweedieRegressor

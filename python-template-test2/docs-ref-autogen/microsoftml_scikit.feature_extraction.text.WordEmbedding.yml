@@ -1,65 +1,29 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
-  class: microsoftml_scikit.feature_extraction.text.WordEmbedding
-  fullName: microsoftml_scikit.feature_extraction.text.WordEmbedding
-  inheritance:
-  - inheritance:
-    - inheritance:
-      - type: builtins.object
-      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
-    - inheritance:
-      - inheritance:
-        - type: builtins.object
-        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
-      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
-    type: microsoftml_scikit.internal.core.feature_extraction.text.wordembedding.WordEmbedding
-  - inheritance:
-    - inheritance:
-      - type: builtins.object
-      type: sklearn.base.BaseEstimator
-    - inheritance:
-      - type: builtins.object
-      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
-    type: microsoftml_scikit.base_transform.BaseTransform
-  - inheritance:
-    - type: builtins.object
-    type: sklearn.base.TransformerMixin
+- children:
+  - microsoftml_scikit.feature_extraction.text.wordembedding.WordEmbedding
+  fullName: microsoftml_scikit.feature_extraction.text.wordembedding
   langs:
   - python
-  module: microsoftml_scikit.feature_extraction.text
-  name: WordEmbedding
+  module: microsoftml_scikit.feature_extraction.text.wordembedding
+  name: wordembedding
   source:
-    id: WordEmbedding
+    id: wordembedding
     path: microsoftml_scikit\feature_extraction\text\wordembedding.py
     remote:
       branch: master
       path: microsoftml_scikit\feature_extraction\text\wordembedding.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 20
-  summary: "**Description**\n   Word Embeddings transform is a text featurizer which\
-    \ converts vectors of text tokens into sentence vectors using a pre-trained model\n"
-  syntax:
-    content: WordEmbedding(model_kind='Sswe', custom_lookup_table=None, columns=None,
-      **params)
-    parameters:
-    - description: 'see *l-pipeline-syntax*.
+    startLine: 0
+  summary: 'WordEmbedding
 
-        '
-      id: columns
-    - description: 'Pre-trained model used to create the vocabulary.
-
-        '
-      id: model_kind
-    - description: 'Filename for custom word embedding model.
-
-        '
-      id: custom_lookup_table
-    - description: 'Additional arguments sent to compute engine.
-
-        '
-      id: params
-  type: class
-  uid: microsoftml_scikit.feature_extraction.text.WordEmbedding
-references: []
+    '
+  type: module
+  uid: microsoftml_scikit.feature_extraction.text.wordembedding
+references:
+- fullName: microsoftml_scikit.feature_extraction.text.wordembedding.WordEmbedding
+  isExternal: false
+  name: WordEmbedding
+  parent: microsoftml_scikit.feature_extraction.text.wordembedding
+  uid: microsoftml_scikit.feature_extraction.text.wordembedding.WordEmbedding

@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.dataframes.pd_concat
+  - microsoftml_scikit.internal.utils.dataframes.resolve_csr_matrix
+  - microsoftml_scikit.internal.utils.dataframes.resolve_dataframe
+  fullName: microsoftml_scikit.internal.utils.dataframes
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.dataframes
+  name: dataframes
+  source:
+    id: dataframes
+    path: microsoftml_scikit\internal\utils\dataframes.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\dataframes.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  type: module
+  uid: microsoftml_scikit.internal.utils.dataframes
+- fullName: microsoftml_scikit.internal.utils.dataframes.pd_concat
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.dataframes
+  name: pd_concat
+  source:
+    id: pd_concat
+    path: microsoftml_scikit\internal\utils\dataframes.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\dataframes.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 120
+  summary: 'Concatenates several arrays.
+
+    '
+  syntax:
+    content: pd_concat(els, axis=0, join='inner')
+    parameters:
+    - id: els
+    - defaultValue: '0'
+      id: axis
+    - defaultValue: inner
+      id: join
+  type: function
+  uid: microsoftml_scikit.internal.utils.dataframes.pd_concat
+- fullName: microsoftml_scikit.internal.utils.dataframes.resolve_csr_matrix
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.dataframes
+  name: resolve_csr_matrix
+  source:
+    id: resolve_csr_matrix
+    path: microsoftml_scikit\internal\utils\dataframes.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\dataframes.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 90
+  syntax:
+    content: resolve_csr_matrix(matrix, y=None)
+    parameters:
+    - id: matrix
+    - defaultValue: None
+      id: y
+  type: function
+  uid: microsoftml_scikit.internal.utils.dataframes.resolve_csr_matrix
+- fullName: microsoftml_scikit.internal.utils.dataframes.resolve_dataframe
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.dataframes
+  name: resolve_dataframe
+  source:
+    id: resolve_dataframe
+    path: microsoftml_scikit\internal\utils\dataframes.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\dataframes.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 15
+  syntax:
+    content: resolve_dataframe(dataframe)
+    parameters:
+    - id: dataframe
+  type: function
+  uid: microsoftml_scikit.internal.utils.dataframes.resolve_dataframe
+references:
+- fullName: microsoftml_scikit.internal.utils.dataframes.pd_concat
+  isExternal: false
+  name: pd_concat
+  parent: microsoftml_scikit.internal.utils.dataframes
+  uid: microsoftml_scikit.internal.utils.dataframes.pd_concat
+- fullName: microsoftml_scikit.internal.utils.dataframes.resolve_csr_matrix
+  isExternal: false
+  name: resolve_csr_matrix
+  parent: microsoftml_scikit.internal.utils.dataframes
+  uid: microsoftml_scikit.internal.utils.dataframes.resolve_csr_matrix
+- fullName: microsoftml_scikit.internal.utils.dataframes.resolve_dataframe
+  isExternal: false
+  name: resolve_dataframe
+  parent: microsoftml_scikit.internal.utils.dataframes
+  uid: microsoftml_scikit.internal.utils.dataframes.resolve_dataframe

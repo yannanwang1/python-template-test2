@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+  fullName: microsoftml_scikit.preprocessing.text.keyphraseextractor
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.text.keyphraseextractor
+  name: keyphraseextractor
+  source:
+    id: keyphraseextractor
+    path: microsoftml_scikit\preprocessing\text\keyphraseextractor.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\preprocessing\text\keyphraseextractor.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'KeyPhraseExtractor
+
+    '
+  type: module
+  uid: microsoftml_scikit.preprocessing.text.keyphraseextractor
+references:
+- fullName: microsoftml_scikit.preprocessing.text.keyphraseextractor.KeyPhraseExtractor
+  isExternal: false
+  name: KeyPhraseExtractor
+  parent: microsoftml_scikit.preprocessing.text.keyphraseextractor
+  uid: microsoftml_scikit.preprocessing.text.keyphraseextractor.KeyPhraseExtractor

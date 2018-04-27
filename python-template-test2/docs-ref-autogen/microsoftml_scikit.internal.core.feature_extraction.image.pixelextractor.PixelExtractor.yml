@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor.get_node
+  class: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor
+  fullName: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+    type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor
+  name: PixelExtractor
+  source:
+    id: PixelExtractor
+    path: microsoftml_scikit\internal\core\feature_extraction\image\pixelextractor.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\feature_extraction\image\pixelextractor.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 21
+  summary: "\n**Description**\n\n   Extracts the pixel values from an image.\n\n**Details**\n\
+    \n   `PixelExtractor` extracts the pixel values from an image. The input variables\n\
+    \   are images of the same size, typically the output of a `Resizer` transform.\
+    \ The\n   output are pixel data in vector form that are typically used as features\
+    \ for a learner.\n\n**See Also**\n\n   @microsoftml_scikit.feature_extraction.image.Loader,\n\
+    \   @microsoftml_scikit.feature_extraction.image.Resizer,\n   @microsoftml_scikit.feature_extraction.image.DnnFeaturizer.\n\
+    \n\n\n\n"
+  syntax:
+    content: PixelExtractor(use_alpha=False, use_red=True, use_green=True, use_blue=True,
+      interleave_argb=False, convert=True, offset=None, scale=None, **params)
+    parameters:
+    - description: 'Specifies whether to use alpha channel. The default value is `False`.
+
+        '
+      id: use_alpha
+    - description: 'Specifies whether to use red channel. The default value is `True`.
+
+        '
+      id: use_red
+    - description: 'Specifies whether to use green channel. The default value is `True`.
+
+        '
+      id: use_green
+    - description: 'Specifies whether to use blue channel. The default value is `True`.
+
+        '
+      id: use_blue
+    - description: 'Whether to separate each channel or
+
+        interleave in ARGB order. This might be important, for example, if you are
+        training
+
+        a convolutional neural network, since this would affect the shape of the kernel,
+        stride etc.
+
+        '
+      id: interleave_argb
+    - description: 'Whether to convert to floating point. The default value is `False`.
+
+        '
+      id: convert
+    - description: 'Specifies the offset (pre-scale). This requires `convert = True`.
+
+        The default value is *None*.
+
+        '
+      id: offset
+    - description: 'Specifies the scale factor. This requires `convert = True`.
+
+        The default value is *None*.
+
+        '
+      id: scale
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor
+- class: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor
+  fullName: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor.get_node
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor
+  name: get_node
+  source:
+    id: get_node
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 98
+  syntax:
+    content: get_node(**all_args)
+  type: method
+  uid: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor.get_node
+references:
+- fullName: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor.get_node
+  isExternal: false
+  name: get_node
+  parent: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor
+  uid: microsoftml_scikit.internal.core.feature_extraction.image.pixelextractor.PixelExtractor.get_node

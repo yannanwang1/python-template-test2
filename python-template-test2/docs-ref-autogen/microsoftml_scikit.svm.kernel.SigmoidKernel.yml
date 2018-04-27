@@ -1,50 +1,29 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
-  class: microsoftml_scikit.svm.kernel.SigmoidKernel
-  fullName: microsoftml_scikit.svm.kernel.SigmoidKernel
-  inheritance:
-  - inheritance:
-    - inheritance:
-      - inheritance:
-        - type: builtins.object
-        type: builtins.dict
-      type: microsoftml_scikit.internal.utils.entrypoints.Component
-    type: microsoftml_scikit.internal.core.svm.kernel.sigmoidkernel.SigmoidKernel
+- children:
+  - microsoftml_scikit.svm.kernel.sigmoidkernel.SigmoidKernel
+  fullName: microsoftml_scikit.svm.kernel.sigmoidkernel
   langs:
   - python
-  module: microsoftml_scikit.svm.kernel
-  name: SigmoidKernel
+  module: microsoftml_scikit.svm.kernel.sigmoidkernel
+  name: sigmoidkernel
   source:
-    id: SigmoidKernel
+    id: sigmoidkernel
     path: microsoftml_scikit\svm\kernel\sigmoidkernel.py
     remote:
       branch: master
       path: microsoftml_scikit\svm\kernel\sigmoidkernel.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 18
-  summary: "**Description**\n   Apply sigmoid function. tanh(gamma*<x,y>+c).\n"
-  syntax:
-    content: SigmoidKernel(coef0=0.0, gamma=None, columns=None, **params)
-    parameters:
-    - description: 'see *l-pipeline-syntax*.
+    startLine: 0
+  summary: 'SigmoidKernel
 
-        '
-      id: columns
-    - description: 'c in the term tanh(gamma*<x,y>+c).
-
-        '
-      id: coef0
-    - description: 'Gamma in the term tanh(gamma*<x,y>+c). If not specified, 1 / number
-        of features is used.
-
-        '
-      id: gamma
-    - description: 'Additional arguments sent to compute engine.
-
-        '
-      id: params
-  type: class
-  uid: microsoftml_scikit.svm.kernel.SigmoidKernel
-references: []
+    '
+  type: module
+  uid: microsoftml_scikit.svm.kernel.sigmoidkernel
+references:
+- fullName: microsoftml_scikit.svm.kernel.sigmoidkernel.SigmoidKernel
+  isExternal: false
+  name: SigmoidKernel
+  parent: microsoftml_scikit.svm.kernel.sigmoidkernel
+  uid: microsoftml_scikit.svm.kernel.sigmoidkernel.SigmoidKernel

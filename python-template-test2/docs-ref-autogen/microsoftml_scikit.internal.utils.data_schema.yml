@@ -1,0 +1,67 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.data_schema.COL
+  - microsoftml_scikit.internal.utils.data_schema.DataColumn
+  - microsoftml_scikit.internal.utils.data_schema.DataSchema
+  - microsoftml_scikit.internal.utils.data_schema.update_dict
+  fullName: microsoftml_scikit.internal.utils.data_schema
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: data_schema
+  source:
+    id: data_schema
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Schema definition.
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.utils.data_schema
+- fullName: microsoftml_scikit.internal.utils.data_schema.update_dict
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_schema
+  name: update_dict
+  source:
+    id: update_dict
+    path: microsoftml_scikit\internal\utils\data_schema.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_schema.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 26
+  syntax:
+    content: update_dict(a, b)
+    parameters:
+    - id: a
+    - id: b
+  type: function
+  uid: microsoftml_scikit.internal.utils.data_schema.update_dict
+references:
+- fullName: microsoftml_scikit.internal.utils.data_schema.COL
+  isExternal: false
+  name: COL
+  parent: microsoftml_scikit.internal.utils.data_schema
+  uid: microsoftml_scikit.internal.utils.data_schema.COL
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataColumn
+  isExternal: false
+  name: DataColumn
+  parent: microsoftml_scikit.internal.utils.data_schema
+  uid: microsoftml_scikit.internal.utils.data_schema.DataColumn
+- fullName: microsoftml_scikit.internal.utils.data_schema.DataSchema
+  isExternal: false
+  name: DataSchema
+  parent: microsoftml_scikit.internal.utils.data_schema
+  uid: microsoftml_scikit.internal.utils.data_schema.DataSchema
+- fullName: microsoftml_scikit.internal.utils.data_schema.update_dict
+  isExternal: false
+  name: update_dict
+  parent: microsoftml_scikit.internal.utils.data_schema
+  uid: microsoftml_scikit.internal.utils.data_schema.update_dict

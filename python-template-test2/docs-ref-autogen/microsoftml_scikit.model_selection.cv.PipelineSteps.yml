@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.model_selection.cv.PipelineSteps.add
+  class: microsoftml_scikit.model_selection.cv.PipelineSteps
+  fullName: microsoftml_scikit.model_selection.cv.PipelineSteps
+  inheritance:
+  - inheritance:
+    - type: builtins.object
+    type: builtins.list
+  langs:
+  - python
+  module: microsoftml_scikit.model_selection.cv
+  name: PipelineSteps
+  source:
+    id: PipelineSteps
+    path: microsoftml_scikit\model_selection\cv.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\model_selection\cv.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 23
+  syntax: {}
+  type: class
+  uid: microsoftml_scikit.model_selection.cv.PipelineSteps
+- class: microsoftml_scikit.model_selection.cv.PipelineSteps
+  fullName: microsoftml_scikit.model_selection.cv.PipelineSteps.add
+  langs:
+  - python
+  module: microsoftml_scikit.model_selection.cv
+  name: add
+  source:
+    id: add
+    path: microsoftml_scikit\model_selection\cv.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\model_selection\cv.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 24
+  syntax:
+    content: add(new_steps)
+    parameters:
+    - id: self
+    - id: new_steps
+  type: method
+  uid: microsoftml_scikit.model_selection.cv.PipelineSteps.add
+references:
+- fullName: microsoftml_scikit.model_selection.cv.PipelineSteps.add
+  isExternal: false
+  name: add
+  parent: microsoftml_scikit.model_selection.cv.PipelineSteps
+  uid: microsoftml_scikit.model_selection.cv.PipelineSteps.add

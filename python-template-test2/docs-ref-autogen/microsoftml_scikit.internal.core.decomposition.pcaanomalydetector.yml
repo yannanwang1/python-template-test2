@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.decomposition.pcaanomalydetector.PcaAnomalyDetector
+  fullName: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector
+  name: pcaanomalydetector
+  source:
+    id: pcaanomalydetector
+    path: microsoftml_scikit\internal\core\decomposition\pcaanomalydetector.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\decomposition\pcaanomalydetector.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'PcaAnomalyDetector
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector
+references:
+- fullName: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector.PcaAnomalyDetector
+  isExternal: false
+  name: PcaAnomalyDetector
+  parent: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector
+  uid: microsoftml_scikit.internal.core.decomposition.pcaanomalydetector.PcaAnomalyDetector

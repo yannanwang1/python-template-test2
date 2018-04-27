@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.traintestsplit_split.traintestsplit_split
+  fullName: microsoftml_scikit.internal.entrypoints.traintestsplit_split
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.traintestsplit_split
+  name: traintestsplit_split
+  source:
+    id: traintestsplit_split
+    path: microsoftml_scikit\internal\entrypoints\traintestsplit_split.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\traintestsplit_split.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'TrainTestSplit.Split
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.traintestsplit_split
+- fullName: microsoftml_scikit.internal.entrypoints.traintestsplit_split.traintestsplit_split
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.traintestsplit_split
+  name: traintestsplit_split
+  source:
+    id: traintestsplit_split
+    path: microsoftml_scikit\internal\entrypoints\traintestsplit_split.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\traintestsplit_split.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Split the dataset into train and test sets\n"
+  syntax:
+    content: traintestsplit_split(data, train_data=None, test_data=None, fraction=0.8,
+      stratification_column=None, **params)
+    parameters:
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Fraction of training data (inputs).
+
+        '
+      id: fraction
+    - defaultValue: None
+      description: 'Stratification column (inputs).
+
+        '
+      id: stratification_column
+    - defaultValue: '0.8'
+      description: 'Training data (outputs).
+
+        '
+      id: train_data
+    - defaultValue: None
+      description: 'Testing data (outputs).
+
+        '
+      id: test_data
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.traintestsplit_split.traintestsplit_split
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.traintestsplit_split.traintestsplit_split
+  isExternal: false
+  name: traintestsplit_split
+  parent: microsoftml_scikit.internal.entrypoints.traintestsplit_split
+  uid: microsoftml_scikit.internal.entrypoints.traintestsplit_split.traintestsplit_split

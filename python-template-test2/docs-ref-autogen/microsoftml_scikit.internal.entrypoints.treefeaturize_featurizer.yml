@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer.treefeaturize_featurizer
+  fullName: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer
+  name: treefeaturize_featurizer
+  source:
+    id: treefeaturize_featurizer
+    path: microsoftml_scikit\internal\entrypoints\treefeaturize_featurizer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\treefeaturize_featurizer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'TreeFeaturize.Featurizer
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer
+- fullName: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer.treefeaturize_featurizer
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer
+  name: treefeaturize_featurizer
+  source:
+    id: treefeaturize_featurizer
+    path: microsoftml_scikit\internal\entrypoints\treefeaturize_featurizer.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\treefeaturize_featurizer.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Trains a tree ensemble, or loads it from a file, then\
+    \ maps a numeric feature vector to three outputs: 1. A vector containing the individual\
+    \ tree outputs of the tree ensemble. 2. A vector indicating the leaves that the\
+    \ feature vector falls on in the tree ensemble. 3. A vector indicating the paths\
+    \ that the feature vector falls on in the tree ensemble. If a both a model file\
+    \ and a trainer are specified - will use the model file. If neither are specified,\
+    \ will train a default FastTree model. This can handle key labels by training\
+    \ a regression model towards their optionally permuted indices.\n"
+  syntax:
+    content: treefeaturize_featurizer(data, output_data=None, model=None, suffix=None,
+      label_permutation_seed=0, predictor_model=None, **params)
+    parameters:
+    - description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Output column: The suffix to append to the default column names
+        (inputs).
+
+        '
+      id: suffix
+    - defaultValue: None
+      description: 'If specified, determines the permutation seed for applying this
+        featurizer to a multiclass problem. (inputs).
+
+        '
+      id: label_permutation_seed
+    - defaultValue: None
+      description: 'Trainer to use (inputs).
+
+        '
+      id: predictor_model
+    - defaultValue: '0'
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: None
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer.treefeaturize_featurizer
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer.treefeaturize_featurizer
+  isExternal: false
+  name: treefeaturize_featurizer
+  parent: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer
+  uid: microsoftml_scikit.internal.entrypoints.treefeaturize_featurizer.treefeaturize_featurizer

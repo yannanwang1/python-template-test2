@@ -1,0 +1,142 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.data_stream.DataStream.clone
+  - microsoftml_scikit.internal.utils.data_stream.DataStream.get_role
+  - microsoftml_scikit.internal.utils.data_stream.DataStream.has_role
+  - microsoftml_scikit.internal.utils.data_stream.DataStream.set_role
+  class: microsoftml_scikit.internal.utils.data_stream.DataStream
+  fullName: microsoftml_scikit.internal.utils.data_stream.DataStream
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_stream
+  name: DataStream
+  source:
+    id: DataStream
+    path: microsoftml_scikit\internal\utils\data_stream.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_stream.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 18
+  summary: 'Defines a streaming container (a data view).
+
+
+
+
+
+
+
+    '
+  syntax:
+    content: DataStream(schema, roles=None)
+  type: class
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream
+- class: microsoftml_scikit.internal.utils.data_stream.DataStream
+  fullName: microsoftml_scikit.internal.utils.data_stream.DataStream.clone
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_stream
+  name: clone
+  source:
+    id: clone
+    path: microsoftml_scikit\internal\utils\data_stream.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_stream.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 44
+  syntax:
+    content: clone()
+    parameters:
+    - id: self
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream.clone
+- class: microsoftml_scikit.internal.utils.data_stream.DataStream
+  fullName: microsoftml_scikit.internal.utils.data_stream.DataStream.get_role
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_stream
+  name: get_role
+  source:
+    id: get_role
+    path: microsoftml_scikit\internal\utils\data_stream.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_stream.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 66
+  syntax:
+    content: get_role(role_name)
+    parameters:
+    - id: self
+    - id: role_name
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream.get_role
+- class: microsoftml_scikit.internal.utils.data_stream.DataStream
+  fullName: microsoftml_scikit.internal.utils.data_stream.DataStream.has_role
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_stream
+  name: has_role
+  source:
+    id: has_role
+    path: microsoftml_scikit\internal\utils\data_stream.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_stream.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 69
+  syntax:
+    content: has_role(role_name)
+    parameters:
+    - id: self
+    - id: role_name
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream.has_role
+- class: microsoftml_scikit.internal.utils.data_stream.DataStream
+  fullName: microsoftml_scikit.internal.utils.data_stream.DataStream.set_role
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_stream
+  name: set_role
+  source:
+    id: set_role
+    path: microsoftml_scikit\internal\utils\data_stream.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_stream.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 63
+  syntax:
+    content: set_role(role_name, column_name)
+    parameters:
+    - id: self
+    - id: role_name
+    - id: column_name
+  type: method
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream.set_role
+references:
+- fullName: microsoftml_scikit.internal.utils.data_stream.DataStream.clone
+  isExternal: false
+  name: clone
+  parent: microsoftml_scikit.internal.utils.data_stream.DataStream
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream.clone
+- fullName: microsoftml_scikit.internal.utils.data_stream.DataStream.get_role
+  isExternal: false
+  name: get_role
+  parent: microsoftml_scikit.internal.utils.data_stream.DataStream
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream.get_role
+- fullName: microsoftml_scikit.internal.utils.data_stream.DataStream.has_role
+  isExternal: false
+  name: has_role
+  parent: microsoftml_scikit.internal.utils.data_stream.DataStream
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream.has_role
+- fullName: microsoftml_scikit.internal.utils.data_stream.DataStream.set_role
+  isExternal: false
+  name: set_role
+  parent: microsoftml_scikit.internal.utils.data_stream.DataStream
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream.set_role

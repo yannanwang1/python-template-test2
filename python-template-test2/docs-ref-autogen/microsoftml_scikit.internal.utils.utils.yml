@@ -1,0 +1,382 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.utils.Formula
+  - microsoftml_scikit.internal.utils.utils.TransformColumn
+  - microsoftml_scikit.internal.utils.utils.compare_shape
+  - microsoftml_scikit.internal.utils.utils.dir1
+  - microsoftml_scikit.internal.utils.utils.get_xform_args
+  - microsoftml_scikit.internal.utils.utils.loadData
+  - microsoftml_scikit.internal.utils.utils.run_tests
+  - microsoftml_scikit.internal.utils.utils.set_shape
+  - microsoftml_scikit.internal.utils.utils.tempdir
+  - microsoftml_scikit.internal.utils.utils.tempfile_
+  - microsoftml_scikit.internal.utils.utils.trace
+  - microsoftml_scikit.internal.utils.utils.try_set
+  - microsoftml_scikit.internal.utils.utils.unlist
+  - microsoftml_scikit.internal.utils.utils.upper_first
+  fullName: microsoftml_scikit.internal.utils.utils
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: utils
+  source:
+    id: utils
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'general utility functions
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.utils.utils
+- fullName: microsoftml_scikit.internal.utils.utils.compare_shape
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: compare_shape
+  source:
+    id: compare_shape
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 178
+  syntax:
+    content: compare_shape(pred, X)
+    parameters:
+    - id: pred
+    - id: X
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.compare_shape
+- fullName: microsoftml_scikit.internal.utils.utils.dir1
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: dir1
+  source:
+    id: dir1
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 43
+  summary: 'get the attributes of an object that are not interpreter-related
+
+    '
+  syntax:
+    content: dir1(obj)
+    parameters:
+    - id: obj
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.dir1
+- fullName: microsoftml_scikit.internal.utils.utils.get_xform_args
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: get_xform_args
+  source:
+    id: get_xform_args
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 330
+  summary: 'get transform common arguments
+
+    '
+  syntax:
+    content: get_xform_args()
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.get_xform_args
+- fullName: microsoftml_scikit.internal.utils.utils.loadData
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: loadData
+  source:
+    id: loadData
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 392
+  syntax:
+    content: loadData(fileName, sep, header)
+    parameters:
+    - id: fileName
+    - id: sep
+    - id: header
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.loadData
+- fullName: microsoftml_scikit.internal.utils.utils.run_tests
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: run_tests
+  source:
+    id: run_tests
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 31
+  summary: 'Perform in-process test run using pytest.  See help(pytest.main) for details
+    about arguments.
+
+    '
+  syntax:
+    content: run_tests(args=None, plugins=None)
+    parameters:
+    - defaultValue: None
+      id: args
+    - defaultValue: None
+      id: plugins
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.run_tests
+- fullName: microsoftml_scikit.internal.utils.utils.set_shape
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: set_shape
+  source:
+    id: set_shape
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 197
+  syntax:
+    content: set_shape(pred, X)
+    parameters:
+    - id: pred
+    - id: X
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.set_shape
+- fullName: microsoftml_scikit.internal.utils.utils.tempdir
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: tempdir
+  source:
+    id: tempdir
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 50
+  summary: 'get the path of the per-session temporary directory
+
+    '
+  syntax:
+    content: tempdir()
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.tempdir
+- fullName: microsoftml_scikit.internal.utils.utils.tempfile_
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: tempfile_
+  source:
+    id: tempfile_
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 57
+  summary: 'character strings which can be used as names for temporary files.
+
+    '
+  syntax:
+    content: tempfile_(pattern='file', tmpdir='C:\\\\Users\\\\VSSADM~1\\\\AppData\\\\Local\\\\Temp',
+      fileext='')
+    parameters:
+    - defaultValue: file
+      id: pattern
+    - defaultValue: C:\Users\VSSADM~1\AppData\Local\Temp
+      id: tmpdir
+    - defaultValue: ''
+      id: fileext
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.tempfile_
+- fullName: microsoftml_scikit.internal.utils.utils.trace
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: trace
+  source:
+    id: trace
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 154
+  summary: 'Decorator for tracing enter and exit times
+
+    '
+  syntax:
+    content: trace(func)
+    parameters:
+    - id: func
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.trace
+- fullName: microsoftml_scikit.internal.utils.utils.try_set
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: try_set
+  source:
+    id: try_set
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 78
+  summary: 'check parameter type, range, options, and etc.
+
+    '
+  syntax:
+    content: try_set(obj, none_acceptable=False, is_of_type=None, valid_range=None,
+      values=None, field_names=None, not_implemented=False)
+    parameters:
+    - id: obj
+    - defaultValue: 'False'
+      id: none_acceptable
+    - defaultValue: None
+      id: is_of_type
+    - defaultValue: None
+      id: valid_range
+    - defaultValue: None
+      id: values
+    - defaultValue: None
+      id: field_names
+    - defaultValue: 'False'
+      id: not_implemented
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.try_set
+- fullName: microsoftml_scikit.internal.utils.utils.unlist
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: unlist
+  source:
+    id: unlist
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 67
+  summary: 'flatten (an irregular) list of lists
+
+    '
+  syntax:
+    content: unlist(mylist)
+    parameters:
+    - id: mylist
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.unlist
+- fullName: microsoftml_scikit.internal.utils.utils.upper_first
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.utils
+  name: upper_first
+  source:
+    id: upper_first
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 125
+  syntax:
+    content: upper_first(string)
+    parameters:
+    - id: string
+  type: function
+  uid: microsoftml_scikit.internal.utils.utils.upper_first
+references:
+- fullName: microsoftml_scikit.internal.utils.utils.Formula
+  isExternal: false
+  name: Formula
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.Formula
+- fullName: microsoftml_scikit.internal.utils.utils.TransformColumn
+  isExternal: false
+  name: TransformColumn
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.TransformColumn
+- fullName: microsoftml_scikit.internal.utils.utils.compare_shape
+  isExternal: false
+  name: compare_shape
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.compare_shape
+- fullName: microsoftml_scikit.internal.utils.utils.dir1
+  isExternal: false
+  name: dir1
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.dir1
+- fullName: microsoftml_scikit.internal.utils.utils.get_xform_args
+  isExternal: false
+  name: get_xform_args
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.get_xform_args
+- fullName: microsoftml_scikit.internal.utils.utils.loadData
+  isExternal: false
+  name: loadData
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.loadData
+- fullName: microsoftml_scikit.internal.utils.utils.run_tests
+  isExternal: false
+  name: run_tests
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.run_tests
+- fullName: microsoftml_scikit.internal.utils.utils.set_shape
+  isExternal: false
+  name: set_shape
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.set_shape
+- fullName: microsoftml_scikit.internal.utils.utils.tempdir
+  isExternal: false
+  name: tempdir
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.tempdir
+- fullName: microsoftml_scikit.internal.utils.utils.tempfile_
+  isExternal: false
+  name: tempfile_
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.tempfile_
+- fullName: microsoftml_scikit.internal.utils.utils.trace
+  isExternal: false
+  name: trace
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.trace
+- fullName: microsoftml_scikit.internal.utils.utils.try_set
+  isExternal: false
+  name: try_set
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.try_set
+- fullName: microsoftml_scikit.internal.utils.utils.unlist
+  isExternal: false
+  name: unlist
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.unlist
+- fullName: microsoftml_scikit.internal.utils.utils.upper_first
+  isExternal: false
+  name: upper_first
+  parent: microsoftml_scikit.internal.utils.utils
+  uid: microsoftml_scikit.internal.utils.utils.upper_first

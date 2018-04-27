@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash.NgramHash
+  fullName: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash
+  name: ngramhash
+  source:
+    id: ngramhash
+    path: microsoftml_scikit\internal\core\feature_extraction\text\extractor\ngramhash.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\feature_extraction\text\extractor\ngramhash.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'NgramHash
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash
+references:
+- fullName: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash.NgramHash
+  isExternal: false
+  name: NgramHash
+  parent: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngramhash.NgramHash

@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.lpnormalization_normalize.lpnormalization_normalize
+  fullName: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize
+  name: lpnormalization_normalize
+  source:
+    id: lpnormalization_normalize
+    path: microsoftml_scikit\internal\entrypoints\lpnormalization_normalize.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\lpnormalization_normalize.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'LpNormalization.Normalize
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize
+- fullName: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize.lpnormalization_normalize
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize
+  name: lpnormalization_normalize
+  source:
+    id: lpnormalization_normalize
+    path: microsoftml_scikit\internal\entrypoints\lpnormalization_normalize.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\lpnormalization_normalize.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 12
+  summary: "**Description**\n   Normalize vectors (rows) individually by rescaling\
+    \ them to unit norm (L2, L1 or LInf). Performs the following operation on a vector\
+    \ X: Y = (X - M) / D, where M is mean and D is either L2 norm, L1 norm or LInf\
+    \ norm.\n"
+  syntax:
+    content: lpnormalization_normalize(column, data, output_data=None, model=None,
+      norm_kind='L2Norm', sub_mean=False, **params)
+    parameters:
+    - description: 'New column definition(s) (optional form: name:src) (inputs).
+
+        '
+      id: column
+    - description: 'The norm to use to normalize each sample (inputs).
+
+        '
+      id: norm_kind
+    - defaultValue: None
+      description: 'Input dataset (inputs).
+
+        '
+      id: data
+    - defaultValue: None
+      description: 'Subtract mean from each value before normalizing (inputs).
+
+        '
+      id: sub_mean
+    - defaultValue: L2Norm
+      description: 'Transformed dataset (outputs).
+
+        '
+      id: output_data
+    - defaultValue: 'False'
+      description: 'Transform model (outputs).
+
+        '
+      id: model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize.lpnormalization_normalize
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize.lpnormalization_normalize
+  isExternal: false
+  name: lpnormalization_normalize
+  parent: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize
+  uid: microsoftml_scikit.internal.entrypoints.lpnormalization_normalize.lpnormalization_normalize

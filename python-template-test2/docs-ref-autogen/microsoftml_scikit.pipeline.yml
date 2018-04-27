@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.pipeline.Pipeline
+  fullName: microsoftml_scikit.pipeline
+  langs:
+  - python
+  module: microsoftml_scikit.pipeline
+  name: pipeline
+  source:
+    id: pipeline
+    path: microsoftml_scikit\pipeline.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\pipeline.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  type: module
+  uid: microsoftml_scikit.pipeline
+references:
+- fullName: microsoftml_scikit.pipeline.Pipeline
+  isExternal: false
+  name: Pipeline
+  parent: microsoftml_scikit.pipeline
+  uid: microsoftml_scikit.pipeline.Pipeline

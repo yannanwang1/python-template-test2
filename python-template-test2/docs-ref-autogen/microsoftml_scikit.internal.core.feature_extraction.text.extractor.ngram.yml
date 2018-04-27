@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram.Ngram
+  fullName: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram
+  langs:
+  - python
+  module: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram
+  name: ngram
+  source:
+    id: ngram
+    path: microsoftml_scikit\internal\core\feature_extraction\text\extractor\ngram.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\core\feature_extraction\text\extractor\ngram.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Ngram
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram
+references:
+- fullName: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram.Ngram
+  isExternal: false
+  name: Ngram
+  parent: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram
+  uid: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram.Ngram

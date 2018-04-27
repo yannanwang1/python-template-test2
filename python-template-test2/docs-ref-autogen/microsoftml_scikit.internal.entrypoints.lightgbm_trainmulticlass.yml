@@ -1,0 +1,203 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass.lightgbm_trainmulticlass
+  fullName: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass
+  name: lightgbm_trainmulticlass
+  source:
+    id: lightgbm_trainmulticlass
+    path: microsoftml_scikit\internal\entrypoints\lightgbm_trainmulticlass.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\lightgbm_trainmulticlass.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'LightGbm.TrainMultiClass
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass
+- fullName: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass.lightgbm_trainmulticlass
+  langs:
+  - python
+  module: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass
+  name: lightgbm_trainmulticlass
+  source:
+    id: lightgbm_trainmulticlass
+    path: microsoftml_scikit\internal\entrypoints\lightgbm_trainmulticlass.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\entrypoints\lightgbm_trainmulticlass.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 13
+  summary: "**Description**\n   Train an LightGBM multi class model\n"
+  syntax:
+    content: lightgbm_trainmulticlass(training_data, predictor_model=None, num_boost_round=100,
+      learning_rate=None, num_leaves=None, min_data_per_leaf=None, feature_column='Features',
+      booster=None, label_column='Label', weight_column=None, group_id_column=None,
+      normalize_features='Auto', caching='Auto', max_bin=255, verbose_eval=False,
+      silent=True, n_thread=None, eval_metric='DefaultMetric', use_softmax=None, early_stopping_round=0,
+      custom_gains='0,3,7,15,31,63,127,255,511,1023,2047,4095', batch_size=1048576,
+      use_cat=None, use_missing=False, min_data_per_group=100, max_cat_threshold=32,
+      cat_smooth=10.0, cat_l2=10.0, parallel_trainer=None, **params)
+    parameters:
+    - description: 'Number of iterations. (inputs).
+
+        '
+      id: num_boost_round
+    - defaultValue: None
+      description: 'The data to be used for training (inputs).
+
+        '
+      id: training_data
+    - defaultValue: '100'
+      description: 'Shrinkage rate for trees, used to prevent over-fitting. Range:
+        (0,1]. (inputs).
+
+        '
+      id: learning_rate
+    - defaultValue: None
+      description: 'Maximum leaves for trees. (inputs).
+
+        '
+      id: num_leaves
+    - defaultValue: None
+      description: 'Minimum number of instances needed in a child. (inputs).
+
+        '
+      id: min_data_per_leaf
+    - defaultValue: None
+      description: 'Column to use for features (inputs).
+
+        '
+      id: feature_column
+    - defaultValue: Features
+      description: 'Which booster to use, can be gbtree, gblinear or dart. gbtree
+        and dart use tree based model while gblinear uses linear function. (inputs).
+
+        '
+      id: booster
+    - defaultValue: None
+      description: 'Column to use for labels (inputs).
+
+        '
+      id: label_column
+    - defaultValue: Label
+      description: 'Column to use for example weight (inputs).
+
+        '
+      id: weight_column
+    - defaultValue: None
+      description: 'Column to use for example groupId (inputs).
+
+        '
+      id: group_id_column
+    - defaultValue: None
+      description: 'Normalize option for the feature column (inputs).
+
+        '
+      id: normalize_features
+    - defaultValue: Auto
+      description: 'Whether learner should cache input training data (inputs).
+
+        '
+      id: caching
+    - defaultValue: Auto
+      description: 'Max number of bucket bin for features. (inputs).
+
+        '
+      id: max_bin
+    - defaultValue: '255'
+      description: 'Verbose (inputs).
+
+        '
+      id: verbose_eval
+    - defaultValue: 'False'
+      description: 'Printing running messages. (inputs).
+
+        '
+      id: silent
+    - defaultValue: 'True'
+      description: 'Number of parallel threads used to run LightGBM. (inputs).
+
+        '
+      id: n_thread
+    - defaultValue: None
+      description: 'Evaluation metrics. (inputs).
+
+        '
+      id: eval_metric
+    - defaultValue: DefaultMetric
+      description: 'Use softmax loss for the multi classification. (inputs).
+
+        '
+      id: use_softmax
+    - defaultValue: None
+      description: 'Rounds of early stopping, 0 will disable it. (inputs).
+
+        '
+      id: early_stopping_round
+    - defaultValue: '0'
+      description: 'Comma seperated list of gains associated to each relevance label.
+        (inputs).
+
+        '
+      id: custom_gains
+    - defaultValue: 0,3,7,15,31,63,127,255,511,1023,2047,4095
+      description: 'Number of entries in a batch when loading data. (inputs).
+
+        '
+      id: batch_size
+    - defaultValue: '1048576'
+      description: 'Enable categorical split or not. (inputs).
+
+        '
+      id: use_cat
+    - defaultValue: None
+      description: 'Enable missing value auto infer or not. (inputs).
+
+        '
+      id: use_missing
+    - defaultValue: 'False'
+      description: 'Min number of instances per categorical group. (inputs).
+
+        '
+      id: min_data_per_group
+    - defaultValue: '100'
+      description: 'Max number of categorical thresholds. (inputs).
+
+        '
+      id: max_cat_threshold
+    - defaultValue: '32'
+      description: 'Lapalace smooth term in categorical feature spilt. Avoid the bias
+        of small categories. (inputs).
+
+        '
+      id: cat_smooth
+    - defaultValue: '10.0'
+      description: 'L2 Regularization for categorical split. (inputs).
+
+        '
+      id: cat_l2
+    - defaultValue: '10.0'
+      description: 'Parallel LightGBM Learning Algorithm (inputs).
+
+        '
+      id: parallel_trainer
+    - defaultValue: None
+      description: 'The trained model (outputs).
+
+        '
+      id: predictor_model
+  type: function
+  uid: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass.lightgbm_trainmulticlass
+references:
+- fullName: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass.lightgbm_trainmulticlass
+  isExternal: false
+  name: lightgbm_trainmulticlass
+  parent: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass
+  uid: microsoftml_scikit.internal.entrypoints.lightgbm_trainmulticlass.lightgbm_trainmulticlass

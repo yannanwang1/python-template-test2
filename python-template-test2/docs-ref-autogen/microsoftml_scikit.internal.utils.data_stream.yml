@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.internal.utils.data_stream.DataStream
+  - microsoftml_scikit.internal.utils.data_stream.FileDataStream
+  - microsoftml_scikit.internal.utils.data_stream.ViewBasePipelineItem
+  - microsoftml_scikit.internal.utils.data_stream.ViewDataStream
+  fullName: microsoftml_scikit.internal.utils.data_stream
+  langs:
+  - python
+  module: microsoftml_scikit.internal.utils.data_stream
+  name: data_stream
+  source:
+    id: data_stream
+    path: microsoftml_scikit\internal\utils\data_stream.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_stream.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 0
+  summary: 'Owns pytlc''s containers.
+
+    '
+  type: module
+  uid: microsoftml_scikit.internal.utils.data_stream
+references:
+- fullName: microsoftml_scikit.internal.utils.data_stream.DataStream
+  isExternal: false
+  name: DataStream
+  parent: microsoftml_scikit.internal.utils.data_stream
+  uid: microsoftml_scikit.internal.utils.data_stream.DataStream
+- fullName: microsoftml_scikit.internal.utils.data_stream.FileDataStream
+  isExternal: false
+  name: FileDataStream
+  parent: microsoftml_scikit.internal.utils.data_stream
+  uid: microsoftml_scikit.internal.utils.data_stream.FileDataStream
+- fullName: microsoftml_scikit.internal.utils.data_stream.ViewBasePipelineItem
+  isExternal: false
+  name: ViewBasePipelineItem
+  parent: microsoftml_scikit.internal.utils.data_stream
+  uid: microsoftml_scikit.internal.utils.data_stream.ViewBasePipelineItem
+- fullName: microsoftml_scikit.internal.utils.data_stream.ViewDataStream
+  isExternal: false
+  name: ViewDataStream
+  parent: microsoftml_scikit.internal.utils.data_stream
+  uid: microsoftml_scikit.internal.utils.data_stream.ViewDataStream
