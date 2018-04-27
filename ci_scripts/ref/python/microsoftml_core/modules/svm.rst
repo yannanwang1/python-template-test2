@@ -1,9 +1,0 @@
-kernel
------------
-.. toctree::
-
-   svm/kernel
-
-
-
-
