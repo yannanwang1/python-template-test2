@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.Role
+  fullName: microsoftml_scikit.Role
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit
+  name: Role
+  source:
+    id: Role
+    path: microsoftml_scikit\internal\utils\data_roles.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\internal\utils\data_roles.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 23
+  summary: 'Some columns play a specific role for
+
+    specific learners or transforms. This is
+
+    the complete list.
+
+    '
+  syntax: {}
+  type: class
+  uid: microsoftml_scikit.Role
+references: []

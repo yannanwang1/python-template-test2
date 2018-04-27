@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.loss.Hinge
+  fullName: microsoftml_scikit.loss.Hinge
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.loss
+  name: Hinge
+  source:
+    id: Hinge
+    path: microsoftml_scikit\loss.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\loss.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 35
+  summary: "\n**Description**\n\n   The hinge loss for classification.\n\n**Details**\n\
+    \n   The hinge loss for classification. Its string name is `'hinge'`.\n\n**See\
+    \ Also**\n\n   @microsoftml_scikit.loss.Exp, @../microsoftml_scikit.loss.Log,\
+    \ @../microsoftml_scikit.loss.SmoothedHinge\n\n\n"
+  syntax:
+    content: Hinge(margin=1.0)
+    parameters:
+    - description: 'Margin value
+
+        '
+      id: margin
+  type: class
+  uid: microsoftml_scikit.loss.Hinge
+references: []

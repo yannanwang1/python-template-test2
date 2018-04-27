@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.feature_extraction.text.extractor.Ngram
+  fullName: microsoftml_scikit.feature_extraction.text.extractor.Ngram
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.dict
+      type: microsoftml_scikit.internal.utils.entrypoints.Component
+    type: microsoftml_scikit.internal.core.feature_extraction.text.extractor.ngram.Ngram
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.text.extractor
+  name: Ngram
+  source:
+    id: Ngram
+    path: microsoftml_scikit\feature_extraction\text\extractor\ngram.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\feature_extraction\text\extractor\ngram.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 18
+  summary: "**Description**\n   Extracts NGrams from text and convert them to vector\
+    \ using dictionary.\n"
+  syntax:
+    content: Ngram(ngram_length=1, skip_length=0, all_lengths=True, max_num_terms=[10000000],
+      weighting='Tf', columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'Ngram length.
+
+        '
+      id: ngram_length
+    - description: 'Maximum number of tokens to skip when constructing an ngram.
+
+        '
+      id: skip_length
+    - description: 'Whether to include all ngram lengths up to NgramLength or only
+        NgramLength.
+
+        '
+      id: all_lengths
+    - description: 'Maximum number of ngrams to store in the dictionary.
+
+        '
+      id: max_num_terms
+    - description: 'The weighting criteria.
+
+        '
+      id: weighting
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.text.extractor.Ngram
+references: []

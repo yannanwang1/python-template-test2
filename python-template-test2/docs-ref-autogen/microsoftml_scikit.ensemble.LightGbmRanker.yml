@@ -1,0 +1,199 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.ensemble.LightGbmRanker
+  fullName: microsoftml_scikit.ensemble.LightGbmRanker
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.ensemble.lightgbmranker.LightGbmRanker
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.ClassifierMixin
+  langs:
+  - python
+  module: microsoftml_scikit.ensemble
+  name: LightGbmRanker
+  source:
+    id: LightGbmRanker
+    path: microsoftml_scikit\ensemble\lightgbmranker.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\ensemble\lightgbmranker.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "\n**Description**\n\n   Gradient Boosted Decision Trees\n\n**Details**\n\
+    \n   Light GBM is an open source implementation of boosted trees. It is\n   available\
+    \ in PyTLC as a binary classification trainer, a multi-class\n   trainer, a regression\
+    \ trainer and a ranking trainer.\n\nNote: TBD. \n\n**See Also**\n\n   @microsoftml_scikit.ensemble.FastTreesBinaryClassifier,\n\
+    \   @microsoftml_scikit.ensemble.FastForestRegressor\n\n**Reference**\n\n   [GitHub:\
+    \ LightGBM](https://github.com/Microsoft/LightGBM/wiki)\n\n\n"
+  syntax:
+    content: LightGbmRanker(num_boost_round=100, learning_rate=None, num_leaves=None,
+      min_data_per_leaf=None, booster=None, normalize='Auto', caching='Auto', max_bin=255,
+      verbose_eval=False, silent=True, n_thread=None, eval_metric='DefaultMetric',
+      use_softmax=None, early_stopping_round=0, custom_gains='0,3,7,15,31,63,127,255,511,1023,2047,4095',
+      batch_size=1048576, use_cat=None, use_missing=False, min_data_per_group=100,
+      max_cat_threshold=32, cat_smooth=10.0, cat_l2=10.0, parallel_trainer=None, feature=None,
+      group_id=None, label=None, weight=None, columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: feature
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: group_id
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: label
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: weight
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'Number of iterations.
+
+        '
+      id: num_boost_round
+    - description: 'Shrinkage rate for trees, used to prevent over-fitting. Range:
+        (0,1].
+
+        '
+      id: learning_rate
+    - description: 'The maximum number of leaves (terminal nodes) that can be created
+        in any tree. Higher values
+
+        potentially increase the size of the tree and get better precision, but risk
+        overfitting and requiring longer
+
+        training times.
+
+        '
+      id: num_leaves
+    - description: 'Minimum number of instances needed in a child.
+
+        '
+      id: min_data_per_leaf
+    - description: 'Which booster to use, can be gbtree, gblinear or dart. gbtree
+        and dart use tree based model while
+
+        gblinear uses linear function.
+
+        '
+      id: booster
+    - description: 'If `Auto`, the choice to normalize depends on the preference declared
+        by the algorithm. This is the
+
+        default choice. If `No`, no normalization is performed. If `Yes`, normalization
+        always performed. If `Warn`,
+
+        if normalization is needed by the algorithm, a warning message is displayed
+        but normalization is not performed. If
+
+        normalization is performed, a `MaxMin` normalizer is used. This normalizer
+        preserves sparsity by mapping zero to
+
+        zero.
+
+        '
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'Max number of bucket bin for features.
+
+        '
+      id: max_bin
+    - description: 'Verbose.
+
+        '
+      id: verbose_eval
+    - description: 'Printing running messages.
+
+        '
+      id: silent
+    - description: 'Number of parallel threads used to run LightGBM.
+
+        '
+      id: n_thread
+    - description: 'Evaluation metrics.
+
+        '
+      id: eval_metric
+    - description: 'Use softmax loss for the multi classification.
+
+        '
+      id: use_softmax
+    - description: 'Rounds of early stopping, 0 will disable it.
+
+        '
+      id: early_stopping_round
+    - description: 'Comma seperated list of gains associated to each relevance label.
+
+        '
+      id: custom_gains
+    - description: 'Number of entries in a batch when loading data.
+
+        '
+      id: batch_size
+    - description: 'Enable categorical split or not.
+
+        '
+      id: use_cat
+    - description: 'Enable missing value auto infer or not.
+
+        '
+      id: use_missing
+    - description: 'Min number of instances per categorical group.
+
+        '
+      id: min_data_per_group
+    - description: 'Max number of categorical thresholds.
+
+        '
+      id: max_cat_threshold
+    - description: 'Lapalace smooth term in categorical feature spilt. Avoid the bias
+        of small categories.
+
+        '
+      id: cat_smooth
+    - description: 'L2 Regularization for categorical split.
+
+        '
+      id: cat_l2
+    - description: 'Parallel LightGBM Learning Algorithm.
+
+        '
+      id: parallel_trainer
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.ensemble.LightGbmRanker
+references: []

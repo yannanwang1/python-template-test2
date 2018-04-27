@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.preprocessing.filter.SkipFilter
+  fullName: microsoftml_scikit.preprocessing.filter.SkipFilter
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.NoOutputSignature
+    type: microsoftml_scikit.internal.core.preprocessing.filter.skipfilter.SkipFilter
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.filter
+  name: SkipFilter
+  source:
+    id: SkipFilter
+    path: microsoftml_scikit\preprocessing\filter\skipfilter.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\preprocessing\filter\skipfilter.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 20
+  summary: "**Description**\n   Allows limiting input to a subset of rows by skipping\
+    \ a number of rows.\n"
+  syntax:
+    content: SkipFilter(count=0, columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'Number of items to skip.
+
+        '
+      id: count
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.filter.SkipFilter
+references: []

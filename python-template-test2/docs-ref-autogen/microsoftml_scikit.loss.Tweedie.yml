@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.loss.Tweedie
+  fullName: microsoftml_scikit.loss.Tweedie
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.loss
+  name: Tweedie
+  source:
+    id: Tweedie
+    path: microsoftml_scikit\loss.py
+    remote:
+      branch: master
+      path: microsoftml_scikit\loss.py
+      repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
+    startLine: 164
+  summary: "\n**Description**\n\n   The Tweedie loss for regression.\n\n**Details**\n\
+    \n   The Tweedie loss for regression. Its string name is `'tweedie'`.\n\n**See\
+    \ Also**\n\n   @microsoftml_scikit.loss.Squared, @microsoftml_scikit.loss.Poisson\n\
+    \n\n"
+  syntax:
+    content: Tweedie(index=1.5)
+    parameters:
+    - description: 'Index parameter for the Tweedie distribution, in the range [1,
+        2]. 1 is Poisson loss, 2 is gamma loss, and intermediate values are compound
+        Poisson loss.
+
+        '
+      id: index
+  type: class
+  uid: microsoftml_scikit.loss.Tweedie
+references: []
