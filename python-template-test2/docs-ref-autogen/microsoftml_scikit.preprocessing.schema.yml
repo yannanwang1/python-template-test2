@@ -1,7 +1,12 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
+- children:
+  - microsoftml_scikit.preprocessing.schema.columnconcatenator
+  - microsoftml_scikit.preprocessing.schema.columndropper
+  - microsoftml_scikit.preprocessing.schema.columnduplicator
+  - microsoftml_scikit.preprocessing.schema.columnselector
+  - microsoftml_scikit.preprocessing.schema.typeconverter
   fullName: microsoftml_scikit.preprocessing.schema
   langs:
   - python
@@ -17,4 +22,29 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.preprocessing.schema
-references: []
+references:
+- fullName: microsoftml_scikit.preprocessing.schema.columnconcatenator
+  isExternal: false
+  name: columnconcatenator
+  parent: microsoftml_scikit.preprocessing.schema.columnconcatenator
+  uid: microsoftml_scikit.preprocessing.schema.columnconcatenator
+- fullName: microsoftml_scikit.preprocessing.schema.columndropper
+  isExternal: false
+  name: columndropper
+  parent: microsoftml_scikit.preprocessing.schema.columndropper
+  uid: microsoftml_scikit.preprocessing.schema.columndropper
+- fullName: microsoftml_scikit.preprocessing.schema.columnduplicator
+  isExternal: false
+  name: columnduplicator
+  parent: microsoftml_scikit.preprocessing.schema.columnduplicator
+  uid: microsoftml_scikit.preprocessing.schema.columnduplicator
+- fullName: microsoftml_scikit.preprocessing.schema.columnselector
+  isExternal: false
+  name: columnselector
+  parent: microsoftml_scikit.preprocessing.schema.columnselector
+  uid: microsoftml_scikit.preprocessing.schema.columnselector
+- fullName: microsoftml_scikit.preprocessing.schema.typeconverter
+  isExternal: false
+  name: typeconverter
+  parent: microsoftml_scikit.preprocessing.schema.typeconverter
+  uid: microsoftml_scikit.preprocessing.schema.typeconverter

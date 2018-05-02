@@ -2,6 +2,9 @@
 api_name: []
 items:
 - children:
+  - microsoftml_scikit.preprocessing.expression
+  - microsoftml_scikit.preprocessing.keytotext
+  - microsoftml_scikit.preprocessing.texttokey
   - microsoftml_scikit.preprocessing.filter
   - microsoftml_scikit.preprocessing.missing_values
   - microsoftml_scikit.preprocessing.normalization
@@ -24,6 +27,21 @@ items:
   type: package
   uid: microsoftml_scikit.preprocessing
 references:
+- fullName: microsoftml_scikit.preprocessing.expression
+  isExternal: false
+  name: expression
+  parent: microsoftml_scikit.preprocessing.expression
+  uid: microsoftml_scikit.preprocessing.expression
+- fullName: microsoftml_scikit.preprocessing.keytotext
+  isExternal: false
+  name: keytotext
+  parent: microsoftml_scikit.preprocessing.keytotext
+  uid: microsoftml_scikit.preprocessing.keytotext
+- fullName: microsoftml_scikit.preprocessing.texttokey
+  isExternal: false
+  name: texttokey
+  parent: microsoftml_scikit.preprocessing.texttokey
+  uid: microsoftml_scikit.preprocessing.texttokey
 - fullName: microsoftml_scikit.preprocessing.filter
   isExternal: false
   name: filter

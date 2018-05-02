@@ -2,12 +2,15 @@
 api_name: []
 items:
 - children:
+  - microsoftml_scikit.base_predictor
+  - microsoftml_scikit.base_transform
+  - microsoftml_scikit.loss
+  - microsoftml_scikit.pipeline
   - microsoftml_scikit.cluster
   - microsoftml_scikit.decomposition
   - microsoftml_scikit.ensemble
   - microsoftml_scikit.feature_extraction
   - microsoftml_scikit.feature_selection
-  - microsoftml_scikit.internal
   - microsoftml_scikit.linear_model
   - microsoftml_scikit.model_selection
   - microsoftml_scikit.multiclass
@@ -33,6 +36,26 @@ items:
   type: package
   uid: microsoftml_scikit
 references:
+- fullName: microsoftml_scikit.base_predictor
+  isExternal: false
+  name: base_predictor
+  parent: microsoftml_scikit.base_predictor
+  uid: microsoftml_scikit.base_predictor
+- fullName: microsoftml_scikit.base_transform
+  isExternal: false
+  name: base_transform
+  parent: microsoftml_scikit.base_transform
+  uid: microsoftml_scikit.base_transform
+- fullName: microsoftml_scikit.loss
+  isExternal: false
+  name: loss
+  parent: microsoftml_scikit.loss
+  uid: microsoftml_scikit.loss
+- fullName: microsoftml_scikit.pipeline
+  isExternal: false
+  name: pipeline
+  parent: microsoftml_scikit.pipeline
+  uid: microsoftml_scikit.pipeline
 - fullName: microsoftml_scikit.cluster
   isExternal: false
   name: cluster
@@ -58,11 +81,6 @@ references:
   name: feature_selection
   parent: microsoftml_scikit
   uid: microsoftml_scikit.feature_selection
-- fullName: microsoftml_scikit.internal
-  isExternal: false
-  name: internal
-  parent: microsoftml_scikit
-  uid: microsoftml_scikit.internal
 - fullName: microsoftml_scikit.linear_model
   isExternal: false
   name: linear_model

@@ -2,6 +2,8 @@
 api_name: []
 items:
 - children:
+  - microsoftml_scikit.svm.localdeepsvmbinaryclassifier
+  - microsoftml_scikit.svm.oneclasssvmanomalydetector
   - microsoftml_scikit.svm.kernel
   fullName: microsoftml_scikit.svm
   langs:
@@ -19,6 +21,16 @@ items:
   type: package
   uid: microsoftml_scikit.svm
 references:
+- fullName: microsoftml_scikit.svm.localdeepsvmbinaryclassifier
+  isExternal: false
+  name: localdeepsvmbinaryclassifier
+  parent: microsoftml_scikit.svm.localdeepsvmbinaryclassifier
+  uid: microsoftml_scikit.svm.localdeepsvmbinaryclassifier
+- fullName: microsoftml_scikit.svm.oneclasssvmanomalydetector
+  isExternal: false
+  name: oneclasssvmanomalydetector
+  parent: microsoftml_scikit.svm.oneclasssvmanomalydetector
+  uid: microsoftml_scikit.svm.oneclasssvmanomalydetector
 - fullName: microsoftml_scikit.svm.kernel
   isExternal: false
   name: kernel

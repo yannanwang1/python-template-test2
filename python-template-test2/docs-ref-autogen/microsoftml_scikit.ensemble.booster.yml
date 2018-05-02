@@ -1,7 +1,10 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
+- children:
+  - microsoftml_scikit.ensemble.booster.dart
+  - microsoftml_scikit.ensemble.booster.gbdt
+  - microsoftml_scikit.ensemble.booster.goss
   fullName: microsoftml_scikit.ensemble.booster
   langs:
   - python
@@ -17,4 +20,19 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.ensemble.booster
-references: []
+references:
+- fullName: microsoftml_scikit.ensemble.booster.dart
+  isExternal: false
+  name: dart
+  parent: microsoftml_scikit.ensemble.booster.dart
+  uid: microsoftml_scikit.ensemble.booster.dart
+- fullName: microsoftml_scikit.ensemble.booster.gbdt
+  isExternal: false
+  name: gbdt
+  parent: microsoftml_scikit.ensemble.booster.gbdt
+  uid: microsoftml_scikit.ensemble.booster.gbdt
+- fullName: microsoftml_scikit.ensemble.booster.goss
+  isExternal: false
+  name: goss
+  parent: microsoftml_scikit.ensemble.booster.goss
+  uid: microsoftml_scikit.ensemble.booster.goss

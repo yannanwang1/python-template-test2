@@ -1,7 +1,8 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
+- children:
+  - microsoftml_scikit.multiclass.onevsrestclassifier
   fullName: microsoftml_scikit.multiclass
   langs:
   - python
@@ -17,4 +18,9 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.multiclass
-references: []
+references:
+- fullName: microsoftml_scikit.multiclass.onevsrestclassifier
+  isExternal: false
+  name: onevsrestclassifier
+  parent: microsoftml_scikit.multiclass.onevsrestclassifier
+  uid: microsoftml_scikit.multiclass.onevsrestclassifier

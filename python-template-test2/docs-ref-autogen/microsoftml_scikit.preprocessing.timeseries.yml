@@ -1,7 +1,15 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
+- children:
+  - microsoftml_scikit.preprocessing.timeseries.exponentialaverage
+  - microsoftml_scikit.preprocessing.timeseries.iidspikechangepointdetector
+  - microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector
+  - microsoftml_scikit.preprocessing.timeseries.percentilethreshold
+  - microsoftml_scikit.preprocessing.timeseries.pvalue
+  - microsoftml_scikit.preprocessing.timeseries.slidingwindow
+  - microsoftml_scikit.preprocessing.timeseries.ssachangepointdetector
+  - microsoftml_scikit.preprocessing.timeseries.ssaspikedetector
   fullName: microsoftml_scikit.preprocessing.timeseries
   langs:
   - python
@@ -17,4 +25,44 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.preprocessing.timeseries
-references: []
+references:
+- fullName: microsoftml_scikit.preprocessing.timeseries.exponentialaverage
+  isExternal: false
+  name: exponentialaverage
+  parent: microsoftml_scikit.preprocessing.timeseries.exponentialaverage
+  uid: microsoftml_scikit.preprocessing.timeseries.exponentialaverage
+- fullName: microsoftml_scikit.preprocessing.timeseries.iidspikechangepointdetector
+  isExternal: false
+  name: iidspikechangepointdetector
+  parent: microsoftml_scikit.preprocessing.timeseries.iidspikechangepointdetector
+  uid: microsoftml_scikit.preprocessing.timeseries.iidspikechangepointdetector
+- fullName: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector
+  isExternal: false
+  name: iidspikepointdetector
+  parent: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector
+  uid: microsoftml_scikit.preprocessing.timeseries.iidspikepointdetector
+- fullName: microsoftml_scikit.preprocessing.timeseries.percentilethreshold
+  isExternal: false
+  name: percentilethreshold
+  parent: microsoftml_scikit.preprocessing.timeseries.percentilethreshold
+  uid: microsoftml_scikit.preprocessing.timeseries.percentilethreshold
+- fullName: microsoftml_scikit.preprocessing.timeseries.pvalue
+  isExternal: false
+  name: pvalue
+  parent: microsoftml_scikit.preprocessing.timeseries.pvalue
+  uid: microsoftml_scikit.preprocessing.timeseries.pvalue
+- fullName: microsoftml_scikit.preprocessing.timeseries.slidingwindow
+  isExternal: false
+  name: slidingwindow
+  parent: microsoftml_scikit.preprocessing.timeseries.slidingwindow
+  uid: microsoftml_scikit.preprocessing.timeseries.slidingwindow
+- fullName: microsoftml_scikit.preprocessing.timeseries.ssachangepointdetector
+  isExternal: false
+  name: ssachangepointdetector
+  parent: microsoftml_scikit.preprocessing.timeseries.ssachangepointdetector
+  uid: microsoftml_scikit.preprocessing.timeseries.ssachangepointdetector
+- fullName: microsoftml_scikit.preprocessing.timeseries.ssaspikedetector
+  isExternal: false
+  name: ssaspikedetector
+  parent: microsoftml_scikit.preprocessing.timeseries.ssaspikedetector
+  uid: microsoftml_scikit.preprocessing.timeseries.ssaspikedetector

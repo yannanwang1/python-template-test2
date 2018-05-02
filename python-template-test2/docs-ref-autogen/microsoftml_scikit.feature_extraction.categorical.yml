@@ -1,7 +1,9 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
+- children:
+  - microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
+  - microsoftml_scikit.feature_extraction.categorical.onehotvectorizer
   fullName: microsoftml_scikit.feature_extraction.categorical
   langs:
   - python
@@ -17,4 +19,14 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.feature_extraction.categorical
-references: []
+references:
+- fullName: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
+  isExternal: false
+  name: onehothashvectorizer
+  parent: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
+  uid: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
+- fullName: microsoftml_scikit.feature_extraction.categorical.onehotvectorizer
+  isExternal: false
+  name: onehotvectorizer
+  parent: microsoftml_scikit.feature_extraction.categorical.onehotvectorizer
+  uid: microsoftml_scikit.feature_extraction.categorical.onehotvectorizer

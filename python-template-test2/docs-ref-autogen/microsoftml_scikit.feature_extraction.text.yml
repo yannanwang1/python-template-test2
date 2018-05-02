@@ -2,6 +2,12 @@
 api_name: []
 items:
 - children:
+  - microsoftml_scikit.feature_extraction.text.dssmfeaturizer
+  - microsoftml_scikit.feature_extraction.text.lightlda
+  - microsoftml_scikit.feature_extraction.text.ngramfeaturizer
+  - microsoftml_scikit.feature_extraction.text.sentiment
+  - microsoftml_scikit.feature_extraction.text.ssweembedding
+  - microsoftml_scikit.feature_extraction.text.wordembedding
   - microsoftml_scikit.feature_extraction.text.extractor
   - microsoftml_scikit.feature_extraction.text.stopwords
   fullName: microsoftml_scikit.feature_extraction.text
@@ -20,6 +26,36 @@ items:
   type: package
   uid: microsoftml_scikit.feature_extraction.text
 references:
+- fullName: microsoftml_scikit.feature_extraction.text.dssmfeaturizer
+  isExternal: false
+  name: dssmfeaturizer
+  parent: microsoftml_scikit.feature_extraction.text.dssmfeaturizer
+  uid: microsoftml_scikit.feature_extraction.text.dssmfeaturizer
+- fullName: microsoftml_scikit.feature_extraction.text.lightlda
+  isExternal: false
+  name: lightlda
+  parent: microsoftml_scikit.feature_extraction.text.lightlda
+  uid: microsoftml_scikit.feature_extraction.text.lightlda
+- fullName: microsoftml_scikit.feature_extraction.text.ngramfeaturizer
+  isExternal: false
+  name: ngramfeaturizer
+  parent: microsoftml_scikit.feature_extraction.text.ngramfeaturizer
+  uid: microsoftml_scikit.feature_extraction.text.ngramfeaturizer
+- fullName: microsoftml_scikit.feature_extraction.text.sentiment
+  isExternal: false
+  name: sentiment
+  parent: microsoftml_scikit.feature_extraction.text.sentiment
+  uid: microsoftml_scikit.feature_extraction.text.sentiment
+- fullName: microsoftml_scikit.feature_extraction.text.ssweembedding
+  isExternal: false
+  name: ssweembedding
+  parent: microsoftml_scikit.feature_extraction.text.ssweembedding
+  uid: microsoftml_scikit.feature_extraction.text.ssweembedding
+- fullName: microsoftml_scikit.feature_extraction.text.wordembedding
+  isExternal: false
+  name: wordembedding
+  parent: microsoftml_scikit.feature_extraction.text.wordembedding
+  uid: microsoftml_scikit.feature_extraction.text.wordembedding
 - fullName: microsoftml_scikit.feature_extraction.text.extractor
   isExternal: false
   name: extractor

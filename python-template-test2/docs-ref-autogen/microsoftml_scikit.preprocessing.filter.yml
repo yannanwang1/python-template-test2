@@ -1,7 +1,11 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
+- children:
+  - microsoftml_scikit.preprocessing.filter.bootstrapsampler
+  - microsoftml_scikit.preprocessing.filter.rangefilter
+  - microsoftml_scikit.preprocessing.filter.skipfilter
+  - microsoftml_scikit.preprocessing.filter.takefilter
   fullName: microsoftml_scikit.preprocessing.filter
   langs:
   - python
@@ -17,4 +21,24 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.preprocessing.filter
-references: []
+references:
+- fullName: microsoftml_scikit.preprocessing.filter.bootstrapsampler
+  isExternal: false
+  name: bootstrapsampler
+  parent: microsoftml_scikit.preprocessing.filter.bootstrapsampler
+  uid: microsoftml_scikit.preprocessing.filter.bootstrapsampler
+- fullName: microsoftml_scikit.preprocessing.filter.rangefilter
+  isExternal: false
+  name: rangefilter
+  parent: microsoftml_scikit.preprocessing.filter.rangefilter
+  uid: microsoftml_scikit.preprocessing.filter.rangefilter
+- fullName: microsoftml_scikit.preprocessing.filter.skipfilter
+  isExternal: false
+  name: skipfilter
+  parent: microsoftml_scikit.preprocessing.filter.skipfilter
+  uid: microsoftml_scikit.preprocessing.filter.skipfilter
+- fullName: microsoftml_scikit.preprocessing.filter.takefilter
+  isExternal: false
+  name: takefilter
+  parent: microsoftml_scikit.preprocessing.filter.takefilter
+  uid: microsoftml_scikit.preprocessing.filter.takefilter

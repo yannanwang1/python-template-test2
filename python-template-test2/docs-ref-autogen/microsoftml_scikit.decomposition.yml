@@ -1,7 +1,10 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children: []
+- children:
+  - microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier
+  - microsoftml_scikit.decomposition.pcaanomalydetector
+  - microsoftml_scikit.decomposition.pcatransformer
   fullName: microsoftml_scikit.decomposition
   langs:
   - python
@@ -17,4 +20,19 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.decomposition
-references: []
+references:
+- fullName: microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier
+  isExternal: false
+  name: factorizationmachinebinaryclassifier
+  parent: microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier
+  uid: microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier
+- fullName: microsoftml_scikit.decomposition.pcaanomalydetector
+  isExternal: false
+  name: pcaanomalydetector
+  parent: microsoftml_scikit.decomposition.pcaanomalydetector
+  uid: microsoftml_scikit.decomposition.pcaanomalydetector
+- fullName: microsoftml_scikit.decomposition.pcatransformer
+  isExternal: false
+  name: pcatransformer
+  parent: microsoftml_scikit.decomposition.pcatransformer
+  uid: microsoftml_scikit.decomposition.pcatransformer
