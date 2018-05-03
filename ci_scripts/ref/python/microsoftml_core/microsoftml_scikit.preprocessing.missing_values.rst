@@ -1,32 +1,10 @@
 microsoftml\_scikit\.preprocessing\.missing\_values package
 ===========================================================
 
-Submodules
-----------
+.. autoclass:: microsoftml_scikit.preprocessing.missing_values.Filter
+.. autoclass:: microsoftml_scikit.preprocessing.missing_values.Handler
+.. autoclass:: microsoftml_scikit.preprocessing.missing_values.Indicator
 
-microsoftml\_scikit\.preprocessing\.missing\_values\.filter module
-------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.missing_values.filter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.missing\_values\.handler module
--------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.missing_values.handler
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.missing\_values\.indicator module
----------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.missing_values.indicator
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 
 Module contents

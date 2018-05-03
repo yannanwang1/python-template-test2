@@ -1,32 +1,9 @@
 microsoftml\_scikit\.preprocessing\.text package
 ================================================
 
-Submodules
-----------
-
-microsoftml\_scikit\.preprocessing\.text\.chartokenizer module
---------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.text.chartokenizer
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.text\.keyphraseextractor module
--------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.text.keyphraseextractor
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.text\.lemmatizer module
------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.text.lemmatizer
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. autoclass:: microsoftml_scikit.preprocessing.text.KeyPhraseExtractor
+.. autoclass:: microsoftml_scikit.preprocessing.text.Lemmatizer
+.. autoclass:: microsoftml_scikit.preprocessing.text.CharTokenizer
 
 
 Module contents

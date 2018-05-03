@@ -8,24 +8,9 @@ Subpackages
 
     microsoftml_scikit.svm.kernel
 
-Submodules
-----------
+.. autoclass:: microsoftml_scikit.svm.OneClassSvmAnomalyDetector
+.. autoclass:: microsoftml_scikit.svm.LocalDeepSvmBinaryClassifier
 
-microsoftml\_scikit\.svm\.localdeepsvmbinaryclassifier module
--------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.svm.localdeepsvmbinaryclassifier
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.svm\.oneclasssvmanomalydetector module
------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.svm.oneclasssvmanomalydetector
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 
 Module contents

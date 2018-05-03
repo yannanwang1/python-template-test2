@@ -1,16 +1,8 @@
 microsoftml\_scikit\.naive\_bayes package
 =========================================
 
-Submodules
-----------
+.. autoclass:: microsoftml_scikit.naive_bayes.NaiveBayesClassifier
 
-microsoftml\_scikit\.naive\_bayes\.naivebayesclassifier module
---------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.naive_bayes.naivebayesclassifier
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 
 Module contents

@@ -13,32 +13,10 @@ Subpackages
     microsoftml_scikit.preprocessing.text
     microsoftml_scikit.preprocessing.timeseries
 
-Submodules
-----------
+.. autoclass:: microsoftml_scikit.preprocessing.Expression
+.. autoclass:: microsoftml_scikit.preprocessing.KeyToText
+.. autoclass:: microsoftml_scikit.preprocessing.TextToKey
 
-microsoftml\_scikit\.preprocessing\.expression module
------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.expression
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.keytotext module
-----------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.keytotext
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.texttokey module
-----------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.texttokey
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 
 Module contents

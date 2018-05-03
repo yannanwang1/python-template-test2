@@ -1,32 +1,10 @@
 microsoftml\_scikit\.decomposition package
 ==========================================
 
-Submodules
-----------
+.. autoclass:: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+.. autoclass:: microsoftml_scikit.decomposition.PcaAnomalyDetector
+.. autoclass:: microsoftml_scikit.decomposition.PcaTransformer
 
-microsoftml\_scikit\.decomposition\.factorizationmachinebinaryclassifier module
--------------------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.decomposition.factorizationmachinebinaryclassifier
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.decomposition\.pcaanomalydetector module
--------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.decomposition.pcaanomalydetector
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.decomposition\.pcatransformer module
----------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.decomposition.pcatransformer
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 
 Module contents

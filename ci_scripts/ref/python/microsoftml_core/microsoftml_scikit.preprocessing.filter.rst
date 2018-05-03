@@ -1,40 +1,10 @@
 microsoftml\_scikit\.preprocessing\.filter package
 ==================================================
 
-Submodules
-----------
-
-microsoftml\_scikit\.preprocessing\.filter\.bootstrapsampler module
--------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.filter.bootstrapsampler
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.filter\.rangefilter module
---------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.filter.rangefilter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.filter\.skipfilter module
--------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.filter.skipfilter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.filter\.takefilter module
--------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.filter.takefilter
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. autoclass:: microsoftml_scikit.preprocessing.filter.BootstrapSampler
+.. autoclass:: microsoftml_scikit.preprocessing.filter.RangeFilter
+.. autoclass:: microsoftml_scikit.preprocessing.filter.SkipFilter
+.. autoclass:: microsoftml_scikit.preprocessing.filter.TakeFilter
 
 
 Module contents

@@ -1,40 +1,11 @@
 microsoftml\_scikit\.feature\_extraction\.image package
 =======================================================
 
-Submodules
-----------
+.. autoclass:: microsoftml_scikit.feature_extraction.image.DnnFeaturizer
+.. autoclass:: microsoftml_scikit.feature_extraction.image.Loader
+.. autoclass:: microsoftml_scikit.feature_extraction.image.PixelExtractor
+.. autoclass:: microsoftml_scikit.feature_extraction.image.Resizer
 
-microsoftml\_scikit\.feature\_extraction\.image\.dnnfeaturizer module
----------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.feature_extraction.image.dnnfeaturizer
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.feature\_extraction\.image\.loader module
---------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.feature_extraction.image.loader
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.feature\_extraction\.image\.pixelextractor module
-----------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.feature_extraction.image.pixelextractor
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.feature\_extraction\.image\.resizer module
----------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.feature_extraction.image.resizer
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 
 Module contents

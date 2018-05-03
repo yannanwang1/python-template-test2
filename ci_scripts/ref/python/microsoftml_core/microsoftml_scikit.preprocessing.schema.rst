@@ -1,48 +1,12 @@
 microsoftml\_scikit\.preprocessing\.schema package
 ==================================================
 
-Submodules
-----------
+.. autoclass:: microsoftml_scikit.preprocessing.schema.ColumnSelector
+.. autoclass:: microsoftml_scikit.preprocessing.schema.TypeConverter
+.. autoclass:: microsoftml_scikit.preprocessing.schema.ColumnConcatenator
+.. autoclass:: microsoftml_scikit.preprocessing.schema.ColumnDropper
+.. autoclass:: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
 
-microsoftml\_scikit\.preprocessing\.schema\.columnconcatenator module
----------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.schema.columnconcatenator
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.schema\.columndropper module
-----------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.schema.columndropper
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.schema\.columnduplicator module
--------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.schema.columnduplicator
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.schema\.columnselector module
------------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.schema.columnselector
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.preprocessing\.schema\.typeconverter module
-----------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.preprocessing.schema.typeconverter
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 
 Module contents

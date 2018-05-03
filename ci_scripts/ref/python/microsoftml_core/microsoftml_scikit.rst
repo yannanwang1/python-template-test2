@@ -22,24 +22,12 @@ Subpackages
     microsoftml_scikit.tests
     microsoftml_scikit.utils
 
+.. autoclass:: microsoftml_scikit.Pipeline
+.. autoclass:: microsoftml_scikit.BasePredictor
+.. autoclass:: microsoftml_scikit.BaseTransform
+
 Submodules
 ----------
-
-microsoftml\_scikit\.base\_predictor module
--------------------------------------------
-
-.. automodule:: microsoftml_scikit.base_predictor
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-microsoftml\_scikit\.base\_transform module
--------------------------------------------
-
-.. automodule:: microsoftml_scikit.base_transform
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 microsoftml\_scikit\.loss module
 --------------------------------
@@ -49,13 +37,7 @@ microsoftml\_scikit\.loss module
     :undoc-members:
     :show-inheritance:
 
-microsoftml\_scikit\.pipeline module
-------------------------------------
 
-.. automodule:: microsoftml_scikit.pipeline
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
 
 Module contents

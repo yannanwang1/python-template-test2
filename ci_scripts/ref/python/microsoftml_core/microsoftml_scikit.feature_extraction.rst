@@ -10,16 +10,7 @@ Subpackages
     microsoftml_scikit.feature_extraction.image
     microsoftml_scikit.feature_extraction.text
 
-Submodules
-----------
-
-microsoftml\_scikit\.feature\_extraction\.treefeaturizer module
----------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.feature_extraction.treefeaturizer
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. autoclass:: microsoftml_scikit.feature_extraction.TreeFeaturizer
 
 
 Module contents

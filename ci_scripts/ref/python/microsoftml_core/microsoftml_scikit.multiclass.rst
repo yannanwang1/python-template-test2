@@ -1,16 +1,7 @@
 microsoftml\_scikit\.multiclass package
 =======================================
 
-Submodules
-----------
-
-microsoftml\_scikit\.multiclass\.onevsrestclassifier module
------------------------------------------------------------
-
-.. automodule:: microsoftml_scikit.multiclass.onevsrestclassifier
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. autoclass:: microsoftml_scikit.multiclass.OneVsRestClassifier
 
 
 Module contents
