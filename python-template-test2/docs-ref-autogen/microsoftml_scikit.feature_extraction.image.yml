@@ -1,11 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.feature_extraction.image.dnnfeaturizer
-  - microsoftml_scikit.feature_extraction.image.loader
-  - microsoftml_scikit.feature_extraction.image.pixelextractor
-  - microsoftml_scikit.feature_extraction.image.resizer
+- children: []
   fullName: microsoftml_scikit.feature_extraction.image
   langs:
   - python
@@ -21,24 +17,4 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.feature_extraction.image
-references:
-- fullName: microsoftml_scikit.feature_extraction.image.dnnfeaturizer
-  isExternal: false
-  name: dnnfeaturizer
-  parent: microsoftml_scikit.feature_extraction.image.dnnfeaturizer
-  uid: microsoftml_scikit.feature_extraction.image.dnnfeaturizer
-- fullName: microsoftml_scikit.feature_extraction.image.loader
-  isExternal: false
-  name: loader
-  parent: microsoftml_scikit.feature_extraction.image.loader
-  uid: microsoftml_scikit.feature_extraction.image.loader
-- fullName: microsoftml_scikit.feature_extraction.image.pixelextractor
-  isExternal: false
-  name: pixelextractor
-  parent: microsoftml_scikit.feature_extraction.image.pixelextractor
-  uid: microsoftml_scikit.feature_extraction.image.pixelextractor
-- fullName: microsoftml_scikit.feature_extraction.image.resizer
-  isExternal: false
-  name: resizer
-  parent: microsoftml_scikit.feature_extraction.image.resizer
-  uid: microsoftml_scikit.feature_extraction.image.resizer
+references: []

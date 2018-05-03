@@ -1,29 +1,110 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer.OneHotHashVectorizer
-  fullName: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
+- children: []
+  class: microsoftml_scikit.feature_extraction.categorical.OneHotHashVectorizer
+  fullName: microsoftml_scikit.feature_extraction.categorical.OneHotHashVectorizer
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.SingleOutputSignature
+    type: microsoftml_scikit.internal.core.feature_extraction.categorical.onehothashvectorizer.OneHotHashVectorizer
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
   langs:
   - python
-  module: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
-  name: onehothashvectorizer
+  module: microsoftml_scikit.feature_extraction.categorical
+  name: OneHotHashVectorizer
   source:
-    id: onehothashvectorizer
+    id: OneHotHashVectorizer
     path: microsoftml_scikit\feature_extraction\categorical\onehothashvectorizer.py
     remote:
       branch: master
       path: microsoftml_scikit\feature_extraction\categorical\onehothashvectorizer.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 0
-  summary: 'OneHotHashVectorizer
+    startLine: 20
+  summary: "\n**Description**\n\n   Categorical hash transform that can be performed\
+    \ on data before\n   training a model.\n\n**Details**\n\n   `OneHotHashVectorizer`\
+    \ converts a categorical value into an indicator\n   array by hashing the value\
+    \ and using the hash as an index in the bag. If\n   the input column is a vector,\
+    \ a single indicator bag is returned for it.\n   `OneHotHashVectorizer` does not\
+    \ currently support handling factor data.\n\n**See Also**\n\n   @microsoftml_scikit.feature_extraction.categorical.OneHotVectorizer\n\
+    \n\n"
+  syntax:
+    content: OneHotHashVectorizer(hash_bits=16, output_kind='Bag', random_state=314489979,
+      ordered=True, invert_hash=0, columns=None, **params)
+    parameters:
+    - description: "a dictionary of key-value pairs, where key is the output column\
+        \ name and value is the input column name.\n\n* Multiple key-value pairs are\
+        \ allowed. \n\n* Input column type: numeric or string. \n\n* Output column\
+        \ type: *VectorType*. \n\n* If the output column names are same as the input\
+        \ column names, then simply specify `columns` names as a list of strings.\
+        \ \n\nThe << operator can be used to set this value (see :ref:LinkToOperator)\n\
+        \nFor example\n   * OneHotHashVectorizer(columns={'out1':'input1', 'out2':'input2'})\
+        \ \n\n   * OneHotHashVectorizer() << {'out1':'input1', 'out2':'input2'} \n\
+        \nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'An integer specifying the number of bits to hash into.
 
-    '
-  type: module
-  uid: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
-references:
-- fullName: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer.OneHotHashVectorizer
-  isExternal: false
-  name: OneHotHashVectorizer
-  parent: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer
-  uid: microsoftml_scikit.feature_extraction.categorical.onehothashvectorizer.OneHotHashVectorizer
+        Must be between 1 and 30, inclusive. The default value is 16.
+
+        '
+      id: hash_bits
+    - description: "A character string that specifies the kind\nof output kind.\n\n\
+        * `\"Bag\"`: Outputs a multi-set vector. If the input column is a vector of\
+        \ categories, the output contains one vector, where the value in each slot\
+        \ is the number of occurrences of the category in the input vector. If the\
+        \ input column contains a single category, the indicator vector and the bag\
+        \ vector are equivalent \n\n* `\"Ind\"`: Outputs an indicator vector. The\
+        \ input column is a vector of categories, and the output contains one indicator\
+        \ vector per slot in the input column. \n\n* `\"Key`: Outputs an index. The\
+        \ output is an integer id (between 1 and the number of categories in the dictionary)\
+        \ of the category. \n\n* `\"Bin`: Outputs a vector which is the binary representation\
+        \ of the category. \n\nThe default value is `\"Bag\"`.\n"
+      id: output_kind
+    - description: 'An integer specifying the hashing seed. The default value is
+
+        314489979.
+
+        '
+      id: random_state
+    - description: '`True` to include the position of each term in the
+
+        hash. Otherwise, `False`. The default value is `True`.
+
+        '
+      id: ordered
+    - description: 'An integer specifying the limit on the number of keys
+
+        that can be used to generate the slot name. `0` means no invert
+
+        hashing; `-1` means no limit. While a zero value gives better
+
+        performance, a non-zero value is needed to get meaningful coefficent names.
+
+        The default value is `0`.
+
+        '
+      id: invert_hash
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.categorical.OneHotHashVectorizer
+references: []

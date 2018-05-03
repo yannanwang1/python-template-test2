@@ -1,29 +1,81 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.preprocessing.filter.rangefilter.RangeFilter
-  fullName: microsoftml_scikit.preprocessing.filter.rangefilter
+- children: []
+  class: microsoftml_scikit.preprocessing.filter.RangeFilter
+  fullName: microsoftml_scikit.preprocessing.filter.RangeFilter
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.SingleInputAsStringSignature
+    type: microsoftml_scikit.internal.core.preprocessing.filter.rangefilter.RangeFilter
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
   langs:
   - python
-  module: microsoftml_scikit.preprocessing.filter.rangefilter
-  name: rangefilter
+  module: microsoftml_scikit.preprocessing.filter
+  name: RangeFilter
   source:
-    id: rangefilter
+    id: RangeFilter
     path: microsoftml_scikit\preprocessing\filter\rangefilter.py
     remote:
       branch: master
       path: microsoftml_scikit\preprocessing\filter\rangefilter.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 0
-  summary: 'RangeFilter
+    startLine: 20
+  summary: "\n**Description**\n\n   Filters a dataview on a column of type Single,\
+    \ Double or Key (contiguous).\n   Keeps the values that are in the specified min/max\
+    \ range.\n   NaNs are always filtered out.\n   If the input is a Key type, the\
+    \ min/max are considered percentages of the number of values.\n\n\n"
+  syntax:
+    content: RangeFilter(min=-1, max=None, complement=False, include_min=True, include_max=None,
+      columns=None, **params)
+    parameters:
+    - description: "a string representing the column name to perform the transformation\
+        \ on.\n\n* Input column type: numeric. \n\n* Output column type: numeric.\
+        \ \n\nThe << operator can be used to set this value (see :ref:LinkToOperator)\n\
+        \nFor example\n   * RangeFilter(columns='age') \n\n   * RangeFilter() << {'age'}\
+        \ \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Minimum value (0 to 1 for key types).
 
-    '
-  type: module
-  uid: microsoftml_scikit.preprocessing.filter.rangefilter
-references:
-- fullName: microsoftml_scikit.preprocessing.filter.rangefilter.RangeFilter
-  isExternal: false
-  name: RangeFilter
-  parent: microsoftml_scikit.preprocessing.filter.rangefilter
-  uid: microsoftml_scikit.preprocessing.filter.rangefilter.RangeFilter
+        '
+      id: min
+    - description: 'Maximum value (0 to 1 for key types).
+
+        '
+      id: max
+    - description: 'If true, keep the values that fall outside the range.
+
+        '
+      id: complement
+    - description: 'If true, include in the range the values that are equal to min.
+
+        '
+      id: include_min
+    - description: 'If true, include in the range the values that are equal to max.
+
+        '
+      id: include_max
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.filter.RangeFilter
+references: []

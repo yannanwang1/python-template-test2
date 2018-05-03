@@ -1,29 +1,108 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.feature_extraction.text.lightlda.LightLda
-  fullName: microsoftml_scikit.feature_extraction.text.lightlda
+- children: []
+  class: microsoftml_scikit.feature_extraction.text.LightLda
+  fullName: microsoftml_scikit.feature_extraction.text.LightLda
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.feature_extraction.text.lightlda.LightLda
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
   langs:
   - python
-  module: microsoftml_scikit.feature_extraction.text.lightlda
-  name: lightlda
+  module: microsoftml_scikit.feature_extraction.text
+  name: LightLda
   source:
-    id: lightlda
+    id: LightLda
     path: microsoftml_scikit\feature_extraction\text\lightlda.py
     remote:
       branch: master
       path: microsoftml_scikit\feature_extraction\text\lightlda.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 0
-  summary: 'LightLda
+    startLine: 20
+  summary: "**Description**\n   The LDA transform implements LightLDA, a state-of-the-art\
+    \ implementation of Latent Dirichlet Allocation.\n"
+  syntax:
+    content: LightLda(num_topic=100, num_max_doc_token=512, train_threads=None, alpha_sum=100.0,
+      beta=0.01, mhstep=4, num_iterations=200, likelihood_interval=5, num_summary_term_per_topic=10,
+      num_burnin_iterations=10, reset_random_generator=False, output_topic_word_summary=False,
+      columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
 
-    '
-  type: module
-  uid: microsoftml_scikit.feature_extraction.text.lightlda
-references:
-- fullName: microsoftml_scikit.feature_extraction.text.lightlda.LightLda
-  isExternal: false
-  name: LightLda
-  parent: microsoftml_scikit.feature_extraction.text.lightlda
-  uid: microsoftml_scikit.feature_extraction.text.lightlda.LightLda
+        '
+      id: columns
+    - description: 'The number of topics in the LDA.
+
+        '
+      id: num_topic
+    - description: 'The threshold of maximum count of tokens per doc.
+
+        '
+      id: num_max_doc_token
+    - description: 'The number of training threads. Default value depends on number
+        of logical processors.
+
+        '
+      id: train_threads
+    - description: 'Dirichlet prior on document-topic vectors.
+
+        '
+      id: alpha_sum
+    - description: 'Dirichlet prior on vocab-topic vectors.
+
+        '
+      id: beta
+    - description: 'Number of Metropolis Hasting step.
+
+        '
+      id: mhstep
+    - description: 'Number of iterations.
+
+        '
+      id: num_iterations
+    - description: 'Compute log likelihood over local dataset on this iteration interval.
+
+        '
+      id: likelihood_interval
+    - description: 'The number of words to summarize the topic.
+
+        '
+      id: num_summary_term_per_topic
+    - description: 'The number of burn-in iterations.
+
+        '
+      id: num_burnin_iterations
+    - description: 'Reset the random number generator for each document.
+
+        '
+      id: reset_random_generator
+    - description: 'Whether to output the topic-word summary in text format.
+
+        '
+      id: output_topic_word_summary
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.text.LightLda
+references: []

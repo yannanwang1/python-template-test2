@@ -1,10 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.preprocessing.text.chartokenizer
-  - microsoftml_scikit.preprocessing.text.keyphraseextractor
-  - microsoftml_scikit.preprocessing.text.lemmatizer
+- children: []
   fullName: microsoftml_scikit.preprocessing.text
   langs:
   - python
@@ -20,19 +17,4 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.preprocessing.text
-references:
-- fullName: microsoftml_scikit.preprocessing.text.chartokenizer
-  isExternal: false
-  name: chartokenizer
-  parent: microsoftml_scikit.preprocessing.text.chartokenizer
-  uid: microsoftml_scikit.preprocessing.text.chartokenizer
-- fullName: microsoftml_scikit.preprocessing.text.keyphraseextractor
-  isExternal: false
-  name: keyphraseextractor
-  parent: microsoftml_scikit.preprocessing.text.keyphraseextractor
-  uid: microsoftml_scikit.preprocessing.text.keyphraseextractor
-- fullName: microsoftml_scikit.preprocessing.text.lemmatizer
-  isExternal: false
-  name: lemmatizer
-  parent: microsoftml_scikit.preprocessing.text.lemmatizer
-  uid: microsoftml_scikit.preprocessing.text.lemmatizer
+references: []

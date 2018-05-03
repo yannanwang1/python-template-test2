@@ -1,9 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.feature_selection.countselector
-  - microsoftml_scikit.feature_selection.mutualinformationselector
+- children: []
   fullName: microsoftml_scikit.feature_selection
   langs:
   - python
@@ -19,14 +17,4 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.feature_selection
-references:
-- fullName: microsoftml_scikit.feature_selection.countselector
-  isExternal: false
-  name: countselector
-  parent: microsoftml_scikit.feature_selection.countselector
-  uid: microsoftml_scikit.feature_selection.countselector
-- fullName: microsoftml_scikit.feature_selection.mutualinformationselector
-  isExternal: false
-  name: mutualinformationselector
-  parent: microsoftml_scikit.feature_selection.mutualinformationselector
-  uid: microsoftml_scikit.feature_selection.mutualinformationselector
+references: []

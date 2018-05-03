@@ -2,17 +2,6 @@
 api_name: []
 items:
 - children:
-  - microsoftml_scikit.ensemble.fastforestbinaryclassifier
-  - microsoftml_scikit.ensemble.fastforestregressor
-  - microsoftml_scikit.ensemble.fasttreesbinaryclassifier
-  - microsoftml_scikit.ensemble.fasttreesregressor
-  - microsoftml_scikit.ensemble.fasttreestweedieregressor
-  - microsoftml_scikit.ensemble.gambinaryclassifier
-  - microsoftml_scikit.ensemble.gamregressor
-  - microsoftml_scikit.ensemble.lightgbmbinaryclassifier
-  - microsoftml_scikit.ensemble.lightgbmclassifier
-  - microsoftml_scikit.ensemble.lightgbmranker
-  - microsoftml_scikit.ensemble.lightgbmregressor
   - microsoftml_scikit.ensemble.booster
   fullName: microsoftml_scikit.ensemble
   langs:
@@ -30,61 +19,6 @@ items:
   type: package
   uid: microsoftml_scikit.ensemble
 references:
-- fullName: microsoftml_scikit.ensemble.fastforestbinaryclassifier
-  isExternal: false
-  name: fastforestbinaryclassifier
-  parent: microsoftml_scikit.ensemble.fastforestbinaryclassifier
-  uid: microsoftml_scikit.ensemble.fastforestbinaryclassifier
-- fullName: microsoftml_scikit.ensemble.fastforestregressor
-  isExternal: false
-  name: fastforestregressor
-  parent: microsoftml_scikit.ensemble.fastforestregressor
-  uid: microsoftml_scikit.ensemble.fastforestregressor
-- fullName: microsoftml_scikit.ensemble.fasttreesbinaryclassifier
-  isExternal: false
-  name: fasttreesbinaryclassifier
-  parent: microsoftml_scikit.ensemble.fasttreesbinaryclassifier
-  uid: microsoftml_scikit.ensemble.fasttreesbinaryclassifier
-- fullName: microsoftml_scikit.ensemble.fasttreesregressor
-  isExternal: false
-  name: fasttreesregressor
-  parent: microsoftml_scikit.ensemble.fasttreesregressor
-  uid: microsoftml_scikit.ensemble.fasttreesregressor
-- fullName: microsoftml_scikit.ensemble.fasttreestweedieregressor
-  isExternal: false
-  name: fasttreestweedieregressor
-  parent: microsoftml_scikit.ensemble.fasttreestweedieregressor
-  uid: microsoftml_scikit.ensemble.fasttreestweedieregressor
-- fullName: microsoftml_scikit.ensemble.gambinaryclassifier
-  isExternal: false
-  name: gambinaryclassifier
-  parent: microsoftml_scikit.ensemble.gambinaryclassifier
-  uid: microsoftml_scikit.ensemble.gambinaryclassifier
-- fullName: microsoftml_scikit.ensemble.gamregressor
-  isExternal: false
-  name: gamregressor
-  parent: microsoftml_scikit.ensemble.gamregressor
-  uid: microsoftml_scikit.ensemble.gamregressor
-- fullName: microsoftml_scikit.ensemble.lightgbmbinaryclassifier
-  isExternal: false
-  name: lightgbmbinaryclassifier
-  parent: microsoftml_scikit.ensemble.lightgbmbinaryclassifier
-  uid: microsoftml_scikit.ensemble.lightgbmbinaryclassifier
-- fullName: microsoftml_scikit.ensemble.lightgbmclassifier
-  isExternal: false
-  name: lightgbmclassifier
-  parent: microsoftml_scikit.ensemble.lightgbmclassifier
-  uid: microsoftml_scikit.ensemble.lightgbmclassifier
-- fullName: microsoftml_scikit.ensemble.lightgbmranker
-  isExternal: false
-  name: lightgbmranker
-  parent: microsoftml_scikit.ensemble.lightgbmranker
-  uid: microsoftml_scikit.ensemble.lightgbmranker
-- fullName: microsoftml_scikit.ensemble.lightgbmregressor
-  isExternal: false
-  name: lightgbmregressor
-  parent: microsoftml_scikit.ensemble.lightgbmregressor
-  uid: microsoftml_scikit.ensemble.lightgbmregressor
 - fullName: microsoftml_scikit.ensemble.booster
   isExternal: false
   name: booster

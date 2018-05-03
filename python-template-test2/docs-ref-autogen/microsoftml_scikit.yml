@@ -2,10 +2,7 @@
 api_name: []
 items:
 - children:
-  - microsoftml_scikit.base_predictor
-  - microsoftml_scikit.base_transform
   - microsoftml_scikit.loss
-  - microsoftml_scikit.pipeline
   - microsoftml_scikit.cluster
   - microsoftml_scikit.decomposition
   - microsoftml_scikit.ensemble
@@ -36,26 +33,11 @@ items:
   type: package
   uid: microsoftml_scikit
 references:
-- fullName: microsoftml_scikit.base_predictor
-  isExternal: false
-  name: base_predictor
-  parent: microsoftml_scikit.base_predictor
-  uid: microsoftml_scikit.base_predictor
-- fullName: microsoftml_scikit.base_transform
-  isExternal: false
-  name: base_transform
-  parent: microsoftml_scikit.base_transform
-  uid: microsoftml_scikit.base_transform
 - fullName: microsoftml_scikit.loss
   isExternal: false
   name: loss
   parent: microsoftml_scikit.loss
   uid: microsoftml_scikit.loss
-- fullName: microsoftml_scikit.pipeline
-  isExternal: false
-  name: pipeline
-  parent: microsoftml_scikit.pipeline
-  uid: microsoftml_scikit.pipeline
 - fullName: microsoftml_scikit.cluster
   isExternal: false
   name: cluster

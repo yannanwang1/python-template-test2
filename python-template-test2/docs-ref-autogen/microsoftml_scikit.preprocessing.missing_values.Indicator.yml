@@ -1,29 +1,65 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.preprocessing.missing_values.indicator.Indicator
-  fullName: microsoftml_scikit.preprocessing.missing_values.indicator
+- children: []
+  class: microsoftml_scikit.preprocessing.missing_values.Indicator
+  fullName: microsoftml_scikit.preprocessing.missing_values.Indicator
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.missing_values.indicator.Indicator
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
   langs:
   - python
-  module: microsoftml_scikit.preprocessing.missing_values.indicator
-  name: indicator
+  module: microsoftml_scikit.preprocessing.missing_values
+  name: Indicator
   source:
-    id: indicator
+    id: Indicator
     path: microsoftml_scikit\preprocessing\missing_values\indicator.py
     remote:
       branch: master
       path: microsoftml_scikit\preprocessing\missing_values\indicator.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 0
-  summary: 'Indicator
+    startLine: 20
+  summary: "\n**Description**\n\n   Replace NaN values in a column with imputed values.\n\
+    \n**Details**\n\n   `Indicator` replaces NaN values in a column with imputed values,\
+    \ as\n   specified by the `replacement_kind` parameter. This works for columns\n\
+    \   that have numeric type.\n\n**See Also**\n\n   @microsoftml_scikit.preprocessing.missing_values.Filter,\n\
+    \   @microsoftml_scikit.preprocessing.missing_values.Indicator,\n   @microsoftml_scikit.preprocessing.missing_values.Handler.\n\
+    \n\n"
+  syntax:
+    content: Indicator(columns=None, **params)
+    parameters:
+    - description: "a dictionary of key-value pairs, where key is the output column\
+        \ name and value is the input column name.\n\n* Multiple key-value pairs are\
+        \ allowed. \n\n* Input column type: *VectorType*. \n\n* Output column type:\
+        \ *VectorType*. \n\n* If the output column names are same as the input column\
+        \ names, then simply specify `columns` as a list of strings. \n\nThe << operator\
+        \ can be used to set this value (see :ref:LinkToOperator)\n\nFor example\n\
+        \   * Indicator(columns={'out1':'input1', 'out2':'input2'}) \n\n   * Indicator()\
+        \ << {'out1':'input1', 'out2':'input2'} \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Additional arguments sent to compute engine.
 
-    '
-  type: module
-  uid: microsoftml_scikit.preprocessing.missing_values.indicator
-references:
-- fullName: microsoftml_scikit.preprocessing.missing_values.indicator.Indicator
-  isExternal: false
-  name: Indicator
-  parent: microsoftml_scikit.preprocessing.missing_values.indicator
-  uid: microsoftml_scikit.preprocessing.missing_values.indicator.Indicator
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.missing_values.Indicator
+references: []

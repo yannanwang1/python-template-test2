@@ -1,9 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.feature_extraction.text.stopwords.customstopwordsremover
-  - microsoftml_scikit.feature_extraction.text.stopwords.predefinedstopwordsremover
+- children: []
   fullName: microsoftml_scikit.feature_extraction.text.stopwords
   langs:
   - python
@@ -19,14 +17,4 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.feature_extraction.text.stopwords
-references:
-- fullName: microsoftml_scikit.feature_extraction.text.stopwords.customstopwordsremover
-  isExternal: false
-  name: customstopwordsremover
-  parent: microsoftml_scikit.feature_extraction.text.stopwords.customstopwordsremover
-  uid: microsoftml_scikit.feature_extraction.text.stopwords.customstopwordsremover
-- fullName: microsoftml_scikit.feature_extraction.text.stopwords.predefinedstopwordsremover
-  isExternal: false
-  name: predefinedstopwordsremover
-  parent: microsoftml_scikit.feature_extraction.text.stopwords.predefinedstopwordsremover
-  uid: microsoftml_scikit.feature_extraction.text.stopwords.predefinedstopwordsremover
+references: []

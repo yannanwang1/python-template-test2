@@ -2,7 +2,6 @@
 api_name: []
 items:
 - children:
-  - microsoftml_scikit.feature_extraction.treefeaturizer
   - microsoftml_scikit.feature_extraction.categorical
   - microsoftml_scikit.feature_extraction.image
   - microsoftml_scikit.feature_extraction.text
@@ -22,11 +21,6 @@ items:
   type: package
   uid: microsoftml_scikit.feature_extraction
 references:
-- fullName: microsoftml_scikit.feature_extraction.treefeaturizer
-  isExternal: false
-  name: treefeaturizer
-  parent: microsoftml_scikit.feature_extraction.treefeaturizer
-  uid: microsoftml_scikit.feature_extraction.treefeaturizer
 - fullName: microsoftml_scikit.feature_extraction.categorical
   isExternal: false
   name: categorical

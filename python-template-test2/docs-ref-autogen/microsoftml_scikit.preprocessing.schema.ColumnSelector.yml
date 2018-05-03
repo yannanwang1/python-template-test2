@@ -1,29 +1,61 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.preprocessing.schema.columnselector.ColumnSelector
-  fullName: microsoftml_scikit.preprocessing.schema.columnselector
+- children: []
+  class: microsoftml_scikit.preprocessing.schema.ColumnSelector
+  fullName: microsoftml_scikit.preprocessing.schema.ColumnSelector
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.NoOutputSignature
+    type: microsoftml_scikit.internal.core.preprocessing.schema.columnselector.ColumnSelector
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
   langs:
   - python
-  module: microsoftml_scikit.preprocessing.schema.columnselector
-  name: columnselector
+  module: microsoftml_scikit.preprocessing.schema
+  name: ColumnSelector
   source:
-    id: columnselector
+    id: ColumnSelector
     path: microsoftml_scikit\preprocessing\schema\columnselector.py
     remote:
       branch: master
       path: microsoftml_scikit\preprocessing\schema\columnselector.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 0
-  summary: 'ColumnSelector
+    startLine: 20
+  summary: "\n**Description**\n\n   Selects a set of columns to retrain, dropping\
+    \ all others.\n\n**See Also**\n\n   @microsoftml_scikit.preprocessing.schema.ColumnConcatenator,\n\
+    \   @microsoftml_scikit.preprocessing.schema.ColumnDropper.\n\n\n"
+  syntax:
+    content: ColumnSelector(columns=None, **params)
+    parameters:
+    - description: "a list of strings representing the column names to perform the\
+        \ transformation on.\n\nThe << operator can be used to set this value (see\
+        \ :ref:LinkToOperator)\n\nFor example\n   * ColumnSelector(columns=['education',\
+        \ 'age']) \n\n   * ColumnSelector() << ['education', 'age'] \n\nFor more details\
+        \ see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Additional arguments sent to compute engine.
 
-    '
-  type: module
-  uid: microsoftml_scikit.preprocessing.schema.columnselector
-references:
-- fullName: microsoftml_scikit.preprocessing.schema.columnselector.ColumnSelector
-  isExternal: false
-  name: ColumnSelector
-  parent: microsoftml_scikit.preprocessing.schema.columnselector
-  uid: microsoftml_scikit.preprocessing.schema.columnselector.ColumnSelector
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.schema.ColumnSelector
+references: []

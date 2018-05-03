@@ -1,8 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.naive_bayes.naivebayesclassifier
+- children: []
   fullName: microsoftml_scikit.naive_bayes
   langs:
   - python
@@ -18,9 +17,4 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.naive_bayes
-references:
-- fullName: microsoftml_scikit.naive_bayes.naivebayesclassifier
-  isExternal: false
-  name: naivebayesclassifier
-  parent: microsoftml_scikit.naive_bayes.naivebayesclassifier
-  uid: microsoftml_scikit.naive_bayes.naivebayesclassifier
+references: []

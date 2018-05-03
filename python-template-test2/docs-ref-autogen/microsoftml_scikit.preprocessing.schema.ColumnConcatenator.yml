@@ -1,29 +1,65 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.preprocessing.schema.columnconcatenator.ColumnConcatenator
-  fullName: microsoftml_scikit.preprocessing.schema.columnconcatenator
+- children: []
+  class: microsoftml_scikit.preprocessing.schema.ColumnConcatenator
+  fullName: microsoftml_scikit.preprocessing.schema.ColumnConcatenator
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.MultiOutputsSignature
+    type: microsoftml_scikit.internal.core.preprocessing.schema.columnconcatenator.ColumnConcatenator
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
   langs:
   - python
-  module: microsoftml_scikit.preprocessing.schema.columnconcatenator
-  name: columnconcatenator
+  module: microsoftml_scikit.preprocessing.schema
+  name: ColumnConcatenator
   source:
-    id: columnconcatenator
+    id: ColumnConcatenator
     path: microsoftml_scikit\preprocessing\schema\columnconcatenator.py
     remote:
       branch: master
       path: microsoftml_scikit\preprocessing\schema\columnconcatenator.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 0
-  summary: 'ColumnConcatenator
+    startLine: 20
+  summary: "\n**Description**\n\n   Combines several columns into a single vector-valued\
+    \ column.\n\n**Details**\n\n   `ColumnConcatenator` creates a single vector-valued\
+    \ column from multiple\n   columns. It can be performed on data before training\
+    \ a model. The concatenation\n   can significantly speed up the processing of\
+    \ data when the number of columns\n   is as large as hundreds to thousands.\n\n\
+    **See Also**\n\n   @microsoftml_scikit.preprocessing.schema.ColumnDropper,\n \
+    \  @microsoftml_scikit.preprocessing.schema.ColumnSelector.\n\n\n"
+  syntax:
+    content: ColumnConcatenator(columns=None, **params)
+    parameters:
+    - description: "a dictionary of key-value pairs, where key is the output column\
+        \ name and value is a list of input column names.\n\n* Only one key-value\
+        \ pair is allowed. \n\n* Input column type: numeric or string. \n\n* Output\
+        \ column type: *VectorType*. \n\nThe << operator can be used to set this value\
+        \ (see :ref:LinkToOperator)\n\nFor example\n   * ColumnConcatenator(columns={'features':\
+        \ ['age', 'parity', 'induced']}) \n\n   * ColumnConcatenator() << {'features':\
+        \ ['age', 'parity', 'induced']}) \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Additional arguments sent to compute engine.
 
-    '
-  type: module
-  uid: microsoftml_scikit.preprocessing.schema.columnconcatenator
-references:
-- fullName: microsoftml_scikit.preprocessing.schema.columnconcatenator.ColumnConcatenator
-  isExternal: false
-  name: ColumnConcatenator
-  parent: microsoftml_scikit.preprocessing.schema.columnconcatenator
-  uid: microsoftml_scikit.preprocessing.schema.columnconcatenator.ColumnConcatenator
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.schema.ColumnConcatenator
+references: []

@@ -1,11 +1,7 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.svm.kernel.linearkernel
-  - microsoftml_scikit.svm.kernel.polynomialkernel
-  - microsoftml_scikit.svm.kernel.rbfkernel
-  - microsoftml_scikit.svm.kernel.sigmoidkernel
+- children: []
   fullName: microsoftml_scikit.svm.kernel
   langs:
   - python
@@ -21,24 +17,4 @@ items:
     startLine: 0
   type: package
   uid: microsoftml_scikit.svm.kernel
-references:
-- fullName: microsoftml_scikit.svm.kernel.linearkernel
-  isExternal: false
-  name: linearkernel
-  parent: microsoftml_scikit.svm.kernel.linearkernel
-  uid: microsoftml_scikit.svm.kernel.linearkernel
-- fullName: microsoftml_scikit.svm.kernel.polynomialkernel
-  isExternal: false
-  name: polynomialkernel
-  parent: microsoftml_scikit.svm.kernel.polynomialkernel
-  uid: microsoftml_scikit.svm.kernel.polynomialkernel
-- fullName: microsoftml_scikit.svm.kernel.rbfkernel
-  isExternal: false
-  name: rbfkernel
-  parent: microsoftml_scikit.svm.kernel.rbfkernel
-  uid: microsoftml_scikit.svm.kernel.rbfkernel
-- fullName: microsoftml_scikit.svm.kernel.sigmoidkernel
-  isExternal: false
-  name: sigmoidkernel
-  parent: microsoftml_scikit.svm.kernel.sigmoidkernel
-  uid: microsoftml_scikit.svm.kernel.sigmoidkernel
+references: []

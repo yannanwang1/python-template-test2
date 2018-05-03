@@ -1,29 +1,61 @@
 ### YamlMime:UniversalReference
 api_name: []
 items:
-- children:
-  - microsoftml_scikit.preprocessing.schema.columndropper.ColumnDropper
-  fullName: microsoftml_scikit.preprocessing.schema.columndropper
+- children: []
+  class: microsoftml_scikit.preprocessing.schema.ColumnDropper
+  fullName: microsoftml_scikit.preprocessing.schema.ColumnDropper
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.NoOutputSignature
+    type: microsoftml_scikit.internal.core.preprocessing.schema.columndropper.ColumnDropper
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
   langs:
   - python
-  module: microsoftml_scikit.preprocessing.schema.columndropper
-  name: columndropper
+  module: microsoftml_scikit.preprocessing.schema
+  name: ColumnDropper
   source:
-    id: columndropper
+    id: ColumnDropper
     path: microsoftml_scikit\preprocessing\schema\columndropper.py
     remote:
       branch: master
       path: microsoftml_scikit\preprocessing\schema\columndropper.py
       repo: https://msdata.visualstudio.com/DefaultCollection/AlgorithmsAndDataScience/_git/PyTlc
-    startLine: 0
-  summary: 'ColumnDropper
+    startLine: 20
+  summary: "\n**Description**\n\n   Specified columns to drop from the dataset.\n\n\
+    **See Also**\n\n   @microsoftml_scikit.preprocessing.schema.ColumnConcatenator,\n\
+    \   @microsoftml_scikit.preprocessing.schema.ColumnSelector.\n\n\n"
+  syntax:
+    content: ColumnDropper(columns=None, **params)
+    parameters:
+    - description: "a list of strings representing the column names to perform the\
+        \ transformation on.\n\nThe << operator can be used to set this value (see\
+        \ :ref:LinkToOperator)\n\nFor example\n   * ColumnDropper(columns=['education',\
+        \ 'age']) \n\n   * ColumnDropper() << ['education', 'age'] \n\nFor more details\
+        \ see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Additional arguments sent to compute engine.
 
-    '
-  type: module
-  uid: microsoftml_scikit.preprocessing.schema.columndropper
-references:
-- fullName: microsoftml_scikit.preprocessing.schema.columndropper.ColumnDropper
-  isExternal: false
-  name: ColumnDropper
-  parent: microsoftml_scikit.preprocessing.schema.columndropper
-  uid: microsoftml_scikit.preprocessing.schema.columndropper.ColumnDropper
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.schema.ColumnDropper
+references: []
