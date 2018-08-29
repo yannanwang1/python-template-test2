@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.svm.kernel.LinearKernel
+  - microsoftml_scikit.svm.kernel.PolynomialKernel
+  - microsoftml_scikit.svm.kernel.RbfKernel
+  - microsoftml_scikit.svm.kernel.SigmoidKernel
+  fullName: microsoftml_scikit.svm.kernel
+  langs:
+  - python
+  module: microsoftml_scikit.svm.kernel
+  name: kernel
+  source:
+    id: kernel
+    path: microsoftml_scikit\svm\kernel\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\svm\kernel\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.svm.kernel
+references:
+- fullName: microsoftml_scikit.svm.kernel.LinearKernel
+  isExternal: false
+  name: LinearKernel
+  parent: microsoftml_scikit.svm.kernel
+  uid: microsoftml_scikit.svm.kernel.LinearKernel
+- fullName: microsoftml_scikit.svm.kernel.PolynomialKernel
+  isExternal: false
+  name: PolynomialKernel
+  parent: microsoftml_scikit.svm.kernel
+  uid: microsoftml_scikit.svm.kernel.PolynomialKernel
+- fullName: microsoftml_scikit.svm.kernel.RbfKernel
+  isExternal: false
+  name: RbfKernel
+  parent: microsoftml_scikit.svm.kernel
+  uid: microsoftml_scikit.svm.kernel.RbfKernel
+- fullName: microsoftml_scikit.svm.kernel.SigmoidKernel
+  isExternal: false
+  name: SigmoidKernel
+  parent: microsoftml_scikit.svm.kernel
+  uid: microsoftml_scikit.svm.kernel.SigmoidKernel

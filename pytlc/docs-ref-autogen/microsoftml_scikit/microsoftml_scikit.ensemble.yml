@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.ensemble.FastForestBinaryClassifier
+  - microsoftml_scikit.ensemble.FastForestRegressor
+  - microsoftml_scikit.ensemble.FastTreesBinaryClassifier
+  - microsoftml_scikit.ensemble.FastTreesRegressor
+  - microsoftml_scikit.ensemble.FastTreesTweedieRegressor
+  - microsoftml_scikit.ensemble.GamBinaryClassifier
+  - microsoftml_scikit.ensemble.GamRegressor
+  - microsoftml_scikit.ensemble.LightGbmBinaryClassifier
+  - microsoftml_scikit.ensemble.LightGbmClassifier
+  - microsoftml_scikit.ensemble.LightGbmRanker
+  - microsoftml_scikit.ensemble.LightGbmRegressor
+  - microsoftml_scikit.ensemble.booster
+  fullName: microsoftml_scikit.ensemble
+  langs:
+  - python
+  module: microsoftml_scikit.ensemble
+  name: ensemble
+  source:
+    id: ensemble
+    path: microsoftml_scikit\ensemble\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\ensemble\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.ensemble
+references:
+- fullName: microsoftml_scikit.ensemble.FastForestBinaryClassifier
+  isExternal: false
+  name: FastForestBinaryClassifier
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.FastForestBinaryClassifier
+- fullName: microsoftml_scikit.ensemble.FastForestRegressor
+  isExternal: false
+  name: FastForestRegressor
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.FastForestRegressor
+- fullName: microsoftml_scikit.ensemble.FastTreesBinaryClassifier
+  isExternal: false
+  name: FastTreesBinaryClassifier
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.FastTreesBinaryClassifier
+- fullName: microsoftml_scikit.ensemble.FastTreesRegressor
+  isExternal: false
+  name: FastTreesRegressor
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.FastTreesRegressor
+- fullName: microsoftml_scikit.ensemble.FastTreesTweedieRegressor
+  isExternal: false
+  name: FastTreesTweedieRegressor
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.FastTreesTweedieRegressor
+- fullName: microsoftml_scikit.ensemble.GamBinaryClassifier
+  isExternal: false
+  name: GamBinaryClassifier
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.GamBinaryClassifier
+- fullName: microsoftml_scikit.ensemble.GamRegressor
+  isExternal: false
+  name: GamRegressor
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.GamRegressor
+- fullName: microsoftml_scikit.ensemble.LightGbmBinaryClassifier
+  isExternal: false
+  name: LightGbmBinaryClassifier
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.LightGbmBinaryClassifier
+- fullName: microsoftml_scikit.ensemble.LightGbmClassifier
+  isExternal: false
+  name: LightGbmClassifier
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.LightGbmClassifier
+- fullName: microsoftml_scikit.ensemble.LightGbmRanker
+  isExternal: false
+  name: LightGbmRanker
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.LightGbmRanker
+- fullName: microsoftml_scikit.ensemble.LightGbmRegressor
+  isExternal: false
+  name: LightGbmRegressor
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.LightGbmRegressor
+- fullName: microsoftml_scikit.ensemble.booster
+  isExternal: false
+  name: booster
+  parent: microsoftml_scikit.ensemble
+  uid: microsoftml_scikit.ensemble.booster

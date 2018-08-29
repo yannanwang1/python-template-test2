@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.Expression
+  - microsoftml_scikit.preprocessing.FromKey
+  - microsoftml_scikit.preprocessing.ToKey
+  - microsoftml_scikit.preprocessing.filter
+  - microsoftml_scikit.preprocessing.missing_values
+  - microsoftml_scikit.preprocessing.normalization
+  - microsoftml_scikit.preprocessing.schema
+  - microsoftml_scikit.preprocessing.text
+  - microsoftml_scikit.preprocessing.timeseries
+  fullName: microsoftml_scikit.preprocessing
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing
+  name: preprocessing
+  source:
+    id: preprocessing
+    path: microsoftml_scikit\preprocessing\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.preprocessing
+references:
+- fullName: microsoftml_scikit.preprocessing.Expression
+  isExternal: false
+  name: Expression
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.Expression
+- fullName: microsoftml_scikit.preprocessing.FromKey
+  isExternal: false
+  name: FromKey
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.FromKey
+- fullName: microsoftml_scikit.preprocessing.ToKey
+  isExternal: false
+  name: ToKey
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.ToKey
+- fullName: microsoftml_scikit.preprocessing.filter
+  isExternal: false
+  name: filter
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.filter
+- fullName: microsoftml_scikit.preprocessing.missing_values
+  isExternal: false
+  name: missing_values
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.missing_values
+- fullName: microsoftml_scikit.preprocessing.normalization
+  isExternal: false
+  name: normalization
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.normalization
+- fullName: microsoftml_scikit.preprocessing.schema
+  isExternal: false
+  name: schema
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.schema
+- fullName: microsoftml_scikit.preprocessing.text
+  isExternal: false
+  name: text
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.text
+- fullName: microsoftml_scikit.preprocessing.timeseries
+  isExternal: false
+  name: timeseries
+  parent: microsoftml_scikit.preprocessing
+  uid: microsoftml_scikit.preprocessing.timeseries

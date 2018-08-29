@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.decomposition.PcaTransformer.get_params
+  class: microsoftml_scikit.decomposition.PcaTransformer
+  fullName: microsoftml_scikit.decomposition.PcaTransformer
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.decomposition._pcatransformer.PcaTransformer
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition
+  name: PcaTransformer
+  source:
+    id: PcaTransformer
+    path: microsoftml_scikit\decomposition\_pcatransformer.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\decomposition\_pcatransformer.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Pca Transformer\n\n**Details**\n\n   [Principle\
+    \ Component Analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis)\
+    \ is a\n   dimensionality-reduction transform which computes the projection of\
+    \ the feature vector to onto a low-rank\n   subspace. Its training is done using\
+    \ the technique described in the paper [Combining Structured and Unstructured\n\
+    \   Randomness in Large Scale PCA](https://arxiv.org/pdf/1310.6304v2.pdf) by Nikos\
+    \ Karampatziakis and Paul\n   Mineiro, and the paper [Finding Structure with Randomness:\
+    \ Probabilistic Algorithms for Constructing Approximate\n   Matrix Decompositions](https://arxiv.org/pdf/0909.4061v2.pdf)\
+    \ by N. Halko et al.\n\n**See Also**\n\n   @microsoftml_scikit.decomposition.PcaAnomalyDetector.\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: PcaTransformer(rank=20, oversampling=20, center=True, random_state=0,
+      weight=None, columns=None, **params)
+    parameters:
+    - description: 'The PCA transform can take into account a weight for each row.
+        To use weights, the input must contain
+
+        a weight column, whose name is specified using this parameter. See *l-pipeline-syntax*
+        for syntax.
+
+        '
+      id: weight
+    - description: 'see *l-pipeline-syntax*.
+
+        If users specify mutiple non-*VectorType* columns as input, PCA will select
+        n features (in total) from the selected columns.
+
+        The output columns will be named after the first selected column followed
+        by the slot number.
+
+        Users can also apply PCA to a set of *VectorType* columns. In this case, PCA
+        will applies to each of the columns,
+
+        and this transform will generate n principle components for each of the column.
+
+        '
+      id: columns
+    - description: 'The number of components in the PCA. The default value is 20.
+
+        '
+      id: rank
+    - description: 'Oversampling parameter for randomized PCA training.
+
+        '
+      id: oversampling
+    - description: 'If enabled, data is centered to be zero mean.
+
+        '
+      id: center
+    - description: 'The seed for random number generation.
+
+        '
+      id: random_state
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.decomposition.PcaTransformer
+- class: microsoftml_scikit.decomposition.PcaTransformer
+  fullName: microsoftml_scikit.decomposition.PcaTransformer.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\decomposition\_pcatransformer.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\decomposition\_pcatransformer.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 94
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.decomposition.PcaTransformer.get_params
+references:
+- fullName: microsoftml_scikit.decomposition.PcaTransformer.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.decomposition.PcaTransformer
+  uid: microsoftml_scikit.decomposition.PcaTransformer.get_params

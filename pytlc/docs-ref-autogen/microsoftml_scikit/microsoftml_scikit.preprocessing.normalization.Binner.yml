@@ -1,0 +1,122 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.normalization.Binner.get_params
+  class: microsoftml_scikit.preprocessing.normalization.Binner
+  fullName: microsoftml_scikit.preprocessing.normalization.Binner
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.normalization._binner.Binner
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.normalization
+  name: Binner
+  source:
+    id: Binner
+    path: microsoftml_scikit\preprocessing\normalization\_binner.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\normalization\_binner.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Normalizes columns as specified below.\n\n**Details**\n\
+    \n   In linear classification algorithms instances are viewed as vectors in\n\
+    \   multi-dimensional space. Since the range of values of raw data varies\n  \
+    \ widely, some objective functions do not work properly without\n   normalization.\
+    \ For example, if one of the features has a broad range of\n   values, the distances\
+    \ between points is governed by this particular\n   feature. Therefore, the range\
+    \ of all features should be normalized so\n   that each feature contributes approximately\
+    \ proportionately to the final\n   distance. This can provide significant speedup\
+    \ and accuracy benefits. In\n   all the linear algorithms in TLC (@microsoftml_scikit.linear_model.LogisticRegressionClassifier,\n\
+    \   @microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier,\n   @microsoftml_scikit.svm.LocalDeepSvmBinaryClassifier,\
+    \ etc.),\n   the default is to normalize features before training.\n\n   `Binner`\
+    \ creates equi-density bins, and then normalizes every\n   value in the bin to\
+    \ be divided by the total number of bins. The\n   number of bins the normalizer\
+    \ uses can be defined by the user, and the\n   default is 1000.\n\n**See Also**\n\
+    \n   @microsoftml_scikit.preprocessing.normalization.MinMaxScaler,\n   @microsoftml_scikit.preprocessing.normalization.OptionalScaler,\n\
+    \   @microsoftml_scikit.preprocessing.normalization.SupervisedBinner,\n   @microsoftml_scikit.preprocessing.normalization.MeanVarianceScaler,\n\
+    \   @microsoftml_scikit.preprocessing.normalization.LogMeanVarianceScaler,\n \
+    \  @microsoftml_scikit.preprocessing.normalization.GlobalContrastRowScaler.\n\n\
+    \n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: Binner(num_bins=1024, fix_zero=True, max_training_examples=1000000000,
+      columns=None, **params)
+    parameters:
+    - description: "a dictionary of key-value pairs, where key is the output column\
+        \ name and value is the input column name.\n\n* Multiple key-value pairs are\
+        \ allowed. \n\n* Input column type: numeric or *VectorType*. \n\n* Output\
+        \ column type: numeric or *VectorType*. \n\n* If the output column names are\
+        \ same as the input column names, then simply specify `columns` as a list\
+        \ of strings. \n\nThe << operator can be used to set this value (see :ref:LinkToOperator)\n\
+        \nFor example\n   * Binner(columns={'out1':'input1', 'out2':'input2'}) \n\n\
+        \   * Binner() << {'out1':'input1', 'out2':'input2'} \n\nFor more details\
+        \ see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Max number of bins, power of 2 recommended.
+
+        '
+      id: num_bins
+    - description: 'Whether to map zero to zero, preserving sparsity.
+
+        '
+      id: fix_zero
+    - description: 'Max number of examples used to train the normalizer.
+
+        '
+      id: max_training_examples
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.normalization.Binner
+- class: microsoftml_scikit.preprocessing.normalization.Binner
+  fullName: microsoftml_scikit.preprocessing.normalization.Binner.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.normalization
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\normalization\_binner.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\normalization\_binner.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 110
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.normalization.Binner.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.normalization.Binner.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.normalization.Binner
+  uid: microsoftml_scikit.preprocessing.normalization.Binner.get_params

@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.svm.kernel.PolynomialKernel.get_params
+  class: microsoftml_scikit.svm.kernel.PolynomialKernel
+  fullName: microsoftml_scikit.svm.kernel.PolynomialKernel
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.dict
+      type: microsoftml_scikit.internal.utils.entrypoints.Component
+    type: microsoftml_scikit.internal.core.svm.kernel._polynomialkernel.PolynomialKernel
+  langs:
+  - python
+  module: microsoftml_scikit.svm.kernel
+  name: PolynomialKernel
+  source:
+    id: PolynomialKernel
+    path: microsoftml_scikit\svm\kernel\_polynomialkernel.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\svm\kernel\_polynomialkernel.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 18
+  summary: "\n**Description**\n\n   Apply polinomial function. a*<x,y>+b)^d.\n\n**Details**\n\
+    \n   [PolynomialKernel](https://en.wikipedia.org/wiki/Polynomial_kernel) is a\
+    \ kernel function\n   that computes the similarity between two features. It is\
+    \ commonly used in support vector machines.\n\n**See Also**\n\n   @microsoftml_scikit.svm.kernel.LinearKernel,\n\
+    \   @microsoftml_scikit.svm.kernel.RbfKernel,\n   @microsoftml_scikit.svm.kernel.SigmoidKernel,\n\
+    \   @microsoftml_scikit.svm.OneClassSvmAnomalyDetector\n\n\n\n-[ Example ]-\n\n\
+    \n"
+  syntax:
+    content: PolynomialKernel(a=None, bias=0.0, deg=3, **params)
+    parameters:
+    - description: 'a in the term (a*<x,y>+b)^d. If not specified, 1 / number of features
+        is used.
+
+        '
+      id: a
+    - description: 'b in the term (a*<x,y>+b)^d.
+
+        '
+      id: bias
+    - description: 'd in the term (a*<x,y>+b)^d.
+
+        '
+      id: deg
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.svm.kernel.PolynomialKernel
+- class: microsoftml_scikit.svm.kernel.PolynomialKernel
+  fullName: microsoftml_scikit.svm.kernel.PolynomialKernel.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.svm.kernel
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\svm\kernel\_polynomialkernel.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\svm\kernel\_polynomialkernel.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 69
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.svm.kernel.PolynomialKernel.get_params
+references:
+- fullName: microsoftml_scikit.svm.kernel.PolynomialKernel.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.svm.kernel.PolynomialKernel
+  uid: microsoftml_scikit.svm.kernel.PolynomialKernel.get_params

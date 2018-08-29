@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.missing_values.Filter.get_params
+  class: microsoftml_scikit.preprocessing.missing_values.Filter
+  fullName: microsoftml_scikit.preprocessing.missing_values.Filter
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.NoOutputSignature
+    type: microsoftml_scikit.internal.core.preprocessing.missing_values._filter.Filter
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.missing_values
+  name: Filter
+  source:
+    id: Filter
+    path: microsoftml_scikit\preprocessing\missing_values\_filter.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\missing_values\_filter.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Filters all rows where the input columns have\
+    \ value of NaN.\n\n**Details**\n\n   `Filter` removes the entire row if any of\
+    \ the input columns have\n   value of NaN in that row. This preprocessing is required\
+    \ for many ML\n   algorithms that cannot work with NaNs. Useful if any NaN entry\n\
+    \   invalidates the entire row.\n\n**See Also**\n\n   @microsoftml_scikit.preprocessing.missing_values.Indicator,\n\
+    \   @microsoftml_scikit.preprocessing.missing_values.Handler.\n\n\n\n-[ Example\
+    \ ]-\n\n\n"
+  syntax:
+    content: Filter(complement=False, columns=None, **params)
+    parameters:
+    - description: "a list of strings representing the column names to perform the\
+        \ transformation on.\n\nThe << operator can be used to set this value (see\
+        \ :ref:LinkToOperator)\n\nFor example\n   * Filter(columns=['education', 'age'])\
+        \ \n\n   * Filter() << ['education', 'age'] \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'If true, keep only rows that contain NA values, and filter the
+        rest.
+
+        '
+      id: complement
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.missing_values.Filter
+- class: microsoftml_scikit.preprocessing.missing_values.Filter
+  fullName: microsoftml_scikit.preprocessing.missing_values.Filter.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.missing_values
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\missing_values\_filter.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\missing_values\_filter.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 78
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.missing_values.Filter.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.missing_values.Filter.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.missing_values.Filter
+  uid: microsoftml_scikit.preprocessing.missing_values.Filter.get_params

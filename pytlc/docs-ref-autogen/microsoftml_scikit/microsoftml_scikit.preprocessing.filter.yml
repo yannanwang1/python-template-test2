@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.filter.BootstrapSampler
+  - microsoftml_scikit.preprocessing.filter.RangeFilter
+  - microsoftml_scikit.preprocessing.filter.SkipFilter
+  - microsoftml_scikit.preprocessing.filter.TakeFilter
+  fullName: microsoftml_scikit.preprocessing.filter
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.filter
+  name: filter
+  source:
+    id: filter
+    path: microsoftml_scikit\preprocessing\filter\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\filter\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.preprocessing.filter
+references:
+- fullName: microsoftml_scikit.preprocessing.filter.BootstrapSampler
+  isExternal: false
+  name: BootstrapSampler
+  parent: microsoftml_scikit.preprocessing.filter
+  uid: microsoftml_scikit.preprocessing.filter.BootstrapSampler
+- fullName: microsoftml_scikit.preprocessing.filter.RangeFilter
+  isExternal: false
+  name: RangeFilter
+  parent: microsoftml_scikit.preprocessing.filter
+  uid: microsoftml_scikit.preprocessing.filter.RangeFilter
+- fullName: microsoftml_scikit.preprocessing.filter.SkipFilter
+  isExternal: false
+  name: SkipFilter
+  parent: microsoftml_scikit.preprocessing.filter
+  uid: microsoftml_scikit.preprocessing.filter.SkipFilter
+- fullName: microsoftml_scikit.preprocessing.filter.TakeFilter
+  isExternal: false
+  name: TakeFilter
+  parent: microsoftml_scikit.preprocessing.filter
+  uid: microsoftml_scikit.preprocessing.filter.TakeFilter

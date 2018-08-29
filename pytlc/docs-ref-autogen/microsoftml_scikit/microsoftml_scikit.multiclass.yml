@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.multiclass.OneVsRestClassifier
+  fullName: microsoftml_scikit.multiclass
+  langs:
+  - python
+  module: microsoftml_scikit.multiclass
+  name: multiclass
+  source:
+    id: multiclass
+    path: microsoftml_scikit\multiclass\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\multiclass\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.multiclass
+references:
+- fullName: microsoftml_scikit.multiclass.OneVsRestClassifier
+  isExternal: false
+  name: OneVsRestClassifier
+  parent: microsoftml_scikit.multiclass
+  uid: microsoftml_scikit.multiclass.OneVsRestClassifier

@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.image.Resizer.get_params
+  class: microsoftml_scikit.feature_extraction.image.Resizer
+  fullName: microsoftml_scikit.feature_extraction.image.Resizer
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.feature_extraction.image._resizer.Resizer
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.image
+  name: Resizer
+  source:
+    id: Resizer
+    path: microsoftml_scikit\feature_extraction\image\_resizer.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\image\_resizer.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Resizers an image to a specified dimension using\
+    \ a specified\n   resizing method.\n\n**Details**\n\n   `Resizer` resizers an\
+    \ image to the specified height and width\n   using a specified resizing method.\
+    \ The input variables to this transforms must\n   be images, typically the result\
+    \ of the `Loader` transform.\n\n**See Also**\n\n   @microsoftml_scikit.feature_extraction.image.Loader,\n\
+    \   @microsoftml_scikit.feature_extraction.image.PixelExtractor,\n   @microsoftml_scikit.feature_extraction.image.DnnFeaturizer.\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: Resizer(image_width=0, image_height=0, resizing='IsoCrop', columns=None,
+      **params)
+    parameters:
+    - description: "a dictionary of key-value pairs, where key is the output column\
+        \ name and value is the input column name.\n\n* Multiple key-value pairs are\
+        \ allowed. \n\n* Input column type: *Picture*. \n\n* Output column type: *Picture*.\
+        \ \n\n* If the output column names are same as the input column names, then\
+        \ simply specify `columns` as a list of strings. \n\nThe << operator can be\
+        \ used to set this value (see :ref:LinkToOperator)\n\nFor example\n   * Resizer(columns={'out1':'input1',\
+        \ 'out2':'input2'}) \n\n   * Resizer() << {'out1':'input1', 'out2':'input2'}\
+        \ \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Specifies the width of the scaled image in pixels. The default
+        value is 224.
+
+        '
+      id: image_width
+    - description: 'Specifies the height of the scaled image in pixels. The default
+        value is 224.
+
+        '
+      id: image_height
+    - description: "Specified the resizing method to use. Note that all methods\n\
+        are using bilinear interpolation. The options are:\n\n* `\"IsoPad\"`: The\
+        \ image is resizerd such that the aspect ratio is preserved. If needed, the\
+        \ image is padded with black to fit the new width or height. \n\n* `\"IsoCrop\"\
+        `: The image is resizerd such that the aspect ratio is preserved. If needed,\
+        \ the image is cropped to fit the new width or height. \n\n* `\"Aniso\"`:\
+        \ The image is stretched to the new width and height, without preserving the\
+        \ aspect ratio. \n\nThe default value is `\"IsoCrop\"`.\n"
+      id: resizing
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.image.Resizer
+- class: microsoftml_scikit.feature_extraction.image.Resizer
+  fullName: microsoftml_scikit.feature_extraction.image.Resizer.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.image
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\feature_extraction\image\_resizer.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\image\_resizer.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 102
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.feature_extraction.image.Resizer.get_params
+references:
+- fullName: microsoftml_scikit.feature_extraction.image.Resizer.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.feature_extraction.image.Resizer
+  uid: microsoftml_scikit.feature_extraction.image.Resizer.get_params

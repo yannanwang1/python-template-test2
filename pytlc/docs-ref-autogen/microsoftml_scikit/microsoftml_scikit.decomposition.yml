@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  - microsoftml_scikit.decomposition.PcaAnomalyDetector
+  - microsoftml_scikit.decomposition.PcaTransformer
+  fullName: microsoftml_scikit.decomposition
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition
+  name: decomposition
+  source:
+    id: decomposition
+    path: microsoftml_scikit\decomposition\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\decomposition\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.decomposition
+references:
+- fullName: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  isExternal: false
+  name: FactorizationMachineBinaryClassifier
+  parent: microsoftml_scikit.decomposition
+  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+- fullName: microsoftml_scikit.decomposition.PcaAnomalyDetector
+  isExternal: false
+  name: PcaAnomalyDetector
+  parent: microsoftml_scikit.decomposition
+  uid: microsoftml_scikit.decomposition.PcaAnomalyDetector
+- fullName: microsoftml_scikit.decomposition.PcaTransformer
+  isExternal: false
+  name: PcaTransformer
+  parent: microsoftml_scikit.decomposition
+  uid: microsoftml_scikit.decomposition.PcaTransformer

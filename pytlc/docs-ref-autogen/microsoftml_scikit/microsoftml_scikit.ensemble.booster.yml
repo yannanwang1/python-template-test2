@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.ensemble.booster.Dart
+  - microsoftml_scikit.ensemble.booster.Gbdt
+  - microsoftml_scikit.ensemble.booster.Goss
+  fullName: microsoftml_scikit.ensemble.booster
+  langs:
+  - python
+  module: microsoftml_scikit.ensemble.booster
+  name: booster
+  source:
+    id: booster
+    path: microsoftml_scikit\ensemble\booster\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\ensemble\booster\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.ensemble.booster
+references:
+- fullName: microsoftml_scikit.ensemble.booster.Dart
+  isExternal: false
+  name: Dart
+  parent: microsoftml_scikit.ensemble.booster
+  uid: microsoftml_scikit.ensemble.booster.Dart
+- fullName: microsoftml_scikit.ensemble.booster.Gbdt
+  isExternal: false
+  name: Gbdt
+  parent: microsoftml_scikit.ensemble.booster
+  uid: microsoftml_scikit.ensemble.booster.Gbdt
+- fullName: microsoftml_scikit.ensemble.booster.Goss
+  isExternal: false
+  name: Goss
+  parent: microsoftml_scikit.ensemble.booster
+  uid: microsoftml_scikit.ensemble.booster.Goss

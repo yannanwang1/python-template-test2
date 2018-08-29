@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.timeseries.SlidingWindow.get_params
+  class: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
+  fullName: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.timeseries._slidingwindow.SlidingWindow
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: SlidingWindow
+  source:
+    id: SlidingWindow
+    path: microsoftml_scikit\preprocessing\timeseries\_slidingwindow.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\_slidingwindow.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Returns the last values for a time series [y(t-d-l+1),\
+    \ y(t-d-l+2), ..., y(t-l-1), y(t-l)] where d is the size of the window, l the\
+    \ lag and y is a Float.\n\n**See Also**\n\n   @microsoftml_scikit.preprocessing.timeseries.PercentileThreshold,\n\
+    \   @microsoftml_scikit.preprocessing.timeseries.Pvalue,\n   @microsoftml_scikit.preprocessing.timeseries.ExponentialAverage.\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: SlidingWindow(window_size=2, lag=1, begin='NaNValues', columns=None,
+      **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'The size of the sliding window for computing the moving average.
+
+        '
+      id: window_size
+    - description: 'Lag between current observation and last observation from the
+        sliding window.
+
+        '
+      id: lag
+    - description: 'Define how to populate the first rows of the produced series.
+
+        '
+      id: begin
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
+- class: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
+  fullName: microsoftml_scikit.preprocessing.timeseries.SlidingWindow.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\timeseries\_slidingwindow.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\_slidingwindow.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 72
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.timeseries.SlidingWindow.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.timeseries.SlidingWindow.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
+  uid: microsoftml_scikit.preprocessing.timeseries.SlidingWindow.get_params

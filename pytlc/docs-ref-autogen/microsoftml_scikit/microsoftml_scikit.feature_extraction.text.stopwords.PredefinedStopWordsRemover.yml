@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover.get_params
+  class: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
+  fullName: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.dict
+      type: microsoftml_scikit.internal.utils.entrypoints.Component
+    type: microsoftml_scikit.internal.core.feature_extraction.text.stopwords._predefinedstopwordsremover.PredefinedStopWordsRemover
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.text.stopwords
+  name: PredefinedStopWordsRemover
+  source:
+    id: PredefinedStopWordsRemover
+    path: microsoftml_scikit\feature_extraction\text\stopwords\_predefinedstopwordsremover.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\text\stopwords\_predefinedstopwordsremover.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 18
+  summary: "\n**Description**\n\n   Remover with predefined list of stop words.\n\n\
+    **Details**\n\n   The @microsoftml_scikit.feature_extraction.text.NGramFeaturizer\
+    \ transform produces a bag of counts of\n   sequences of consecutive words from\
+    \ a given corpus of text.\n   It also offers stopwords removing. A precompiled\
+    \ language-specific lists of stop words is used in this class that includes the\
+    \ most common words from Microsoft Office.\n\n**See Also**\n\n   @microsoftml_scikit.feature_extraction.text.NGramFeaturizer,\n\
+    \   @microsoftml_scikit.feature_extraction.text.stopwords.CustomStopWordsRemover,\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: PredefinedStopWordsRemover(**params)
+    parameters:
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
+- class: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
+  fullName: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.text.stopwords
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\feature_extraction\text\stopwords\_predefinedstopwordsremover.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\text\stopwords\_predefinedstopwordsremover.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 56
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover.get_params
+references:
+- fullName: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
+  uid: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover.get_params

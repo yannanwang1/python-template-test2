@@ -1,0 +1,151 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.model_selection.CV.fit
+  - microsoftml_scikit.model_selection.CV.fold_column_name
+  class: microsoftml_scikit.model_selection.CV
+  fullName: microsoftml_scikit.model_selection.CV
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.model_selection
+  name: CV
+  source:
+    id: CV
+    path: microsoftml_scikit\model_selection\_cv.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\model_selection\_cv.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 74
+  summary: "\n**Description**\n\n   Cross Validation\n\n**Details**\n   Cross Validation\
+    \ is a technique used for training and testing a model when there is only one\
+    \ dataset.\n   The dataset is partitioned into k parts (k is specified by the\
+    \ user) called folds. Each fold, in turn,\n   is used as a test set, where the\
+    \ rest of the data is used as a training set. The result is k separate models.\n\
+    \   The metrics for each model are reported separately, and so is the average\
+    \ of each metric on all models.\n\n\n"
+  syntax:
+    content: CV(pipeline)
+    parameters:
+    - description: 'Pipeline object or a list of pipeline steps that''s used for cross
+        validation
+
+        '
+      id: pipeline
+  type: class
+  uid: microsoftml_scikit.model_selection.CV
+- class: microsoftml_scikit.model_selection.CV
+  fullName: microsoftml_scikit.model_selection.CV.fit
+  langs:
+  - python
+  module: microsoftml_scikit.model_selection
+  name: fit
+  source:
+    id: fit
+    path: microsoftml_scikit\model_selection\_cv.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\model_selection\_cv.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 271
+  summary: 'Cross validate the pipeline and return the results.
+
+
+    -[ Example ]-
+
+
+    '
+  syntax:
+    content: fit(X, y=None, cv=2, groups=None, split_start='before_transforms', **params)
+    parameters:
+    - description: 'The data to fit. Can be any data format that''s acceptable by
+        the input pipeline.
+
+        '
+      id: X
+    - defaultValue: None
+      description: 'Target value. Could be None, if X is a FileDataStream.
+
+        '
+      id: y
+    - defaultValue: '2'
+      description: 'integer specifying number of folds.
+
+        '
+      id: cv
+    - defaultValue: None
+      description: 'Name of the column that contains groups. Sometimes there is a
+        need to specify which examples
+
+        should not be separated into different folds. Take, for instance, the ranking
+        problem, where instances have
+
+        a "query" and a "url" feature. Instances that have the same query value should
+        always be in the same fold
+
+        (otherwise the algorithm "cheats" by seeing examples for same query). In such
+        cases, the groups column can
+
+        be used. Data rows that have the same value for groups column, will be in
+        the same fold.
+
+        '
+      id: groups
+    - defaultValue: before_transforms
+      description: "int, 'before_transforms', or 'after_transforms'. When the pipeline\
+        \ has many transforms, it\nwould be more efficient to do the transforms before\
+        \ splitting the data, so that the the transforms run only\nonce, instead of\
+        \ once per fold. However, with some transforms that learn from data, this\
+        \ could cause data\nleak, so extra care must be taken when using this option.\
+        \ split_start can precisely specify where data\nsplitting happens:\n\n* 'before_transforms'\
+        \ means split data before all the transforms in the pipeline. This is the\
+        \ default behavior and would not cause any data leak. \n\n* 'after_transforms'\
+        \ means split data after all the transforms in the pipeline. This is the fastest\
+        \ option, but could cause data leak, depending on the transforms. The results\
+        \ from this option can be compared to 'before_transforms' results to ensure\
+        \ data leak doesn't happen. \n\n* For precise control, split_start can be\
+        \ specified as an int, which means pipeline_steps[:split_start] will be applied\
+        \ before the split, and pipeline_steps[split_start:] will be applied after\
+        \ the split. Note that 'after_transforms' is equivalent to -1, and 'before_transforms'\
+        \ is equivalent to 0. \n"
+      id: split_start
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+    return:
+      description: "dict of pandas dataframes. The possible keys for this dict are:\n\
+        \n* `'predictions'`: dataframe containing the predictions for input data.\
+        \ The prediction for each data point corresponds to the prediction when the\
+        \ fold containing that data point was used as test data. \n\n* `'models'`:\
+        \ dataframe containing the model file path per fold. \n\n* `'metrics'`: dataframe\
+        \ containing the metrics per fold. \n\n* `'metrics_summary'`: dataframe containing\
+        \ the summary statistics of metrics. \n\n* `'confusion_matrix'`: dataframe\
+        \ containing the confusion matrix per fold (only applicable to classification).\
+        \ \n"
+  type: method
+  uid: microsoftml_scikit.model_selection.CV.fit
+- class: microsoftml_scikit.model_selection.CV
+  fullName: microsoftml_scikit.model_selection.CV.fold_column_name
+  langs:
+  - python
+  module: microsoftml_scikit.model_selection
+  name: fold_column_name
+  syntax:
+    content: fold_column_name = 'Fold'
+  type: attribute
+  uid: microsoftml_scikit.model_selection.CV.fold_column_name
+references:
+- fullName: microsoftml_scikit.model_selection.CV.fit
+  isExternal: false
+  name: fit
+  parent: microsoftml_scikit.model_selection.CV
+  uid: microsoftml_scikit.model_selection.CV.fit
+- fullName: microsoftml_scikit.model_selection.CV.fold_column_name
+  isExternal: false
+  name: fold_column_name
+  parent: microsoftml_scikit.model_selection.CV
+  uid: microsoftml_scikit.model_selection.CV.fold_column_name

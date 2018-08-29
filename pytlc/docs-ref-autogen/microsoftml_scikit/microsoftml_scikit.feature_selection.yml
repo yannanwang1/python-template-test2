@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_selection.CountSelector
+  - microsoftml_scikit.feature_selection.MutualInformationSelector
+  fullName: microsoftml_scikit.feature_selection
+  langs:
+  - python
+  module: microsoftml_scikit.feature_selection
+  name: feature_selection
+  source:
+    id: feature_selection
+    path: microsoftml_scikit\feature_selection\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_selection\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.feature_selection
+references:
+- fullName: microsoftml_scikit.feature_selection.CountSelector
+  isExternal: false
+  name: CountSelector
+  parent: microsoftml_scikit.feature_selection
+  uid: microsoftml_scikit.feature_selection.CountSelector
+- fullName: microsoftml_scikit.feature_selection.MutualInformationSelector
+  isExternal: false
+  name: MutualInformationSelector
+  parent: microsoftml_scikit.feature_selection
+  uid: microsoftml_scikit.feature_selection.MutualInformationSelector

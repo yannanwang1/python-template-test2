@@ -1,0 +1,216 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.decision_function
+  - microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.get_params
+  - microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.predict_proba
+  class: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  fullName: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.decomposition._factorizationmachinebinaryclassifier.FactorizationMachineBinaryClassifier
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.ClassifierMixin
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition
+  name: FactorizationMachineBinaryClassifier
+  source:
+    id: FactorizationMachineBinaryClassifier
+    path: microsoftml_scikit\decomposition\_factorizationmachinebinaryclassifier.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\decomposition\_factorizationmachinebinaryclassifier.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Train a field-aware factorization machine for\
+    \ binary classification.\n\n**Details**\n\n   Field Aware Factorization Machines\
+    \ use, in addition to the input variables, factorized\n   parameters to model\
+    \ the interaction between pairs of variables. The algorithm is\n   particularly\
+    \ useful for high dimensional datasets which can be very sparse (e.g.\n   click-prediction\
+    \ for advertising systems). An advantage of FFM over SVMs is that the\n   training\
+    \ data does not need to be stored in memory, and the coefficients can be optimized\n\
+    \   directly.\n\n**See Also**\n\n   @microsoftml_scikit.linear_model.LogisticRegressionClassifier,\n\
+    \   @microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier,\n   @microsoftml_scikit.ensemble.GamBinaryClassifier,\n\
+    \   @microsoftml_scikit.linear_model.SgdBinaryClassifier\n\n**Reference**\n\n\
+    \   [Field Aware Factorization Machines](https://www.csie.ntu.edu.tw/~r01922136/slides/ffm.pdf),\n\
+    \   [Field-aware Factorization Machines for CTR Prediction](http://www.csie.ntu.edu.tw/~cjlin/papers/ffm.pdf),\n\
+    \   [Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](http://jmlr.org/papers/volume12/duchi11a/duchi11a.pdf)\n\
+    \n\n\n-[ Example ]-\n\n\n\n\n"
+  syntax:
+    content: FactorizationMachineBinaryClassifier(learning_rate=0.1, iters=5, latent_dim=20,
+      lambda_linear=0.0001, lambda_latent=0.0001, normalize='Auto', norm=True, caching='Auto',
+      shuffle=True, verbose=True, radius=0.5, feature=None, label=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: feature
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: label
+    - description: 'Initial learning rate.
+
+        '
+      id: learning_rate
+    - description: 'Number of training iterations.
+
+        '
+      id: iters
+    - description: 'Latent space dimension.
+
+        '
+      id: latent_dim
+    - description: 'Regularization coefficient of linear weights.
+
+        '
+      id: lambda_linear
+    - description: 'Regularization coefficient of latent weights.
+
+        '
+      id: lambda_latent
+    - description: "Specifies the type of automatic normalization used:\n\n* `\"Auto\"\
+        `: if normalization is needed, it is performed automatically. This is the\
+        \ default choice. \n\n* `\"No\"`: no normalization is performed. \n\n* `\"\
+        Yes\"`: normalization is performed. \n\n* `\"Warn\"`: if normalization is\
+        \ needed, a warning message is displayed, but normalization is not performed.\
+        \ \n\nNormalization rescales disparate data ranges to a standard scale. Feature\n\
+        scaling insures the distances between data points are proportional and\nenables\
+        \ various optimization methods such as gradient descent to converge\nmuch\
+        \ faster. If normalization is performed, a `MaxMin` normalizer is\nused. It\
+        \ normalizes values in an interval [a, b] where `-1 <= a <= 0`\nand `0 <=\
+        \ b <= 1` and `b - a = 1`. This normalizer preserves\nsparsity by mapping\
+        \ zero to zero.\n"
+      id: normalize
+    - description: 'Whether to normalize the input vectors so that the concatenation
+        of all fields'' feature vectors is unit-
+
+        length.
+
+        '
+      id: norm
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'Whether to shuffle for each training iteration.
+
+        '
+      id: shuffle
+    - description: 'Report traning progress or not.
+
+        '
+      id: verbose
+    - description: 'Radius of initial latent factors.
+
+        '
+      id: radius
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+- class: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  fullName: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.decision_function
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition
+  name: decision_function
+  source:
+    id: decision_function
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 151
+  summary: 'Returns score values
+
+    '
+  syntax:
+    content: decision_function(X, **params)
+  type: method
+  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.decision_function
+- class: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  fullName: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\decomposition\_factorizationmachinebinaryclassifier.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\decomposition\_factorizationmachinebinaryclassifier.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 158
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.get_params
+- class: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  fullName: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.predict_proba
+  langs:
+  - python
+  module: microsoftml_scikit.decomposition
+  name: predict_proba
+  source:
+    id: predict_proba
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 144
+  summary: 'Returns probabilities
+
+    '
+  syntax:
+    content: predict_proba(X, **params)
+  type: method
+  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.predict_proba
+references:
+- fullName: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.decision_function
+  isExternal: false
+  name: decision_function
+  parent: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.decision_function
+- fullName: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.get_params
+- fullName: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.predict_proba
+  isExternal: false
+  name: predict_proba
+  parent: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier
+  uid: microsoftml_scikit.decomposition.FactorizationMachineBinaryClassifier.predict_proba

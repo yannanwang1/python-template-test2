@@ -1,0 +1,140 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.ensemble.booster.Gbdt.get_params
+  class: microsoftml_scikit.ensemble.booster.Gbdt
+  fullName: microsoftml_scikit.ensemble.booster.Gbdt
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.dict
+      type: microsoftml_scikit.internal.utils.entrypoints.Component
+    type: microsoftml_scikit.internal.core.ensemble.booster._gbdt.Gbdt
+  langs:
+  - python
+  module: microsoftml_scikit.ensemble.booster
+  name: Gbdt
+  source:
+    id: Gbdt
+    path: microsoftml_scikit\ensemble\booster\_gbdt.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\ensemble\booster\_gbdt.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 18
+  summary: "\n**Description**\n\n   Traditional Gradient Boosting Decision Tree.\n\
+    \n**See Also**\n\n   @microsoftml_scikit.ensemble.booster.Dart,\n   @microsoftml_scikit.ensemble.booster.Goss,\n\
+    \   @microsoftml_scikit.ensemble.LightGbmBinaryClassifier,\n   @microsoftml_scikit.ensemble.LightGbmClassifier,\n\
+    \   @microsoftml_scikit.ensemble.LightGbmRanker,\n   @microsoftml_scikit.ensemble.LightGbmRegressor\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: Gbdt(unbalanced_sets=False, min_split_gain=0.0, max_depth=0, min_child_weight=0.1,
+      subsample_freq=0, subsample=1.0, feature_fraction=1.0, reg_lambda=0.01, reg_alpha=0.0,
+      scale_pos_weight=1.0, **params)
+    parameters:
+    - description: 'Use for binary classification when classes are not balanced.
+
+        '
+      id: unbalanced_sets
+    - description: 'Minimum loss reduction required to make a further partition on
+        a leaf node of the tree. the
+
+        larger, the more conservative the algorithm will be.
+
+        '
+      id: min_split_gain
+    - description: 'Maximum depth of a tree. 0 means no limit. However, tree still
+        grows by best-first.
+
+        '
+      id: max_depth
+    - description: 'Minimum sum of instance weight(hessian) needed in a child. If
+        the tree partition step results
+
+        in a leaf node with the sum of instance weight less than min_child_weight,
+        then the building process will give up
+
+        further partitioning. In linear regression mode, this simply corresponds to
+        minimum number of instances needed to be
+
+        in each node. The larger, the more conservative the algorithm will be.
+
+        '
+      id: min_child_weight
+    - description: 'Subsample frequency. 0 means no subsample. If subsampleFreq >
+        0, it will use a
+
+        subset(ratio=subsample) to train. And the subset will be updated on every
+        Subsample iteratinos.
+
+        '
+      id: subsample_freq
+    - description: 'Subsample ratio of the training instance. Setting it to 0.5 means
+        that LightGBM randomly collected
+
+        half of the data instances to grow trees and this will prevent overfitting.
+        Range: (0,1].
+
+        '
+      id: subsample
+    - description: 'Subsample ratio of columns when constructing each tree. Range:
+        (0,1].
+
+        '
+      id: feature_fraction
+    - description: 'L2 regularization term on weights, increasing this value will
+        make model more conservative.
+
+        '
+      id: reg_lambda
+    - description: 'L1 regularization term on weights, increase this value will make
+        model more conservative.
+
+        '
+      id: reg_alpha
+    - description: 'Control the balance of positive and negative weights, useful for
+        unbalanced classes. A typical
+
+        value to consider: sum(negative cases) / sum(positive cases).
+
+        '
+      id: scale_pos_weight
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.ensemble.booster.Gbdt
+- class: microsoftml_scikit.ensemble.booster.Gbdt
+  fullName: microsoftml_scikit.ensemble.booster.Gbdt.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.ensemble.booster
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\ensemble\booster\_gbdt.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\ensemble\booster\_gbdt.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 101
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.ensemble.booster.Gbdt.get_params
+references:
+- fullName: microsoftml_scikit.ensemble.booster.Gbdt.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.ensemble.booster.Gbdt
+  uid: microsoftml_scikit.ensemble.booster.Gbdt.get_params

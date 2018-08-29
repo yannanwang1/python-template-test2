@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.image.DnnFeaturizer.get_params
+  class: microsoftml_scikit.feature_extraction.image.DnnFeaturizer
+  fullName: microsoftml_scikit.feature_extraction.image.DnnFeaturizer
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.feature_extraction.image._dnnfeaturizer.DnnFeaturizer
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.image
+  name: DnnFeaturizer
+  source:
+    id: DnnFeaturizer
+    path: microsoftml_scikit\feature_extraction\image\_dnnfeaturizer.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\image\_dnnfeaturizer.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Featurizes an image using a pre-trained deep neural\
+    \ network model.\n\n**Details**\n\n   `DnnFeaturizer` featurizes an image using\
+    \ the specified\n   pre-trained deep neural network model. The input variables\
+    \ to this transforms must\n   be extracted pixel values.\n\n**See Also**\n\n \
+    \  @microsoftml_scikit.feature_extraction.image.Loader,\n   @microsoftml_scikit.feature_extraction.image.Resizer,\n\
+    \   @microsoftml_scikit.feature_extraction.image.PixelExtractor.\n\n\n\n-[ Example\
+    \ ]-\n\n\n"
+  syntax:
+    content: DnnFeaturizer(dnn_model='Resnet18', columns=None, **params)
+    parameters:
+    - description: "a dictionary of key-value pairs, where key is the output column\
+        \ name and value is the input column name.\n\n* Only one key-value pair is\
+        \ allowed. \n\n* Input column type: *VectorType*. \n\n* Output column type:\
+        \ *VectorType*. \n\n* If the output column name is same as the input column\
+        \ name, then simply specify `columns` as a string. \n\nThe << operator can\
+        \ be used to set this value (see :ref:LinkToOperator)\n\nFor example\n   *\
+        \ DnnFeaturizer(dnn_model='Alexnet', columns={'ImgFeatures': 'ImgPixels'})\
+        \ \n\n   * DnnFeaturizer(dnn_model='Alexnet') << {'ImgFeatures': 'ImgPixels'}\
+        \ \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: "The pre-trained deep neural network. The possible options are:\n\
+        \n* `\"Resnet18\"` \n\n* `\"Resnet50\"` \n\n* `\"Resnet101\"` \n\n* `\"Alexnet\"\
+        ` \n\nThe default value is `\"Resnet18\"`.\nSee [Deep Residual Learning for\
+        \ Image Recognition](http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html)\n\
+        for details about ResNet.\n"
+      id: dnn_model
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.image.DnnFeaturizer
+- class: microsoftml_scikit.feature_extraction.image.DnnFeaturizer
+  fullName: microsoftml_scikit.feature_extraction.image.DnnFeaturizer.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.image
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\feature_extraction\image\_dnnfeaturizer.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\image\_dnnfeaturizer.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 92
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.feature_extraction.image.DnnFeaturizer.get_params
+references:
+- fullName: microsoftml_scikit.feature_extraction.image.DnnFeaturizer.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.feature_extraction.image.DnnFeaturizer
+  uid: microsoftml_scikit.feature_extraction.image.DnnFeaturizer.get_params

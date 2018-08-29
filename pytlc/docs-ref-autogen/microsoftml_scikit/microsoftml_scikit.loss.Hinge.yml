@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.loss.Hinge
+  fullName: microsoftml_scikit.loss.Hinge
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.loss
+  name: Hinge
+  source:
+    id: Hinge
+    path: microsoftml_scikit\loss.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\loss.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 45
+  summary: "\n**Description**\n\n   Some of the trainers accept a loss parameter that\
+    \ will be used for training. It is also known as loss function, objective function,\
+    \ or optimization score function.\n\n   Losses can be specified either as a string\
+    \ or a loss object. When loss is specified as one of these strings, the default\
+    \ values are used for the loss parameters. To change the default parameters, a\
+    \ loss object should be used, as seen in examples below.\n\n   Each trainer supports\
+    \ only a subset of the losses mentioned above. To get the supported losses and\
+    \ the default loss, please refer to the documentation page for the specific trainer.\n\
+    \n**Details**\n\n   The [Hinge loss](https://en.wikipedia.org/wiki/Loss_functions_for_classification)\
+    \ for classification. Its string name is `'hinge'`.\n\n   It can be used for @microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier,\
+    \ @microsoftml_scikit.linear_model.FastLinearBinaryClassifier,\n   @microsoftml_scikit.linear_model.FastLinearClassifier,\
+    \ @microsoftml_scikit.linear_model.SgdBinaryClassifier.\n\n**See Also**\n\n  \
+    \ @microsoftml_scikit.loss.Exp, @microsoftml_scikit.loss.Log, @microsoftml_scikit.loss.SmoothedHinge,\
+    \ @loss-functions\n\n-[ Example ]-\n\n\n\n"
+  syntax:
+    content: Hinge(margin=1.0)
+    parameters:
+    - description: 'Margin value
+
+        '
+      id: margin
+  type: class
+  uid: microsoftml_scikit.loss.Hinge
+references: []

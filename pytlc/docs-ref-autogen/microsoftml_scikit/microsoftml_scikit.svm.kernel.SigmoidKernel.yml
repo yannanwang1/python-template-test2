@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.svm.kernel.SigmoidKernel.get_params
+  class: microsoftml_scikit.svm.kernel.SigmoidKernel
+  fullName: microsoftml_scikit.svm.kernel.SigmoidKernel
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.dict
+      type: microsoftml_scikit.internal.utils.entrypoints.Component
+    type: microsoftml_scikit.internal.core.svm.kernel._sigmoidkernel.SigmoidKernel
+  langs:
+  - python
+  module: microsoftml_scikit.svm.kernel
+  name: SigmoidKernel
+  source:
+    id: SigmoidKernel
+    path: microsoftml_scikit\svm\kernel\_sigmoidkernel.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\svm\kernel\_sigmoidkernel.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 18
+  summary: "\n**Description**\n\n   Apply sigmoid function. tanh(gamma*<x,y>+c).\n\
+    \n**Details**\n\n   [SigmoidKernel](http://www2.spsc.tugraz.at/www-archive/AdvancedSignalProcessing/WS05-Mistral/advances.pdf)\
+    \ is a kernel function\n   that computes the similarity between two features.\n\
+    \n**See Also**\n\n   @microsoftml_scikit.svm.kernel.LinearKernel,\n   @microsoftml_scikit.svm.kernel.PolynomialKernel,\n\
+    \   @microsoftml_scikit.svm.kernel.RbfKernel,\n   @microsoftml_scikit.svm.OneClassSvmAnomalyDetector\n\
+    \n\n\n"
+  syntax:
+    content: SigmoidKernel(coef0=0.0, gamma=None, **params)
+    parameters:
+    - description: 'c in the term tanh(gamma*<x,y>+c).
+
+        '
+      id: coef0
+    - description: 'Gamma in the term tanh(gamma*<x,y>+c). If not specified, 1 / number
+        of features is used.
+
+        '
+      id: gamma
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.svm.kernel.SigmoidKernel
+- class: microsoftml_scikit.svm.kernel.SigmoidKernel
+  fullName: microsoftml_scikit.svm.kernel.SigmoidKernel.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.svm.kernel
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\svm\kernel\_sigmoidkernel.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\svm\kernel\_sigmoidkernel.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 62
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.svm.kernel.SigmoidKernel.get_params
+references:
+- fullName: microsoftml_scikit.svm.kernel.SigmoidKernel.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.svm.kernel.SigmoidKernel
+  uid: microsoftml_scikit.svm.kernel.SigmoidKernel.get_params

@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector.get_params
+  class: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.timeseries._ssaspikedetector.SsaSpikeDetector
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: SsaSpikeDetector
+  source:
+    id: SsaSpikeDetector
+    path: microsoftml_scikit\preprocessing\timeseries\_ssaspikedetector.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\_ssaspikedetector.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   This transform detects the spikes in a seasonal\
+    \ time-series using Singular Spectrum Analysis (SSA).\n\n**Details**\n\n   [Singular\
+    \ Spectrum Analysis (SSA)](https://en.wikipedia.org/wiki/Singular_spectrum_analysis)\
+    \ is a powerful\n   framework for decomposing the time-series into trend, seasonality\
+    \ and noise components as well as forecasting\n   the future values of the time-series.\
+    \ In order to remove the effect of such components on anomaly detection,\n   this\
+    \ transform adds SSA as a time-series modeler component in the detection pipeline.\n\
+    \n   The SSA component will be trained and it predicts the next expected value\
+    \ on the time-series under normal condition; this expected value is\n   further\
+    \ used to calculate the amount of deviation from the normal (predicted) behavior\
+    \ at that timestamp.\n   The distribution of this deviation is then modeled using\
+    \ [Adaptive kernel density estimation](https://en.wikipedia.org/wiki/Variable_kernel_density_estimation).\n\
+    \n   The reference<!-- {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
+    : [], \"backrefs\": [], \"name\": \"p-value <https://en.wikipedia.org/wiki/P-value\"\
+    , \"refname\": \"p-value <https://en.wikipedia.org/wiki/p-value\"} -->> score\
+    \ for the current deviation is calculated based on the\n   estimated distribution.\
+    \ The lower its value, the more likely the current point is an outlier.\n\n**See\
+    \ Also**\n\n   @microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector,\n\
+    \   @microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector,\n   @microsoftml_scikit.preprocessing.timeseries.SsaChangePointDetector.\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: SsaSpikeDetector(training_window_size=100, confidence=99.0, seasonal_window_size=10,
+      side='TwoSided', pvalue_history_length=100, error_function='SignedDifference',
+      columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'The number of points, N, from the beginning of the sequence used
+        to train the SSA
+
+        model.
+
+        '
+      id: training_window_size
+    - description: 'The confidence for spike detection in the range [0, 100].
+
+        '
+      id: confidence
+    - description: 'An upper bound, L,  on the largest relevant seasonality in the
+        input time-series, which
+
+        also determines the order of the autoregression of SSA. It must satisfy 2
+        < L < N/2.
+
+        '
+      id: seasonal_window_size
+    - description: 'The argument that determines whether to detect positive or negative
+        anomalies, or both. Available
+
+        options are {`Positive`, `Negative`, `TwoSided`}.
+
+        '
+      id: side
+    - description: 'The size of the sliding window for computing the p-value.
+
+        '
+      id: pvalue_history_length
+    - description: 'The function used to compute the error between the expected and
+        the observed value. Possible
+
+        values are {`SignedDifference`, `AbsoluteDifference`, `SignedProportion`,
+        `AbsoluteProportion`,
+
+        `SquaredDifference`}.
+
+        '
+      id: error_function
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
+- class: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\timeseries\_ssaspikedetector.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\_ssaspikedetector.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 104
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
+  uid: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector.get_params

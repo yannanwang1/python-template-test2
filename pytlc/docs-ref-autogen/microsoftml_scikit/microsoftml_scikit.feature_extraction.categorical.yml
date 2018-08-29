@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.categorical.OneHotHashVectorizer
+  - microsoftml_scikit.feature_extraction.categorical.OneHotVectorizer
+  fullName: microsoftml_scikit.feature_extraction.categorical
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.categorical
+  name: categorical
+  source:
+    id: categorical
+    path: microsoftml_scikit\feature_extraction\categorical\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\categorical\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.feature_extraction.categorical
+references:
+- fullName: microsoftml_scikit.feature_extraction.categorical.OneHotHashVectorizer
+  isExternal: false
+  name: OneHotHashVectorizer
+  parent: microsoftml_scikit.feature_extraction.categorical
+  uid: microsoftml_scikit.feature_extraction.categorical.OneHotHashVectorizer
+- fullName: microsoftml_scikit.feature_extraction.categorical.OneHotVectorizer
+  isExternal: false
+  name: OneHotVectorizer
+  parent: microsoftml_scikit.feature_extraction.categorical
+  uid: microsoftml_scikit.feature_extraction.categorical.OneHotVectorizer

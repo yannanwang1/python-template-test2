@@ -1,0 +1,124 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector.get_params
+  class: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.timeseries._iidchangepointdetector.IIDChangePointDetector
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: IIDChangePointDetector
+  source:
+    id: IIDChangePointDetector
+    path: microsoftml_scikit\preprocessing\timeseries\_iidchangepointdetector.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\_iidchangepointdetector.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   This transform detects the change-points in an\
+    \ i.i.d. sequence using adaptive kernel density estimation and martingales.\n\n\
+    **Details**\n\n   `IIDChangePointDetector` assumes a sequence of data points that\
+    \ are independently sampled from one\n   stationary distribution. [Adaptive kernel\
+    \ density estimation](https://en.wikipedia.org/wiki/Variable_kernel_density_estimation)\n\
+    \   is used to model the distribution.\n\n   This transform detects\n   change\
+    \ points by calculating the martingale score for the sliding window based on the\
+    \ estimated distribution.\n   The idea is based on the [Exchangeability\n   Martingales](https://icml.cc/Conferences/2012/papers/808.pdf)\
+    \ that detects a change of distribution over a stream of i.i.d. values. In short,\
+    \ the value of the\n   martingale score starts increasing significantly when a\
+    \ sequence of small p-values are detected in a row; this\n   indicates the change\
+    \ of the distribution of the underlying data generation process.\n\n**See Also**\n\
+    \n   @microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector,\n   @microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector,\n\
+    \   @microsoftml_scikit.preprocessing.timeseries.SsaChangePointDetector.\n\n\n\
+    \n-[ Example ]-\n\n\n"
+  syntax:
+    content: IIDChangePointDetector(confidence=95.0, change_history_length=20, martingale='Power',
+      power_martingale_epsilon=0.1, columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'The confidence for change point detection in the range [0, 100].
+        Used to set the threshold of the
+
+        martingale score for triggering alert.
+
+        '
+      id: confidence
+    - description: 'The length of the sliding window on p-value for computing the
+        martingale score.
+
+        '
+      id: change_history_length
+    - description: 'The type of martingale betting function used for computing the
+        martingale score. Available options
+
+        are {`Power`, `Mixture`}.
+
+        '
+      id: martingale
+    - description: 'The epsilon parameter for the Power martingale if martingale is
+        set to `Power`.
+
+        '
+      id: power_martingale_epsilon
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector
+- class: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\timeseries\_iidchangepointdetector.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\_iidchangepointdetector.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 91
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector
+  uid: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector.get_params

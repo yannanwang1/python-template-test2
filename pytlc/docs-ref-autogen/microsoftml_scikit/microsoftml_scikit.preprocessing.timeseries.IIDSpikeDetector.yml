@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector.get_params
+  class: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.timeseries._iidspikedetector.IIDSpikeDetector
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: IIDSpikeDetector
+  source:
+    id: IIDSpikeDetector
+    path: microsoftml_scikit\preprocessing\timeseries\_iidspikedetector.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\_iidspikedetector.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   This transform detects the spikes in a i.i.d.\
+    \ sequence using adaptive kernel density estimation.\n\n**Details**\n\n   `IIDSpikeDetector`\
+    \ assumes a sequence of data points that are independently sampled from one stationary\n\
+    \   distribution. [Adaptive kernel density estimation](https://en.wikipedia.org/wiki/Variable_kernel_density_estimation)\
+    \ is used to model the distribution.\n   The reference<!-- {\"ids\": [], \"classes\"\
+    : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"name\": \"p-value <https://en.wikipedia.org/wiki/P-value\"\
+    , \"refname\": \"p-value <https://en.wikipedia.org/wiki/p-value\"} -->> score\
+    \ indicates the likelihood of the current observation according to\n   the estimated\
+    \ distribution. The lower its value, the more likely the current point is an outlier.\n\
+    \n**See Also**\n\n   @microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector,\n\
+    \   @microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector,\n   @microsoftml_scikit.preprocessing.timeseries.SsaChangePointDetector.\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: IIDSpikeDetector(confidence=99.0, side='TwoSided', pvalue_history_length=100,
+      columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'The confidence for spike detection in the range [0, 100].
+
+        '
+      id: confidence
+    - description: 'The argument that determines whether to detect positive or negative
+        anomalies, or both. Available options
+
+        are {`Positive`, `Negative`, `TwoSided`}.
+
+        '
+      id: side
+    - description: 'The size of the sliding window for computing the p-value.
+
+        '
+      id: pvalue_history_length
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector
+- class: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\timeseries\_iidspikedetector.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\_iidspikedetector.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 81
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector
+  uid: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector.get_params

@@ -1,0 +1,201 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.multiclass.OneVsRestClassifier.decision_function
+  - microsoftml_scikit.multiclass.OneVsRestClassifier.get_params
+  - microsoftml_scikit.multiclass.OneVsRestClassifier.predict_proba
+  class: microsoftml_scikit.multiclass.OneVsRestClassifier
+  fullName: microsoftml_scikit.multiclass.OneVsRestClassifier
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.multiclass._onevsrestclassifier.OneVsRestClassifier
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.ClassifierMixin
+  langs:
+  - python
+  module: microsoftml_scikit.multiclass
+  name: OneVsRestClassifier
+  source:
+    id: OneVsRestClassifier
+    path: microsoftml_scikit\multiclass\_onevsrestclassifier.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\multiclass\_onevsrestclassifier.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   One-vs-All macro (OVA)\n\n**Details**\n\n   *OneVsRestClassifier\
+    \ <https://en.wikipedia.org/wiki/Multiclass_classification>* converts any binary\
+    \ classifiers into mult-class.\n   A multi-class classification problem (with\
+    \ K classes) can be decomposed into K binary classification\n   problems per class,\
+    \ with label as 0 or 1 (if a sample belongs to the class). OneVsRestClassifier\n\
+    \   predicts the label with the highest score from the basic learners.\n\nNote:\
+    \ This algorithm can be treated as a wrapper for all the binary classifiers in\
+    \ PyTLC. A few binary classifiers already have implementation for multi-class\
+    \ problems, thus users can choose either one depending on the context. The OVA\
+    \ version of a binary classifier, such as wrapping a @microsoftml_scikit.ensemble.LightGbmBinaryClassifier\
+    \ , can be different from @microsoftml_scikit.ensemble.LightGbmClassifier , which\
+    \ develops a multi-class classifier directly. \n\n**See Also**\n\n   @microsoftml_scikit.ensemble.FastForestBinaryClassifier,\n\
+    \   @microsoftml_scikit.ensemble.FastTreesBinaryClassifier,\n   @microsoftml_scikit.ensemble.GamBinaryClassifier,\n\
+    \   @microsoftml_scikit.ensemble.LightGbmBinaryClassifier,\n   @microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier,\n\
+    \   @microsoftml_scikit.linear_model.FastLinearBinaryClassifier,\n   @microsoftml_scikit.linear_model.LogisticRegressionBinaryClassifier,\n\
+    \   @microsoftml_scikit.linear_model.SgdBinaryClassifier,\n   @microsoftml_scikit.svm.LocalDeepSvmBinaryClassifier,\n\
+    \n\n\n-[ Example ]-\n\n\n\n\n"
+  syntax:
+    content: OneVsRestClassifier(classifier, output_for_sub_graph=0, use_probabilities=True,
+      normalize='Auto', caching='Auto', feature=None, label=None, weight=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: feature
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: label
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: weight
+    - description: 'The subgraph for the binary trainer used to construct the OVA
+        learner. This should be a TrainBinary
+
+        node.
+
+        '
+      id: classifier
+    - description: 'The training subgraph output.
+
+        '
+      id: output_for_sub_graph
+    - description: 'Use probabilities in OVA combiner.
+
+        '
+      id: use_probabilities
+    - description: 'If `Auto`, the choice to normalize depends on the preference declared
+        by the algorithm. This is the
+
+        default choice. If `No`, no normalization is performed. If `Yes`, normalization
+        always performed. If `Warn`,
+
+        if normalization is needed by the algorithm, a warning message is displayed
+        but normalization is not performed. If
+
+        normalization is performed, a `MaxMin` normalizer is used. This normalizer
+        preserves sparsity by mapping zero to
+
+        zero.
+
+        '
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.multiclass.OneVsRestClassifier
+- class: microsoftml_scikit.multiclass.OneVsRestClassifier
+  fullName: microsoftml_scikit.multiclass.OneVsRestClassifier.decision_function
+  langs:
+  - python
+  module: microsoftml_scikit.multiclass
+  name: decision_function
+  source:
+    id: decision_function
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 129
+  summary: 'Returns score values
+
+    '
+  syntax:
+    content: decision_function(X, **params)
+  type: method
+  uid: microsoftml_scikit.multiclass.OneVsRestClassifier.decision_function
+- class: microsoftml_scikit.multiclass.OneVsRestClassifier
+  fullName: microsoftml_scikit.multiclass.OneVsRestClassifier.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.multiclass
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\multiclass\_onevsrestclassifier.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\multiclass\_onevsrestclassifier.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 139
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.multiclass.OneVsRestClassifier.get_params
+- class: microsoftml_scikit.multiclass.OneVsRestClassifier
+  fullName: microsoftml_scikit.multiclass.OneVsRestClassifier.predict_proba
+  langs:
+  - python
+  module: microsoftml_scikit.multiclass
+  name: predict_proba
+  source:
+    id: predict_proba
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 119
+  summary: 'Returns probabilities
+
+    '
+  syntax:
+    content: predict_proba(X, **params)
+  type: method
+  uid: microsoftml_scikit.multiclass.OneVsRestClassifier.predict_proba
+references:
+- fullName: microsoftml_scikit.multiclass.OneVsRestClassifier.decision_function
+  isExternal: false
+  name: decision_function
+  parent: microsoftml_scikit.multiclass.OneVsRestClassifier
+  uid: microsoftml_scikit.multiclass.OneVsRestClassifier.decision_function
+- fullName: microsoftml_scikit.multiclass.OneVsRestClassifier.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.multiclass.OneVsRestClassifier
+  uid: microsoftml_scikit.multiclass.OneVsRestClassifier.get_params
+- fullName: microsoftml_scikit.multiclass.OneVsRestClassifier.predict_proba
+  isExternal: false
+  name: predict_proba
+  parent: microsoftml_scikit.multiclass.OneVsRestClassifier
+  uid: microsoftml_scikit.multiclass.OneVsRestClassifier.predict_proba

@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.TreeFeaturizer.get_params
+  class: microsoftml_scikit.feature_extraction.TreeFeaturizer
+  fullName: microsoftml_scikit.feature_extraction.TreeFeaturizer
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.feature_extraction._treefeaturizer.TreeFeaturizer
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction
+  name: TreeFeaturizer
+  source:
+    id: TreeFeaturizer
+    path: microsoftml_scikit\feature_extraction\_treefeaturizer.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\_treefeaturizer.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   TreeFeaturizer.\n\n**Details**\n\n   Trains a\
+    \ tree ensemble, or loads it from a file, then maps a numeric\n   feature vector\
+    \ to three outputs:\n\n   1. A vector containing the individual tree outputs of\
+    \ the tree ensemble. \n\n   2. A vector indicating the leaves that the feature\
+    \ vector falls on in the tree ensemble. \n\n   3. A vector indicating the paths\
+    \ that the feature vector falls on in the tree ensemble. If a both a model file\
+    \ and a trainer are specified, will use the model file. If neither are specified,\
+    \ will train a default FastTree model. This can handle key labels by training\
+    \ a regression model towards their optionally permuted indices. \n\n**See Also**\n\
+    \n   @microsoftml_scikit.feature_extraction.image.DnnFeaturizer\n\n"
+  syntax:
+    content: TreeFeaturizer(predictor_model, suffix=None, label_permutation_seed=0,
+      columns=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: columns
+    - description: 'Trainer to use.
+
+        '
+      id: predictor_model
+    - description: 'Output column: The suffix to append to the default column names.
+
+        '
+      id: suffix
+    - description: 'If specified, determines the permutation seed for applying this
+        featurizer to a
+
+        multiclass problem.
+
+        '
+      id: label_permutation_seed
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.TreeFeaturizer
+- class: microsoftml_scikit.feature_extraction.TreeFeaturizer
+  fullName: microsoftml_scikit.feature_extraction.TreeFeaturizer.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\feature_extraction\_treefeaturizer.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\_treefeaturizer.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 79
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.feature_extraction.TreeFeaturizer.get_params
+references:
+- fullName: microsoftml_scikit.feature_extraction.TreeFeaturizer.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.feature_extraction.TreeFeaturizer
+  uid: microsoftml_scikit.feature_extraction.TreeFeaturizer.get_params

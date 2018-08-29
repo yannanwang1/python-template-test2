@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.schema.ColumnDuplicator.get_params
+  class: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
+  fullName: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.preprocessing.schema._columnduplicator.ColumnDuplicator
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.schema
+  name: ColumnDuplicator
+  source:
+    id: ColumnDuplicator
+    path: microsoftml_scikit\preprocessing\schema\_columnduplicator.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\schema\_columnduplicator.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Duplicates columns from the dataset\n\n**See Also**\n\
+    \n   @microsoftml_scikit.preprocessing.schema.ColumnDropper,\n   @microsoftml_scikit.preprocessing.schema.ColumnSelector.\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: ColumnDuplicator(columns=None, **params)
+    parameters:
+    - description: "a dictionary of key-value pairs, where key is the output column\
+        \ name and value is a list of input column names.\n\n* Only one key-value\
+        \ pair is allowed. \n\n* Input column type: numeric or string. \n\n* Output\
+        \ column type: *VectorType*. \n\nThe << operator can be used to set this value\
+        \ (see :ref:LinkToOperator)\n\nFor example\n   * ColumnDuplicator(columns={'age_copy':\
+        \ 'age', 'parity_copy': 'parity'}) \n\n   * ColumnDuplicator() << {'age_copy':\
+        \ 'age', 'parity_copy': 'parity'}) \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
+- class: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
+  fullName: microsoftml_scikit.preprocessing.schema.ColumnDuplicator.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.schema
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\schema\_columnduplicator.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\schema\_columnduplicator.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 72
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.schema.ColumnDuplicator.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.schema.ColumnDuplicator.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
+  uid: microsoftml_scikit.preprocessing.schema.ColumnDuplicator.get_params

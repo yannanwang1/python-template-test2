@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.schema.ColumnConcatenator
+  - microsoftml_scikit.preprocessing.schema.ColumnDropper
+  - microsoftml_scikit.preprocessing.schema.ColumnDuplicator
+  - microsoftml_scikit.preprocessing.schema.ColumnSelector
+  - microsoftml_scikit.preprocessing.schema.TypeConverter
+  fullName: microsoftml_scikit.preprocessing.schema
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.schema
+  name: schema
+  source:
+    id: schema
+    path: microsoftml_scikit\preprocessing\schema\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\schema\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.preprocessing.schema
+references:
+- fullName: microsoftml_scikit.preprocessing.schema.ColumnConcatenator
+  isExternal: false
+  name: ColumnConcatenator
+  parent: microsoftml_scikit.preprocessing.schema
+  uid: microsoftml_scikit.preprocessing.schema.ColumnConcatenator
+- fullName: microsoftml_scikit.preprocessing.schema.ColumnDropper
+  isExternal: false
+  name: ColumnDropper
+  parent: microsoftml_scikit.preprocessing.schema
+  uid: microsoftml_scikit.preprocessing.schema.ColumnDropper
+- fullName: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
+  isExternal: false
+  name: ColumnDuplicator
+  parent: microsoftml_scikit.preprocessing.schema
+  uid: microsoftml_scikit.preprocessing.schema.ColumnDuplicator
+- fullName: microsoftml_scikit.preprocessing.schema.ColumnSelector
+  isExternal: false
+  name: ColumnSelector
+  parent: microsoftml_scikit.preprocessing.schema
+  uid: microsoftml_scikit.preprocessing.schema.ColumnSelector
+- fullName: microsoftml_scikit.preprocessing.schema.TypeConverter
+  isExternal: false
+  name: TypeConverter
+  parent: microsoftml_scikit.preprocessing.schema
+  uid: microsoftml_scikit.preprocessing.schema.TypeConverter

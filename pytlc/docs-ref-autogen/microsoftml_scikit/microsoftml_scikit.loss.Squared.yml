@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children: []
+  class: microsoftml_scikit.loss.Squared
+  fullName: microsoftml_scikit.loss.Squared
+  inheritance:
+  - type: builtins.object
+  langs:
+  - python
+  module: microsoftml_scikit.loss
+  name: Squared
+  source:
+    id: Squared
+    path: microsoftml_scikit\loss.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\loss.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 194
+  summary: "\n**Description**\n\n   Some of the trainers accept a loss parameter that\
+    \ will be used for training. It is also known as loss function, objective function,\
+    \ or optimization score function.\n\n   Losses can be specified either as a string\
+    \ or a loss object. When loss is specified as one of these strings, the default\
+    \ values are used for the loss parameters. To change the default parameters, a\
+    \ loss object should be used, as seen in examples below.\n\n   Each trainer supports\
+    \ only a subset of the losses mentioned above. To get the supported losses and\
+    \ the default loss, please refer to the documentation page for the specific trainer.\n\
+    \n**Details**\n\n   The [Square loss](https://en.wikipedia.org/wiki/K-means_clustering)\
+    \ for regression. This loss calculates L2 loss, which is the square of the root\
+    \ mean square loss. Its string name is `'squared'`.\n\n   It can be used for @microsoftml_scikit.linear_model.FastLinearRegressor,\
+    \ @microsoftml_scikit.linear_model.OnlineGradientDescentRegressor.\n\n**See Also**\n\
+    \n   @microsoftml_scikit.loss.Tweedie, @microsoftml_scikit.loss.Poisson, @loss-functions\n\
+    \n-[ Example ]-\n\n\n\n"
+  syntax:
+    content: Squared()
+  type: class
+  uid: microsoftml_scikit.loss.Squared
+references: []

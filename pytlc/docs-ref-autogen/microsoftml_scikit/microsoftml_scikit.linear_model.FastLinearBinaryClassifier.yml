@@ -1,0 +1,253 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.linear_model.FastLinearBinaryClassifier.decision_function
+  - microsoftml_scikit.linear_model.FastLinearBinaryClassifier.get_params
+  - microsoftml_scikit.linear_model.FastLinearBinaryClassifier.predict_proba
+  class: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  fullName: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.linear_model._fastlinearbinaryclassifier.FastLinearBinaryClassifier
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.ClassifierMixin
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model
+  name: FastLinearBinaryClassifier
+  source:
+    id: FastLinearBinaryClassifier
+    path: microsoftml_scikit\linear_model\_fastlinearbinaryclassifier.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\linear_model\_fastlinearbinaryclassifier.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   A Stochastic Dual Coordinate Ascent (SDCA) optimization\
+    \ trainer\n   for linear binary classification and regression.\n\n**Details**\n\
+    \n   `FastLinearBinaryClassifier` is a trainer based on the Stochastic Dual\n\
+    \   Coordinate Ascent (SDCA) method, a state-of-the-art optimization\n   technique\
+    \ for convex objective functions. The algorithm can be scaled\n   for use on large\
+    \ out-of-memory data sets due to a semi-asynchronized\n   implementation that\
+    \ supports multi-threading. Convergence is\n   underwritten by periodically enforcing\
+    \ synchronization between primal\n   and dual updates in a separate thread. Several\
+    \ choices of loss functions\n   are also provided. The SDCA method combines several\
+    \ of the best\n   properties and capabilities of logistic regression and SVM algorithms.\n\
+    \   For more information on SDCA, see the citations in the reference\n   section.\n\
+    \n   Traditional optimization algorithms, such as stochastic gradient descent\n\
+    \   (SGD), optimize the empirical loss function directly. The SDCA chooses a\n\
+    \   different approach that optimizes the dual problem instead. The dual\n   loss\
+    \ function is parameterized by per-example weights. In each iteration,\n   when\
+    \ a training example from the training data set is read, the\n   corresponding\
+    \ example weight is adjusted so that the dual loss function\n   is optimized with\
+    \ respect to the current example. No learning rate is\n   needed by SDCA to determine\
+    \ step size as is required by various gradient\n   descent methods.\n\n   `FastLinearBinaryClassifier`\
+    \ supports binary classification with three\n   types of loss functions currently:\
+    \ Log loss, hinge loss, and smoothed\n   hinge loss. Elastic net regularization\
+    \ can be specified by the\n   `l2_weight` and `l1_threshold` parameters. Note\
+    \ that the `l2_weight`\n   has an effect on the rate of convergence. In general,\
+    \ the larger the\n   `l2_weight`, the faster SDCA converges.\n\n   Note that `FastLinearBinaryClassifier`\
+    \ is a stochastic and streaming\n   optimization algorithm. The results depends\
+    \ on the order of the training\n   data. For reproducible results, it is recommended\
+    \ that one sets\n   `shuffle` to `False` and `train_threads` to `1`.\n\n**See\
+    \ Also**\n\n   @microsoftml_scikit.linear_model.FastLinearRegressor,\n   @microsoftml_scikit.linear_model.FastLinearClassifier\n\
+    \n**Reference**\n\n   [Scaling Up Stochastic Dual Coordinate Ascent](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/main-3.pdf)\n\
+    \n   [Stochastic Dual Coordinate Ascent Methods for Regularized Loss Minimization](http://www.jmlr.org/papers/volume14/shalev-shwartz13a/shalev-shwartz13a.pdf)\n\
+    \n\n\n-[ Example ]-\n\n\n\n\n"
+  syntax:
+    content: FastLinearBinaryClassifier(l2_weight=None, l1_threshold=None, normalize='Auto',
+      caching='Auto', loss='log', train_threads=None, positive_instance_weight=1.0,
+      convergence_tolerance=0.1, max_iterations=None, shuffle=True, check_frequency=None,
+      bias_learning_rate=0.0, feature=None, label=None, **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: feature
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: label
+    - description: 'L2 regularizer constant. By default the l2 constant is automatically
+        inferred based on data set.
+
+        '
+      id: l2_weight
+    - description: 'L1 soft threshold (L1/L2). Note that it is easier to control and
+        sweep using the threshold
+
+        parameter than the raw L1-regularizer constant. By default the l1 threshold
+        is automatically inferred based on data
+
+        set.
+
+        '
+      id: l1_threshold
+    - description: "Specifies the type of automatic normalization used:\n\n* `\"Auto\"\
+        `: if normalization is needed, it is performed automatically. This is the\
+        \ default choice. \n\n* `\"No\"`: no normalization is performed. \n\n* `\"\
+        Yes\"`: normalization is performed. \n\n* `\"Warn\"`: if normalization is\
+        \ needed, a warning message is displayed, but normalization is not performed.\
+        \ \n\nNormalization rescales disparate data ranges to a standard scale. Feature\n\
+        scaling insures the distances between data points are proportional and\nenables\
+        \ various optimization methods such as gradient descent to converge\nmuch\
+        \ faster. If normalization is performed, a `MaxMin` normalizer is\nused. It\
+        \ normalizes values in an interval [a, b] where `-1 <= a <= 0`\nand `0 <=\
+        \ b <= 1` and `b - a = 1`. This normalizer preserves\nsparsity by mapping\
+        \ zero to zero.\n"
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'The default is @microsoftml_scikit.loss.Log. Other choices are
+        @microsoftml_scikit.loss.Hinge, and @microsoftml_scikit.loss.SmoothedHinge.
+        For more
+
+        information, please see the documentation page about losses, *loss_intro*.
+
+        '
+      id: loss
+    - description: 'Degree of lock-free parallelism. Defaults to automatic. Determinism
+        not guaranteed.
+
+        '
+      id: train_threads
+    - description: 'Apply weight to the positive class, for imbalanced data.
+
+        '
+      id: positive_instance_weight
+    - description: 'The tolerance for the ratio between duality gap and primal loss
+        for convergence checking.
+
+        '
+      id: convergence_tolerance
+    - description: 'Maximum number of iterations; set to 1 to simulate online learning.
+        Defaults to automatic.
+
+        '
+      id: max_iterations
+    - description: 'Shuffle data every epoch?.
+
+        '
+      id: shuffle
+    - description: 'Convergence check frequency (in terms of number of iterations).
+        Set as negative or zero for not
+
+        checking at all. If left blank, it defaults to check after every ''numThreads''
+        iterations.
+
+        '
+      id: check_frequency
+    - description: 'The learning rate for adjusting bias from being regularized.
+
+        '
+      id: bias_learning_rate
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+- class: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  fullName: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.decision_function
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model
+  name: decision_function
+  source:
+    id: decision_function
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 185
+  summary: 'Returns score values
+
+    '
+  syntax:
+    content: decision_function(X, **params)
+  type: method
+  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.decision_function
+- class: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  fullName: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\linear_model\_fastlinearbinaryclassifier.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\linear_model\_fastlinearbinaryclassifier.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 192
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.get_params
+- class: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  fullName: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.predict_proba
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model
+  name: predict_proba
+  source:
+    id: predict_proba
+    path: microsoftml_scikit\internal\utils\utils.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\internal\utils\utils.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 178
+  summary: 'Returns probabilities
+
+    '
+  syntax:
+    content: predict_proba(X, **params)
+  type: method
+  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.predict_proba
+references:
+- fullName: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.decision_function
+  isExternal: false
+  name: decision_function
+  parent: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.decision_function
+- fullName: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.get_params
+- fullName: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.predict_proba
+  isExternal: false
+  name: predict_proba
+  parent: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier.predict_proba

@@ -1,0 +1,108 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.text.extractor.Ngram.get_params
+  class: microsoftml_scikit.feature_extraction.text.extractor.Ngram
+  fullName: microsoftml_scikit.feature_extraction.text.extractor.Ngram
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: builtins.dict
+      type: microsoftml_scikit.internal.utils.entrypoints.Component
+    type: microsoftml_scikit.internal.core.feature_extraction.text.extractor._ngram.Ngram
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.text.extractor
+  name: Ngram
+  source:
+    id: Ngram
+    path: microsoftml_scikit\feature_extraction\text\extractor\_ngram.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\text\extractor\_ngram.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 18
+  summary: "\n**Description**\n\n   Extracts NGrams from text and convert them to\
+    \ vector using dictionary.\n\n**Details**\n\n   The @microsoftml_scikit.feature_extraction.text.NGramFeaturizer\
+    \ transform produces a bag of counts of\n   sequences of consecutive words, called\
+    \ n-grams, from a given corpus of text.\n   There are two ways it can do this:\n\
+    \n   * build a dictionary of n-grams and use the id in the dictionary as the index\
+    \ in the bag; \n\n   * hash each n-gram and use the hash value as the index in\
+    \ the bag. \n\n   This class provides the text extractor that implement the first.\
+    \ In @microsoftml_scikit.feature_extraction.text.NGramFeaturizer, users should\
+    \ specify which text extractor to use as the argument.\n\n   The n-grams are represented\
+    \ as count vectors, with vector slots\n   corresponding to n-grams. Embedding\
+    \ ngrams in a vector\n   space allows their contents to be compared in an efficient\
+    \ manner.\n   The slot values in the vector can be weighted by the following factors:\n\
+    \n   * *term frequency* - The number of occurrences of the slot in the text \n\
+    \n   * *inverse document frequency* - A ratio (the logarithm of inverse relative\
+    \ slot frequency) that measures the information a slot provides by determining\
+    \ how common or rare it is across the entire text. \n\n   * *term frequency-inverse\
+    \ document frequency* - the product term frequency and the inverse document frequency.\
+    \ \n\n**See Also**\n\n   @microsoftml_scikit.feature_extraction.text.NGramFeaturizer,\n\
+    \   @microsoftml_scikit.feature_extraction.text.extractor.NgramHash\n\n\n\n-[\
+    \ Example ]-\n\n\n"
+  syntax:
+    content: Ngram(ngram_length=1, skip_length=0, all_lengths=True, max_num_terms=[10000000],
+      weighting='Tf', **params)
+    parameters:
+    - description: 'Ngram length.
+
+        '
+      id: ngram_length
+    - description: 'Maximum number of tokens to skip when constructing an ngram.
+
+        '
+      id: skip_length
+    - description: 'Whether to include all ngram lengths up to NgramLength or only
+        NgramLength.
+
+        '
+      id: all_lengths
+    - description: 'Maximum number of ngrams to store in the dictionary.
+
+        '
+      id: max_num_terms
+    - description: 'The weighting criteria.
+
+        '
+      id: weighting
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.text.extractor.Ngram
+- class: microsoftml_scikit.feature_extraction.text.extractor.Ngram
+  fullName: microsoftml_scikit.feature_extraction.text.extractor.Ngram.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.text.extractor
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\feature_extraction\text\extractor\_ngram.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\text\extractor\_ngram.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 95
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.feature_extraction.text.extractor.Ngram.get_params
+references:
+- fullName: microsoftml_scikit.feature_extraction.text.extractor.Ngram.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.feature_extraction.text.extractor.Ngram
+  uid: microsoftml_scikit.feature_extraction.text.extractor.Ngram.get_params

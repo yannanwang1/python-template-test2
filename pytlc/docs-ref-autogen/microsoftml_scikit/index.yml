@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+- children:
+  - microsoftml_scikit
+  langs:
+  - python
+  name: microsoftml_scikit
+  summary: ''
+  type: package
+  uid: project-microsoftml_scikit
+references:
+- fullname: microsoftml_scikit
+  isExternal: false
+  name: microsoftml_scikit
+  uid: microsoftml_scikit

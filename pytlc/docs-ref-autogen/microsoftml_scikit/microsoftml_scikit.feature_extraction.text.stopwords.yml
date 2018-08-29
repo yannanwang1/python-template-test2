@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.text.stopwords.CustomStopWordsRemover
+  - microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
+  fullName: microsoftml_scikit.feature_extraction.text.stopwords
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.text.stopwords
+  name: stopwords
+  source:
+    id: stopwords
+    path: microsoftml_scikit\feature_extraction\text\stopwords\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\text\stopwords\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.feature_extraction.text.stopwords
+references:
+- fullName: microsoftml_scikit.feature_extraction.text.stopwords.CustomStopWordsRemover
+  isExternal: false
+  name: CustomStopWordsRemover
+  parent: microsoftml_scikit.feature_extraction.text.stopwords
+  uid: microsoftml_scikit.feature_extraction.text.stopwords.CustomStopWordsRemover
+- fullName: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover
+  isExternal: false
+  name: PredefinedStopWordsRemover
+  parent: microsoftml_scikit.feature_extraction.text.stopwords
+  uid: microsoftml_scikit.feature_extraction.text.stopwords.PredefinedStopWordsRemover

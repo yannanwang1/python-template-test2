@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.datasets.get_dataset
+  - microsoftml_scikit.datasets.available_datasets
+  - microsoftml_scikit.datasets.image
+  fullName: microsoftml_scikit.datasets
+  langs:
+  - python
+  module: microsoftml_scikit.datasets
+  name: datasets
+  source:
+    id: datasets
+    path: microsoftml_scikit\datasets\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\datasets\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.datasets
+- fullName: microsoftml_scikit.datasets.get_dataset
+  langs:
+  - python
+  module: microsoftml_scikit.datasets
+  name: get_dataset
+  source:
+    id: get_dataset
+    path: microsoftml_scikit\datasets\_datasets.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\datasets\_datasets.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 903
+  summary: 'Return a predefined datasets.
+
+    '
+  syntax:
+    content: get_dataset(name)
+    parameters:
+    - id: name
+  type: function
+  uid: microsoftml_scikit.datasets.get_dataset
+- fullName: microsoftml_scikit.datasets.available_datasets
+  langs:
+  - python
+  module: microsoftml_scikit.datasets
+  name: available_datasets
+  source:
+    id: available_datasets
+    path: microsoftml_scikit\datasets\_datasets.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\datasets\_datasets.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 913
+  summary: '   Returns the list of available datasets.
+
+
+
+    ".join(available_datasets()))
+
+    '
+  syntax:
+    content: available_datasets()
+  type: function
+  uid: microsoftml_scikit.datasets.available_datasets
+references:
+- fullName: microsoftml_scikit.datasets.get_dataset
+  isExternal: false
+  name: get_dataset
+  parent: microsoftml_scikit.datasets
+  uid: microsoftml_scikit.datasets.get_dataset
+- fullName: microsoftml_scikit.datasets.available_datasets
+  isExternal: false
+  name: available_datasets
+  parent: microsoftml_scikit.datasets
+  uid: microsoftml_scikit.datasets.available_datasets
+- fullName: microsoftml_scikit.datasets.image
+  isExternal: false
+  name: image
+  parent: microsoftml_scikit.datasets
+  uid: microsoftml_scikit.datasets.image

@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.filter.SkipFilter.get_params
+  class: microsoftml_scikit.preprocessing.filter.SkipFilter
+  fullName: microsoftml_scikit.preprocessing.filter.SkipFilter
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.NoOutputSignature
+    type: microsoftml_scikit.internal.core.preprocessing.filter._skipfilter.SkipFilter
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.filter
+  name: SkipFilter
+  source:
+    id: SkipFilter
+    path: microsoftml_scikit\preprocessing\filter\_skipfilter.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\filter\_skipfilter.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Skip the first N rows of the dataset, allowing\
+    \ limiting input to a subset of rows.\n\n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: SkipFilter(count=0, columns=None, **params)
+    parameters:
+    - description: "a string representing the column name to perform the transformation\
+        \ on.\n\n* Input column type: numeric. \n\n* Output column type: numeric.\
+        \ \n\nThe << operator can be used to set this value (see :ref:LinkToOperator)\n\
+        \nFor example\n   * SkipFilter(columns='age') \n\n   * SkipFilter() << {'age'}\
+        \ \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'number of rows to skip from the beginning of the dataset.
+
+        '
+      id: count
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.preprocessing.filter.SkipFilter
+- class: microsoftml_scikit.preprocessing.filter.SkipFilter
+  fullName: microsoftml_scikit.preprocessing.filter.SkipFilter.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.filter
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\preprocessing\filter\_skipfilter.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\filter\_skipfilter.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 69
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.preprocessing.filter.SkipFilter.get_params
+references:
+- fullName: microsoftml_scikit.preprocessing.filter.SkipFilter.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.preprocessing.filter.SkipFilter
+  uid: microsoftml_scikit.preprocessing.filter.SkipFilter.get_params

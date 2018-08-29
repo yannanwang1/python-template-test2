@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.preprocessing.timeseries.ExponentialAverage
+  - microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector
+  - microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector
+  - microsoftml_scikit.preprocessing.timeseries.PercentileThreshold
+  - microsoftml_scikit.preprocessing.timeseries.Pvalue
+  - microsoftml_scikit.preprocessing.timeseries.SlidingWindow
+  - microsoftml_scikit.preprocessing.timeseries.SsaChangePointDetector
+  - microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
+  fullName: microsoftml_scikit.preprocessing.timeseries
+  langs:
+  - python
+  module: microsoftml_scikit.preprocessing.timeseries
+  name: timeseries
+  source:
+    id: timeseries
+    path: microsoftml_scikit\preprocessing\timeseries\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\preprocessing\timeseries\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.preprocessing.timeseries
+references:
+- fullName: microsoftml_scikit.preprocessing.timeseries.ExponentialAverage
+  isExternal: false
+  name: ExponentialAverage
+  parent: microsoftml_scikit.preprocessing.timeseries
+  uid: microsoftml_scikit.preprocessing.timeseries.ExponentialAverage
+- fullName: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector
+  isExternal: false
+  name: IIDChangePointDetector
+  parent: microsoftml_scikit.preprocessing.timeseries
+  uid: microsoftml_scikit.preprocessing.timeseries.IIDChangePointDetector
+- fullName: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector
+  isExternal: false
+  name: IIDSpikeDetector
+  parent: microsoftml_scikit.preprocessing.timeseries
+  uid: microsoftml_scikit.preprocessing.timeseries.IIDSpikeDetector
+- fullName: microsoftml_scikit.preprocessing.timeseries.PercentileThreshold
+  isExternal: false
+  name: PercentileThreshold
+  parent: microsoftml_scikit.preprocessing.timeseries
+  uid: microsoftml_scikit.preprocessing.timeseries.PercentileThreshold
+- fullName: microsoftml_scikit.preprocessing.timeseries.Pvalue
+  isExternal: false
+  name: Pvalue
+  parent: microsoftml_scikit.preprocessing.timeseries
+  uid: microsoftml_scikit.preprocessing.timeseries.Pvalue
+- fullName: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
+  isExternal: false
+  name: SlidingWindow
+  parent: microsoftml_scikit.preprocessing.timeseries
+  uid: microsoftml_scikit.preprocessing.timeseries.SlidingWindow
+- fullName: microsoftml_scikit.preprocessing.timeseries.SsaChangePointDetector
+  isExternal: false
+  name: SsaChangePointDetector
+  parent: microsoftml_scikit.preprocessing.timeseries
+  uid: microsoftml_scikit.preprocessing.timeseries.SsaChangePointDetector
+- fullName: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector
+  isExternal: false
+  name: SsaSpikeDetector
+  parent: microsoftml_scikit.preprocessing.timeseries
+  uid: microsoftml_scikit.preprocessing.timeseries.SsaSpikeDetector

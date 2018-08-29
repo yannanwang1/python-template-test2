@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier
+  - microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  - microsoftml_scikit.linear_model.FastLinearClassifier
+  - microsoftml_scikit.linear_model.FastLinearRegressor
+  - microsoftml_scikit.linear_model.LogisticRegressionBinaryClassifier
+  - microsoftml_scikit.linear_model.LogisticRegressionClassifier
+  - microsoftml_scikit.linear_model.OnlineGradientDescentRegressor
+  - microsoftml_scikit.linear_model.OrdinaryLeastSquaresRegressor
+  - microsoftml_scikit.linear_model.PoissonRegressionRegressor
+  - microsoftml_scikit.linear_model.SgdBinaryClassifier
+  - microsoftml_scikit.linear_model.SymSgdBinaryClassifier
+  fullName: microsoftml_scikit.linear_model
+  langs:
+  - python
+  module: microsoftml_scikit.linear_model
+  name: linear_model
+  source:
+    id: linear_model
+    path: microsoftml_scikit\linear_model\__init__.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\linear_model\__init__.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 0
+  type: package
+  uid: microsoftml_scikit.linear_model
+references:
+- fullName: microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier
+  isExternal: false
+  name: AveragedPerceptronBinaryClassifier
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.AveragedPerceptronBinaryClassifier
+- fullName: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+  isExternal: false
+  name: FastLinearBinaryClassifier
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.FastLinearBinaryClassifier
+- fullName: microsoftml_scikit.linear_model.FastLinearClassifier
+  isExternal: false
+  name: FastLinearClassifier
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.FastLinearClassifier
+- fullName: microsoftml_scikit.linear_model.FastLinearRegressor
+  isExternal: false
+  name: FastLinearRegressor
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.FastLinearRegressor
+- fullName: microsoftml_scikit.linear_model.LogisticRegressionBinaryClassifier
+  isExternal: false
+  name: LogisticRegressionBinaryClassifier
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.LogisticRegressionBinaryClassifier
+- fullName: microsoftml_scikit.linear_model.LogisticRegressionClassifier
+  isExternal: false
+  name: LogisticRegressionClassifier
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.LogisticRegressionClassifier
+- fullName: microsoftml_scikit.linear_model.OnlineGradientDescentRegressor
+  isExternal: false
+  name: OnlineGradientDescentRegressor
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.OnlineGradientDescentRegressor
+- fullName: microsoftml_scikit.linear_model.OrdinaryLeastSquaresRegressor
+  isExternal: false
+  name: OrdinaryLeastSquaresRegressor
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.OrdinaryLeastSquaresRegressor
+- fullName: microsoftml_scikit.linear_model.PoissonRegressionRegressor
+  isExternal: false
+  name: PoissonRegressionRegressor
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.PoissonRegressionRegressor
+- fullName: microsoftml_scikit.linear_model.SgdBinaryClassifier
+  isExternal: false
+  name: SgdBinaryClassifier
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.SgdBinaryClassifier
+- fullName: microsoftml_scikit.linear_model.SymSgdBinaryClassifier
+  isExternal: false
+  name: SymSgdBinaryClassifier
+  parent: microsoftml_scikit.linear_model
+  uid: microsoftml_scikit.linear_model.SymSgdBinaryClassifier

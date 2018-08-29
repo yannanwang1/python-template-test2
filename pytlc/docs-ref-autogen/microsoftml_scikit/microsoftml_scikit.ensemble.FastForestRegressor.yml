@@ -1,0 +1,347 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.ensemble.FastForestRegressor.get_params
+  class: microsoftml_scikit.ensemble.FastForestRegressor
+  fullName: microsoftml_scikit.ensemble.FastForestRegressor
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - inheritance:
+          - type: builtins.object
+          type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+        type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignatureWithRoles
+    type: microsoftml_scikit.internal.core.ensemble._fastforestregressor.FastForestRegressor
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_predictor.BasePredictor
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.RegressorMixin
+  langs:
+  - python
+  module: microsoftml_scikit.ensemble
+  name: FastForestRegressor
+  source:
+    id: FastForestRegressor
+    path: microsoftml_scikit\ensemble\_fastforestregressor.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\ensemble\_fastforestregressor.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Machine Learning Fast Forest\n\n**Details**\n\n\
+    \   Decision trees are non-parametric models that perform a sequence of\n   simple\
+    \ tests on inputs. This decision procedure maps them to outputs\n   found in the\
+    \ training dataset whose inputs were similar to the instance\n   being processed.\
+    \ A decision is made at each node of the binary tree data\n   structure based\
+    \ on a measure of similarity that maps each instance\n   recursively through the\
+    \ branches of the tree until the appropriate leaf\n   node is reached and the\
+    \ output decision returned.\n\n   Decision trees have several advantages:\n\n\
+    \   * They are efficient in both computation and memory usage during training\
+    \ and prediction. \n\n   * They can represent non-linear decision boundaries.\
+    \ \n\n   * They perform integrated feature selection and classification. \n\n\
+    \   * They are resilient in the presence of noisy features. \n\n   Fast forest\
+    \ regression is a random forest and quantile regression forest\n   implementation\
+    \ using the regression tree learner in\n   @microsoftml_scikit.ensemble.FastTreesRegressor.\
+    \ The model consists of an\n   ensemble of decision trees. Each tree in a decision\
+    \ forest outputs a\n   Gaussian distribution by way of prediction. An aggregation\
+    \ is performed\n   over the ensemble of trees to find a Gaussian distribution\
+    \ closest to\n   the combined distribution for all trees in the model.\n\n   This\
+    \ decision forest classifier consists of an ensemble of decision\n   trees. Generally,\
+    \ ensemble models provide better coverage and accuracy\n   than single decision\
+    \ trees. Each tree in a decision forest outputs a\n   Gaussian distribution.\n\
+    \n**See Also**\n\n   @microsoftml_scikit.ensemble.FastTreesRegressor,\n   @microsoftml_scikit.ensemble.FastForestBinaryClassifier\n\
+    \n**Reference**\n\n   [Wikipedia: Random forest](http://en.wikipedia.org/wiki/Random_forest)\n\
+    \n   [Quantile regression forest](http://jmlr.org/papers/volume7/meinshausen06a/meinshausen06a.pdf)\n\
+    \n   [From Stumps to Trees to Forests](https://blogs.technet.microsoft.com/machinelearning/2014/09/10/from-stumps-to-trees-to-forests/)\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: FastForestRegressor(num_trees=100, num_leaves=20, min_split=10, normalize='Auto',
+      caching='Auto', shuffle_labels=False, quantile_sample_count=100, parallel_trainer=None,
+      train_threads=None, random_state=123, feature_select_seed=123, entropy_coefficient=0.0,
+      histogram_pool_size=-1, disk_transpose=None, feature_flocks=True, categorical_split=False,
+      max_categorical_groups_per_node=64, max_categorical_split_points=64, min_docs_percentage_for_categorical_split=0.001,
+      min_docs_for_categorical_split=100, bias=0.0, bundling='None', num_bins=255,
+      sparsify_threshold=0.7, first_use_penalty=0.0, feature_reuse_penalty=0.0, gain_conf_level=0.0,
+      softmax_temperature=0.0, execution_times=False, feature_fraction=0.7, bagging_size=1,
+      example_fraction=0.7, split_fraction=0.7, smoothing=0.0, allow_empty_trees=True,
+      feature_compression_level=1, compress_ensemble=False, max_trees_after_compression=-1,
+      test_frequency=2147483647, feature=None, group_id=None, label=None, weight=None,
+      **params)
+    parameters:
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: feature
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: group_id
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: label
+    - description: 'see *l-pipeline-syntax*.
+
+        '
+      id: weight
+    - description: 'Specifies the total number of decision trees to create in the
+        ensemble. By creating more decision
+
+        trees, you can potentially get better coverage, but the training time increases.
+
+        '
+      id: num_trees
+    - description: 'The maximum number of leaves (terminal nodes) that can be created
+        in any tree. Higher values
+
+        potentially increase the size of the tree and get better precision, but risk
+        overfitting and requiring longer
+
+        training times.
+
+        '
+      id: num_leaves
+    - description: 'Minimum number of training instances required to form a leaf.
+        That is, the minimal number of documents
+
+        allowed in a leaf of regression tree, out of the sub-sampled data. A ''split''
+        means that features in each level of
+
+        the tree (node) are randomly divided.
+
+        '
+      id: min_split
+    - description: 'If `Auto`, the choice to normalize depends on the preference declared
+        by the algorithm. This is the
+
+        default choice. If `No`, no normalization is performed. If `Yes`, normalization
+        always performed. If `Warn`,
+
+        if normalization is needed by the algorithm, a warning message is displayed
+        but normalization is not performed. If
+
+        normalization is performed, a `MaxMin` normalizer is used. This normalizer
+        preserves sparsity by mapping zero to
+
+        zero.
+
+        '
+      id: normalize
+    - description: 'Whether learner should cache input training data.
+
+        '
+      id: caching
+    - description: 'Shuffle the labels on every iteration. Useful probably only if
+        using this tree as a tree leaf
+
+        featurizer for multiclass.
+
+        '
+      id: shuffle_labels
+    - description: 'Number of labels to be sampled from each leaf to make the distribtuion.
+
+        '
+      id: quantile_sample_count
+    - description: 'Allows to choose Parallel FastTree Learning Algorithm.
+
+        '
+      id: parallel_trainer
+    - description: 'The number of threads to use.
+
+        '
+      id: train_threads
+    - description: 'The seed of the random number generator.
+
+        '
+      id: random_state
+    - description: 'The seed of the active feature selection.
+
+        '
+      id: feature_select_seed
+    - description: 'The entropy (regularization) coefficient between 0 and 1.
+
+        '
+      id: entropy_coefficient
+    - description: 'The number of histograms in the pool (between 2 and numLeaves).
+
+        '
+      id: histogram_pool_size
+    - description: 'Whether to utilize the disk or the data''s native transposition
+        facilities (where applicable) when
+
+        performing the transpose.
+
+        '
+      id: disk_transpose
+    - description: 'Whether to collectivize features during dataset preparation to
+        speed up training.
+
+        '
+      id: feature_flocks
+    - description: 'Whether to do split based on multiple categorical feature values.
+
+        '
+      id: categorical_split
+    - description: 'Maximum categorical split groups to consider when splitting on
+        a categorical
+
+        feature. Split groups are a collection of split points. This is used to reduce
+        overfitting when there many
+
+        categorical features.
+
+        '
+      id: max_categorical_groups_per_node
+    - description: 'Maximum categorical split points to consider when splitting on
+        a categorical
+
+        feature.
+
+        '
+      id: max_categorical_split_points
+    - description: 'Minimum categorical docs percentage in a bin to consider for a
+        split.
+
+        '
+      id: min_docs_percentage_for_categorical_split
+    - description: 'Minimum categorical doc count in a bin to consider for a split.
+
+        '
+      id: min_docs_for_categorical_split
+    - description: 'Bias for calculating gradient for each feature bin for a categorical
+        feature.
+
+        '
+      id: bias
+    - description: 'Bundle low population bins. Bundle.None(0): no bundling, Bundle.AggregateLowPopulation(1):
+        Bundle low
+
+        population, Bundle.Adjacent(2): Neighbor low population bundle.
+
+        '
+      id: bundling
+    - description: 'Maximum number of distinct values (bins) per feature.
+
+        '
+      id: num_bins
+    - description: 'Sparsity level needed to use sparse feature representation.
+
+        '
+      id: sparsify_threshold
+    - description: 'The feature first use penalty coefficient. This is a form of regularization
+        that incurs a
+
+        penalty for using a new feature when creating the tree. Increase this value
+        to create trees that don''t use many
+
+        features.
+
+        '
+      id: first_use_penalty
+    - description: 'The feature re-use penalty (regularization) coefficient.
+
+        '
+      id: feature_reuse_penalty
+    - description: 'Tree fitting gain confidence requirement (should be in the range
+        [0,1) ).
+
+        '
+      id: gain_conf_level
+    - description: 'The temperature of the randomized softmax distribution for choosing
+        the feature.
+
+        '
+      id: softmax_temperature
+    - description: 'Print execution time breakdown to stdout.
+
+        '
+      id: execution_times
+    - description: 'The fraction of features (chosen randomly) to use on each iteration.
+
+        '
+      id: feature_fraction
+    - description: 'Number of trees in each bag (0 for disabling bagging).
+
+        '
+      id: bagging_size
+    - description: 'Percentage of training examples used in each bag.
+
+        '
+      id: example_fraction
+    - description: 'The fraction of features (chosen randomly) to use on each split.
+
+        '
+      id: split_fraction
+    - description: 'Smoothing paramter for tree regularization.
+
+        '
+      id: smoothing
+    - description: 'When a root split is impossible, allow training to proceed.
+
+        '
+      id: allow_empty_trees
+    - description: 'The level of feature compression to use.
+
+        '
+      id: feature_compression_level
+    - description: 'Compress the tree Ensemble.
+
+        '
+      id: compress_ensemble
+    - description: 'Maximum Number of trees after compression.
+
+        '
+      id: max_trees_after_compression
+    - description: 'Calculate metric values for train/valid/test every k rounds.
+
+        '
+      id: test_frequency
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.ensemble.FastForestRegressor
+- class: microsoftml_scikit.ensemble.FastForestRegressor
+  fullName: microsoftml_scikit.ensemble.FastForestRegressor.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.ensemble
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\ensemble\_fastforestregressor.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\ensemble\_fastforestregressor.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 291
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.ensemble.FastForestRegressor.get_params
+references:
+- fullName: microsoftml_scikit.ensemble.FastForestRegressor.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.ensemble.FastForestRegressor
+  uid: microsoftml_scikit.ensemble.FastForestRegressor.get_params

@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+api_name: []
+items:
+- children:
+  - microsoftml_scikit.feature_extraction.image.Loader.get_params
+  class: microsoftml_scikit.feature_extraction.image.Loader
+  fullName: microsoftml_scikit.feature_extraction.image.Loader
+  inheritance:
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    - inheritance:
+      - inheritance:
+        - type: builtins.object
+        type: microsoftml_scikit.internal.core.base_pipeline_item.BaseSignature
+      type: microsoftml_scikit.internal.core.base_pipeline_item.DefaultSignature
+    type: microsoftml_scikit.internal.core.feature_extraction.image._loader.Loader
+  - inheritance:
+    - inheritance:
+      - type: builtins.object
+      type: sklearn.base.BaseEstimator
+    - inheritance:
+      - type: builtins.object
+      type: microsoftml_scikit.internal.core.base_pipeline_item.BasePipelineItem
+    type: microsoftml_scikit.base_transform.BaseTransform
+  - inheritance:
+    - type: builtins.object
+    type: sklearn.base.TransformerMixin
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.image
+  name: Loader
+  source:
+    id: Loader
+    path: microsoftml_scikit\feature_extraction\image\_loader.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\image\_loader.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 20
+  summary: "\n**Description**\n\n   Loaders image data.\n\n**Details**\n\n   `Loader`\
+    \ loads images from paths.\n\n**See Also**\n\n   @microsoftml_scikit.feature_extraction.image.Resizer,\n\
+    \   @microsoftml_scikit.feature_extraction.image.PixelExtractor,\n   @microsoftml_scikit.feature_extraction.image.DnnFeaturizer.\n\
+    \n\n\n-[ Example ]-\n\n\n"
+  syntax:
+    content: Loader(columns=None, **params)
+    parameters:
+    - description: "a dictionary of key-value pairs, where key is the output column\
+        \ name and value is the input column name.\n\n* Multiple key-value pairs are\
+        \ allowed. \n\n* Input column type: string. \n\n* Output column type: *Picture*.\
+        \ \n\n* If the output column names are same as the input column names, then\
+        \ simply specify `columns` as a list of strings. \n\nThe << operator can be\
+        \ used to set this value (see :ref:LinkToOperator)\n\nFor example\n   * Loader(columns={'out1':'input1',\
+        \ 'out2':'input2'}) \n\n   * Loader() << {'out1':'input1', 'out2':'input2'}\
+        \ \n\nFor more details see *l-pipeline-syntax*.\n"
+      id: columns
+    - description: 'Additional arguments sent to compute engine.
+
+        '
+      id: params
+  type: class
+  uid: microsoftml_scikit.feature_extraction.image.Loader
+- class: microsoftml_scikit.feature_extraction.image.Loader
+  fullName: microsoftml_scikit.feature_extraction.image.Loader.get_params
+  langs:
+  - python
+  module: microsoftml_scikit.feature_extraction.image
+  name: get_params
+  source:
+    id: get_params
+    path: microsoftml_scikit\feature_extraction\image\_loader.py
+    remote:
+      branch: HEAD
+      path: microsoftml_scikit\feature_extraction\image\_loader.py
+      repo: https://apidrop.visualstudio.com/Content%20CI/_git/ReferenceAutomation
+    startLine: 77
+  summary: 'Get the parameters for this operator.
+
+    '
+  syntax:
+    content: get_params(deep=False)
+    parameters:
+    - defaultValue: 'False'
+      id: deep
+  type: method
+  uid: microsoftml_scikit.feature_extraction.image.Loader.get_params
+references:
+- fullName: microsoftml_scikit.feature_extraction.image.Loader.get_params
+  isExternal: false
+  name: get_params
+  parent: microsoftml_scikit.feature_extraction.image.Loader
+  uid: microsoftml_scikit.feature_extraction.image.Loader.get_params
